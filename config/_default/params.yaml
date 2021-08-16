@@ -34,10 +34,10 @@ font_size: "L"
 #   For personal sites, choose "Person".
 #   For organizations and projects, choose from https://schema.org/Organization#subtypes
 #   E.g. Person, Organization, LocalBusiness, Project, EducationalOrganization
-site_type: "SSC442"
+site_type: "EC404"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description: "Applications of data analytics to problems in social science."
+description: "A course on behavioral economics; emphasizing the role of psychology in economic decision-making."
 
 # Display a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
@@ -82,7 +82,7 @@ privacy_pack: false
 ## Additionally, for organizations, these details may be used to enrich search engine results.
 ############################
 
-authors: Ben Bushong; Justin Kirkpatrick
+authors: Ben Bushong
 
 
 ############################
@@ -110,11 +110,11 @@ instructor:
     Please consider whether your question is short and concrete; if so, feel free to email me. If your question is deep, vague, interesting, or otherwise complex, please come to office hours or we can discuss in class. See syllabus for details.
 
 teaching_assistant:
-  name: Anh Do
-  email: doanh@msu.edu
+  name:
+  email:
 
 course:
-  number: "SSC 442"
+  number: "EC404"
   semester: "Fall Semester 2021"
   days: "Tuesday and Thursday"
   time: "1:00pm - 2:20pm"

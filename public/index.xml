@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Course materials | Data Analytics</title>
-    <link>https://ssc442.netlify.app/</link>
-      <atom:link href="https://ssc442.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <title>Course materials | Behavioral Economics</title>
+    <link>https://ec404.netlify.app/</link>
+      <atom:link href="https://ec404.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <description>Course materials</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <image>
-      <url>https://ssc442.netlify.app/img/social-image.png</url>
+      <url>https://ec404.netlify.app/img/social-image.png</url>
       <title>Course materials</title>
-      <link>https://ssc442.netlify.app/</link>
+      <link>https://ec404.netlify.app/</link>
     </image>
     
     <item>
       <title>Programming Basics in R</title>
-      <link>https://ssc442.netlify.app/assignment/00-assignment/</link>
+      <link>https://ec404.netlify.app/assignment/00-assignment/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://ssc442.netlify.app/assignment/00-assignment/</guid>
+      <guid>https://ec404.netlify.app/assignment/00-assignment/</guid>
       <description>
-&lt;script src=&#34;https://ssc442.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
@@ -283,7 +283,7 @@ for(n in 1:m){
 &lt;p&gt;Now we can create a plot to search for a pattern:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;n &amp;lt;- 1:m
 plot(n, s_n)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/assignment/00-assignment_files/figure-html/sum-of-consecutive-squares-1.png&#34; width=&#34;50%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ec404.netlify.app/assignment/00-assignment_files/figure-html/sum-of-consecutive-squares-1.png&#34; width=&#34;50%&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;If you noticed that it appears to be a quadratic, you are on the right track because the formula is &lt;span class=&#34;math inline&#34;&gt;\(n(n+1)/2\)&lt;/span&gt;.
 &lt;!--
 which we can confirm with a table:
@@ -311,7 +311,7 @@ plot(n, s_n)
 lines(n, n*(n+1)/2)
 ```
 
-&lt;img src=&#34;https://ssc442.netlify.app/assignment/00-assignment_files/figure-html/s_n-v-n-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://ec404.netlify.app/assignment/00-assignment_files/figure-html/s_n-v-n-1.png&#34; width=&#34;672&#34; /&gt;
 
 --&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -415,1307 +415,14 @@ my_func &amp;lt;- function(y){
     </item>
     
     <item>
-      <title>Installing R, RStudio, tidyverse, and tinytex</title>
-      <link>https://ssc442.netlify.app/resource/install/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://ssc442.netlify.app/resource/install/</guid>
-      <description>
-&lt;script src=&#34;https://ssc442.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-&lt;div id=&#34;TOC&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#install-r&#34;&gt;Install &lt;code&gt;R&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#install-rstudio&#34;&gt;Install RStudio&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#install-tidyverse&#34;&gt;Install &lt;code&gt;tidyverse&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#install-tinytex&#34;&gt;Install &lt;code&gt;tinytex&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;p&gt;As mentioned in the syllabus, you will do all of your work in this class with the open source programming language &lt;a href=&#34;https://cran.r-project.org/&#34;&gt;&lt;code&gt;R&lt;/code&gt;&lt;/a&gt;. You will use &lt;a href=&#34;https://www.rstudio.com/&#34;&gt;RStudio&lt;/a&gt; as the main program to access &lt;code&gt;R&lt;/code&gt;. Think of &lt;code&gt;R&lt;/code&gt; as an engine and RStudio as a car dashboard—–&lt;code&gt;R&lt;/code&gt; handles all the calculations and the actual statistics, while RStudio provides a nice interface for running &lt;code&gt;R&lt;/code&gt; code.&lt;/p&gt;
-&lt;p&gt;Hopefully you’re well-versed in dealing with these things, but if you’re lost, here’s how you install the required software for the course.&lt;/p&gt;
-&lt;div id=&#34;install-r&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Install &lt;code&gt;R&lt;/code&gt;&lt;/h3&gt;
-&lt;p&gt;First you need to install &lt;code&gt;R&lt;/code&gt; itself (the engine).&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;p&gt;Go to the CRAN (Collective &lt;code&gt;R&lt;/code&gt; Archive Network)&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; website: &lt;a href=&#34;https://cran.r-project.org/&#34; class=&#34;uri&#34;&gt;https://cran.r-project.org/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Click on “Download &lt;code&gt;R&lt;/code&gt; for &lt;code&gt;XXX&lt;/code&gt;”, where &lt;code&gt;XXX&lt;/code&gt; is either Mac or Windows:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/install/install-r-links.png&#34; width=&#34;60%&#34; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;If you use macOS, scroll down to the first &lt;code&gt;.pkg&lt;/code&gt; file in the list of files (in this picture, it’s &lt;code&gt;R-4.0.0.pkg&lt;/code&gt;; as of right now, the current version is also 4.0.0) and download it.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/install/install-r-mac.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;If you use Windows, click “base” (or click on the bolded “install R for the first time” link) and download it.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/install/install-r-windows.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Double click on the downloaded file (check your &lt;code&gt;Downloads&lt;/code&gt; folder). Click yes through all the prompts to install like any other program.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;If you use macOS, &lt;a href=&#34;https://www.xquartz.org/&#34;&gt;download and install XQuartz&lt;/a&gt;. You do not need to do this on Windows.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div id=&#34;install-rstudio&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Install RStudio&lt;/h3&gt;
-&lt;p&gt;Next, you need to install RStudio, the nicer graphical user interface (GUI) for &lt;code&gt;R&lt;/code&gt; (the dashboard). Once &lt;code&gt;R&lt;/code&gt; and RStudio are both installed, you can ignore &lt;code&gt;R&lt;/code&gt; and only use RStudio. RStudio will use &lt;code&gt;R&lt;/code&gt; automatically and you won’t ever have to interact with it directly.&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;p&gt;Go to the free download location on RStudio’s website: &lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/#download&#34; class=&#34;uri&#34;&gt;https://www.rstudio.com/products/rstudio/download/#download&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;The website should automatically detect your operating system (macOS or Windows) and show a big download button for it:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/install/install-r-rstudio1.png&#34; width=&#34;50%&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;If not, scroll down a little to the large table and choose the version of RStudio that matches your operating system.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/install/install-r-rstudio2.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Double click on the downloaded file (again, check your &lt;code&gt;Downloads&lt;/code&gt; folder). Click yes through all the prompts to install like any other program.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Double click on RStudio to run it (check your applications folder or start menu).&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;install-tidyverse&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Install &lt;code&gt;tidyverse&lt;/code&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;R&lt;/code&gt; packages are easy to install with RStudio. Select the packages panel, click on “Install,” type the name of the package you want to install, and press enter.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/install/install-r-package-panel.png&#34; width=&#34;40%&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;This can sometimes be tedious when you’re installing lots of packages, though. &lt;a href=&#34;https://www.tidyverse.org/&#34;&gt;The tidyverse&lt;/a&gt;, for instance, consists of dozens of packages (including the ever-present &lt;strong&gt;ggplot2&lt;/strong&gt;) that all work together. Rather than install each individually, you can install a single magical package and get them all at the same time.&lt;/p&gt;
-&lt;p&gt;Go to the packages panel in RStudio, click on “Install,” type “tidyverse”, and press enter. You’ll see a bunch of output in the RStudio console as all the tidyverse packages are installed.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/install/install-r-tidyverse.png&#34; width=&#34;60%&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Notice also that RStudio will generate a line of code for you and run it: &lt;code&gt;install.packages(&#34;tidyverse&#34;)&lt;/code&gt;. You can also just paste and run this instead of using the packages panel. Hopefully you’ve experienced installing packages before now; if not, consider this a crash course!&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;install-tinytex&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Install &lt;code&gt;tinytex&lt;/code&gt;&lt;/h3&gt;
-&lt;p&gt;When you knit to PDF, &lt;code&gt;R&lt;/code&gt; uses a special scientific typesetting program named LaTeX.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;LaTeX is neat and makes pretty documents, but it’s a huge program—&lt;a href=&#34;https://tug.org/mactex/mactex-download.html&#34;&gt;the macOS version, for instance, is nearly 4 GB&lt;/a&gt;. To make life easier, there’s &lt;a href=&#34;https://yihui.org/tinytex/&#34;&gt;an &lt;code&gt;R&lt;/code&gt; package named &lt;strong&gt;tinytex&lt;/strong&gt;&lt;/a&gt; that installs a minimal LaTeX program and that automatically deals with differences between macOS and Windows.&lt;/p&gt;
-&lt;p&gt;Here’s how to install &lt;strong&gt;tinytex&lt;/strong&gt; so you can knit to pretty PDFs:&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Use the Packages in panel in RStudio to install &lt;strong&gt;tinytex&lt;/strong&gt; like you did above with &lt;strong&gt;tidyverse&lt;/strong&gt;. Alternatively, run &lt;code&gt;install.packages(&#34;tinytex&#34;)&lt;/code&gt; in the console.&lt;/li&gt;
-&lt;li&gt;Run &lt;code&gt;tinytex::install_tinytex()&lt;/code&gt; in the console.&lt;/li&gt;
-&lt;li&gt;Wait for a bit while &lt;code&gt;R&lt;/code&gt; downloads and installs everything you need.&lt;/li&gt;
-&lt;li&gt;The end! You should now be able to knit to PDF.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;It’s a goofy name, but CRAN is where most &lt;code&gt;R&lt;/code&gt; packages—and R itself—lives.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Pronounced “lay-tek” for those who are correct; or “lah-tex” to those who love goofy nerdy pronunciation. Technically speaking, the x is the “ch” sound in “Bach”, but most people just say it as “k”. While either saying “lay” or “lah” is correct, “layteks” is frowned upon because it clearly shows you’re not cool.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Working with R and RStudio</title>
-      <link>https://ssc442.netlify.app/example/00-example/</link>
-      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://ssc442.netlify.app/example/00-example/</guid>
-      <description>
-&lt;script src=&#34;https://ssc442.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-&lt;div id=&#34;TOC&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#introduction-to-examples&#34;&gt;Introduction to Examples&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting started with &lt;code&gt;R&lt;/code&gt; and RStudio&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#the-r-console&#34;&gt;The &lt;code&gt;R&lt;/code&gt; console&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#scripts&#34;&gt;Scripts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#rstudio&#34;&gt;RStudio&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#the-panes&#34;&gt;The panes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#key-bindings&#34;&gt;Key bindings&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#running-commands-while-editing-scripts&#34;&gt;Running commands while editing scripts&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#installing-r-packages&#34;&gt;Installing &lt;code&gt;R&lt;/code&gt; packages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#rmarkdown&#34;&gt;Rmarkdown&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#lecture-video&#34;&gt;Lecture Video&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;div id=&#34;introduction-to-examples&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Introduction to Examples&lt;/h1&gt;
-&lt;p&gt;Examples in this class are designed to be presented in-class. Accordingly, the notes here are &lt;em&gt;not&lt;/em&gt; comprehensive. Instead, they are intended to guide students through&lt;/p&gt;
-&lt;p&gt;I’m also aware that my writing is dry and lifeless. If you’re reading this online without the advantage of seeing it in person, don’t worry—I’ll be “funnier” in class.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;div id=&#34;getting-started&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Getting started with &lt;code&gt;R&lt;/code&gt; and RStudio&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;R&lt;/code&gt; is not a programming language like &lt;code&gt;C&lt;/code&gt; or &lt;code&gt;Java&lt;/code&gt;. It was not created by software engineers for software development. Instead, it was developed by statisticians as an interactive environment for data analysis. You can read the full history in the paper A Brief History of S&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. The interactivity is an indispensable feature in data science because, as you will soon learn, the ability to quickly explore data is a necessity for success in this field. However, like in other programming languages, you can save your work as scripts that can be easily executed at any moment. These scripts serve as a record of the analysis you performed, a key feature that facilitates reproducible work. If you are an expert programmer, you should not expect &lt;code&gt;R&lt;/code&gt; to follow the conventions you are used—assuming this will leave you disappointed. If you are patient, you will come to appreciate the unequal power of &lt;code&gt;R&lt;/code&gt; when it comes to data analysis and data visualization.&lt;/p&gt;
-&lt;p&gt;Other attractive features of &lt;code&gt;R&lt;/code&gt; are:&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;code&gt;R&lt;/code&gt; is free and open source&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;It runs on all major platforms: Windows, Mac OS, UNIX/Linux.&lt;/li&gt;
-&lt;li&gt;Scripts and data objects can be shared seamlessly across platforms.&lt;/li&gt;
-&lt;li&gt;There is a large, growing, and active community of &lt;code&gt;R&lt;/code&gt; users and, as a result, there are numerous resources for learning and asking questions&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt; &lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt; &lt;a href=&#34;#fn6&#34; class=&#34;footnote-ref&#34; id=&#34;fnref6&#34;&gt;&lt;sup&gt;6&lt;/sup&gt;&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;It is easy for others to contribute add-ons which enables developers to share software implementations of new data science methodologies. The latest methods and tools are developed in &lt;code&gt;R&lt;/code&gt; for a wide variety of disciplines and since social science is so broad, &lt;code&gt;R&lt;/code&gt; is one of the few tools that spans the varied social sciences.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div id=&#34;the-r-console&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;The &lt;code&gt;R&lt;/code&gt; console&lt;/h2&gt;
-&lt;p&gt;Interactive data analysis usually occurs on the &lt;em&gt;R console&lt;/em&gt; that executes commands as you type them. There are several ways to gain access to an &lt;code&gt;R&lt;/code&gt; console. One way is to simply start &lt;code&gt;R&lt;/code&gt; on your computer. The console looks something like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/R_console2.png&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;As a quick example, try using the console to calculate a 15% tip on a meal that cost $19.71:&lt;a href=&#34;#fn7&#34; class=&#34;footnote-ref&#34; id=&#34;fnref7&#34;&gt;&lt;sup&gt;7&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;0.15 * 19.71  &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 2.9565&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;Note that in this course (at least, on most browsers), grey boxes are used to show &lt;code&gt;R&lt;/code&gt; code typed into the &lt;code&gt;R&lt;/code&gt; console. The symbol &lt;code&gt;##&lt;/code&gt; is used to denote what the &lt;code&gt;R&lt;/code&gt; console outputs.&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;scripts&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Scripts&lt;/h2&gt;
-&lt;p&gt;One of the great advantages of &lt;code&gt;R&lt;/code&gt; over point-and-click analysis software is that you can save your work as scripts. You can edit and save these scripts using a text editor. The material in this course was developed using the interactive &lt;em&gt;integrated development environment&lt;/em&gt; (IDE) RStudio&lt;a href=&#34;#fn8&#34; class=&#34;footnote-ref&#34; id=&#34;fnref8&#34;&gt;&lt;sup&gt;8&lt;/sup&gt;&lt;/a&gt;. RStudio includes an editor with many &lt;code&gt;R&lt;/code&gt; specific features, a console to execute your code, and other useful panes, including one to show figures.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/RStudio.png&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Most web-based &lt;code&gt;R&lt;/code&gt; consoles also provide a pane to edit scripts, but not all permit you to save the scripts for later use. On the upper-right part of this webpage you’ll see a little button with the &lt;code&gt;R&lt;/code&gt; logo. You can access a web-based console there.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;rstudio&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;RStudio&lt;/h2&gt;
-&lt;p&gt;RStudio will be our launching pad for data science projects. It not only provides an editor for us to create and edit our scripts but also provides many other useful tools. In this section, we go over some of the basics.&lt;/p&gt;
-&lt;div id=&#34;the-panes&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;The panes&lt;/h3&gt;
-&lt;p&gt;When you start RStudio for the first time, you will see three panes. The left pane shows the &lt;code&gt;R&lt;/code&gt; console. On the right, the top pane includes tabs such as &lt;em&gt;Environment&lt;/em&gt; and &lt;em&gt;History&lt;/em&gt;, while the bottom pane shows five tabs: &lt;em&gt;File&lt;/em&gt;, &lt;em&gt;Plots&lt;/em&gt;, &lt;em&gt;Packages&lt;/em&gt;, &lt;em&gt;Help&lt;/em&gt;, and &lt;em&gt;Viewer&lt;/em&gt; (these tabs may change in new versions). You can click on each tab to move across the different features.&lt;/p&gt;
-&lt;p&gt;To start a new script, you can click on File, then New File, then &lt;code&gt;R&lt;/code&gt; Script.&lt;/p&gt;
-&lt;p&gt;This starts a new pane on the left and it is here where you can start writing your script.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;key-bindings&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Key bindings&lt;/h3&gt;
-&lt;p&gt;Many tasks we perform with the mouse can be achieved with a combination of key strokes instead. These keyboard versions for performing tasks are referred to as &lt;em&gt;key bindings&lt;/em&gt;. For example, we just showed how to use the mouse to start a new script, but you can also use a key binding: Ctrl+Shift+N on Windows and command+shift+N on the Mac.&lt;/p&gt;
-&lt;p&gt;Although in this tutorial we often show how to use the mouse, &lt;strong&gt;we highly recommend that you memorize key bindings for the operations you use most&lt;/strong&gt;. RStudio provides a useful cheat sheet with the most widely used commands. You might want to keep this handy so you can look up key-bindings when you find yourself performing repetitive point-and-clicking.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;running-commands-while-editing-scripts&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Running commands while editing scripts&lt;/h3&gt;
-&lt;p&gt;There are many editors specifically made for coding. These are useful because color and indentation are automatically added to make code more readable. RStudio is one of these editors, and it was specifically developed for R. One of the main advantages provided by RStudio over other editors is that we can test our code easily as we edit our scripts. Below we show an example.&lt;/p&gt;
-&lt;p&gt;Let’s start by opening a new script as we did before. A next step is to give the script a name. We can do this through the editor by saving the current new unnamed script. To do this, click on the save icon or use the key binding Ctrl+S on Windows and command+S on the Mac.&lt;/p&gt;
-&lt;p&gt;When you ask for the document to be saved for the first time, RStudio will prompt you for a name. A good convention is to use a descriptive name, with lower case letters, no spaces, only hyphens to separate words, and then followed by the suffix &lt;em&gt;.R&lt;/em&gt;. We will call this script &lt;em&gt;my-first-script.R&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Now we are ready to start editing our first script. The first lines of code in an &lt;code&gt;R&lt;/code&gt; script are dedicated to loading the libraries we will use. Another useful RStudio feature is that once we type &lt;code&gt;library()&lt;/code&gt; it starts auto-completing with libraries that we have installed. Note what happens when we type &lt;code&gt;library(ti)&lt;/code&gt;:&lt;/p&gt;
-&lt;p&gt;Another feature you may have noticed is that when you type &lt;code&gt;library(&lt;/code&gt; the second parenthesis is automatically added. This will help you avoid one of the most common errors in coding: forgetting to close a parenthesis.&lt;/p&gt;
-&lt;p&gt;Now we can continue to write code. As an example, we will make a graph showing murder totals versus population totals by state. Once you are done writing the code needed to make this plot, you can try it out by &lt;em&gt;executing&lt;/em&gt; the code. To do this, click on the &lt;em&gt;Run&lt;/em&gt; button on the upper right side of the editing pane. You can also use the key binding: Ctrl+Shift+Enter on Windows or command+shift+return on the Mac.&lt;/p&gt;
-&lt;p&gt;Once you run the code, you will see it appear in the &lt;code&gt;R&lt;/code&gt; console and, in this case, the generated plot appears in the plots console. Note that the plot console has a useful interface that permits you to click back and forward across different plots, zoom in to the plot, or save the plots as files.&lt;/p&gt;
-&lt;p&gt;To run one line at a time instead of the entire script, you can use Control-Enter on Windows and command-return on the Mac.&lt;/p&gt;
-&lt;div class=&#34;fyi&#34;&gt;
-&lt;p&gt;&lt;strong&gt;SETUP TIP&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Change the option &lt;em&gt;Save workspace to .RData on exit&lt;/em&gt; to &lt;em&gt;Never&lt;/em&gt; and uncheck the &lt;em&gt;Restore .RData into workspace at start&lt;/em&gt;. By default, when you exit &lt;code&gt;R&lt;/code&gt; saves all the objects you have created into a file called .RData. This is done so that when you restart the session in the same folder, it will load these objects. I find that this causes confusion especially when sharing code with colleagues or peers.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;installing-r-packages&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Installing &lt;code&gt;R&lt;/code&gt; packages&lt;/h2&gt;
-&lt;p&gt;The functionality provided by a fresh install of &lt;code&gt;R&lt;/code&gt; is only a small fraction of what is possible. In fact, we refer to what you get after your first install as &lt;em&gt;base R&lt;/em&gt;. The extra functionality comes from add-ons available from developers. There are currently hundreds of these available from CRAN and many others shared via other repositories such as GitHub. However, because not everybody needs all available functionality, &lt;code&gt;R&lt;/code&gt; instead makes different components available via &lt;em&gt;packages&lt;/em&gt;. &lt;code&gt;R&lt;/code&gt; makes it very easy to install packages from within R. For example, to install the &lt;strong&gt;dslabs&lt;/strong&gt; package, which we use to share datasets and code related to this book, you would type:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(&amp;quot;dslabs&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;In RStudio, you can navigate to the &lt;em&gt;Tools&lt;/em&gt; tab and select install packages. We can then load the package into our &lt;code&gt;R&lt;/code&gt; sessions using the &lt;code&gt;library&lt;/code&gt; function:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(dslabs)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-## Attaching package: &amp;#39;dslabs&amp;#39;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## The following object is masked from &amp;#39;package:gapminder&amp;#39;:
-## 
-##     gapminder&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;As you go through this book, you will see that we load packages without installing them. This is because once you install a package, it remains installed and only needs to be loaded with &lt;code&gt;library&lt;/code&gt;. The package remains loaded until we quit the &lt;code&gt;R&lt;/code&gt; session. If you try to load a package and get an error, it probably means you need to
-install it first.&lt;/p&gt;
-&lt;p&gt;We can install more than one package at once by feeding a character vector to this function:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(c(&amp;quot;tidyverse&amp;quot;, &amp;quot;dslabs&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;One advantage of using RStudio is that it auto-completes package names once you start typing, which is helpful when you do not remember the exact spelling of the package. Once you select your package, we recommend selecting all the defaults. Note that installing &lt;strong&gt;tidyverse&lt;/strong&gt; actually installs several packages. This commonly occurs when a package has &lt;em&gt;dependencies&lt;/em&gt;, or uses functions from other packages. When you load a package using &lt;code&gt;library&lt;/code&gt;, you also load its dependencies.&lt;/p&gt;
-&lt;p&gt;Once packages are installed, you can load them into &lt;code&gt;R&lt;/code&gt; and you do not need to install them again, unless you install a fresh version of R. Remember packages are installed in &lt;code&gt;R&lt;/code&gt; not RStudio.&lt;/p&gt;
-&lt;p&gt;It is helpful to keep a list of all the packages you need for your work in a script because if you need to perform a fresh install of R, you can re-install all your packages by simply running a script.&lt;/p&gt;
-&lt;p&gt;You can see all the packages you have installed using the following function:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;installed.packages()&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;As we move through this course, we will constantly be adding to our toolbox of packages. Accordingly, you will need to keep track to ensure you have the requisite package for any given lecture.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;rmarkdown&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Rmarkdown&lt;/h2&gt;
-&lt;p&gt;Markdown is a general-purpose syntax for laying out documents. Rmarkdown is a combination of R and markdown, as the name implies. When using markdown, one can define headers and tables using specific notation, and depending on the rendering engine, the headers and tables (and a whole lot more) are customized. In fact, this whole website is built in R using Rmarkdown (and a lot of add-ons like Hugo and blogdown). In other contexts, the rendering engine may recognize that your headers are likely to be entries in a table of contents, and does so for you. The table of contents at the top of this document is built from the markdown headers.&lt;/p&gt;
-&lt;p&gt;The power of Rmarkdown is that it lets us mix formatted text with R code. That is, you can have a section of the document that understands R code, and a separate section right after that discusses the results from the R code.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://raw.githubusercontent.com/ajkirkpatrick/FS20/Spring2021/Rmarkdown_templates/SSC442_Weekly_Writing_Template.Rmd&#34;&gt;Try it out using the Weekly Writing Template&lt;/a&gt;. If it opens in your web browser, just right-click the link and select Save As…. &lt;strong&gt;Make sure you save the file to its own folder on your hard drive&lt;/strong&gt;. In converting your Rmarkdown .Rmd file to a .pdf, your system will make multiple interim files&lt;a href=&#34;#fn9&#34; class=&#34;footnote-ref&#34; id=&#34;fnref9&#34;&gt;&lt;sup&gt;9&lt;/sup&gt;&lt;/a&gt;. It also creates folders to store the output of any plots or graphics you create with your R code.&lt;/p&gt;
-&lt;p&gt;If we have time today, let’s open the template linked above and see what happens when we select “knit to pdf”.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;lecture-video&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Lecture Video&lt;/h2&gt;
-&lt;p&gt;Video from lecture &lt;a href=&#34;https://mediaspace.msu.edu/media/Jan19_Example0/1_e4uuw4e0&#34;&gt;hosted on Mediaspace &lt;i class=&#34;fas fa-film&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Comments from previous classes indicate that I am not, in fact, funny.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://pdfs.semanticscholar.org/9b48/46f192aa37ca122cfabb1ed1b59866d8bfda.pdf&#34; class=&#34;uri&#34;&gt;https://pdfs.semanticscholar.org/9b48/46f192aa37ca122cfabb1ed1b59866d8bfda.pdf&lt;/a&gt;&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://opensource.org/history&#34; class=&#34;uri&#34;&gt;https://opensource.org/history&lt;/a&gt;&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://stats.stackexchange.com/questions/138/free-resources-for-learning-r&#34; class=&#34;uri&#34;&gt;https://stats.stackexchange.com/questions/138/free-resources-for-learning-r&lt;/a&gt;&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn5&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://www.r-project.org/help.html&#34; class=&#34;uri&#34;&gt;https://www.r-project.org/help.html&lt;/a&gt;&lt;a href=&#34;#fnref5&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn6&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/documentation/r/topics&#34; class=&#34;uri&#34;&gt;https://stackoverflow.com/documentation/r/topics&lt;/a&gt;&lt;a href=&#34;#fnref6&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn7&#34;&gt;&lt;p&gt;But probably tip more than 15%. Times are tough, man.&lt;a href=&#34;#fnref7&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn8&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://www.rstudio.com/&#34; class=&#34;uri&#34;&gt;https://www.rstudio.com/&lt;/a&gt;&lt;a href=&#34;#fnref8&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn9&#34;&gt;&lt;p&gt;Specifically, knitr will create an intermediate .md file which is then processed with Pandoc using Latex to create a pdf. Whew!&lt;a href=&#34;#fnref9&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Design</title>
-      <link>https://ssc442.netlify.app/resource/design/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ssc442.netlify.app/resource/design/</guid>
-      <description>
-&lt;script src=&#34;https://ssc442.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-&lt;div id=&#34;TOC&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#accessibility&#34;&gt;Accessibility&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#colors&#34;&gt;Colors&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#fonts&#34;&gt;Fonts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#graphic-assets&#34;&gt;Graphic assets&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#images&#34;&gt;Images&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#vectors&#34;&gt;Vectors&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#vectors-photos-videos-and-other-assets&#34;&gt;Vectors, photos, videos, and other assets&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;div id=&#34;accessibility&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Accessibility&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.vischeck.com/vischeck/vischeckImage.php&#34;&gt;&lt;strong&gt;Vischeck&lt;/strong&gt;&lt;/a&gt;: Simulate how your images look for people with different forms of colorblindness (web-based)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://colororacle.org/index.html&#34;&gt;&lt;strong&gt;Color Oracle&lt;/strong&gt;&lt;/a&gt;: Simulate how your images look for people with different forms of colorblindness (desktop-based, more types of colorblindness)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;colors&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Colors&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://color.adobe.com&#34;&gt;&lt;strong&gt;Adobe Color&lt;/strong&gt;&lt;/a&gt;: Create, share, and explore rule-based and custom color palettes.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.colourlovers.com/&#34;&gt;&lt;strong&gt;ColourLovers&lt;/strong&gt;&lt;/a&gt;: Like Facebook for color palettes.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html&#34;&gt;&lt;strong&gt;viridis&lt;/strong&gt;&lt;/a&gt;: Percetually uniform color scales.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.fabiocrameri.ch/colourmaps.php&#34;&gt;&lt;strong&gt;Scientific Colour-Maps&lt;/strong&gt;&lt;/a&gt;: Perceptually uniform color scales like viridis. Use them in R with &lt;a href=&#34;https://github.com/thomasp85/scico&#34;&gt;&lt;strong&gt;scico&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://colorbrewer2.org/&#34;&gt;&lt;strong&gt;ColorBrewer&lt;/strong&gt;&lt;/a&gt;: Sequential, diverging, and qualitative color palettes that take accessibility into account.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://vrl.cs.brown.edu/color&#34;&gt;&lt;strong&gt;Colorgorical&lt;/strong&gt;&lt;/a&gt;: Create color palettes based on fancy mathematical rules for perceptual distance.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tristen.ca/hcl-picker/&#34;&gt;&lt;strong&gt;Colorpicker for data&lt;/strong&gt;&lt;/a&gt;: More fancy mathematical rules for color palettes (&lt;a href=&#34;https://www.vis4.net/blog/posts/avoid-equidistant-hsv-colors/&#34;&gt;explanation&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tools.medialab.sciences-po.fr/iwanthue/&#34;&gt;&lt;strong&gt;iWantHue&lt;/strong&gt;&lt;/a&gt;: Yet another perceptual distance-based color palette builder.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://photochrome.io/&#34;&gt;&lt;strong&gt;Photochrome&lt;/strong&gt;&lt;/a&gt;: Word-based color pallettes.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://policyviz.com/better-presentations/design-resources/design-color-tools/&#34;&gt;&lt;strong&gt;PolicyViz Design Color Tools&lt;/strong&gt;&lt;/a&gt;: Large collection of useful color resources&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;fonts&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Fonts&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://fonts.google.com/&#34;&gt;&lt;strong&gt;Google Fonts&lt;/strong&gt;&lt;/a&gt;: Huge collection of free, well-made fonts.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.reliablepsd.com/ultimate-google-font-pairings/&#34;&gt;&lt;strong&gt;The Ultimate Collection of Google Font Pairings&lt;/strong&gt;&lt;/a&gt;: A list of great, well-designed font pairings from all those fonts hosted by Google (for when you’re looking for good contrasting or complementary fonts).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;graphic-assets&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Graphic assets&lt;/h2&gt;
-&lt;div id=&#34;images&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Images&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Use the Creative Commons filters on Google Images or Flickr&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://unsplash.com/&#34;&gt;&lt;strong&gt;Unsplash&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.pexels.com/&#34;&gt;&lt;strong&gt;Pexels&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://pixabay.com/&#34;&gt;&lt;strong&gt;Pixabay&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://stocksnap.io/&#34;&gt;&lt;strong&gt;StockSnap.io&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://burst.shopify.com/&#34;&gt;&lt;strong&gt;Burst&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://freephotos.cc/&#34;&gt;&lt;strong&gt;freephotos.cc&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;vectors&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Vectors&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://thenounproject.com/&#34;&gt;&lt;strong&gt;Noun Project&lt;/strong&gt;&lt;/a&gt;: Thousands of free simple vector images&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://aiconica.net/&#34;&gt;&lt;strong&gt;aiconica&lt;/strong&gt;&lt;/a&gt;: 1,000+ vector icons&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.vecteezy.com/&#34;&gt;&lt;strong&gt;Vecteezy&lt;/strong&gt;&lt;/a&gt;: Thousands of free vector images&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;vectors-photos-videos-and-other-assets&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Vectors, photos, videos, and other assets&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.stockio.com/&#34;&gt;&lt;strong&gt;Stockio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Using Markdown</title>
-      <link>https://ssc442.netlify.app/resource/markdown/</link>
-      <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://ssc442.netlify.app/resource/markdown/</guid>
-      <description>
-&lt;script src=&#34;https://ssc442.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-&lt;div id=&#34;TOC&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#basic-markdown-formatting&#34;&gt;Basic Markdown formatting&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#math&#34;&gt;Math&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#tables&#34;&gt;Tables&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#footnotes&#34;&gt;Footnotes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#front-matter&#34;&gt;Front matter&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#citations&#34;&gt;Citations&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#other-references&#34;&gt;Other references&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; is a special kind of markup language that lets you format text with simple syntax. You can then use a converter program like &lt;a href=&#34;https://pandoc.org/&#34;&gt;pandoc&lt;/a&gt; to convert Markdown into whatever format you want: HTML, PDF, Word, PowerPoint, etc. (&lt;a href=&#34;https://pandoc.org/MANUAL.html#option--to&#34;&gt;see the full list of output types here&lt;/a&gt;)&lt;/p&gt;
-&lt;div id=&#34;basic-markdown-formatting&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Basic Markdown formatting&lt;/h2&gt;
-&lt;table&gt;
-&lt;colgroup&gt;
-&lt;col width=&#34;40%&#34; /&gt;
-&lt;col width=&#34;21%&#34; /&gt;
-&lt;col width=&#34;38%&#34; /&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr class=&#34;header&#34;&gt;
-&lt;th&gt;Type…&lt;/th&gt;
-&lt;th&gt;…or…&lt;/th&gt;
-&lt;th&gt;…to get&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;&lt;pre&gt;Some text in a paragraph.
-
-More text in the next paragraph. Always
-use empty lines between paragraphs.&lt;/pre&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;p&gt;Some text in a paragraph.&lt;/p&gt;
-&lt;p&gt;More text in the next paragraph. Always
-use empty lines between paragraphs.&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;&lt;code&gt;*Italic*&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;_Italic_&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;Italic&lt;/em&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;&lt;code&gt;**Bold**&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;__Bold__&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Bold&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;&lt;code&gt;# Heading 1&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;h1 class=&#34;smaller-h1&#34;&gt;
-Heading 1
-&lt;/h1&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;&lt;code&gt;## Heading 2&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;h2 class=&#34;smaller-h2&#34;&gt;
-Heading 2
-&lt;/h2&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;&lt;code&gt;### Heading 3&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;h3 class=&#34;smaller-h3&#34;&gt;
-Heading 3
-&lt;/h3&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;(Go up to heading level 6 with &lt;code&gt;######&lt;/code&gt;)&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;&lt;code&gt;[Link text](http://www.example.com)&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;http://www.example.com&#34;&gt;Link text&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;&lt;code&gt;![Image caption](/path/to/image.png)&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/favicon-32x32.png&#34; title=&#34;fig:&#34; alt=&#34;Class logo&#34; /&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;`&lt;code&gt;Inline code` with backticks&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;Inline code&lt;/code&gt; with backticks&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;&lt;code&gt;&amp;gt; Blockquote&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;blockquote&gt;
-&lt;p&gt;Blockquote&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;&lt;pre&gt;- Things in
-- an unordered
-- list&lt;/pre&gt;&lt;/td&gt;
-&lt;td&gt;&lt;pre&gt;* Things in
-* an unordered
-* list&lt;/pre&gt;&lt;/td&gt;
-&lt;td&gt;&lt;ul&gt;
-&lt;li&gt;Things in&lt;/li&gt;
-&lt;li&gt;an unordered&lt;/li&gt;
-&lt;li&gt;list&lt;/li&gt;
-&lt;/ul&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;&lt;pre&gt;1. Things in
-2. an ordered
-3. list&lt;/pre&gt;&lt;/td&gt;
-&lt;td&gt;&lt;pre&gt;1) Things in
-2) an ordered
-3) list&lt;/pre&gt;&lt;/td&gt;
-&lt;td&gt;&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Things in&lt;/li&gt;
-&lt;li&gt;an ordered&lt;/li&gt;
-&lt;li&gt;list&lt;/li&gt;
-&lt;/ol&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;&lt;pre&gt;Horizontal line
-
----&lt;/pre&gt;&lt;/td&gt;
-&lt;td&gt;&lt;pre&gt;Horizontal line
-
-***&lt;/pre&gt;&lt;/td&gt;
-&lt;td&gt;&lt;p&gt;Horizontal line&lt;/p&gt;
-&lt;hr /&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;div id=&#34;math&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Math&lt;/h2&gt;
-&lt;p&gt;Markdown uses LaTeX to create fancy mathematical equations. There are like a billion little options and features available for math equations—you can find &lt;a href=&#34;http://www.malinc.se/math/latex/basiccodeen.php&#34;&gt;helpful examples of the the most common basic commands here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can use math in two different ways: inline or in a display block. To use math inline, wrap it in single dollar signs, like &lt;code&gt;$y = mx + b$&lt;/code&gt;:&lt;/p&gt;
-&lt;table&gt;
-&lt;colgroup&gt;
-&lt;col width=&#34;52%&#34; /&gt;
-&lt;col width=&#34;47%&#34; /&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr class=&#34;header&#34;&gt;
-&lt;th&gt;Type…&lt;/th&gt;
-&lt;th&gt;…to get&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;&lt;pre&gt;Based on the DAG, the regression model for
-estimating the effect of education on wages
-is $\hat{y} = \beta_0 + \beta_1 x_1 + \epsilon$, or
-$\text{Wages} = \beta_0 + \beta_1 \text{Education} + \epsilon$.&lt;/pre&gt;&lt;/td&gt;
-&lt;td&gt;Based on the DAG, the regression model for
-estimating the effect of education on wages
-is &lt;span class=&#34;math inline&#34;&gt;\(\hat{y} = \beta_0 + \beta_1 x_1 + \epsilon\)&lt;/span&gt;, or
-&lt;span class=&#34;math inline&#34;&gt;\(\text{Wages} = \beta_0 + \beta_1 \text{Education} + \epsilon\)&lt;/span&gt;.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;To put an equation on its own line in a display block, wrap it in double dollar signs, like this:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Type…&lt;/strong&gt;&lt;/p&gt;
-&lt;pre class=&#34;text&#34;&gt;&lt;code&gt;The quadratic equation was an important part of high school math:
-
-$$
-x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-$$
-
-But now we just use computers to solve for $x$.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;…to get…&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The quadratic equation was an important part of high school math:&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[
-x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-\]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;But now we just use computers to solve for &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr /&gt;
-&lt;p&gt;Because dollar signs are used to indicate math equations, you can’t just use dollar signs like normal if you’re writing about actual dollars. For instance, if you write &lt;code&gt;This book costs $5.75 and this other costs $40&lt;/code&gt;, Markdown will treat everything that comes between the dollar signs as math, like so: “This book costs $5.75 and this other costs $40”.&lt;/p&gt;
-&lt;p&gt;To get around that, put a backslash (&lt;code&gt;\&lt;/code&gt;) in front of the dollar signs, so that &lt;code&gt;This book costs \$5.75 and this other costs \$40&lt;/code&gt; becomes “This book costs &lt;span&gt;$5.75&lt;/span&gt; and this other costs &lt;span&gt;$40&lt;/span&gt;”.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;tables&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Tables&lt;/h2&gt;
-&lt;p&gt;There are 4 different ways to hand-create tables in Markdown—I say “hand-create” because it’s normally way easier to use R to generate these things with packages like &lt;a href=&#34;https://rapporter.github.io/pander/&#34;&gt;&lt;strong&gt;pander&lt;/strong&gt;&lt;/a&gt; (use &lt;code&gt;pandoc.table()&lt;/code&gt;) or &lt;strong&gt;knitr&lt;/strong&gt; (use &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown-cookbook/kable.html&#34;&gt;&lt;code&gt;kable()&lt;/code&gt;&lt;/a&gt;). The two most common are simple tables and pipe tables. &lt;a href=&#34;https://pandoc.org/MANUAL.html#tables&#34;&gt;You should look at the full documentation here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;For simple tables, type…&lt;/strong&gt;&lt;/p&gt;
-&lt;pre class=&#34;text&#34;&gt;&lt;code&gt;  Right     Left     Center     Default
--------     ------ ----------   -------
-     12     12        12            12
-    123     123       123          123
-      1     1          1             1
-
-Table: Caption goes here&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;…to get…&lt;/strong&gt;&lt;/p&gt;
-&lt;table&gt;
-&lt;caption&gt;Caption goes here&lt;/caption&gt;
-&lt;thead&gt;
-&lt;tr class=&#34;header&#34;&gt;
-&lt;th align=&#34;right&#34;&gt;Right&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;Left&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;Center&lt;/th&gt;
-&lt;th&gt;Default&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;right&#34;&gt;12&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;12&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;12&lt;/td&gt;
-&lt;td&gt;12&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;right&#34;&gt;123&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;123&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;123&lt;/td&gt;
-&lt;td&gt;123&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;For pipe tables, type…&lt;/strong&gt;&lt;/p&gt;
-&lt;pre class=&#34;text&#34;&gt;&lt;code&gt;| Right | Left | Default | Center |
-|------:|:-----|---------|:------:|
-|   12  |  12  |    12   |    12  |
-|  123  |  123 |   123   |   123  |
-|    1  |    1 |     1   |     1  |
-
-Table: Caption goes here&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;…to get…&lt;/strong&gt;&lt;/p&gt;
-&lt;table&gt;
-&lt;caption&gt;Caption goes here&lt;/caption&gt;
-&lt;thead&gt;
-&lt;tr class=&#34;header&#34;&gt;
-&lt;th align=&#34;right&#34;&gt;Right&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;Left&lt;/th&gt;
-&lt;th&gt;Default&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;Center&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;right&#34;&gt;12&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;12&lt;/td&gt;
-&lt;td&gt;12&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;12&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;right&#34;&gt;123&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;123&lt;/td&gt;
-&lt;td&gt;123&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;123&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;1&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;div id=&#34;footnotes&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Footnotes&lt;/h2&gt;
-&lt;p&gt;There are two different ways to add footnotes (&lt;a href=&#34;https://pandoc.org/MANUAL.html#footnotes&#34;&gt;see here for complete documentation&lt;/a&gt;): regular and inline.&lt;/p&gt;
-&lt;p&gt;Regular notes need (1) an identifier and (2) the actual note. The identifier can be whatever you want. Some people like to use numbers like &lt;code&gt;[^1]&lt;/code&gt;, but if you ever rearrange paragraphs or add notes before #1, the numbering will be wrong (in your Markdown file, not in the output; everything will be correct in the output). Because of that, I prefer to use some sort of text label:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Type…&lt;/strong&gt;&lt;/p&gt;
-&lt;pre class=&#34;text&#34;&gt;&lt;code&gt;Here is a footnote reference[^1] and here is another [^note-on-dags].
-
-[^1]: This is a note.
-
-[^note-on-dags]: DAGs are neat.
-
-And here&amp;#39;s more of the document.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;…to get…&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Here is a footnote reference&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; and here is another.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;And here’s more of the document.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;
-&lt;p&gt;
-This is a note.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn2&#34;&gt;
-&lt;p&gt;
-DAGs are neat.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/blockquote&gt;
-&lt;hr /&gt;
-&lt;p&gt;You can also use inline footnotes with &lt;code&gt;^[Text of the note goes here]&lt;/code&gt;, which are often easier because you don’t need to worry about identifiers:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Type…&lt;/strong&gt;&lt;/p&gt;
-&lt;pre class=&#34;text&#34;&gt;&lt;code&gt;Causal inference is neat.^[But it can be hard too!]&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;…to get…&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Causal inference is neat.&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn3&#34;&gt;
-&lt;p&gt;
-But it can be hard too!&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;div id=&#34;front-matter&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Front matter&lt;/h2&gt;
-&lt;p&gt;You can include a special section at the top of a Markdown document that contains metadata (or data about your document) like the title, date, author, etc. This section uses a special simple syntax named &lt;a href=&#34;https://learn.getgrav.org/16/advanced/yaml&#34;&gt;YAML&lt;/a&gt; (or “YAML Ain’t Markup Language”) that follows this basic outline: &lt;code&gt;setting: value for setting&lt;/code&gt;. Here’s an example YAML metadata section. Note that it must start and end with three dashes (&lt;code&gt;---&lt;/code&gt;).&lt;/p&gt;
-&lt;pre class=&#34;yaml&#34;&gt;&lt;code&gt;---
-title: Title of your document
-date: &amp;quot;January 13, 2020&amp;quot;
-author: &amp;quot;Your name&amp;quot;
----&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You can put the values inside quotes (like the date and name in the example above), or you can leave them outside of quotes (like the title in the example above). I typically use quotes just to be safe—if the value you’re using has a colon (&lt;code&gt;:&lt;/code&gt;) in it, it’ll confuse Markdown since it’ll be something like &lt;code&gt;title: My cool title: a subtitle&lt;/code&gt;, which has two colons. It’s better to do this:&lt;/p&gt;
-&lt;pre class=&#34;yaml&#34;&gt;&lt;code&gt;---
-title: &amp;quot;My cool title: a subtitle&amp;quot;
----&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If you want to use quotes inside one of the values (e.g. your document is &lt;code&gt;An evaluation of &#34;scare quotes&#34;&lt;/code&gt;), you can use single quotes instead:&lt;/p&gt;
-&lt;pre class=&#34;yaml&#34;&gt;&lt;code&gt;---
-title: &amp;#39;An evaluation of &amp;quot;scare quotes&amp;quot;&amp;#39;
----&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;citations&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Citations&lt;/h2&gt;
-&lt;p&gt;One of the most powerful features of Markdown + pandoc is the ability to automatically cite things and generate bibliographies. to use citations, you need to create a &lt;a href=&#34;http://www.bibtex.org/&#34;&gt;BibTeX file&lt;/a&gt; (ends in &lt;code&gt;.bib&lt;/code&gt;) that contains a database of the things you want to cite. You can do this with bibliography managers designed to work with BibTeX directly (like &lt;a href=&#34;https://bibdesk.sourceforge.io/&#34;&gt;BibDesk&lt;/a&gt; on macOS), or you can use &lt;a href=&#34;https://www.zotero.org/&#34;&gt;Zotero&lt;/a&gt; (macOS and Windows) to export a &lt;code&gt;.bib&lt;/code&gt; file. You can &lt;a href=&#34;https://ssc442.netlify.app/reference/&#34;&gt;download an example &lt;code&gt;.bib&lt;/code&gt; file of all the readings from this class here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html&#34;&gt;Complete details for using citations can be found here&lt;/a&gt;. In brief, you need to do three things:&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;p&gt;Add a &lt;code&gt;bibliography:&lt;/code&gt; entry to the YAML metadata:&lt;/p&gt;
-&lt;pre class=&#34;yaml&#34;&gt;&lt;code&gt;---
-title: Title of your document
-date: &amp;quot;January 13, 2020&amp;quot;
-author: &amp;quot;Your name&amp;quot;
-bibliography: name_of_file.bib
----&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Choose a citation style based on a CSL file. The default is Chicago author-date, but you can choose from 2,000+ &lt;a href=&#34;https://github.com/citation-style-language/styles&#34;&gt;at this repository&lt;/a&gt;. Download the CSL file, put it in your project folder, and add an entry to the YAML metadata (or provide a URL to the online version):&lt;/p&gt;
-&lt;pre class=&#34;yaml&#34;&gt;&lt;code&gt;---
-title: Title of your document
-date: &amp;quot;January 13, 2020&amp;quot;
-author: &amp;quot;Your name&amp;quot;
-bibliography: name_of_file.bib
-csl: &amp;quot;https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl&amp;quot;
----&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Some of the most common CSLs are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/citation-style-language/styles/master/chicago-author-date.csl&#34;&gt;Chicago author-date&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/citation-style-language/styles/master/chicago-note-bibliography.csl&#34;&gt;Chicago note-bibliography&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/citation-style-language/styles/master/chicago-fullnote-bibliography.csl&#34;&gt;Chicago full note-bibliography&lt;/a&gt; (no shortened notes or ibids)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl&#34;&gt;APA 7th edition&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://raw.githubusercontent.com/citation-style-language/styles/master/modern-language-association.csl&#34;&gt;MLA 8th edition&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Cite things in your document. &lt;a href=&#34;https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html&#34;&gt;Check the documentation for full details of how to do this&lt;/a&gt;. Essentially, you use &lt;code&gt;@citationkey&lt;/code&gt; inside square brackets (&lt;code&gt;[]&lt;/code&gt;):&lt;/p&gt;
-&lt;table&gt;
-&lt;colgroup&gt;
-&lt;col width=&#34;51%&#34; /&gt;
-&lt;col width=&#34;48%&#34; /&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr class=&#34;header&#34;&gt;
-&lt;th&gt;Type…&lt;/th&gt;
-&lt;th&gt;…to get…&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;&lt;code&gt;Causal inference is neat [@Rohrer:2018; @AngristPischke:2015].&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Causal inference is neat (Rohrer 2018; Angrist and Pischke 2015).&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;&lt;code&gt;Causal inference is neat [see @Rohrer:2018, p. 34; also @AngristPischke:2015, chapter 1].&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Causal inference is neat (see Rohrer 2018, 34; also Angrist and Pischke 2015, chap. 1).&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;&lt;code&gt;Angrist and Pischke say causal inference is neat [-@AngristPischke:2015; see also @Rohrer:2018].&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Angrist and Pischke say causal inference is neat (2015; see also Rohrer 2018).&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;&lt;code&gt;@AngristPischke:2015 [chapter 1] say causal inference is neat, and @Rohrer:2018 agrees.&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Angrist and Pischke (2015, chap. 1) say causal inference is neat, and Rohrer (2018) agrees.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;After compiling, you should have a perfectly formatted bibliography added to the end of your document too:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Angrist, Joshua D., and Jörn-Steffen Pischke. 2015. &lt;em&gt;Mastering ’Metrics: The Path from Cause to Effect.&lt;/em&gt; Princeton, NJ: Princeton University Press.&lt;/p&gt;
-&lt;p&gt;Rohrer, Julia M. 2018. “Thinking Clearly About Correlations and Causation: Graphical Causal Models for Observational Data.” &lt;em&gt;Advances in Methods and Practices in Psychological Science&lt;/em&gt; 1 (1): 27–42. &lt;a href=&#34;https://doi.org/10.1177/2515245917745629&#34; class=&#34;uri&#34;&gt;https://doi.org/10.1177/2515245917745629&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div id=&#34;other-references&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Other references&lt;/h2&gt;
-&lt;p&gt;These websites have additional details and examples and practice tools:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://commonmark.org/help/tutorial/&#34;&gt;&lt;strong&gt;CommonMark’s Markdown tutorial&lt;/strong&gt;&lt;/a&gt;: A quick interactive Markdown tutorial.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.markdowntutorial.com/&#34;&gt;&lt;strong&gt;Markdown tutorial&lt;/strong&gt;&lt;/a&gt;: Another interactive tutorial to practice using Markdown.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://packetlife.net/media/library/16/Markdown.pdf&#34;&gt;&lt;strong&gt;Markdown cheatsheet&lt;/strong&gt;&lt;/a&gt;: Useful one-page reminder of Markdown syntax.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://plain-text.co/&#34;&gt;&lt;strong&gt;The Plain Person’s Guide to Plain Text Social Science&lt;/strong&gt;&lt;/a&gt;: A comprehensive explanation and tutorial about why you should write data-based reports in Markdown.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Visualization</title>
-      <link>https://ssc442.netlify.app/resource/visualization/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ssc442.netlify.app/resource/visualization/</guid>
-      <description>
-&lt;script src=&#34;https://ssc442.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-&lt;div id=&#34;TOC&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#interesting-and-excellent-real-world-examples&#34;&gt;Interesting and excellent real world examples&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#how-to-select-the-appropriate-chart-type&#34;&gt;How to select the appropriate chart type&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#general-resources&#34;&gt;General resources&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#visualization-in-excel&#34;&gt;Visualization in Excel&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#visualization-in-tableau&#34;&gt;Visualization in Tableau&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;div id=&#34;interesting-and-excellent-real-world-examples&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Interesting and excellent real world examples&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.storiesbehindaline.com/&#34;&gt;The Stories Behind a Line&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://flowingdata.com/2017/06/28/australia-as-100-people/&#34;&gt;Australia as 100 people&lt;/a&gt;: You can make something like this with &lt;a href=&#34;https://d3js.org/&#34;&gt;d3&lt;/a&gt; and the &lt;a href=&#34;https://github.com/civisanalytics/potato&#34;&gt;potato project&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://flowingdata.com/2017/07/17/marrying-age-over-the-past-century/&#34;&gt;Marrying Later, Staying Single Longer&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;how-to-select-the-appropriate-chart-type&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;How to select the appropriate chart type&lt;/h2&gt;
-&lt;p&gt;Many people have created many useful tools for selecting the correct chart type for a given dataset or question. Here are some of the best:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.datavizcatalogue.com/&#34;&gt;&lt;strong&gt;The Data Visualisation Catalogue&lt;/strong&gt;&lt;/a&gt;: Descriptions, explanations, examples, and tools for creating 60 different types of visualizations.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://datavizproject.com/&#34;&gt;&lt;strong&gt;The Data Viz Project&lt;/strong&gt;&lt;/a&gt;: Descriptions and examples for 150 different types of visualizations. Also allows you to search by data shape and chart function (comparison, correlation, distribution, geographical, part to whole, trend over time, etc.).&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.data-to-viz.com/&#34;&gt;&lt;strong&gt;From Data to Viz&lt;/strong&gt;&lt;/a&gt;: A decision tree for dozens of chart types with links to R and Python code.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://chartmaker.visualisingdata.com/&#34;&gt;&lt;strong&gt;The Chartmaker Directory&lt;/strong&gt;&lt;/a&gt;: Examples of how to create 51 different types of visualizations in 31 different software packages, including Excel, Tableau, and R.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://shinyapps.stat.ubc.ca/r-graph-catalog/&#34;&gt;&lt;strong&gt;R Graph Catalog&lt;/strong&gt;&lt;/a&gt;: R code for 124 ggplot graphs.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://annkemery.com/essentials/&#34;&gt;&lt;strong&gt;Emery’s Essentials&lt;/strong&gt;&lt;/a&gt;: Descriptions and examples of 26 different chart types.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;general-resources&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;General resources&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.storytellingwithdata.com/&#34;&gt;&lt;strong&gt;Storytelling with Data&lt;/strong&gt;&lt;/a&gt;: Blog and site full of resources by Cole Nussbaumer Knaflic.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://annkemery.com/blog/&#34;&gt;&lt;strong&gt;Ann K. Emery’s blog&lt;/strong&gt;&lt;/a&gt;: Blog and tutorials by &lt;a href=&#34;https://twitter.com/AnnKEmery&#34;&gt;Ann Emery&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://stephanieevergreen.com/&#34;&gt;&lt;strong&gt;Evergreen Data&lt;/strong&gt;&lt;/a&gt;: Helful resources by &lt;a href=&#34;https://twitter.com/evergreendata&#34;&gt;Stephanie Evergreen&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://policyviz.com/&#34;&gt;&lt;strong&gt;PolicyViz&lt;/strong&gt;&lt;/a&gt;: Regular podcast and site full of helpful resources by &lt;a href=&#34;https://twitter.com/jschwabish&#34;&gt;Jon Schwabisch&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.visualisingdata.com/&#34;&gt;&lt;strong&gt;Visualising Data&lt;/strong&gt;&lt;/a&gt;: Fantastic collection of visualization resources, articles, and tutorials by &lt;a href=&#34;https://twitter.com/visualisingdata&#34;&gt;Andy Kirk&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://infowetrust.com/&#34;&gt;&lt;strong&gt;Info We Trust&lt;/strong&gt;&lt;/a&gt;: Detailed explorations of visualizations by &lt;a href=&#34;https://twitter.com/infowetrust&#34;&gt;RJ Andrews&lt;/a&gt;, including a &lt;a href=&#34;http://infowetrust.com/history/&#34;&gt;beautiful visual history of the field&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://flowingdata.com/&#34;&gt;&lt;strong&gt;FlowingData&lt;/strong&gt;&lt;/a&gt;: Blog by &lt;a href=&#34;https://twitter.com/flowingdata&#34;&gt;Nathan Yau&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.informationisbeautiful.net/&#34;&gt;&lt;strong&gt;Information is Beautiful&lt;/strong&gt;&lt;/a&gt;: Blog by &lt;a href=&#34;https://twitter.com/mccandelish&#34;&gt;David McCandless&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://junkcharts.typepad.com/&#34;&gt;&lt;strong&gt;Junk Charts&lt;/strong&gt;&lt;/a&gt;: Blog by &lt;a href=&#34;https://twitter.com/junkcharts&#34;&gt;Kaiser Fung&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://viz.wtf/&#34;&gt;&lt;strong&gt;WTF Visualizations&lt;/strong&gt;&lt;/a&gt;: Visualizations that make you ask “wtf?”&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://annkemery.com/checklist/&#34;&gt;&lt;strong&gt;The Data Visualization Checklist&lt;/strong&gt;&lt;/a&gt;: A helpful set of criteria for grading the effectiveness of a graphic.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1kKRadOiF0LruItsvGA40fSDZkAQfCqC_Ela0gBdo8A4/edit&#34;&gt;&lt;strong&gt;Data Literacy Starter Kit&lt;/strong&gt;&lt;/a&gt;: Compilation of resources to become data literate by &lt;a href=&#34;http://lauracalloway.com/&#34;&gt;Laura Calloway&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://seeingdata.org/&#34;&gt;&lt;strong&gt;Seeing Data&lt;/strong&gt;&lt;/a&gt;: A series of research projects about perceptions and visualizations.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;visualization-in-excel&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Visualization in Excel&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://stephanieevergreen.com/how-to/&#34;&gt;&lt;strong&gt;How to Build Data Visualizations in Excel&lt;/strong&gt;&lt;/a&gt;: Detailed tutorials for creating 14 different visualizations in Excel.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://annkemery.com/category/visualizing-data/tutorials/&#34;&gt;&lt;strong&gt;Ann Emery’s tutorials&lt;/strong&gt;&lt;/a&gt;: Fantastic series of tutorials for creating charts in Excel.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;visualization-in-tableau&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Visualization in Tableau&lt;/h2&gt;
-&lt;p&gt;Because it is focused entirely on visualization (and because it’s a well-supported commercial product), Tableau has a &lt;a href=&#34;https://www.tableau.com/learn/training&#34;&gt;phenomenal library of tutorials and training videos&lt;/a&gt;. There’s &lt;a href=&#34;https://www.quora.com/What-are-some-good-video-tutorials-for-learning-Tableau&#34;&gt;a helpful collections of videos here&lt;/a&gt;, as well.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Using R Markdown</title>
-      <link>https://ssc442.netlify.app/resource/rmarkdown/</link>
-      <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://ssc442.netlify.app/resource/rmarkdown/</guid>
-      <description>
-&lt;script src=&#34;https://ssc442.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-&lt;div id=&#34;TOC&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#key-terms&#34;&gt;Key terms&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#add-chunks&#34;&gt;Add chunks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#chunk-names&#34;&gt;Chunk names&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#chunk-options&#34;&gt;Chunk options&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#inline-chunks&#34;&gt;Inline chunks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#output-formats&#34;&gt;Output formats&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://rmarkdown.rstudio.com/&#34;&gt;R Markdown&lt;/a&gt; is &lt;a href=&#34;https://ssc442.netlify.app/reference/markdown/&#34;&gt;regular Markdown&lt;/a&gt; with R code and output sprinkled in. You can do everything you can with &lt;a href=&#34;https://ssc442.netlify.app/reference/markdown/&#34;&gt;regular Markdown&lt;/a&gt;, but you can incorporate graphs, tables, and other R output directly in your document. You can create HTML, PDF, and Word documents, PowerPoint and HTML presentations, websites, books, and even &lt;a href=&#34;https://rmarkdown.rstudio.com/flexdashboard/index.html&#34;&gt;interactive dashboards&lt;/a&gt; with R Markdown. This whole course website is created with R Markdown (and &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34;&gt;a package named &lt;strong&gt;blogdown&lt;/strong&gt;&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&#34;https://rmarkdown.rstudio.com/&#34;&gt;documentation for R Markdown&lt;/a&gt; is extremely comprehensive, and their &lt;a href=&#34;https://rmarkdown.rstudio.com/lesson-1.html&#34;&gt;tutorials&lt;/a&gt; and &lt;a href=&#34;https://rmarkdown.rstudio.com/lesson-15.html&#34;&gt;cheatsheets&lt;/a&gt; are excellent—rely on those.&lt;/p&gt;
-&lt;p&gt;Here are the most important things you’ll need to know about R Markdown in this class:&lt;/p&gt;
-&lt;div id=&#34;key-terms&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Key terms&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Document&lt;/strong&gt;: A Markdown file where you type stuff&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Chunk&lt;/strong&gt;: A piece of R code that is included in your document. It looks like this:&lt;/p&gt;
-&lt;pre class=&#34;markdown&#34;&gt;&lt;code&gt;```{r}
-# Code goes here
-```&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;There must be an empty line before and after the chunk. The final three backticks must be the only thing on the line—if you add more text, or if you forget to add the backticks, or accidentally delete the backticks, your document will not knit correctly.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Knit&lt;/strong&gt;: When you “knit” a document, R runs each of the chunks sequentially and converts the output of each chunk into Markdown. R then runs the knitted document through &lt;a href=&#34;https://pandoc.org/&#34;&gt;pandoc&lt;/a&gt; to convert it to HTML or PDF or Word (or whatever output you’ve selected).&lt;/p&gt;
-&lt;p&gt;You can knit by clicking on the “Knit” button at the top of the editor window, or by pressing &lt;code&gt;⌘⇧K&lt;/code&gt; on macOS or &lt;code&gt;control + shift + K&lt;/code&gt; on Windows.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/assignments/knit-button.png&#34; width=&#34;30%&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;add-chunks&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Add chunks&lt;/h2&gt;
-&lt;p&gt;There are three ways to insert chunks:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Press &lt;code&gt;⌘⌥I&lt;/code&gt; on macOS or &lt;code&gt;control + alt + I&lt;/code&gt; on Windows&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Click on the “Insert” button at the top of the editor window&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/reference/insert-chunk.png&#34; width=&#34;30%&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Manually type all the backticks and curly braces (don’t do this)&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;chunk-names&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Chunk names&lt;/h2&gt;
-&lt;p&gt;You can add names to chunks to make it easier to navigate your document. If you click on the little dropdown menu at the bottom of your editor in RStudio, you can see a table of contents that shows all the headings and chunks. If you name chunks, they’ll appear in the list. If you don’t include a name, the chunk will still show up, but you won’t know what it does.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/reference/chunk-toc.png&#34; width=&#34;40%&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;To add a name, include it immediately after the &lt;code&gt;{r&lt;/code&gt; in the first line of the chunk. Names cannot contain spaces, but they can contain underscores and dashes. &lt;strong&gt;All chunk names in your document must be unique.&lt;/strong&gt;&lt;/p&gt;
-&lt;pre class=&#34;markdown&#34;&gt;&lt;code&gt;```{r name-of-this-chunk}
-# Code goes here
-```&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;chunk-options&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Chunk options&lt;/h2&gt;
-&lt;p&gt;There are a bunch of different options you can set for each chunk. You can see a complete list in the &lt;a href=&#34;https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf&#34;&gt;RMarkdown Reference Guide&lt;/a&gt; or at &lt;a href=&#34;https://yihui.org/knitr/options/&#34;&gt;&lt;strong&gt;knitr&lt;/strong&gt;’s website&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Options go inside the &lt;code&gt;{r}&lt;/code&gt; section of the chunk:&lt;/p&gt;
-&lt;pre class=&#34;markdown&#34;&gt;&lt;code&gt;```{r name-of-this-chunk, warning=FALSE, message=FALSE}
-# Code goes here
-```&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The most common chunk options are these:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;fig.width=5&lt;/code&gt; and &lt;code&gt;fig.height=3&lt;/code&gt; (&lt;em&gt;or whatever number you want&lt;/em&gt;): Set the dimensions for figures&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;echo=FALSE&lt;/code&gt;: The code is not shown in the final document, but the results are&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;message=FALSE&lt;/code&gt;: Any messages that R generates (like all the notes that appear after you load a package) are omitted&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;warning=FALSE&lt;/code&gt;: Any warnings that R generates are omitted&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;include=FALSE&lt;/code&gt;: The chunk still runs, but the code and results are not included in the final document&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;You can also set chunk options by clicking on the little gear icon in the top right corner of any chunk:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/reference/chunk-options.png&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;inline-chunks&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Inline chunks&lt;/h2&gt;
-&lt;p&gt;You can also include R output directly in your text, which is really helpful if you want to report numbers from your analysis. To do this, use &lt;code&gt;`r r_code_here`&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;It’s generally easiest to calculate numbers in a regular chunk beforehand and then use an inline chunk to display the value in your text. For instance, this document…&lt;/p&gt;
-&lt;pre class=&#34;markdown&#34;&gt;&lt;code&gt;```{r find-avg-mpg, echo=FALSE}
-avg_mpg &amp;lt;- mean(mtcars$mpg)
-```
-
-The average fuel efficiency for cars from 1974 was `r round(avg_mpg, 1)` miles per gallon.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;… would knit into this:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The average fuel efficiency for cars from 1974 was 20.1 miles per gallon.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;div id=&#34;output-formats&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Output formats&lt;/h2&gt;
-&lt;p&gt;You can specify what kind of document you create when you knit in the &lt;a href=&#34;https://ssc442.netlify.app/reference/markdown/#front-matter&#34;&gt;YAML front matter&lt;/a&gt;.&lt;/p&gt;
-&lt;pre class=&#34;yaml&#34;&gt;&lt;code&gt;title: &amp;quot;My document&amp;quot;
-output:
-  html_document: default
-  pdf_document: default
-  word_document: default&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You can also click on the down arrow on the “Knit” button to choose the output &lt;em&gt;and&lt;/em&gt; generate the appropriate YAML. If you click on the gear icon next to the “Knit” button and choose “Output options”, you change settings for each specific output type, like default figure dimensions or whether or not a table of contents is included.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/reference/output-options.png&#34; width=&#34;35%&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;The first output type listed under &lt;code&gt;output:&lt;/code&gt; will be what is generated when you click on the “Knit” button or press the keyboard shortcut (&lt;code&gt;⌘⇧K&lt;/code&gt; on macOS; &lt;code&gt;control + shift + K&lt;/code&gt; on Windows). If you choose a different output with the “Knit” button menu, that output will be moved to the top of the &lt;code&gt;output&lt;/code&gt; section.&lt;/p&gt;
-&lt;p&gt;The indentation of the YAML section matters, especially when you have settings nested under each output type. Here’s what a typical &lt;code&gt;output&lt;/code&gt; section might look like:&lt;/p&gt;
-&lt;pre class=&#34;yaml&#34;&gt;&lt;code&gt;---
-title: &amp;quot;My document&amp;quot;
-author: &amp;quot;My name&amp;quot;
-date: &amp;quot;January 13, 2020&amp;quot;
-output: 
-  html_document: 
-    toc: yes
-    fig_caption: yes
-    fig_height: 8
-    fig_width: 10
-  pdf_document: 
-    latex_engine: xelatex  # More modern PDF typesetting engine
-    toc: yes
-  word_document: 
-    toc: yes
-    fig_caption: yes
-    fig_height: 4
-    fig_width: 5
----&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>R style suggestions</title>
-      <link>https://ssc442.netlify.app/resource/style/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ssc442.netlify.app/resource/style/</guid>
-      <description>
-&lt;script src=&#34;https://ssc442.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-&lt;div id=&#34;TOC&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#r-style-conventions&#34;&gt;R style conventions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#main-style-things-to-pay-attention-to-for-this-class&#34;&gt;Main style things to pay attention to for this class&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#spacing&#34;&gt;Spacing&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#long-lines&#34;&gt;Long lines&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#pipes-and-ggplot-layers&#34;&gt;Pipes (&lt;code&gt;%&amp;gt;%&lt;/code&gt;) and ggplot layers (&lt;code&gt;+&lt;/code&gt;)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#comments&#34;&gt;Comments&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;div id=&#34;r-style-conventions&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;R style conventions&lt;/h2&gt;
-&lt;p&gt;R is fairly forgiving about how you type code (unlike other languages like Python, where miscounting spaces can ruin your code!). All of these things will do exactly the same thing:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mpg %&amp;gt;% 
-  filter(cty &amp;gt; 10, class == &amp;quot;compact&amp;quot;)
-
-mpg %&amp;gt;% filter(cty &amp;gt; 10, class == &amp;quot;compact&amp;quot;)
-
-mpg %&amp;gt;% 
-  filter(cty &amp;gt; 10, 
-         class == &amp;quot;compact&amp;quot;)
-
-mpg %&amp;gt;% filter(cty&amp;gt;10, class==&amp;quot;compact&amp;quot;)
-
-filter(mpg,cty&amp;gt;10,class==&amp;quot;compact&amp;quot;)
-
-mpg %&amp;gt;% 
-filter(cty &amp;gt; 10, 
-                        class == &amp;quot;compact&amp;quot;)
-
-filter ( mpg,cty&amp;gt;10,     class==&amp;quot;compact&amp;quot; )&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;But you’ll notice that only a few of those iterations (the first three) are easily readable.&lt;/p&gt;
-&lt;p&gt;To help improve readability and make it easier to share code with others, there’s &lt;a href=&#34;https://style.tidyverse.org/index.html&#34;&gt;an unofficial style guide for writing R code&lt;/a&gt;. It’s fairly short and just has lots of examples of good and bad ways of writing code (naming variables, dealing with long lines, using proper indentation levels, etc.)—you should glance through it some time.&lt;/p&gt;
-&lt;p&gt;RStudio has a built-in way of cleaning up your code. Select some code, press &lt;kbd&gt;ctrl&lt;/kbd&gt; + &lt;kbd&gt;i&lt;/kbd&gt; (on Windows) or &lt;kbd&gt;⌘&lt;/kbd&gt; + &lt;kbd&gt;i&lt;/kbd&gt; (on macOS), and R will reformat the code for you. It’s not always perfect, but it’s really helpful for getting indentation right without having to manually hit &lt;kbd&gt;space&lt;/kbd&gt; a billion times.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;main-style-things-to-pay-attention-to-for-this-class&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Main style things to pay attention to for this class&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Important note&lt;/em&gt;: I won’t ever grade you on any of this! If you submit something like &lt;code&gt;filter(mpg,cty&amp;gt;10,class==&#34;compact&#34;)&lt;/code&gt;, I might recommend adding spaces, but it won’t affect your grade or points or anything.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div id=&#34;spacing&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Spacing&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;See the &lt;a href=&#34;https://style.tidyverse.org/syntax.html#spacing&#34;&gt;“Spacing” section&lt;/a&gt; in the tidyverse style guide.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Put spaces after commas (like in regular English):&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Good
-filter(mpg, cty &amp;gt; 10)
-
-# Bad
-filter(mpg , cty &amp;gt; 10)
-filter(mpg ,cty &amp;gt; 10)
-filter(mpg,cty &amp;gt; 10)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Put spaces around operators like &lt;code&gt;+&lt;/code&gt;, &lt;code&gt;-&lt;/code&gt;, &lt;code&gt;&amp;gt;&lt;/code&gt;, &lt;code&gt;=&lt;/code&gt;, etc.:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Good
-filter(mpg, cty &amp;gt; 10)
-
-# Bad
-filter(mpg, cty&amp;gt;10)
-filter(mpg, cty&amp;gt; 10)
-filter(mpg, cty &amp;gt;10)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Don’t put spaces around parentheses that are parts of functions:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Good
-filter(mpg, cty &amp;gt; 10)
-
-# Bad
-filter (mpg, cty &amp;gt; 10)
-filter ( mpg, cty &amp;gt; 10)
-filter( mpg, cty &amp;gt; 10 )&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;long-lines&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Long lines&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;See the &lt;a href=&#34;https://style.tidyverse.org/syntax.html#long-lines&#34;&gt;“Long lines” section&lt;/a&gt; in the tidyverse style guide.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It’s generally good practice to not have really long lines of code. A good suggestion is to keep lines at a maximum of 80 characters. Instead of counting characters by hand (ew), in RStudio go to “Tools” &amp;gt; “Global Options” &amp;gt; “Code” &amp;gt; “Display” and check the box for “Show margin”. You should now see a really thin line indicating 80 characters. Again, you can go beyond this—that’s fine. It’s just good practice to avoid going too far past it.&lt;/p&gt;
-&lt;p&gt;You can add line breaks inside longer lines of code. Line breaks should come after commas, and things like function arguments should align within the function:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Good
-filter(mpg, cty &amp;gt; 10, class == &amp;quot;compact&amp;quot;)
-
-# Good
-filter(mpg, cty &amp;gt; 10, 
-       class == &amp;quot;compact&amp;quot;)
-
-# Good
-filter(mpg,
-       cty &amp;gt; 10,
-       class == &amp;quot;compact&amp;quot;)
-
-# Bad
-filter(mpg, cty &amp;gt; 10, class %in% c(&amp;quot;compact&amp;quot;, &amp;quot;pickup&amp;quot;, &amp;quot;midsize&amp;quot;, &amp;quot;subcompact&amp;quot;, &amp;quot;suv&amp;quot;, &amp;quot;2seater&amp;quot;, &amp;quot;minivan&amp;quot;))
-
-# Good
-filter(mpg, 
-       cty &amp;gt; 10, 
-       class %in% c(&amp;quot;compact&amp;quot;, &amp;quot;pickup&amp;quot;, &amp;quot;midsize&amp;quot;, &amp;quot;subcompact&amp;quot;, 
-                    &amp;quot;suv&amp;quot;, &amp;quot;2seater&amp;quot;, &amp;quot;minivan&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;pipes-and-ggplot-layers&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Pipes (&lt;code&gt;%&amp;gt;%&lt;/code&gt;) and ggplot layers (&lt;code&gt;+&lt;/code&gt;)&lt;/h3&gt;
-&lt;p&gt;Put each layer of a ggplot plot on separate lines, with the &lt;code&gt;+&lt;/code&gt; at the end of the line, indented with two spaces:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Good
-ggplot(mpg, aes(x = cty, y = hwy, color = class)) +
-  geom_point() +
-  geom_smooth() +
-  theme_bw()
-
-# Bad
-ggplot(mpg, aes(x = cty, y = hwy, color = class)) +
-  geom_point() + geom_smooth() +
-  theme_bw()
-
-# Super bad
-ggplot(mpg, aes(x = cty, y = hwy, color = class)) + geom_point() + geom_smooth() + theme_bw()
-
-# Super bad and won&amp;#39;t even work
-ggplot(mpg, aes(x = cty, y = hwy, color = class))
-  + geom_point()
-  + geom_smooth() 
-  + theme_bw()&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Put each step in a dplyr pipeline on separate lines, with the &lt;code&gt;%&amp;gt;%&lt;/code&gt; at the end of the line, indented with two spaces:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Good
-mpg %&amp;gt;% 
-  filter(cty &amp;gt; 10) %&amp;gt;% 
-  group_by(class) %&amp;gt;% 
-  summarize(avg_hwy = mean(hwy))
-
-# Bad
-mpg %&amp;gt;% filter(cty &amp;gt; 10) %&amp;gt;% group_by(class) %&amp;gt;% 
-  summarize(avg_hwy = mean(hwy))
-
-# Super bad
-mpg %&amp;gt;% filter(cty &amp;gt; 10) %&amp;gt;% group_by(class) %&amp;gt;% summarize(avg_hwy = mean(hwy))
-
-# Super bad and won&amp;#39;t even work
-mpg %&amp;gt;% 
-  filter(cty &amp;gt; 10)
-  %&amp;gt;% group_by(class)
-  %&amp;gt;% summarize(avg_hwy = mean(hwy))&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;comments&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Comments&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;See the &lt;a href=&#34;https://style.tidyverse.org/syntax.html#comments&#34;&gt;“Comments” section&lt;/a&gt; in the tidyverse style guide.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Comments should start with a comment symbol and a single space: &lt;code&gt;#&lt;/code&gt;&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Good
-
-#Bad
-
-    #Bad&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If the comment is really short (and won’t cause you to go over 80 characters in the line), you can include it in the same line as the code, separated by at least two spaces (it works with one space, but using a couple can enhance readability):&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mpg %&amp;gt;% 
-  filter(cty &amp;gt; 10) %&amp;gt;%  # Only rows where cty is 10 +
-  group_by(class) %&amp;gt;%  # Divide into class groups
-  summarize(avg_hwy = mean(hwy))  # Find the average hwy in each group&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You can add extra spaces to get inline comments to align, if you want:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mpg %&amp;gt;% 
-  filter(cty &amp;gt; 10) %&amp;gt;%            # Only rows where cty is 10 +
-  group_by(class) %&amp;gt;%             # Divide into class groups
-  summarize(avg_hwy = mean(hwy))  # Find the average hwy in each group&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If the comment is really long, you can break it into multiple lines. RStudio can do this for you if you go to “Code” &amp;gt; “Reflow comment”&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Good
-# Happy families are all alike; every unhappy family is unhappy in its own way.
-# Everything was in confusion in the Oblonskys’ house. The wife had discovered
-# that the husband was carrying on an intrigue with a French girl, who had been
-# a governess in their family, and she had announced to her husband that she
-# could not go on living in the same house with him. This position of affairs
-# had now lasted three days, and not only the husband and wife themselves, but
-# all the members of their family and household, were painfully conscious of it.
-
-# Bad
-# Happy families are all alike; every unhappy family is unhappy in its own way. Everything was in confusion in the Oblonskys’ house. The wife had discovered that the husband was carrying on an intrigue with a French girl, who had been a governess in their family, and she had announced to her husband that she could not go on living in the same house with him. This position of affairs had now lasted three days, and not only the husband and wife themselves, but all the members of their family and household, were painfully conscious of it.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Though, if you’re dealing with comments that are &lt;em&gt;that&lt;/em&gt; long, consider putting the text in R Markdown instead and having it be actual prose.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Unzipping files</title>
-      <link>https://ssc442.netlify.app/resource/unzipping/</link>
-      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://ssc442.netlify.app/resource/unzipping/</guid>
-      <description>
-&lt;script src=&#34;https://ssc442.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;p&gt;Because RStudio projects typically consist of multiple files (R scripts, datasets, graphical output, etc.) the easiest way to distribute them to you for examples, assignments, and projects is to combine all the different files in to a single compressed collection called a &lt;strong&gt;zip file&lt;/strong&gt;. When you unzip a zipped file, your operating system extracts all the files that are contained inside into a new folder on your computer.&lt;/p&gt;
-&lt;p&gt;Unzipping files on macOS is trivial, but unzipping files on Windows can mess you up if you don’t pay careful attention. Here’s a helpful guide to unzipping files on both macOS and Windows.&lt;/p&gt;
-&lt;div id=&#34;unzipping-files-on-macos&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Unzipping files on macOS&lt;/h2&gt;
-&lt;p&gt;Double click on the downloaded &lt;code&gt;.zip&lt;/code&gt; file. macOS will automatically create a new folder with the same name as the &lt;code&gt;.zip&lt;/code&gt; file, and all the file’s contents will be inside. Double click on the RStudio Project file (&lt;code&gt;.Rproj&lt;/code&gt;) to get started.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/unzipping/unzip-mac.png&#34; width=&#34;60%&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;unzipping-files-on-windows&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Unzipping files on Windows&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;tl;dr&lt;/strong&gt;: Right click on the &lt;code&gt;.zip&lt;/code&gt; file, select “Extract All…”, and work with the resulting unzipped folder.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Unlike macOS, Windows does &lt;em&gt;not&lt;/em&gt; automatically unzip things for you. If you double click on the &lt;code&gt;.zip&lt;/code&gt; file, Windows will show you what’s inside, but it will do so without actually extracting anything. This &lt;del&gt;can be&lt;/del&gt; is incredibly confusing! Here’s what it looks like—the only clues that this folder is really a &lt;code&gt;.zip&lt;/code&gt; file are that there’s a “Compressed Folder Tools” tab at the top, and there’s a “Ratio” column that shows how much each file is compressed.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/unzipping/inside-zip-windows.png&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;It is very tempting to try to open files from this view. However, if you do, things will break and you won’t be able to correctly work with any of the files in the zipped folder. If you open the R Project file, for instance, RStudio will point to a bizarre working directory buried deep in some temporary folder:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/unzipping/temp-wd-windows.png&#34; width=&#34;60%&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;You most likely won’t be able to open any data files or save anything, which will be frustrating.&lt;/p&gt;
-&lt;p&gt;Instead, you need to right click on the &lt;code&gt;.zip&lt;/code&gt; file and select “Extract All…”:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/unzipping/extract-windows-1.png&#34; width=&#34;60%&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Then choose where you want to unzip all the files and click on “Extract”&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/unzipping/extract-windows-2.png&#34; width=&#34;60%&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;You should then finally have a real folder with all the contents of the zipped file. Open the R Project file and RStudio will point to the correct working directory and everything will work.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/unzipping/extract-windows-3.png&#34; width=&#34;60%&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Data</title>
-      <link>https://ssc442.netlify.app/resource/data/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ssc442.netlify.app/resource/data/</guid>
-      <description>
-&lt;script src=&#34;https://ssc442.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;p&gt;There are a ton of places to find data related to public policy and administration (as well as data on pretty much any topic you want) online:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://tinyletter.com/data-is-plural&#34;&gt;&lt;strong&gt;Data is Plural newsletter&lt;/strong&gt;&lt;/a&gt;: Jeremy Singer-Vine sends a weekly newsletter of the most interesting public datasets he’s found. You should subscribe to it. &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0&#34;&gt;He also has an archive of all the datasets he’s highlighted.&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://toolbox.google.com/datasetsearch&#34;&gt;&lt;strong&gt;Google Dataset Search&lt;/strong&gt;&lt;/a&gt;: Google indexes thousands of public datasets; search for them here.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.kaggle.com/datasets&#34;&gt;&lt;strong&gt;Kaggle&lt;/strong&gt;&lt;/a&gt;: Kaggle hosts machine learning competitions where people compete to create the fastest, most efficient, most predictive algorithms. A byproduct of these competitions is a host of fascinating datasets that are generally free and open to the public. See, for example, &lt;a href=&#34;https://www.kaggle.com/hugomathien/soccer&#34;&gt;the European Soccer Database&lt;/a&gt;, the &lt;a href=&#34;https://www.kaggle.com/rtatman/salem-witchcraft-dataset&#34;&gt;Salem Witchcraft Dataset&lt;/a&gt; or results from an &lt;a href=&#34;https://www.kaggle.com/rtatman/oreo-flavors-tastetest-ratings&#34;&gt;Oreo flavors taste test&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.threesixtygiving.org/data/data-registry/&#34;&gt;&lt;strong&gt;360Giving&lt;/strong&gt;&lt;/a&gt;: Dozens of British foundations follow a standard file format for sharing grant data and have made that data available online.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://us-cities.survey.okfn.org/&#34;&gt;&lt;strong&gt;US City Open Data Census&lt;/strong&gt;&lt;/a&gt;: More than 100 US cities have committed to sharing dozens of types of data, including data about crime, budgets, campaign finance, lobbying, transit, and zoning. This site from the &lt;a href=&#34;http://sunlightfoundation.com/&#34;&gt;Sunlight Foundation&lt;/a&gt; and &lt;a href=&#34;http://www.codeforamerica.org//&#34;&gt;Code for America&lt;/a&gt; collects this data and rates cities by how well they’re doing.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Political science and economics datasets&lt;/strong&gt;: There’s a wealth of data available for political science- and economics-related topics:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/briatte/srqm/wiki/Data&#34;&gt;&lt;strong&gt;François Briatte’s extensive curated lists&lt;/strong&gt;&lt;/a&gt;: Includes data from/about intergovernmental organizations (IGOs), nongovernmental organizations (NGOs), public opinion surveys, parliaments and legislatures, wars, human rights, elections, and municipalities.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/leeper/poliscitoys/issues/1&#34;&gt;&lt;strong&gt;Thomas Leeper’s list of political science datasets&lt;/strong&gt;&lt;/a&gt;: Good short list of useful datasets, divided by type of data (country-level data, survey data, social media data, event data, text data, etc.).&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/erikgahner/PolData&#34;&gt;&lt;strong&gt;Erik Gahner’s list of political science datasets&lt;/strong&gt;&lt;/a&gt;: Huge list of useful datasets, divided by topic (governance, elections, policy, political elites, etc.)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Final project</title>
-      <link>https://ssc442.netlify.app/assignment/final-project/</link>
-      <pubDate>Sun, 04 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://ssc442.netlify.app/assignment/final-project/</guid>
-      <description>
-&lt;script src=&#34;https://ssc442.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-&lt;div id=&#34;TOC&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#requirements&#34;&gt;Requirements&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#teams&#34;&gt;Teams&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#suggested-outline&#34;&gt;Suggested outline&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#theory-and-background&#34;&gt;Theory and Background&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#data-and-analyses&#34;&gt;Data and Analyses&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;div id=&#34;requirements&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Requirements&lt;/h2&gt;
-&lt;p&gt;Data analytics is inherently a hands-on endeavor. Thus, the final project for this class is hands-on. As per the overview page, the final project has the following elements:&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;For your final project in this class, you will analyze &lt;strong&gt;existing data&lt;/strong&gt; in some area of interest to you.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; Aggregating data from multiple sources is encouraged, but is not required.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;p&gt;You must visualize (at least) three &lt;strong&gt;interesting&lt;/strong&gt; features of that data. Visualizations should aid the reader in understanding something about the data that might not be readily aparent.[^4]&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;You must come up with some analysis—using tools from the course—which relates your data to either a prediction or a policy conclusion. For example, if you collected data from Major League Baseball games, you could try to “predict” whether a left-hander was pitching based solely on the outcomes of the batsmen.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;You will submit &lt;strong&gt;three things&lt;/strong&gt; via D2L:&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;A PDF of your report (see the outline below for details of what this needs to contain) rendered from your R Markdown. You might want to write the prose-heavy sections in a word processor like Word or Google Docs and copy/paste the text into your &lt;code&gt;R&lt;/code&gt; Markdown document, since RStudio doesn’t have a nice spell checker or grammar checker. This should have &lt;em&gt;no visible &lt;code&gt;R&lt;/code&gt; code, warnings, or messages in it&lt;/em&gt;. To do this, you must set &lt;code&gt;echo = FALSE&lt;/code&gt; in the code chunk options &lt;code&gt;knitr::opts_chunk$set(echo = FALSE, ...)&lt;/code&gt; at the beginning of your document template before you knit.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;The same PDF as above, but with all the R code in it (set &lt;code&gt;echo = TRUE&lt;/code&gt; at the beginning of your document and reknit the file). Please label files in an obvious way.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;A CSV file of your data; or a link to the data online if your code pulls from the internet. This must be a separate file titled “data.csv” or “data.txt” as applicable.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This project is due by &lt;strong&gt;11:59 PM on Tuesday, April 27th, 2021.&lt;/strong&gt; &lt;span style=&#34;color: #81056F; font-weight: bold&#34;&gt; No late work will be accepted. For real. MSU has grading deadlines and I’ve given you every second that can be spared.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;There is no final exam. This project is your final exam.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The project will &lt;strong&gt;&lt;em&gt;not&lt;/em&gt;&lt;/strong&gt; be graded using a check system, and will be graded by me (the main instructor, not a TA). I will evaluate the following four elements of your project:&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;p&gt;Technical skills: Was the project easy? Does it showcase mastery of data analysis? (20%)&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Visual design: Was the information smartly conveyed and usable? Was it beautiful? (25%)&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Analytic design: Was the analysis appropriate? Was it sensible, given the dataset? (20%)&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Story: Did we learn something? (25%)&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Following instructions: Did you surpress &lt;code&gt;R&lt;/code&gt; code as asked? Did you submit a separate datafile and label it correctly? (10%)&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;If you’ve engaged with the course content and completed the exercises and mini projects throughout the course, you should do just fine with the final project.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;teams&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Teams&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;My team sucks; how can I punish them for their lack of effort?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;On this front, we will be more supportive. While you have to put up with your team regardless of their quality, you can indicate that your team members are not carrying their fair share by issuing a &lt;strong&gt;strike&lt;/strong&gt;. This processs works as follows:
-1. A team member systematically fails to exert effort on collaborative projects (for example, by not showing up for meetings or not communicating, or by simply leeching off others without contributing.)
-2. Your frustration reaches a boiling point. You decide this has to stop. You decide to issue a &lt;strong&gt;strike&lt;/strong&gt;
-3. You send an email with the following information:
-- &lt;code&gt;Subject line:&lt;/code&gt; [SSC442] Strike against [Last name of Recipient]
-- &lt;code&gt;Body:&lt;/code&gt; You do &lt;strong&gt;not&lt;/strong&gt; need to provide detailed reasoning. However, you must discuss the actions (plural) you took to remedy the situation before sending the strike email.&lt;/p&gt;
-&lt;p&gt;A strike is a serious matter, and will reduce that team member’s grade on joint work by 10%. If any team-member gets strikes from all other members of his or her team, their grade will be reduced by 50%.&lt;/p&gt;
-&lt;p&gt;Strikes are &lt;em&gt;anonymous&lt;/em&gt; so that you do not need to fear social retaliation. However, they are not anonymous to allow you to issue them without thoughtful consideration. Perhaps the other person has a serious issue that is preventing them from completing work (e.g., a relative passing away). Please be thoughtful in using this remedy and consider it a last resort.&lt;/p&gt;
-&lt;!-- &gt; Do I really need to create a team GitHub repository? I don&#39;t like GitHub / programming/ work. --&gt;
-&lt;!-- Yes, you need to become familiar with GitHub and you and your team will work in a central repository for mini-projects and your final project. --&gt;
-&lt;!-- This is for two reasons. First, computer scientists spent a huge amount of time coming up with the solutions that are implemented in GitHub (and other flavors of `git`). Their efforts are largely dedicated toward solving a very concrete goal: how can two people edit the same thing at the same time without creating a ton of new issues. While you could use a paid variant of GitHub (e.g., you could all collaborate over the Microsoft Office suite as implemented by the 360 software that MSU provides), you&#39;d ultimately have the following issues: --&gt;
-&lt;!-- 1. The software doesn&#39;t support some file types. --&gt;
-&lt;!-- 2. The software doesn&#39;t autosave versions.[^1] If someone accidentally deletes something, you&#39;re in trouble. --&gt;
-&lt;!-- 3. You have to learn an entirely new system every time you change classes / universities / jobs, because said institute doesn&#39;t buy the product you love.[^2] --&gt;
-&lt;!-- [^1]: Some products, of course, solve this problem a little bit. For example, Dropbox allows users to share files with ease (of any file type) and saves a (coarse) version history. However, Dropbox does not allow multiple users to work on the same file, and has no way of merging edits together. --&gt;
-&lt;!-- [^2]: This logic is also why we utilize only free software in this course. It sucks to get really good at, say, `SAS` (as I did many years ago) only to realize that the software costs about $10000 and many firms are unwilling to spent that. We will try our best to avoid giving you dead-end skills. --&gt;
-&lt;blockquote&gt;
-&lt;p&gt;I’m on a smaller-than-normal team. Does this mean that I have to do more work?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Your instructors are able to count and are aware the teams are imbalanced. Evaluations of final projects will take this into account. While your final product should reflect the best ability of your team, we do not anticipate that the uneven teams will lead to substantively different outputs.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;suggested-outline&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Suggested outline&lt;/h2&gt;
-&lt;p&gt;You must write and present your analysis as if presenting to a &lt;strong&gt;C-suite executive&lt;/strong&gt;. If you are not familiar with this terminology, the C-suite includes, e.g., the CEO, CFO, and COO of a given company. Generally speaking, such executives are not particularly analytically oriented, and therefore your explanations need to be clear, consise (their time is valuable) and contain actionable (or valuable) information.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;
-- Concretely, this requires a written memo, which describes the data, analyses, and results. This must be clear and easy to understand for a non-expert in your field. Figures and tables do not apply to the page limit.&lt;/p&gt;
-&lt;p&gt;Below is a very loose guide to the sort of content that we expect for the final project. Word limits are suggestions only. Note your final report will be approximately&lt;/p&gt;
-&lt;div id=&#34;introduction&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Introduction&lt;/h3&gt;
-&lt;p&gt;Describe the motivation for this analysis. Briefly describe the dataset, and explain why the analysis you’re undertaking matters for society. (Or matters for some decision-making. You should not feel constrained to asking only “big questions.” The best projects will be narrow-scope but well-defined.) (&lt;strong&gt;≈300 words&lt;/strong&gt;)&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;theory-and-background&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Theory and Background&lt;/h3&gt;
-&lt;p&gt;Provide in-depth background about the data of interest and about your analytics question. (&lt;strong&gt;≈300 words&lt;/strong&gt;)&lt;/p&gt;
-&lt;div id=&#34;theory&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;“Theory”&lt;/h4&gt;
-&lt;p&gt;Provide some theoretical guidance to the functional relationship you hope to explore. If you’re interested on how, say, height affects scoring in the NBA, write down a proposed function that might map height to scoring. Describe how you might look for this unknown relationship in the data.(&lt;strong&gt;≈300 words&lt;/strong&gt;)&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;hypotheses&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;Hypotheses&lt;/h4&gt;
-&lt;p&gt;Make predictions. Declare what you think will happen. (Note, this may carry over from second project.) (&lt;strong&gt;≈250 words&lt;/strong&gt;)&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;data-and-analyses&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Data and Analyses&lt;/h3&gt;
-&lt;div id=&#34;data&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;Data&lt;/h4&gt;
-&lt;p&gt;Given your motivations, limits on feasibility, and hypotheses, describe the data you use. (&lt;strong&gt;≈100 words&lt;/strong&gt;)&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;analyses&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;Analyses&lt;/h4&gt;
-&lt;p&gt;Generate the analyses relevant to your hypotheses and interests. Here you must include three figures and must describe what they contain in simple, easy to digest language. Why did you visualize these elements? Your analyses also must include brief discussion.&lt;/p&gt;
-&lt;p&gt;(&lt;strong&gt;As many words as you need to fully describe your analysis and results&lt;/strong&gt;)&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;conclusion&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;What caveats should we consider? Do you believe this is a truly causal relationship? Why does any of this matter to the decision-maker? (&lt;strong&gt;≈75 words&lt;/strong&gt;)&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Note that &lt;strong&gt;existing&lt;/strong&gt; is taken to mean that you are not permitted to collect data by interacting with other people. That is not to say that you cannot gather data that previously has not been gathered into a single place—this sort of exercise is encouraged. But you cannot stand with a clipboard outside a store and count visitors (for instance).&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;This exercise provides you with an opportunity to identify your marketable skills and to practice them. I encourage those who will be looking for jobs soon to take this exercise seriously.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Welcome Back to R</title>
-      <link>https://ssc442.netlify.app/content/00-content/</link>
+      <link>https://ec404.netlify.app/content/00-content/</link>
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://ssc442.netlify.app/content/00-content/</guid>
+      <guid>https://ec404.netlify.app/content/00-content/</guid>
       <description>
-&lt;script src=&#34;https://ssc442.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://ssc442.netlify.app/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;https://ssc442.netlify.app/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://ec404.netlify.app/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
@@ -1807,7 +514,7 @@ mpg %&amp;gt;%
 &lt;h2&gt;Readings&lt;/h2&gt;
 &lt;p&gt;As noted in the syllabus, your readings will be assigned each week in this area. For this initial week, please read the course content. &lt;strong&gt;Read closely&lt;/strong&gt; the following:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;The &lt;a href=&#34;https://ssc442.netlify.app/syllabus/&#34;&gt;syllabus&lt;/a&gt;, &lt;a href=&#34;https://ssc442.netlify.app/content/&#34;&gt;content&lt;/a&gt;, &lt;a href=&#34;https://ssc442.netlify.app/example/&#34;&gt;examples&lt;/a&gt;, and &lt;a href=&#34;https://ssc442.netlify.app/lab/&#34;&gt;labs&lt;/a&gt; pages for this class.&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://ec404.netlify.app/syllabus/&#34;&gt;syllabus&lt;/a&gt;, &lt;a href=&#34;https://ec404.netlify.app/content/&#34;&gt;content&lt;/a&gt;, &lt;a href=&#34;https://ec404.netlify.app/example/&#34;&gt;examples&lt;/a&gt;, and &lt;a href=&#34;https://ec404.netlify.app/lab/&#34;&gt;labs&lt;/a&gt; pages for this class.&lt;/li&gt;
 &lt;li&gt;This page. Yes, the whole thing.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Things to stress from syllabus:&lt;/p&gt;
@@ -2065,16 +772,16 @@ Note that it is common for a course or workshop to offer access to an &lt;code&g
 &lt;div id=&#34;case-study-us-homicides-by-firearm&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Case study: US homicides by firearm&lt;/h2&gt;
 &lt;p&gt;Imagine you live in Europe (if only!) and are offered a job in a US company with many locations in every state. It is a great job, but headlines such as &lt;strong&gt;US Gun Homicide Rate Higher Than Other Developed Countries&lt;/strong&gt;&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; have you worried. Fox News runs a scary looking graphic, and charts like the one below only add to that concern:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/content/00-content_files/figure-html/murder-rate-example-1-1.png&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ec404.netlify.app/content/00-content_files/figure-html/murder-rate-example-1-1.png&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;!--(Source:
 [Ma’ayan Rosenzweigh/ABC News](https://abcnews.go.com/blogs/headlines/2012/12/us-gun-ownership-homicide-rate-higher-than-other-developed-countries/), Data from UNODC Homicide Statistics) --&gt;
 &lt;p&gt;Or even worse, this version from &lt;a href=&#34;https://everytownresearch.org&#34;&gt;everytown.org&lt;/a&gt;:
-&lt;img src=&#34;https://ssc442.netlify.app/content/00-content_files/figure-html/murder-rate-example-2-1.png&#34; width=&#34;70%&#34; /&gt;
+&lt;img src=&#34;https://ec404.netlify.app/content/00-content_files/figure-html/murder-rate-example-2-1.png&#34; width=&#34;70%&#34; /&gt;
 &lt;!--(Source  [everytown.org](https://everytownresearch.org))--&gt;&lt;/p&gt;
 &lt;p&gt;But then you remember that (1) this is a hypothetical exercise; (2) you’ll take literally any job at this point; and (3) Geographic diversity matters – the United States is a large and diverse country with 50 very different states (plus the District of Columbia and some lovely territories).&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;## Warning: It is deprecated to specify `guide = FALSE` to remove a guide. Please
 ## use `guide = &amp;quot;none&amp;quot;` instead.&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/content/00-content_files/figure-html/us-murders-by-state-map-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ec404.netlify.app/content/00-content_files/figure-html/us-murders-by-state-map-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;California, for example, has a larger population than Canada, and 20 US states have populations larger than that of Norway. In some respects, the variability across states in the US is akin to the variability across countries in Europe. Furthermore, although not included in the charts above, the murder rates in Lithuania, Ukraine, and Russia are higher than 4 per 100,000. So perhaps the news reports that worried you are too superficial.&lt;/p&gt;
 &lt;p&gt;This is a relatively simple and straightforward problem in social science: you have options of where to live, and want to determine the safety of the various states. Your “research” is clearly policy-relevant: you will eventually have to live somewhere. We will begin to tackle the problem by examining data related to gun homicides in the US during 2010 using &lt;code&gt;R&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Before we get started with our example, we need to cover logistics as well as some of the very basic building blocks that are required to gain more advanced &lt;code&gt;R&lt;/code&gt; skills. Ideally, this is a refresher. However, we are aware that your preparation in previously courses varies greatly from student to student. Moreover, we want you to be aware that the usefulness of some of these early building blocks may not be immediately obvious. Later in the class you will appreciate having these skills. Mastery will be rewarded both in this class and (of course) in life.&lt;/p&gt;
@@ -2111,9 +818,9 @@ c &amp;lt;- -1&lt;/code&gt;&lt;/pre&gt;
 &lt;h3&gt;The workspace&lt;/h3&gt;
 &lt;p&gt;As we define objects in the console, we are actually changing the &lt;em&gt;workspace&lt;/em&gt;. You can see all the variables saved in your workspace by typing:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ls()&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;a&amp;quot;       &amp;quot;b&amp;quot;       &amp;quot;c&amp;quot;       &amp;quot;dat&amp;quot;     &amp;quot;filter&amp;quot;  &amp;quot;murders&amp;quot; &amp;quot;select&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;a&amp;quot;       &amp;quot;b&amp;quot;       &amp;quot;c&amp;quot;       &amp;quot;dat&amp;quot;     &amp;quot;murders&amp;quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;(Note that one of &lt;em&gt;my&lt;/em&gt; variables listed above comes from generating the graphs above). In RStudio, the &lt;em&gt;Environment&lt;/em&gt; tab shows the values:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/rstudio-environment.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ec404.netlify.app/img/rstudio-environment.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;We should see &lt;code&gt;a&lt;/code&gt;, &lt;code&gt;b&lt;/code&gt;, and &lt;code&gt;c&lt;/code&gt;. If you try to recover the value of a variable that is not in your workspace, you receive an error. For example, if you type &lt;code&gt;x&lt;/code&gt; you will receive the following message: &lt;code&gt;Error: object &#39;x&#39; not found&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Now since these values are saved in variables, to obtain a solution to our equation, we use the quadratic formula:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;(-b + sqrt(b^2 - 4*a*c) ) / ( 2*a )&lt;/code&gt;&lt;/pre&gt;
@@ -2958,11 +1665,11 @@ data(murders)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Syllabus</title>
-      <link>https://ssc442.netlify.app/syllabus/</link>
+      <link>https://ec404.netlify.app/syllabus/</link>
       <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://ssc442.netlify.app/syllabus/</guid>
+      <guid>https://ec404.netlify.app/syllabus/</guid>
       <description>
-&lt;script src=&#34;https://ssc442.netlify.app/syllabus/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://ec404.netlify.app/syllabus/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
@@ -3057,8 +1764,8 @@ Student McStudentFace&lt;/p&gt;
 &lt;p&gt;It’s easy when you start out programming to get really frustrated and think, “Oh it’s me, I’m really stupid,” or, “I’m not made out to program.” But, that is absolutely not the case. Everyone gets frustrated. I still get frustrated occasionally when writing R code. It’s just a natural part of programming. So, it happens to everyone and gets less and less over time. Don’t blame yourself. Just take a break, do something fun, and then come back and try again later.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Even experienced programmers (like me) find themselves bashing their heads against seemingly intractable errors.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; If you’re finding yourself bashing your head against a wall and not making progress, try the following. First, take a break. Sometimes you just need space to see an error. Next, talk to classmates. Finally, if you genuinely cannot see the solution, e-mail the TA. But, honestly, it’s probably just a typo.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/syllabus/hosrt_error_tweet.png&#34; width=&#34;60%&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/allison_horst/status/1213275783675822080&#34;&gt;&lt;img src=&#34;https://ssc442.netlify.app/img/syllabus/gator_error.jpg&#34; alt=&#34;Alison Horst: Gator error&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ec404.netlify.app/img/syllabus/hosrt_error_tweet.png&#34; width=&#34;60%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/allison_horst/status/1213275783675822080&#34;&gt;&lt;img src=&#34;https://ec404.netlify.app/img/syllabus/gator_error.jpg&#34; alt=&#34;Alison Horst: Gator error&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;course-materials&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Course materials&lt;/h2&gt;
@@ -3068,7 +1775,7 @@ Student McStudentFace&lt;/p&gt;
 &lt;h3&gt;R and RStudio&lt;/h3&gt;
 &lt;p&gt;You will do all of your analysis with the open source (and free!) programming language &lt;a href=&#34;https://cran.r-project.org/&#34;&gt;&lt;code&gt;R&lt;/code&gt;&lt;/a&gt;. You will use &lt;a href=&#34;https://www.rstudio.com/&#34;&gt;RStudio&lt;/a&gt; as the main program to access R. &lt;strong&gt;I find it helpful to think of &lt;code&gt;R&lt;/code&gt; as an engine and RStudio as a car dashboard&lt;/strong&gt;—&lt;code&gt;R&lt;/code&gt; handles all the calculations produces the actual statistics and graphical output, while RStudio provides a nice interface for running &lt;code&gt;R&lt;/code&gt; code.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;R&lt;/code&gt; is free, but it can sometimes be a pain to install and configure. To make life easier, you can use the free &lt;a href=&#34;http://rstudio.cloud/&#34;&gt;RStudio.cloud&lt;/a&gt; service, which lets you run a full instance of RStudio in your web browser. This means you won’t have to install anything on your computer to get started with &lt;code&gt;R&lt;/code&gt;. We recommend this for those who may be switching between computers and are trying to get some work done. That said, while RStudio.cloud is convenient, it can be slow and it is not designed to be able to handle larger datasets or more complicated analysis and graphics. You also can’t use your own custom fonts with RStudio.cloud.&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; And, generally speaking, you should have (from the prerequisite course) sufficient experience to make your &lt;code&gt;R&lt;/code&gt; work. If not, over the course of the semester, you’ll probably want to get around to installing &lt;code&gt;R&lt;/code&gt;, RStudio, and other &lt;code&gt;R&lt;/code&gt; packages on your computer and wean yourself off of RStudio.cloud. If you plan on making a career out of data science, you should consider this a necessary step.&lt;/p&gt;
-&lt;p&gt;You can &lt;a href=&#34;https://ssc442.netlify.app/resource/install/&#34;&gt;find instructions for installing &lt;code&gt;R&lt;/code&gt;, RStudio, and all the tidyverse packages here.&lt;/a&gt; And you may find some other goodies.&lt;/p&gt;
+&lt;p&gt;You can &lt;a href=&#34;https://ec404.netlify.app/resource/install/&#34;&gt;find instructions for installing &lt;code&gt;R&lt;/code&gt;, RStudio, and all the tidyverse packages here.&lt;/a&gt; And you may find some other goodies.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;online-help&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Online Help&lt;/h3&gt;
@@ -3084,7 +1791,7 @@ Student McStudentFace&lt;/p&gt;
 &lt;p&gt;Your grade in this course will be based on attendance/participation, labs, weekly writings, and a final project.&lt;/p&gt;
 &lt;p&gt;The general breakdown will be approximately 55% for labs, participation, and weekly writings, and 45% for projects (see below for specific details). The primary focus of the course is a final project; this requires two “mini-projects” to ensure you’re making satisfactory progress. Assignment of numeric grades will follow the standard, where ties (e.g., 91.5%) are rounded to favor the student. Evaluations (read: grades) are designed not to deter anyone from taking this course who might otherwise be interested, but will be taken seriously.&lt;/p&gt;
 &lt;p&gt;Weekly writings are intended to be an easy way to get some points. Labs will be short homework assignments that require you to do something practical using a basic statistical language. Support will be provided for the &lt;code&gt;R&lt;/code&gt; language only. You must have access to computing resources and the ability to program basic statistical analyses. As mentioned above, this course will not teach you how to program or how to write code in a specific language. If you are unprepared to do implement basic statistical coding, please take (or retake) PLS202. I highly encourage seeking coding advice from those who instruct computer science courses – it’s their job and they are better at it than I am. I’ll try to provide a good service, but I’m really not an expert in computer science.&lt;/p&gt;
-&lt;p&gt;More in-depth descriptions for all the assignments are on the &lt;a href=&#34;https://ssc442.netlify.app/assignment/&#34;&gt;assignments page&lt;/a&gt;. As the course progresses, the assignments themselves will be posted within that page.&lt;/p&gt;
+&lt;p&gt;More in-depth descriptions for all the assignments are on the &lt;a href=&#34;https://ec404.netlify.app/assignment/&#34;&gt;assignments page&lt;/a&gt;. As the course progresses, the assignments themselves will be posted within that page.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;To Recap:&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;centered-table&#34;&gt;
 &lt;table style=&#34;width:68%;&#34;&gt;
@@ -3252,11 +1959,11 @@ These reports may trigger contact from a campus official who will want to talk w
     
     <item>
       <title>Schedule</title>
-      <link>https://ssc442.netlify.app/schedule/</link>
+      <link>https://ec404.netlify.app/schedule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ssc442.netlify.app/schedule/</guid>
+      <guid>https://ec404.netlify.app/schedule/</guid>
       <description>
-&lt;script src=&#34;https://ssc442.netlify.app/schedule/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://ec404.netlify.app/schedule/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;Below is a roadmap for the semester. Note that this will inevitably change from the first day you access this course. However, whatever is listed below should be considered canon. Accordingly, you should visit this page frequently throughout the term.&lt;/p&gt;
@@ -3265,9 +1972,9 @@ These reports may trigger contact from a campus official who will want to talk w
 &lt;h3&gt;Overview&lt;/h3&gt;
 &lt;p&gt;The class is structured with three distinct bits. First, the Tuesday lecture will give an overview of the topic for the week. Next, the Thursday lecture will have a shorter, practical lecture and an activity which is designed to give you hands-on experience and a greater understanding of the broader material. Finally, you will complete weekly writings (short) and labs (also short; requiring coding in &lt;code&gt;R&lt;/code&gt;). Out of class, you will complete readings and can watch supplemental videos on the week’s topic. You are not required to view supplemental recorded videos unless specifically noted.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://ssc442.netlify.app/content/&#34;&gt;&lt;strong&gt;Content&lt;/strong&gt;&lt;/a&gt; (&lt;i class=&#34;fas fa-book-reader&#34;&gt;&lt;/i&gt;): This page contains the readings and recorded lectures for the topic. These pages should be read completely. Lectures are &lt;em&gt;not&lt;/em&gt; an exact replication of the written content; on the contrary, the lectures are intended to keep you focused on the high-level ideas, while the readings are broader and more comprehensive. Accordingly, lectures are shorter than the (often quite lengthy) written content.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://ssc442.netlify.app/example/&#34;&gt;&lt;strong&gt;Examples&lt;/strong&gt;&lt;/a&gt; (&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;): This page the material that we will discuss in Thursday classes. In addition to teaching specific content, there are many more &lt;code&gt;R&lt;/code&gt; code examples. These are intended as a useful reference to various functions that you will need when working on (nearly) weekly labs and your group project.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://ssc442.netlify.app/assignment/&#34;&gt;&lt;strong&gt;Assignments&lt;/strong&gt;&lt;/a&gt; (&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt;): This page contains the instructions for the weekly lab (1–3 brief tasks) and for the two mini projects + final project. &lt;strong&gt;Labs are due by 11:59 PM (Eastern) on the Sunday after they’re posted.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://ec404.netlify.app/content/&#34;&gt;&lt;strong&gt;Content&lt;/strong&gt;&lt;/a&gt; (&lt;i class=&#34;fas fa-book-reader&#34;&gt;&lt;/i&gt;): This page contains the readings and recorded lectures for the topic. These pages should be read completely. Lectures are &lt;em&gt;not&lt;/em&gt; an exact replication of the written content; on the contrary, the lectures are intended to keep you focused on the high-level ideas, while the readings are broader and more comprehensive. Accordingly, lectures are shorter than the (often quite lengthy) written content.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://ec404.netlify.app/example/&#34;&gt;&lt;strong&gt;Examples&lt;/strong&gt;&lt;/a&gt; (&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;): This page the material that we will discuss in Thursday classes. In addition to teaching specific content, there are many more &lt;code&gt;R&lt;/code&gt; code examples. These are intended as a useful reference to various functions that you will need when working on (nearly) weekly labs and your group project.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://ec404.netlify.app/assignment/&#34;&gt;&lt;strong&gt;Assignments&lt;/strong&gt;&lt;/a&gt; (&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt;): This page contains the instructions for the weekly lab (1–3 brief tasks) and for the two mini projects + final project. &lt;strong&gt;Labs are due by 11:59 PM (Eastern) on the Sunday after they’re posted.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div id=&#34;office-hours-ta-to-be-determined.&#34; class=&#34;section level3&#34;&gt;
@@ -3298,11 +2005,11 @@ These reports may trigger contact from a campus official who will want to talk w
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 0 (30 August)&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;(Re-) Introduction to R&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
-                    href=&#34;https://ssc442.netlify.app/content/00-content/&#34;&gt;
+                    href=&#34;https://ec404.netlify.app/content/00-content/&#34;&gt;
                     &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://ssc442.netlify.app/example/00-example/&#34;&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://ec404.netlify.app/example/00-example/&#34;&gt;
                     &lt;i class=&#34;fas fa-laptop-code fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://ssc442.netlify.app/assignment/00-assignment/&#34;&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://ec404.netlify.app/assignment/00-assignment/&#34;&gt;
                     &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
@@ -3341,11 +2048,11 @@ These reports may trigger contact from a campus official who will want to talk w
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 3 (20 September)&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Visualization III&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
-                    href=&#34;https://ssc442.netlify.app/content/03-content/&#34;&gt;
+                    href=&#34;https://ec404.netlify.app/content/03-content/&#34;&gt;
                     &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://ssc442.netlify.app/example/03-example/&#34;&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://ec404.netlify.app/example/03-example/&#34;&gt;
                     &lt;i class=&#34;fas fa-laptop-code fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://ssc442.netlify.app/assignment/03-assignment/&#34;&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://ec404.netlify.app/assignment/03-assignment/&#34;&gt;
                     &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
@@ -3599,7 +2306,7 @@ These reports may trigger contact from a campus official who will want to talk w
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-laptop-code fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://ssc442.netlify.app/assignment/final-project/&#34;&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://ec404.netlify.app/assignment/final-project/&#34;&gt;
                     &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
 

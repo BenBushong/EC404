@@ -413,7 +413,7 @@ c &lt;- -1</code></pre>
 <h3>The workspace</h3>
 <p>As we define objects in the console, we are actually changing the <em>workspace</em>. You can see all the variables saved in your workspace by typing:</p>
 <pre class="r"><code>ls()</code></pre>
-<pre><code>## [1] &quot;a&quot;       &quot;b&quot;       &quot;c&quot;       &quot;dat&quot;     &quot;filter&quot;  &quot;murders&quot; &quot;select&quot;</code></pre>
+<pre><code>## [1] &quot;a&quot;       &quot;b&quot;       &quot;c&quot;       &quot;dat&quot;     &quot;murders&quot;</code></pre>
 <p>(Note that one of <em>my</em> variables listed above comes from generating the graphs above). In RStudio, the <em>Environment</em> tab shows the values:</p>
 <p><img src="/img/rstudio-environment.png" /></p>
 <p>We should see <code>a</code>, <code>b</code>, and <code>c</code>. If you try to recover the value of a variable that is not in your workspace, you receive an error. For example, if you type <code>x</code> you will receive the following message: <code>Error: object 'x' not found</code>.</p>
