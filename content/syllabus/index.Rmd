@@ -12,17 +12,16 @@ output:
 ---
 
 ```{r setup, message=FALSE, warning=FALSE, include=FALSE}
-library(dplyr)
+suppressPackageStartupMessages(library(dplyr))
 library(tibble)
 library(pander)
 ```
 
-## Course Times and Key Links
-
-Forthcoming.
+`r blogdown::shortcode("courseinfo")`
 
 
-## WHAT IS THIS COURSE, AND CAN/SHOULD YOU TAKE IT?
+
+## What Is This Course and Can / Should You Take It?
 
 This course will introduce students to decades of psychological research indicating systematic departures from classical economic assumptions. Furthermore, this course will demonstrate how that research can be translated into formal models that can be incorporated into economics. Topics include ways utility theory can be improved—such as incorporating reference dependence, social preferences, self image, and other belief-based tastes—and ways we can relax assumptions of perfect rationality—such as incorporating focusing effects, limited attention, biased prediction of future tastes, present-biased preferences, and biases in probabilistic judgment. The course will emphasize (a) careful interpretation of new evidence, (b) formalizing this evidence into models that can, with discipline and rigor, generate sharp predictions using traditional economic approaches, and (c) exploring economic implications of those models presented. Although the course will primarily emphasize (b), it is intended to be useful to students whose interests lie anywhere in this spectrum.
 
@@ -36,7 +35,7 @@ The topics covered in this course are listed later in the syllabus. There is no 
 
 If—after you have read the syllabus—you have any questions about whether this course is appropriate for you, please come talk to me.  Guests are always permitted to attend the lectures (I may ask you to introduce them).
 
-## NON-DETAILED COURSE PSUEDO-DESCRIPTION
+## Non-Detailed Course Psuedo-Description
 
 This course is designed as an introduction to modeling psychological phenomena that are not yet totally integrated into mainstream economic analysis. Thus the material in this course is not entirely like what you’ve seen in most of your other economics courses.  But it is not an alternative to mainstream economics.  It is only about improving the psychological realism of formal economics, and we will use classical economic approaches to improve our answers to classical economic questions. Most topics will be introduced by first going through the classical model, then highlighting empirical findings that do not fit with that model, and finally exploring alternative approaches. Like all other courses, this course does not cover all topics that might be of interest, and we will not spend time exploring methodological issues. However, as undergraduates studying the field of economics, methodology can and should be your primary focus. Economic methodology will provide the backbone for your future careers and, should you choose to pursue it, any graduate work in economics.
 
@@ -55,24 +54,8 @@ We will examine the experimental evidence of the topics covered in this course. 
 In the most important senses, the course won’t at all be a departure from mainstream economics. I believe that the best way for economists to do economics in general, and the best way for us to use this material in particular, is with careful formal theory and (albeit absent from this course) statistical analysis.  In these regards, the course will be purposely, pointedly, persistently, proudly, and ponderously mainstream.
 
 
-## PROBLEM SETS
-
-The primary mode of learning in this course is through (difficult) problem sets.
-
-There will be six problem sets.  Problems will range in difficulty from moderately hard to impossibly, annoyingly hard, so don’t panic if you struggle with them. You are encouraged to work together on the problem sets, but you are not allowed to read others’ answers from past or present problem sets, and should hand in solutions separately that reflect your own understanding.  You should acknowledge collaborators and describe the extent of collaboration at the top of the relevant problem sets. While collaboration is allowed, directly copying someone else's work is not.
-
-Problem sets are due at the beginning of lecture the day they are due. Late problem sets will not be accepted.  Please staple your problem set together (paper clips and folded corners are not staples). If you cannot attend lecture the day a problem set is due, you can turn it in to either my office or the TA’s office.
-
-There is a limited amount of time we can spend grading the problem sets. Problems will frequently require substantial math; you are welcome to hand in all the work you did to reach an answer, but that is not required. Clearly indicate your answer by labeling (if typed) or circling (if handwritten). You will not receive feedback on your problem sets, but you will receive an answer sheet.
-
-Problem sets will be graded either a 4,8, or 10. Problem sets that are late will be given a 0. We will grade problem sets in the most forgiving way possible. However, lengthy explanations of how you arrived at a wrong answer will not necessarily entitle you to full credit, regardless of the length. A good-faith effort will generally earn you an 8; correct answers will earn a 10.
-
-In the end, problem sets aren’t a big component of your grade. Their primary purpose is to teach you the actual material and to prepare you for exams---hence the relaxed grading and feedback. There will be two midterms and a final exam (see next page). These will draw heavily from the problem sets, and therefore a deep understanding of the problem sets is the best way to succeed in this course. I may even repeat questions directly from problem sets onto an exam…
-
-
-
-### CONTACTING ME
-I have moved this up front in a (likely unsuccessful) attempt to minimize our collective headache.
+## Contacting Me
+I have moved this up to an odd spot in a---likely unsuccessful---attempt to minimize our collective headache.
 
 Email is a blessing and a curse. Instant communication is wonderful, but often email is the wrong medium to have a productive conversation about course material. Moreover, I get a **lot** of emails. This means that I am frequently triaging emails into two piles: "my house is burning down" and "everything else". Your email is unlikely to make the former pile. So, asking questions about course material is always best done in-class or in office hours. Students always roll their eyes when professors say things like that, but it’s true that if you have a question, it’s very likely someone else has the same question.
 
@@ -99,11 +82,11 @@ Some general tips:
 
 Now on to your regularly scheduled syllabus.
 
-## SUCCESS IN THIS COURSE
+## Success in This Course
 
 I *promise*, you are equipped to succeed in this course.
 
-Learning sucks.
+That said, learning sucks.
 
 True learning definitionally means you didn't know something. When it comes to psychological factors, people are often hesitant to say they don't know something. (Or will insist they do in fact know something when they really don't.)
 
@@ -111,8 +94,21 @@ This can be exacerbated in this class by the intersection of tough psychology an
 
 > It's easy when you start out in this class to get really frustrated and think, "Oh it's me, I'm really stupid," or, "I'm just not good at math." But, that is absolutely not the case. Everyone gets frustrated. It's just a natural part of learning. Your brain doesn't want to work: it's lazy. So, forcing it to exert effort is stressful and, at times, painful. The pain happens to everyone (even the best students) and gets less and less over time. Don't blame yourself. Just take a break, do something fun, and then come back and try again later.
 
+### Problem Sets
 
-## EVALUATIONS AND GRADES
+The primary mode of learning in this course is through (difficult) problem sets.
+
+There will be six problem sets.  Problems will range in difficulty from moderately hard to impossibly, annoyingly hard, so don’t panic if you struggle with them. You are encouraged to work together on the problem sets, but you are not allowed to read others’ answers from past or present problem sets, and should hand in solutions separately that reflect your own understanding.  You should acknowledge collaborators and describe the extent of collaboration at the top of the relevant problem sets. While collaboration is allowed, directly copying someone else's work is not.
+
+Problem sets are due at the beginning of lecture the day they are due. Late problem sets will not be accepted.  Please staple your problem set together (paper clips and folded corners are not staples). If you cannot attend lecture the day a problem set is due, you can turn it in to either my office or the TA’s office.
+
+There is a limited amount of time we can spend grading the problem sets. Problems will frequently require substantial math; you are welcome to hand in all the work you did to reach an answer, but that is not required. Clearly indicate your answer by labeling (if typed) or circling (if handwritten). You will not receive feedback on your problem sets, but you will receive an answer sheet.
+
+Problem sets will be graded either a 4,8, or 10. Problem sets that are late will be given a 0. We will grade problem sets in the most forgiving way possible. However, lengthy explanations of how you arrived at a wrong answer will not necessarily entitle you to full credit, regardless of the length. A good-faith effort will generally earn you an 8; correct answers will earn a 10.
+
+In the end, problem sets aren’t a big component of your grade. Their primary purpose is to teach you the actual material and to prepare you for exams---hence the relaxed grading and feedback. There will be two midterms and a final exam (see next page). These will draw heavily from the problem sets, and therefore a deep understanding of the problem sets is the best way to succeed in this course. I may even repeat questions directly from problem sets onto an exam...
+
+### Evaluations and Grades
 
 Your grade in this course will be based on attendance + participation, assignments, three exams, and a writing project. The general breakdown for grades will be 15% for attendance, 30% for assignments, 45% for exams, and 10% for a "paper". Details on the paper will be distributed midway through the course – it is designed not to deter anyone from taking this course who might otherwise be interested.
 
@@ -175,11 +171,11 @@ grading %>%
 
 All grades are considered final. Any request for a re-grade beyond simple point-tallying mistakes will require that the entire assignment be re-graded. Any points previously awarded may be changed in either direction in the re-grade
 
-## ACADEMIC HONESTY
+### Academic Honesty
 
 Violation of [MSU's Spartan Code of Honor](http://asmsu.msu.edu/home/initiatives/spartan-code-of-honor/) will result in a grade of 0.0 in the course. Moreover, I am required by MSU policy to report suspected cases of academic dishonesty for possible disciplinary action.^[So just don't cheat or plagiarize. This is an easy problem to avoid.]
 
-## RESOURCES
+## Resources
 
 Mental health concerns or stressful events may lead to diminished academic performance or reduce a student's ability to participate in daily activities. Services are available to assist you with addressing these and other concerns you may be experiencing. You can learn more about the broad range of confidential mental health services available on campus via the Counseling & Psychiatric Services (CAPS) website at www.caps.msu.edu.
 
@@ -208,7 +204,7 @@ Materials submitted for this class are generally considered confidential pursuan
 
 These reports may trigger contact from a campus official who will want to talk with you about the incident that you have shared.  In almost all cases, it will be your decision whether you wish to speak with that individual.  If you would like to talk about these events in a more confidential setting, you are encouraged to make an appointment with the MSU Counseling and Psychiatric Services.
 
-## MISCELLANEA
+## Miscellanea
 
 D2L will be used sparingly for submission of assignments and distribution of grades.
 
@@ -219,7 +215,6 @@ Please use my office hours. It would be remarkable if you didn’t need some ass
 In addition to drop-in office hours, I always have sign-up office hours for advising and other purposes. As a general rule, please first seek course-related help from the drop-in office hours. However, if my scheduled office hours are always infeasible for you, let me know, and then I may encourage you to make appointments with me. I ask that you schedule your studying so that you are prepared to ask questions during office hours – office hours are not a lecture and if you’re not prepared with questions we will end up awkwardly staring at each other for an hour until you leave.
 
 Some gentle requests regarding office hours and on contacting me. First, my office hours end sharply at the end, so don’t arrive 10 minutes before the scheduled end and expect a full session. Please arrive early if you have lengthy questions, or if you don’t want to risk not having time due to others’ questions. You are free to ask me some stuff by e-mail, (e.g. a typo or something on a handout), but please know e-mail sucks for answering many types of questions. “How do I do this assignment?” or “What’s up with calculus?” are short questions with long answers. Come to office hours.
-
 
 
 ### Letters of Recommendation / References

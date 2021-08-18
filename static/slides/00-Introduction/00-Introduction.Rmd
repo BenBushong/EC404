@@ -1,0 +1,641 @@
+---
+title: "Introduction to Behavioral Economics"
+subtitle: "EC404; Fall 2021"
+author: "Prof. Ben Bushong"
+date: "Last updated `r format(Sys.Date(), '%B %d, %Y')`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    yolo: false
+    css: [default, metropolis, "EC404.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+    incremental: true
+name: "Cover"
+
+
+---
+```{r setup, include=FALSE}
+
+options(htmltools.dir.version = FALSE)
+options("getSymbols.warning4.0"=FALSE)
+
+
+library(here) # creates absolute paths, but those won't work in html
+library(knitr)
+library(kableExtra)
+library(tidyverse)
+library(wooldridge)
+require(lubridate)
+require(scales)
+require(broom)
+require(visualize)
+
+require(wbstats)
+require(lmtest)
+require(sandwich)
+require(car)
+require(quantmod)
+require(patchwork)
+
+
+
+# https://yihui.org/knitr/options/
+opts_chunk$set(
+  fig.align="center",
+  #dpi=300,
+  fig.path='figs/', # where figs are rendered
+  cache=F,
+  echo=F,
+  message = F,
+  warning = F
+  )
+
+```
+
+layout: true
+
+<div class="msu-header"></div>
+<div style = "position:fixed; visibility: hidden">
+$$\require{color}\definecolor{yellow}{rgb}{1, 0.8, 0.16078431372549}$$
+$$\require{color}\definecolor{orange}{rgb}{0.96078431372549, 0.525490196078431, 0.203921568627451}$$
+$$\require{color}\definecolor{MSUgreen}{rgb}{0.0784313725490196, 0.52156862745098, 0.231372549019608}$$
+</div>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: {
+    Macros: {
+      yellow: ["{\\color{yellow}{#1}}", 1],
+      orange: ["{\\color{orange}{#1}}", 1],
+      MSUgreen: ["{\\color{MSUgreen}{#1}}", 1]
+    },
+    loader: {load: ['[tex]/color']},
+    tex: {packages: {'[+]': ['color']}}
+  }
+});
+</script>
+
+<style>
+.yellow {color: #FFCC29;}
+.orange {color: #F58634;}
+.MSUGreen {color: #14853B;}
+</style>
+
+
+```{r flair_color, echo=FALSE}
+library(flair)
+yellow <- "#FFCC29"
+orange <- "#F58634"
+MSUGreen <- "#14853B"
+```
+
+
+```{r, eval=FALSE}
+
+#BELOW IS WHERE YOU ADD CONTENT. KEEP ABOVE CONSTAN EXCEPT TITLE.
+
+```
+
+---
+
+class: inverseMSU
+name: Overview
+
+# Today
+
+###  **Our Outline:**
+
+
+
+(1) [About Me](#section1)
+
+(2) [Is This Course Right for You?](#section2)
+
+(3) [What Can You Expect?](#section3)
+
+(4) [How Will You Be Evaluated?](#section4)
+
+(5) [What Even Is Behavioral Economics?](#section5)
+
+
+---
+class: MSU
+name: section1
+#About Me
+
+I arrived at MSU in 2017. I was previously at Harvard.
+
+--
+
+This class is a grab-bag of material from:
+
+- Harvard University (graduate course)
+- University of California, Berkeley (graduate course)
+- UC San Diego (graduate course)
+- Cornell (undergraduate course)
+- ...so, yeah, it will be challenging. Hopefully, you'll find it fun!
+
+--
+
+### My research
+I study a number of topics in psychology and economics, many which we will cover this term.
+
+---
+
+class: inverseMSU
+
+## New Year, New You
+
+> By the time most people reach this course, their *curiosity* for learning economics has diminished greatly.
+
+--
+
+My goal is to reignite that fire.
+
+--
+
+I want to remind you (or show you for the first time) that economics is a powerful tool for understanding the world that we all jointly inhabit.
+
+  - Perhaps the deepest way to understanding our world is found from following the age-old wisdom *know thyself*.
+
+--
+
+Or, following the slightly-more-modern credo of Ted Lasso:
+### *Be curious, not judgemental.*
+
+---
+
+class: MSU
+name: section2
+# Introduction to EC404
+
+Everything is posted on a course website: ec404.netlify.app
+
+--
+
+> Yes, I am aware this is the dumbest URL of all time.
+
+--
+
+The syllabus is there. Don't open it now. Read it later -- it's long.
+
+> But eventually, please read it. It is "required."
+
+--
+
+###Syllabus highlights:
+- Grade is composed of problem sets, exams, and a written assignment.
+	- Problem Sets: 30%
+	- Exams: 60%
+	- Writing Assignment: 10%
+- Exams will follow from and extend problem sets.
+- Writing assignment will be straightforward, I promise.
+	- (Writing assignment fulfills MSU requirement for Tier II writing)
+
+---
+
+class: MSU
+name: section3
+# Introduction to EC404
+
+### The Course In One (Frightening) Line
+
+I teach using "math".
+
+> ...Don't be afraid. The math won't bite you.
+
+### Why do I do this?
+
+Intuitions in *psychology* are important. But intuitions are often misleading. Our comparative advantage as *economists* is in formalism: specifically defining ideas and clearly spelling out the implications of assumptions.
+
+- This is good (economists shape policy more than other social sciences)
+- $\dots$ but bad (you have to be open-minded to learning ideas through the lens of mathematics).
+
+
+---
+
+class: MSU
+
+#Introduction: Your Responsibilities
+
+Come to class. Not totally required, but for realz it will be hard to pass if you don't come to lecture.
+
+--
+
+__Ask questions.__ Please. There are no bad questions *(yes there are)* even if I mock the question a little bit. (I *probably* won't.)
+
+--
+
+And I want to learn all your names. Seriously.
+- Unless I know your name, I will call on you as ... That Guy.
+
+--
+
+- If you are That Guy, then...
+  - ugh, do better. Nobody wants to be That Guy.
+  - And don't be a smart-ass, just give me your name.
+
+--
+
+Be patient...
+
+My memory is bad and there are lots of you
+  $\dots$but only one *YOU*.
+
+
+---
+
+class: MSU
+name: section3
+
+#Introduction: This Course
+
+There is __no text__ for this course.
+
+--
+
+- That's good (yay, no book) and bad (you need to come to lecture, pay attention, and ask questions).
+
+--
+
+__Please please please please please:__ come to office hours.
+
+- Some of the problems on problem sets and exams are quite hard.
+- Sometimes the material itself will be confusing or interesting---or both!
+- Office hours are the best way to get answers to any questions (even not-quite-fully-thought-out questions or silly questions).
+
+__Return of the Please:__ Ask questions in class.
+
+--
+
+> I get bored easily.
+
+$\dots$and, more importantly, the material is best understood by frequently, deeply engaging with the subject matter.
+
+---
+
+class: MSU
+name: section3
+
+#Introduction: Strategies for Success
+
+What this means concretely: problem sets are how you'll really learn the material.
+
+--
+
+Since there is little-to-no reading, you should plan on allocating more time than average to these problem sets.
+
+--
+
+A sample comment from fall semester 2020:
+
+> The difficulty of the class was a bit ridiculous. Prof. was reasonable grading HW assignments and writing assignments but would make exams significantly different than other example problems. Literally stated before the exam "you can use 1 page as a note sheet for the exam and can write anything you want on it, but it won't actually help you".
+
+--
+
+- I have done nothing to address this comment.
+  - (Other feedback was more positive)
+
+--
+
+If you are concerned about the style or substance of this course, please come talk to me.
+
+---
+
+class: MSU
+name: section4
+
+# Introduction: Evaluations in EC404
+
+__I hate grading.__
+
+Nevertheless, it is a part of the college experience.
+
+--
+
+A note on grades:
+
+You are *entitled* to the raw score grade that you have earned based on the syllabus.
+
+--
+
+- "Standard" cutoffs apply
+  - above 92% $\rightarrow$ 4.0
+  - 87-92% $\rightarrow$ 3.5
+  - 82-97% $\rightarrow$ 3.0
+  - 77-82% $\rightarrow$ 2.5
+  - $\dots$ you get the idea. Also, if you're looking down here, aim higher.
+
+--
+
+However, I reserve the right to *increase* grades.
+
+--
+
+- I'm aware that the course is hard. It's meant to be hard.
+
+
+---
+
+class: MSU
+
+# Introduction: *Mea Culpa*
+
+Because this is a new-ish course:
+
+- Some of the lectures might be too long or too short.
+- Some of the content won't make sense (mostly due to me making verbal misstatements or algebraic errors)
+- Some of the time I'll forget what I intended to say and awkwardly stare at you for a few moments (sorry).
+
+--
+
+Please comment throughout the course, not just at the end.
+
+The material will improve with time and feedback.
+
+--
+
+I encourage thoughtful feedback and thoughtful responses to questions. If I call on you and you don't know immediately, don't freak out. Take your time. Relax. If you don't know after a minute, it's okay to say you don't know.
+
+  - I will try to avoid asking questions that you won't know.
+
+---
+
+class: MSU
+
+
+# (Almost) Last Intro Slide
+
+Your "assignment": read syllabus.
+
+Things to stress from syllabus:
+	- E-mail is the best way to contact me, but please compose your email in a clear way.
+	- No appointments necessary for regularly scheduled office hours (Thurs, 3:15 - 4:30).
+	- Can only reschedule exams (with good reason) if you tell me *before* the exam.
+	- Notify me immediately if you need accommodations because of RCPD or religious convictions.
+
+Despite my hard-assness in these intro slides: I'm here to help. Those who seek help early and often will benefit.
+
+---
+
+class: MSU
+# Actual Last Intro Slide
+
+Yes, this course is hard. But I want you to succeed and it's hard for a reason.
+
+--
+
+Every problem has a purpose. If you want to know why something is assigned, ask me and I'll let you know why I'm forcing you to struggle through it.
+
+--
+
+## My vow to you: I care about you as a student and person and I'll try really f&*%$ing hard to make this course the most enjoyable and enriching of your college years.
+
+---
+
+class: MSU
+name: section5
+
+#Intro to Behavioral Economics
+
+We're here to understand the economic outcomes that we observe in the world, and to design policies to improve those outcomes.
+
+--
+
+**Our (specific) goal in this course:** To use and embrace the
+- substance
+- techniques
+- annoying mathematical notation, and, most importantly,
+- goals
+
+--
+  -  tractable models with economic consequences
+	- (not mere psychological accuracy)
+	- ability to do comparative statics
+	- calibrational relevance, and
+	- empirical implementability
+
+--
+
+of standard economic analysis, but focus on introducing psychological factors often under-emphasized by economists.
+
+---
+
+class: MSU
+
+#	What is "behavioral economics"?
+
+## What is behavioral economics?
+
+In short, behavioral economics attempts to incorporate more realistic assumptions into economics, both to better understand the behaviors we see in the world and to improve our analyses of welfare and policy.
+
+--
+
+Some "standard" economic assumptions:
+
+--
+		- People treat gains and losses symmetrically.
+
+--
+		- People behave exactly as they plan.
+
+--
+		- People care only about themselves (pure self-interest).
+
+--
+		- People are Bayesian information processors.
+
+--
+		- People behave in their own best interests.
+
+--
+
+Starting point for behavioral economics:
+
+> Evidence from psychology casts doubt on all of these (and other) "standard" assumptions.
+
+---
+
+class: MSU
+
+#	"Behavioral economics" (cont.)
+
+Goal of behavioral economics:
+	- Incorporate insights from psychology to do better economics!
+
+--
+
+E.g., perhaps we can better understand savings-consumption behavior, or labor-market behavior, or the consumption of addictive products, or other economic behaviors if we let our analyses be guided by insights from psychology and related fields.
+
+--
+
+A closely related field: "behavioral decision research"
+  (also known as judgement and decision making):
+
+- Behavioral decision research attempts __to develop__ descriptively accurate models of human judgment and human decision making.
+- Behavioral economics attempts __to apply__ these models (or simplified versions) to do better economics.
+
+
+--
+
+> No bright lines between these two fields!
+
+---
+
+class: MSU
+
+#EC404 and Behavioral Economics
+
+Two things this course is __NOT__:
+
+- Psychology taught by an economist.
+  - Again, the goal is to incorporate insights from psychology to do better __economics__.
+
+  $\Longrightarrow$ Major focus on economic methodology.
+
+  $\Longrightarrow$ Benchmark is standard economic model.
+
+--
+
+- Behavioral finance.
+	- We will not spend any time talking about determination of asset prices.
+	- Don't ask me how to invest.
+> Okay, I'll tell you. Buy low-cost index funds and forget about them for a long time.
+	- But we will occasionally discuss implications of behavioral phenomena for how people make financial decisions.
+
+---
+
+class: MSU
+
+# Evolution of Behavioral Economics
+
+## Some Prominent Names
+Two psychologists initiated the field of judgment & decision making:
+	- Daniel Kahneman \& Amos Tversky
+
+--
+
+The first behavioral economist:
+		- Richard Thaler
+		- the real first: Herbert Simon
+		- the real real first: Adam Smith
+
+--
+
+Some influential experimental economists:
+	- Vernon Smith, Charlie Plott, Al Roth
+
+
+---
+class: MSU
+
+# Evolution of Behavioral Economics
+## More Prominent Names
+
+Some early prominent behavioral economists:
+	- George Akerlof, George Loewenstein, Matthew Rabin, Colin Camerer, Ernst Fehr, David Laibson
+
+Current-gen prominent behavioral economists:
+	- Nava Ashraf, Botond Koszegi, Stefano DellaVigna, Ulrike Malmendier, Nick Barberis. Future: Supreet Kaur, Dmitry Taubinsky, Justin Sydnor, Josh Schwartzstein, many many others!
+
+---
+class: MSU
+
+# The Typical Arc for Each Topic
+
+- Review/learn the "standard model".
+
+--
+
+- Discuss evidence that contradicts the standard model
+	- "anomalies" : behaviors that are inconsistent with the standard model.
+	- Use experiments in class to demonstrate anomalies.
+
+--
+
+- Develop an alternative model motivated by that evidence.
+
+
+- Investigate the predictions of that alternative model for economic applications.
+
+- Discuss empirical tests of these predictions (when such tests exist).
+
+
+---
+
+class: MSU
+# Methodology
+
+First, two forms of "theory" :
+
+- __Abstract theory__: Define a stylized abstract environment, and analyze what models of decision making predict in that environment.
+
+--
+
+- __Applied theory__: Use abstract theory to analyze a real-world economic field context (an "application").
+
+Applied theory typically has three stages:
+
+- Stage 1: Translate a complex field context into a stylized abstract environment (often loose and imprecise, and requires good judgment and intuition).
+
+- Stage 2: Analyze that stylized abstract environment as we would in abstract theory (super precise).
+
+- Stage 3: Relate the results back to the field context --- assess what we have learned, and robustness to different decisions at stage 1.
+
+---
+class: MSU
+# Theories in Economics
+
+Some comments on theories:
+- No theory is intended to be a complete and accurate representation of the world --- rather, theories are meant to be simple representations of the world designed to help us better understand the world.
+
+--
+
+- Theory are seldom "proven correct". We can only assess the usefulness of a particular theory, or compare the usefulness of two theories, in helping us to understand the world.
+
+--
+
+- Models in economics must trade off competing aims, and the science is augmented with a little "art". Goals include:
+  - Parsimony
+  - Tractability
+  - Conceptual insightfulness
+  - Generalizability (portability)
+  - Falsifiability
+  - Empirical accuracy
+  - Predictive precision
+
+---
+
+class: MSU
+# Other Methodologies
+
+Next, two forms of empirical analysis:
+
+- Analysis of experimental data.
+
+--
+
+	- An aside on experiments in class:
+	- Randomly occurring based on my whims / boredom
+	- Always voluntary
+	- Always use real money (mine, so come to class!)
+	- Almost always fun
+
+--
+
+- Analysis of field data.
+
+- Policy analysis --- behavioral economics is perhaps most important for its welfare implications.
+
+> Given time constraints, this last topic will suffer.
+
+---
+class: MSU
+# Thats It
+
+### You've made it to the end of the introduction.
+
+--
