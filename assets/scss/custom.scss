@@ -40,6 +40,35 @@ kbd {
     max-width: 960px;
 }
 
+.docs-search {
+    display: none !important;
+
+    @media (max-width: 768px) {
+        display: block !important;
+    }
+}
+
+.docs-links {
+    padding-top: 2rem;
+    max-height: calc(100vh - 4rem - 0px);
+
+    .docs-toc-link {
+        line-height: 1.2;
+    }
+}
+
+.docs-toc-item {
+    padding-top: 0.75rem;
+}
+
+.docs-links .docs-toc-item:first-child {
+    padding-top: 0;
+}
+
+.docs-toc {
+    padding-top: 2rem;
+}
+
 .docs-article-container {
     max-width: 960px;
 }
