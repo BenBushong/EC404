@@ -118,6 +118,9 @@ lessons:
     #example: "11-example"
     #assignment: "11-assignment"
 
+  - title: '<span class="fake-header-table">Altruism, Fairness, and Social Preferencess</span>'
+    header: True
+
   - title: 'The Standard Model: Self Interest'
     session: 16
     date: "Week 11 (15 November)"
