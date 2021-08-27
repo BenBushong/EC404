@@ -514,7 +514,7 @@ class: MSU
 
 ## Some Prominent Names
 Two psychologists initiated the field of judgment & decision making:
-	- Daniel Kahneman \& Amos Tversky
+	- Daniel Kahneman & Amos Tversky
 
 --
 
@@ -538,9 +538,13 @@ class: MSU
 Some early prominent behavioral economists:
 	- George Akerlof, George Loewenstein, Matthew Rabin, Colin Camerer, Ernst Fehr, David Laibson
 
+--
+
 Current-gen prominent behavioral economists:
 	- Nava Ashraf, Botond Koszegi, Stefano DellaVigna, Ulrike Malmendier, Nick Barberis.
-  - Future: Supreet Kaur, Dmitry Taubinsky, Justin Sydnor, Josh Schwartzstein, many others!
+
+Current up-and-comers $\to$ Future leaders: 
+  - Supreet Kaur, Dmitry Taubinsky, Justin Sydnor, Josh Schwartzstein, many others!
 
 ---
 class: MSU
@@ -635,8 +639,10 @@ Next, two forms of empirical analysis:
 
 ---
 class: MSU
-# Thats It
+# That's It
 
 ### You've made it to the end of the introduction.
+
+This class will be fun. Probably. Maybe. Hopefully? 
 
 --
