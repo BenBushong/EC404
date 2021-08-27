@@ -117,11 +117,11 @@ course:
   number: "EC404"
   semester: "Fall Semester 2021"
   days: "Tuesday and Thursday"
-  time: "1:00pm - 2:20pm"
+  time: "2:40pm - 4:00pm"
   dates: "September – December, 2021"
   copyrightYear: "2021"
   slack: "https://join.slack.com/t/ssc442/shared_invite/zt-tvhy49fn-JaFoEfpB9DBGjHKfornREQ"
-  office_hours: = "Tuesdays 4:30pm - 5:30pm"
+  office_hours: = "Thursdays 4:15pm - 5:15pm"
 
 university:
   name: Michigan State University

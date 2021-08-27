@@ -539,7 +539,8 @@ Some early prominent behavioral economists:
 	- George Akerlof, George Loewenstein, Matthew Rabin, Colin Camerer, Ernst Fehr, David Laibson
 
 Current-gen prominent behavioral economists:
-	- Nava Ashraf, Botond Koszegi, Stefano DellaVigna, Ulrike Malmendier, Nick Barberis. Future: Supreet Kaur, Dmitry Taubinsky, Justin Sydnor, Josh Schwartzstein, many many others!
+	- Nava Ashraf, Botond Koszegi, Stefano DellaVigna, Ulrike Malmendier, Nick Barberis.
+  - Future: Supreet Kaur, Dmitry Taubinsky, Justin Sydnor, Josh Schwartzstein, many others!
 
 ---
 class: MSU
