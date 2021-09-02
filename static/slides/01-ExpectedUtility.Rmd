@@ -1,0 +1,843 @@
+---
+title: "Introduction to Behavioral Economics"
+subtitle: "EC404; Fall 2021"
+author: "Prof. Ben Bushong"
+date: "Last updated `r format(Sys.Date(), '%B %d, %Y')`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    yolo: false
+    css: [default, metropolis, "EC404.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+    incremental: true
+name: "Cover"
+
+
+---
+```{r setup, include=FALSE}
+
+options(htmltools.dir.version = FALSE)
+options("getSymbols.warning4.0"=FALSE)
+
+
+library(here) # creates absolute paths, but those won't work in html
+library(knitr)
+library(kableExtra)
+library(tidyverse)
+library(wooldridge)
+require(lubridate)
+require(scales)
+require(broom)
+require(visualize)
+
+require(wbstats)
+require(lmtest)
+require(sandwich)
+require(car)
+require(quantmod)
+require(patchwork)
+
+
+
+# https://yihui.org/knitr/options/
+opts_chunk$set(
+  fig.align="center",
+  #dpi=300,
+  fig.path='figs/', # where figs are rendered
+  cache=F,
+  echo=F,
+  message = F,
+  warning = F
+  )
+
+```
+
+layout: true
+
+<div class="msu-header"></div>
+<div style = "position:fixed; visibility: hidden">
+$$\require{color}\definecolor{yellow}{rgb}{1, 0.8, 0.16078431372549}$$
+$$\require{color}\definecolor{orange}{rgb}{0.96078431372549, 0.525490196078431, 0.203921568627451}$$
+$$\require{color}\definecolor{MSUgreen}{rgb}{0.0784313725490196, 0.52156862745098, 0.231372549019608}$$
+</div>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: {
+    Macros: {
+      yellow: ["{\\color{yellow}{#1}}", 1],
+      orange: ["{\\color{orange}{#1}}", 1],
+      MSUgreen: ["{\\color{MSUgreen}{#1}}", 1]
+    },
+    loader: {load: ['[tex]/color']},
+    tex: {packages: {'[+]': ['color']}}
+  }
+});
+</script>
+
+<style>
+.yellow {color: #FFCC29;}
+.orange {color: #F58634;}
+.MSUGreen {color: #14853B;}
+</style>
+
+
+```{r flair_color, echo=FALSE}
+library(flair)
+yellow <- "#FFCC29"
+orange <- "#F58634"
+MSUGreen <- "#14853B"
+```
+
+
+```{r, eval=FALSE}
+
+#BELOW IS WHERE YOU ADD CONTENT. KEEP ABOVE CONSTAN EXCEPT TITLE.
+
+```
+
+---
+
+class: inverseMSU
+name: Overview
+
+# Today
+
+###  **Our Outline:**
+
+
+
+(1) [Guiding Principles](#section1)
+
+(2) [Is This Course Right for You?](#section2)
+
+(3) [What Can You Expect?](#section3)
+
+(4) [How Will You Be Evaluated?](#section4)
+
+(5) [What Even Is Behavioral Economics?](#section5)
+
+
+---
+
+class: inverseMSU
+
+# Guiding Principle \#1: Carefully Define Your Environment
+
+My view: it is impossible to operate without precise definitions of things.
+
+- E.g., if we don't define what it means for someone to "get sick", we can have annoying conversations about appropriate health policy.
+
+--
+
+This rings especially true when we try to deal with "intuitive" things like "risk".
+
+> Your task: understand the definitions in this course. They are precise.
+
+--
+
+1. What are the arguments of the utility function?
+2. Can a risk-loving person choose $10 for sure over a gamble between $0 and $14? Why or why not?
+
+---
+
+# A Historical Perspective
+
+The study of risk is perhaps the oldest element of "decision science" or behavioral economics.
+
+--
+
+Renaissance, scientists and mathematicians such as Girolamo Cardano mused about probability and concocted puzzles around games of chance.
+
+- Franciscan monk Luca Pacioli proposed "the problem of points", which asks how one should divide the stakes in an incomplete game.
+- "Fast forward" to 1654: French mathematicians Blaise Pascal and Pierre de Fermat developed a way to determine the likelihood of each possible result of a simple game (balla, which had fascinated Pacioli).
+- "Fun" fact: the problem of points led directly to the first mathematical proofs by induction and the development of Pascal's infamous triangle.
+
+--
+
+Today's lecture will cover insights from the mid 18th century to modern approaches.
+
+---
+class: MSU
+
+# Defining the Environment
+
+__Definition__: A *lottery* (or *gamble* or *risky prospect*) is a set of possible outcomes and a probability of each outcome occurring.
+
+--
+
+***
+
+__Example A:__ If you go to a roulette table and place \$10 on \textbf{black}, you have just purchased a lottery. With probability $18/38$ you will receive \$20, and with probability $20/38$ you will receive \$0.
+
+--
+
+__Example B:__ When you buy a new car, you are buying a lottery. For instance, it might be that with probability $1/2$ it will be a car that you love (high value), with probability $2/5$ it will be a car that only adequately serves your needs (low value), and with probability $1/10$ it will be a "lemon" (worthless).
+
+> Side note: why do we call them lemons? Lemons are fine. Were other citrus fruits considered?
+
+--
+__Example C:__ More abstractly, you might get $x_{1}$ with probability $p_{1}$, $ x_{2}$ with probability $p_{2}$, and $x_{3}$ with probability $p_{3}$ (where $p_{1}+p_{2}+p_{3}=1$).
+
+---
+class: MSU
+
+# Defining the Environment
+
+Ways to write lotteries:
+
+1. As a probability tree.
+
+--
+
+2. As a vector of outcome-probability pairs:
+
+__Example A:__ Payoff $=($ $\$20,18/38$ $;$ $\$0,20/38$ $)$.
+
+__Example B:__ Car Value $=($ high$,1/2$ $;$ low$,2/5$ $;$ worthless$,1/10)$.
+
+--
+
+3. As a type of equation:
+
+Example A:
+\[
+\text{Payoff }=\left\{
+\begin{array}{ccc}
+\$20 &  & \text{with prob }18/38 \\
+\$0 &  & \text{with prob }20/38%
+\end{array} \right.
+\]
+
+Example B:
+\[
+\text{Car Value }=\left\{
+\begin{array}{ccl}
+\text{high value} &  & \text{with prob }1/2 \\
+\text{low value} &  & \text{with prob }2/5 \\
+\text{worthless} &  & \text{with prob }1/10%
+\end{array}%
+\right.
+\]
+
+---
+
+
+
+%EndExpansion
+
+%TCIMACRO{\TeXButton{BeginFrame}{}}%
+%BeginExpansion
+%
+	%EndExpansion
+
+	#Defining the Environment}
+
+	In the realm of choice under uncertainty, we examine people's choices of lotteries.
+
+	\vspace*{.3in}
+
+	Next step: Develop models of behavior.
+
+	\vspace*{.1in}
+
+	\begin{itemize}
+		\item Suppose you face a choice between two lotteries. How do you decide?
+	\end{itemize}
+
+	%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+	%BeginExpansion
+\end{frame}%
+%EndExpansion
+
+%TCIMACRO{\TeXButton{BeginFrame}{}}%
+%BeginExpansion
+%
+	%EndExpansion
+
+	#Model \#1: Expected Value Theory (EV)}
+
+	One model of behavior: People choose the option with the largest
+	\textquotedblleft expected value\textquotedblright.
+
+	\vspace*{0.2in}
+
+	\underline{\textbf{Definition}}: The \emph{expected value} of a lottery $%
+	\mathbf{x}=($ $x_{1},p_{1}$ $;$ $...$ $;$ $x_{n},p_{n}$ $)$ is
+	\[
+	EV(\mathbf{x})\equiv \sum_{i=1}^{n}\;p_{i}\;x_{i}\text{.}
+	\]
+
+	\vspace*{0.2in}
+
+	E.g. the expected value of a 50/50 gamble in which you might win \$10 and  otherwise win nothing is \$5.
+
+	%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+	%BeginExpansion
+\end{frame}%
+%EndExpansion
+
+%TCIMACRO{\TeXButton{BeginFrame}{}}%
+%BeginExpansion
+%
+	%EndExpansion
+
+	#A Problem for EV}
+
+	\underline{St. Petersburg Paradox} (Bernoulli, 1713)
+
+	Consider the following bet: I'm going to flip a coin, and I'm going to keep
+	on flipping it until I flip a HEADS. Then you'll be paid as a function of
+	how many times we flip.  Specifically:
+
+	\begin{itemize}
+		\item If I immediately flip a HEADS, you get \$2.
+
+		\item If I flip one TAILS and then a HEADS, you get \$4.
+
+		\item If I flip two TAILS and then a HEADS, you get \$8.
+
+		\item If I flip three TAILS and then a HEADS, you get \$16.
+
+		\item And so forth....
+	\end{itemize}
+
+	How much are you willing to pay for this bet?
+
+	\vspace*{0.1in}
+
+	How much would an expected-value maximizer pay?
+
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}
+
+	The \textquotedblleft paradox\textquotedblright :
+
+	\begin{itemize}
+		\item The $EV$ of this bet is $\infty $, but people are unwilling to pay
+		much for it. Hence, $EV$ is not a good description of people's choices.
+	\end{itemize}
+
+	%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+	%BeginExpansion
+\end{frame}%
+%EndExpansion
+
+
+	#St. Petersburg Paradox}
+
+	\begin{quotation}
+		\noindent “Now it is highly probable that any increase in wealth, no matter how insignificant, will always result in an increase in utility which is inversely proportionate to the quantity of goods already possessed.”
+
+		Bernouilli, 1738 (translated in 1954)
+	\end{quotation}
+
+\vspace*{0.2in}
+
+\underline{Bernoulli's observation:}
+\begin{itemize}
+	\item People have \textbf{\alert{diminishing marginal utility}} of money.
+	\item Just because the gamble is worth infinite money does not mean it is infinitely valuable to a would-be gambler.
+\end{itemize}
+
+\vspace*{0.1in}
+
+\alert{Immediate implication:} People should maximize \textbf{utility}, not money.
+
+\vspace*{0.1in}
+
+\alert{Implication 2:} Maximizing utility implies people turn down many risks.
+
+\end{frame}
+
+
+
+%TCIMACRO{\TeXButton{BeginFrame}{}}%
+%BeginExpansion
+%
+	%EndExpansion
+
+	#What's Missing from EV? \textquotedblleft Risk
+		Aversion\textquotedblright }
+
+	\underline{\textbf{Definition}}: A person is \emph{risk-averse} if for any
+	(risky) lottery $\mathbf{x}$ she prefers to have $EV(\mathbf{x})$ for sure
+	instead of lottery $\mathbf{x}$.
+
+	\vspace*{.2in}
+
+	\underline{\textbf{Definition}}: A person is \emph{risk-neutral} if for any
+	(risky) lottery $\mathbf{x}$ she is indifferent between $EV(\mathbf{x})$ for
+	sure vs. lottery $\mathbf{x}$.
+
+	\vspace*{0.2in}
+
+	\underline{\textbf{Definition}}: A person is \emph{risk-loving} if for any
+	(risky) lottery $\mathbf{x}$ she prefers to have lottery $\mathbf{x}$
+	instead of $EV(\mathbf{x})$ for sure.
+
+	\vspace*{0.2in}
+
+	$\Longrightarrow $ Evidence suggests people are risk-averse.
+
+	\vspace*{0.2in}
+
+	$\Longrightarrow $ Also your intuition suggests people are risk-averse.
+
+	\vspace*{0.2in}
+
+	\qquad ...except it's not true all the time and we'll discuss this later.
+
+	%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+	%BeginExpansion
+\end{frame}%
+%EndExpansion
+
+%TCIMACRO{\TeXButton{BeginFrame}{}}%
+%BeginExpansion
+%
+	%EndExpansion
+
+	#Model \#2: Expected Utility Theory (EU)}
+
+	A second model of behavior, building on economic models and Bernoulli's intuition: People choose the option with the largest\newline
+	\textquotedblleft expected utility\textquotedblright.
+
+	\vspace*{0.2in}
+
+	\underline{\textbf{Definition}}: The \emph{expected utility} of a lottery $%
+	\mathbf{x}=(x_{1},p_{1};...;x_{n},p_{n})$ is
+	\[
+	EU(\mathbf{x})\equiv \sum_{i=1}^{n}\;p_{i}\;u(x_{i})\text{.}
+	\]
+	for some function $u : \mathbb{R} \to \mathbb{R}$.
+
+
+
+	\vspace*{0.1in}
+
+
+
+	\alert{Reminder:} $u(x)$ is a mathematical representation of \textit{observable choices}.
+
+	%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+	%BeginExpansion
+\end{frame}%
+%EndExpansion
+
+%TCIMACRO{\TeXButton{BeginFrame}{}}%
+%BeginExpansion
+%
+	%EndExpansion
+
+	#Basic Implications of EU}
+
+
+	Could an expected-utility maximizer (EU maximizer) choose
+	\begin{center}
+		$(100,\frac{1}{2};0,\frac{1}{2})$ over $(100,\frac{1}{2};100,\frac{1}{2})$?
+	\end{center}
+
+	\vspace*{0.2in}
+
+	Could an expected-utility maximizer (EU maximizer) choose
+	\begin{center}
+		$(100,\frac{1}{2};0,\frac{1}{2})$ over $(100,\frac{1}{2};50,\frac{1}{2})$?
+	\end{center}
+
+	\vspace*{0.2in}
+
+	Could an expected-utility maximizer (EU maximizer) choose
+	\begin{center}
+		$(100,\frac{1}{2};0,\frac{1}{2})$ over $(200,\frac{1}{2};0,\frac{1}{2})$?
+	\end{center}
+
+	\vspace*{0.2in}
+
+	\alert{Point:} If we put no restrictions on the utility function $u(x)$, then
+	expected-utility theory can explain \textbf{any} individual choice
+
+	\vspace*{0.1in}
+
+	\qquad ...and we're left with a pretty unsatisfying theory of behavior.
+	%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+	%BeginExpansion
+\end{frame}%
+%EndExpansion
+
+%TCIMACRO{\TeXButton{BeginFrame}{}}%
+%BeginExpansion
+%
+	%EndExpansion
+
+	#Basic Implications of EU}
+
+	\underline{Three Comments}:
+
+	\vspace*{.1in}
+
+	(1) We say that expected-utility theory can \textquotedblleft
+	explain\textquotedblright\ a choice if there exists a utility function $u(x)$
+	such that an EU maximizer with utility function $u(x)$ would make that
+	choice.
+
+	\vspace*{.1in}
+
+	(2) Even when we put no restrictions on the utility function $u(x)$,
+	although an individual choice cannot violate EU, combinations of choices can
+	violate EU.
+
+	\begin{itemize}
+		\item E.g.,
+		\begin{tabular}[t]{lccc}
+			& $(100,\frac{1}{2};0,\frac{1}{2})$ & $\succ $ & $(200,\frac{1}{2};0,\frac{1%
+			}{2})$ \\
+			&  &  &  \\
+			AND & $(100,\frac{1}{3};500,\frac{2}{3})$ & $\prec $ & $(200,\frac{1}{3};500,%
+			\frac{2}{3})$%
+		\end{tabular}
+	\end{itemize}
+
+	\vspace*{.1in}
+
+	(3) When we put \alert{restrictions} on the utility function $u(x)$, then even an
+	individual choice could violate EU.
+
+	%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+	%BeginExpansion
+\end{frame}%
+%EndExpansion
+
+%TCIMACRO{\TeXButton{BeginFrame}{}}%
+%BeginExpansion
+%
+	%EndExpansion
+
+	#Basic Implications of EU}
+
+	A natural restriction: We virtually always assume that \emph{more is better}
+	--- that is, $u$ is increasing in $x$.
+
+	\vspace*{.1in}
+
+	\underline{\textbf{Definition}}: Lottery $\mathbf{x}$ \emph{dominates}
+	lottery $\mathbf{y}$ (or equivalently, lottery $\mathbf{y}$ \emph{is
+		dominated by} lottery $\mathbf{x}$) if for any amount $z$ the probability of
+	getting \underline{at least} $z$ in lottery $\mathbf{x}$ is larger than the
+	probability of getting \underline{at least} $z$ in lottery $\mathbf{y}$.
+
+
+
+	\vspace*{.1in}
+
+	\underline{Examples}:
+	\begin{center}
+	\begin{tabular}{ccc}
+		$(200,\frac{1}{2};0,\frac{1}{2})$ & vs.\quad & $(100,\frac{1}{2};0,\frac{1}{2%
+		})$ \\
+		&  &  \\
+		$(200,\frac{1}{2};0,\frac{1}{2})$ & vs.\quad & $(150,\frac{1}{2};50,\frac{1}{%
+			2})$ \\
+		&  &  \\
+		$(200,\frac{1}{3};150,\frac{1}{3},75,\frac{1}{3})$ & vs.\quad & $(150,\frac{1%
+		}{2};75,\frac{1}{2})$
+	\end{tabular}
+	\end{center}
+	\vspace*{.1in}
+
+	\underline{\textbf{Result}}: Under expected utility with more is better, a
+	person will never choose a dominated lottery.
+
+	%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+	%BeginExpansion
+\end{frame}%
+%EndExpansion
+
+%TCIMACRO{\TeXButton{BeginFrame}{}}%
+%BeginExpansion
+%
+	%EndExpansion
+
+	#Basic Implications of EU}
+
+	To incorporate risk-aversion (or risk-seeking), we must assume more about
+	the utility function.
+
+	\vspace*{.1in}
+
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}
+
+	\underline{\textbf{Result}}: Under expected-utility theory, a person is
+	risk-averse if and only if her utility function is concave ($u^{\prime
+		\prime }(x)<0$).
+
+	\vspace*{.1in}
+
+	\underline{\textbf{Result}}: Under expected-utility theory, a person is
+	risk-neutral if and only if her utility function is linear ($u^{\prime
+		\prime }(x)=0$).
+
+	\vspace*{.1in}
+
+	\underline{\textbf{Result}}: Under expected-utility theory, a person is
+	risk-loving if and only if her utility function is convex ($u^{\prime \prime
+	}(x)>0$).
+
+	\vspace*{.1in}
+
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}
+
+	Note: In this class, whenever we say that someone is a risk-averse (or
+	risk-neutral or risk-loving) expected-utility maximizer, we'll implicitly
+	assume more is better as well.
+
+	%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+	%BeginExpansion
+\end{frame}%
+%EndExpansion
+
+%TCIMACRO{\TeXButton{BeginFrame}{}}%
+%BeginExpansion
+%
+	%EndExpansion
+
+	#5 Features/Issues of Expected Utility}
+
+	(1)  The utility function is unique up to a positive affine
+	transformation.
+
+	\vspace*{.2in}
+
+		\underline{\textbf{Definition}}: The function $\tilde{u}(x)$ is a \emph{%
+		positive affine transformation} of the function $u(x)$ if $\tilde{u}%
+	(x)=a \cdot u(x)+b$ for some $a>0$ and any $b$.
+
+	\vspace*{0.2in}
+
+	\underline{\textbf{Definition}}: $\tilde{u}(x)$\emph{\ and }$u(x)$\emph{\
+		reflect the same preferences} if for any pair of lotteries $%
+	\mathbf{x}$ and $\mathbf{y}$
+	\[
+	EU(\mathbf{x})>EU(\mathbf{y})\text{ if and only if }E\tilde{U}(\mathbf{x})>E%
+	\tilde{U}(\mathbf{y}).
+	\]
+
+	\vspace*{0.05in}
+
+	\underline{\textbf{Theorem}}: $\tilde{u}(x)$ and $u(x)$ reflect the same
+	preferences \underline{if and only if} \newline
+	$\tilde{u}(x)$ is a positive affine transformation of $u(x)$.
+
+	\vspace*{.2in}
+
+	(2) Can $u(x)$ be negative? Can $EU(\mathbf{x})$ be negative?
+
+	\begin{itemize}
+		\item Answer: Sure. Consider $b=-1000000$.
+
+		\item Point: The level of utility doesn't matter, only the comparisons.
+	\end{itemize}
+
+	%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+	%BeginExpansion
+\end{frame}%
+%EndExpansion
+
+%TCIMACRO{\TeXButton{BeginFrame}{}}%
+%BeginExpansion
+%
+	%EndExpansion
+
+	#5 Features/Issues of Expected Utility}
+
+	(3) Integration: $EU$ operates on \textit{final wealth}.
+
+	\vspace*{0.2in}
+
+	\qquad So thus far we have been doing things a bit sloppily.
+
+	\vspace*{0.2in}
+
+	\underline{Proper way to use expected-utility theory}:
+
+	\vspace*{0.1in}
+
+	Let $w$ be a person's \emph{wealth}.
+
+	\vspace*{.05in}
+
+	Let $\mathbf{x}=\left( x_{1},p_{1};...;x_{n},p_{n}\right) $ be a lottery (or
+	gamble or risky prospect).
+
+	\begin{itemize}
+		\item Note: $\mathbf{x}$ yields \emph{income} $x_{i}$ with probability $%
+		p_{i} $.
+	\end{itemize}
+
+	\vspace*{.05in}
+
+	EU theory says evaluate prospect $\mathbf{x}$ according to:%
+	\[
+	EU\left( \mathbf{x};w\right) \equiv \sum_{i=1}^{n}\;p_{i}\;u(w+x_{i})\text{.}
+	\]
+
+	%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+	%BeginExpansion
+\end{frame}%
+%EndExpansion
+
+%TCIMACRO{\TeXButton{BeginFrame}{}}%
+%BeginExpansion
+%
+	%EndExpansion
+
+	#5 Features/Issues of Expected Utility}
+
+	(4) Closely related: $EU$ operates on \emph{reduced lotteries}.
+
+	\vspace*{.1in}
+
+	Example: If you face the possibility of both lottery $\mathbf{x}%
+	=(100,1/2;-90,1/2)$ and $\mathbf{y}=(95,1/2;-85,1/2)$, you must first
+	combine these into a reduced lottery before applying $EU$.
+
+	\vspace*{.1in}
+
+	\begin{itemize}
+		\item If they are independent, the reduced lottery is
+		\[
+		(\text{ }195,1/4\text{ };\text{ }15,1/4\text{ };\text{ }5,1/4\text{ };\text{
+		}-175,1/4\text{ }).
+		\]
+
+		\item If they have perfect positive correlation, the reduced lottery is
+		\[
+		(\text{ }195,1/2\text{ };\text{ }-175,1/2\text{ }).
+		\]
+
+		\item If they have perfect negative correlation, the reduced lottery is
+		\[
+		(\text{ }15,1/2\text{ };\text{ }5,1/2\text{ }).
+		\]
+	\end{itemize}
+
+	%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+	%BeginExpansion
+\end{frame}%
+%EndExpansion
+
+
+%
+	%EndExpansion
+
+	#5 Features/Issues of Expected Utility}
+
+	(5) There is a natural mathematical way to describe the degree of risk aversion. (At least, it is natural in many ways, though opaque.)
+
+	\vspace*{.1in}
+
+	\textbf{Goal:} We'd like to make statements of the form, \textquotedblleft If person $%
+	A$ is more risk-averse than person $B$, then $A$ is less likely to accept a
+	particular gamble.\textquotedblright
+
+	\vspace*{.1in}
+
+	\textbf{Question:} How to formalize \textquotedblleft more risk
+	averse\textquotedblright ?
+
+	\vspace*{.1in}
+
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}
+
+	\underline{\textbf{Definition}}: The \emph{coefficient of risk aversion} at
+	wealth $w$ is%
+	\[
+	r(w)=\frac{-u^{\prime \prime }(w)}{u^{\prime }(w)}\text{.}
+	\]
+
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
+	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}
+
+	Suppose $w_{A}$ is person $A$'s wealth and $w_{B}$ is person $B$'s wealth.
+	If $r(w_{A})>r(w_{B})$ then person $A$ is less likely than person $B$ to
+	accept a risky gamble.
+
+	%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+	%BeginExpansion
+\end{frame}%
+%EndExpansion
+
+%TCIMACRO{\TeXButton{BeginFrame}{}}%
+%BeginExpansion
+%
+	%EndExpansion
+
+	#5 Features/Issues of Expected Utility}
+
+	Note: A person's risk aversion depends on both her utility function and her
+	wealth.%
+	\[
+	r(w)=\frac{-u^{\prime \prime }(w)}{u^{\prime }(w)}\text{.}
+	\]
+
+	\vspace*{0.1in}
+
+	How is one's willingness to accept a gamble likely to depend on my wealth?
+
+	\vspace*{.1in}
+
+	\begin{itemize}
+		\item Economists often \underline{assume} risk aversion decreases with
+		wealth:
+		\[
+		\uparrow w\Longrightarrow \downarrow r(w).
+		\]
+	\end{itemize}
+
+	%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+	%BeginExpansion
+\end{frame}%
+%EndExpansion
+
+%TCIMACRO{\TeXButton{BeginFrame}{}}%
+%BeginExpansion
+
+
+
+\end{document}
