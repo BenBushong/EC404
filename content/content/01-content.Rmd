@@ -31,7 +31,8 @@ source(here::here("R/pdfize.R"))
 sections <- tibble::tribble(
   ~name, ~slide, ~active,
   "Top", "Cover", TRUE,
-  "Key Info", "section2", FALSE,
+  "Expected Value", "section4", FALSE,
+  "Expected Utility", "section6", FALSE,
  )
 slide_tabs(sections, "/slides/01-ExpectedUtility.html")
 pdfize(here::here("static/slides/01-ExpectedUtility.html"))

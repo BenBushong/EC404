@@ -120,6 +120,8 @@ name: Overview
 
 (5) [Risk Aversion](#section5)
 
+(6) [Expected Utility](#section6)
+
 
 ---
 
@@ -356,6 +358,7 @@ $\qquad$ ...except it's not true all the time and we'll discuss this later.
 class: MSU 
 
 # Expected Utility Theory (EU)
+name: section6
 
 A second model of behavior, building on economic models and Bernoulli's intuition: People choose the option with the largest "expected utility".
 
