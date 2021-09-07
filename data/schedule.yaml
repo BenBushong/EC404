@@ -14,7 +14,7 @@ lessons:
   - title: 'The Standard Model: Expected Utility'
     session: 2
     date: "Week 1 (6 September)"
-    #content: "01-content"
+    content: "01-content"
     #assignment: "01-assignment"
 
   - title: 'Evidence that Contradicts Expected Utility'
