@@ -19,7 +19,9 @@ library(pander)
 
 `r blogdown::shortcode("courseinfo")`
 
+### Office Hours
 
+My office hours are 5:15 - 6:15 on Thursdays. Zoom link [here](https://msu.zoom.us/j/2711311082) (Passcode: GODUCKS).
 
 ## What Is This Course and Can / Should You Take It?
 
@@ -194,7 +196,7 @@ Things for you might be especially hard right now.
 
 If you feel like you're behind or not understanding everything, **do not suffer in silence.** *Please* contact me. I'm available via [e-mail](mailto:bbushong@msu.edu); or come see me.
 
-As a final note on COVID---this term may have abrupt and wild changes. If you've been on this planet for the past year, you're well aware of what I'm talking about. If such a change happens, I will do my best to ensure that your experience in this course does not suffer. That said, I hope you will extend a bit of leeway in such a circumstance. 
+As a final note on COVID---this term may have abrupt and wild changes. If you've been on this planet for the past year, you're well aware of what I'm talking about. If such a change happens, I will do my best to ensure that your experience in this course does not suffer. That said, I hope you will extend a bit of leeway in such a circumstance.
 
 
 ### Mandated Reporting
