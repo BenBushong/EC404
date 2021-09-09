@@ -1,6 +1,6 @@
 ---
 title: "Choice under Uncertainty"
-linktitle: "1a: Expected Value and Utility"
+linktitle: "1a: The Standard Model"
 date: "2021-09-07"
 read_date: "2021-09-07"
 draft: false
@@ -22,6 +22,8 @@ slides: "01-ExpectedUtility"
 Every single set of class slides can be found on this course website. Use the buttons below to open the slides either as an interactive website or as a static PDF. You can also click in the slides below and navigate through them with your left and right arrow keys.
 
 Please note: you may experience some performance issues when opening the PDF file with Preview; Adobe Acrobat does not have these problems.
+
+### Part 1:
 
 `r blogdown::shortcode("slide-buttons")`
 

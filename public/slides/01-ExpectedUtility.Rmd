@@ -109,7 +109,6 @@ name: Overview
 ###  **Our Outline:**
 
 
-
 (1) [Guiding Principles](#section1)
 
 (2) [History of Risk](#section2)
@@ -121,6 +120,10 @@ name: Overview
 (5) [Risk Aversion](#section5)
 
 (6) [Expected Utility](#section6)
+
+(7) [CRRA Utility](#section7)
+
+(8) [Applications of Expected Utility](#section8)
 
 
 ---
@@ -146,9 +149,12 @@ This rings especially true when we try to deal with "intuitive" things like "ris
 
 1. What are the arguments of the utility function?
 2. Can a risk-loving person choose $10 for sure over a gamble between $0 and $14? Why or why not?
+3. What assumptions do economists typically make about how risk aversion depends on wealth? 
+
+(*) Using the definition of risk aversion from the class, how might we think about vacccine hesitancy? 
 
 ---
-class: MSU 
+class: MSU
 name: section2
 
 # A Historical Perspective
@@ -211,7 +217,7 @@ __Example B:__ Car Value $=($ high,1/2; low,2/5; worthless,1/10).
 --
 
 ---
-class: MSU 
+class: MSU
 # Depicting Lotteries
 
 - As a type of equation (see board in class):
@@ -220,9 +226,9 @@ Example B:
 
 | Car Value        | Probability   |
 | ------------- |:-------------:|
-| High     | 1/2 | 
-| Low      | 2/5      |  
-| Worthless      | 1/10      | 
+| High     | 1/2 |
+| Low      | 2/5      |
+| Worthless      | 1/10      |
 
 
 ---
@@ -291,7 +297,7 @@ __Simple Question:__ How much are you willing to pay for this bet?
 
 ---
 
-class: MSU 
+class: MSU
 
 # Your First "Paradox"
 
@@ -309,7 +315,7 @@ class: MSU
 
 ---
 
-class: MSU 
+class: MSU
 
 #Bernoulli's Observation
 
@@ -320,7 +326,7 @@ class: MSU
 
 __Immediate implication:__ People should maximize *utility*, not money.
 
-> What the f*^# does that mean? Aren't we just moving the goalposts? 
+> What the f*^# does that mean? Aren't we just moving the goalposts?
 
 --
 
@@ -331,7 +337,7 @@ __Implication 2:__ Maximizing utility implies people turn down many risks.
 class: MSU
 name: section5
 
-# What's Missing from EV? 
+# What's Missing from EV?
 
 Simple answer: risk aversion.
 
@@ -355,10 +361,11 @@ $\qquad$ ...except it's not true all the time and we'll discuss this later.
 
 ---
 
-class: MSU 
+class: MSU
+name: section6
 
 # Expected Utility Theory (EU)
-name: section6
+
 
 A second model of behavior, building on economic models and Bernoulli's intuition: People choose the option with the largest "expected utility".
 
@@ -378,7 +385,7 @@ for some function $u:\mathbb{R} \to \mathbb{R}$.
 
 ---
 
-class: MSU 
+class: MSU
 
 # Basic Implications of EU
 
@@ -405,7 +412,7 @@ $(100,\frac{1}{2};0,\frac{1}{2})$ over $(200,\frac{1}{2};0,\frac{1}{2})$?
 > ...and we're left with a pretty unsatisfying theory of behavior.
 
 ---
-class: MSU 
+class: MSU
 
 # Basic Implications of EU
 
@@ -417,11 +424,11 @@ class: MSU
 
 (2) Even when we put no restrictions on the utility function $u(x)$, although an individual choice cannot violate EU, combinations of choices can violate EU.
 
-E.g.: 
+E.g.:
 
 $(100,\frac{1}{2};0,\frac{1}{2}) \succ (200,\frac{1}{2};0,\frac{1}{2})$
 
-AND 
+AND
 
 $(100,\frac{1}{3};500,\frac{2}{3}) \prec (200,\frac{1}{3};500, \frac{2}{3})$
 
@@ -431,9 +438,9 @@ $(100,\frac{1}{3};500,\frac{2}{3}) \prec (200,\frac{1}{3};500, \frac{2}{3})$
 
 ---
 
-class: MSU 
+class: MSU
 
-# Basic Implications of EU 
+# Basic Implications of EU
 
 A natural restriction: We virtually always assume that **more is better** --- that is, $u$ is increasing in $x$.
 
@@ -445,14 +452,14 @@ A natural restriction: We virtually always assume that **more is better** --- th
 
 ### Examples:
 
-$(200,\frac{1}{2};0,\frac{1}{2})$ vs. $(100,\frac{1}{2};0,\frac{1}{2})$ 
+$(200,\frac{1}{2};0,\frac{1}{2})$ vs. $(100,\frac{1}{2};0,\frac{1}{2})$
 
 $(200,\frac{1}{2};0,\frac{1}{2})$ vs $(150,\frac{1}{2};50,\frac{1}{2})$
 
 $(200,\frac{1}{3};150,\frac{1}{3},75,\frac{1}{3})$ vs. $(150,\frac{1}{2};75,\frac{1}{2})$
 
 ---
-class: MSU 
+class: MSU
 
 # Basic Implications of EU
 
@@ -461,7 +468,7 @@ class: MSU
 **Result:** Under expected utility with more is better, a person will never choose a dominated lottery.
 
 ---
-class: MSU 
+class: MSU
 
 # Basic Implications of EU
 
@@ -485,7 +492,7 @@ Note: In this class, whenever we say that someone is a risk-averse (or risk-neut
 
 ---
 
-class: MSU 
+class: MSU
 
 #5 Features/Issues of EU
 
@@ -504,7 +511,7 @@ $$EU(\mathbf{x})>EU(\mathbf{y})\text{ if and only if }E\tilde{U}(\mathbf{x})>E\t
 
 ---
 
-class: MSU 
+class: MSU
 
 #5 Features/Issues of EU
 
@@ -516,9 +523,9 @@ class: MSU
 
 ---
 
-class: MSU 
+class: MSU
 
-#5 Features/Issues of EU 
+#5 Features/Issues of EU
 
 (3) Integration: $EU$ operates on *final wealth*.
 
@@ -536,13 +543,13 @@ Let $\mathbf{x}=\left( x_{1},p_{1};...;x_{n},p_{n}\right)$ be a lottery (or gamb
 
 --
 
-EU theory says evaluate prospect $\mathbf{x}$ according to:%
+EU theory says evaluate prospect $\mathbf{x}$ according to:
 
 $$EU\left( \mathbf{x};w\right) \equiv \sum_{i=1}^{n}\;p_{i}\;u(w+x_{i})\text{.}$$
 
 ---
 
-class: MSU 
+class: MSU
 
 #5 Features/Issues of Expected Utility
 
@@ -586,7 +593,7 @@ $$r(w)=\frac{-u^{\prime \prime }(w)}{u^{\prime }(w)}\text{.}$$
 Suppose $w_{A}$ is person $A$'s wealth and $w_{B}$ is person $B$'s wealth. If $r(w_{A})>r(w_{B})$ then person $A$ is less likely than person $B$ to accept a risky gamble.
 
 ---
-class: MSU 
+class: MSU
 
 #5 Features/Issues of Expected Utility
 
@@ -605,8 +612,299 @@ $$\uparrow w\Longrightarrow \downarrow r(w).$$
 
 ---
 
-class: inverseMSU 
+class: MSU
+name: section7
 
-# End Part 1
+# An Important Functional Form
 
-## Part 2 Coming Soon 
+**Definition** The *constant relative risk aversion (CRRA)* utility function is
+
+$$u(z)=\frac{(z)^{1-\rho }}{1-\rho }\qquad \qquad \text{for }\rho \in \lbrack 0,\infty )\text{.}$$
+
+--
+
+Some Features:
+
+1. For $\rho =0$, equivalent to $u(x)=x$, or risk neutrality.
+
+2. For $\rho =1$, equivalent to $u(x)=\ln x$.
+
+3. Note that $r(w)=\rho /w$, hence $\uparrow \rho \Longrightarrow \uparrow r(w)$ and $\uparrow w \Longrightarrow \downarrow r(w)$.
+
+---
+
+class: MSU
+
+# Features of CRRA Utility
+
+The functional form implies that a person feels the same about the following gambles:
+
+($11, 1/2; -$10, 1/2) from wealth $1000.
+
+($110, 1/2; -$100, 1/2) from wealth $10000
+
+($1100, 1/2; -$1000, 1/2) from wealth $100000.
+
+--
+
+Empirical studies suggest $\rho$ in the 1-5 range. (You'll explore what this means a bit later.)
+
+---
+
+class: MSU
+name: section8
+
+# Application: Demand for Insurance
+
+Suppose you have wealth $1000. (Sorry, poor students)
+
+But there is a 10% chance that you will suffer a loss of $250.
+
+--
+
+- Hence, you face the lottery $($ $1000,.9$ $;$ $750,.1$ $)$.
+
+--
+
+Insurance agent:
+>  I will fully insure you if you pay me $p
+
+--
+
+**Question 1:** What lottery do you face?
+
+---
+
+class: MSU
+
+# Application: Demand for Insurance
+
+### Applying Models to Real-World Settings
+
+*Implication:* If you buy insurance, you face the lottery: ($1000-p, 1).
+
+--
+
+**Question 2:** What is your willingness to pay for full insurance?
+
+--
+
+Answer: It's the $p^{\ast}$ such that
+
+$$(\text{ }1000-p^{\ast },1\text{ })\sim (\text{ }1000,.9\text{ };\text{ }750,.1\text{ })$$
+--
+
+or
+
+$$u(1000-p^{\ast })=(.9)\text{ }u(1000)+(.1)\text{ }u(750)\text{.}$$
+
+---
+
+class: MSU
+
+# Application: Demand for Insurance
+
+This was perhaps unrealistic. Suppose instead:
+
+- To insure against the entire $250 loss, it costs $p.
+- To insure against proportion $\alpha$ of the $250 loss, it costs $\alpha p$.
+
+--
+
+**Question 3:** What is the optimal $\alpha$?
+
+--
+
+Because $\alpha$ is continuous, use calculus:
+
+- Step 1: Derive final lottery as a function of $\alpha$.
+- Step 2: Calculate expected utility as a function of $\alpha$.
+- Step 3: Use calculus to solve for the optimal $\alpha$.
+
+---
+
+class: MSU
+
+# Application: Demand for Insurance
+
+As a function of the $\alpha$ you choose, final lottery is:
+
+$$\mathbf{x}(\alpha )=(\text{ }1000-\alpha p\text{ },\text{ }.9\text{ };\text{}750+(250-p)\alpha \text{ },\text{ }.1\text{ })\text{.}$$
+
+--
+
+As a function of the $\alpha$ you choose, expected utility is:
+
+$$EU(\mathbf{x}(\alpha ))=(.9)\text{ }u(1000-\alpha p)\text{ }+\text{ }(.1)\text{ }u(750+(250-p)\alpha )\text{.}$$
+
+---
+
+class: MSU
+
+
+# Application: Demand for Insurance
+
+**Definition:** Insurance is *actuarially fair* if the premium equals the expected payout.
+
+--
+
+**Definition:**  Insurance is *actuarially unfair* if the premium is larger than the expected payout; insurance is *actuarially overfair* if the premium is smaller than the expected payout.
+
+--
+
+Let's assume insurance is actuarially fair.
+
+- Back to our example: actuarially fair insurance means $p=(.10)(250)=$ $25.
+
+---
+
+class: MSU
+
+# Application: Demand for Insurance
+
+Substituting $p=25$ into $EU(\mathbf{x}(\alpha))$:
+
+$$EU(\mathbf{x}(\alpha ))=(.9)u(1000-25\alpha)+(.1)u(750+225\alpha )\text{.}$$
+
+--
+
+Now we need to do some calculus!
+
+--
+
+$\dots$ or do we?
+
+---
+
+class: MSU
+# Application: Demand for Insurance
+
+Let's first check the edge cases: $\alpha = 1$ and $\alpha = 0$.
+
+$$EU( \mathbf{x}(1)) =(.9)u(1000-25)+(.1)u(750+225)\text{.}$$
+$$= u(975)$$
+
+--
+
+And likewise:
+
+$$EU(\mathbf{x}(0))=(.9)u(1000)+(.1)u(750)\text{.}$$
+
+--
+
+**Question 4:** What does the above imply?
+
+---
+
+class: MSU
+
+# Application: Demand for Insurance
+
+
+**Definition:** A person is *risk-averse* if for any (risky) lottery $\mathbf{x}$ she prefers to have $EV(\mathbf{x})$ for sure instead of lottery $\mathbf{x}$.
+
+--
+
+**Implication:** If insurance is actuarially fair, and if you are risk averse, then you will choose to *fully* insure.
+
+--
+
+Moreover a risk-averse consumer will reach the same conclusion if insuring against $25,000 loss
+
+$\qquad \qquad \qquad \qquad \qquad \qquad$  ...or $250,000 loss
+
+--
+
+$\qquad \qquad \qquad \qquad \qquad \qquad$  ...or $25 loss.
+
+---
+
+class: MSU
+# Application: Demand for Insurance
+
+(A slightly different approach) Recall from... some math class you took:
+
+**Definition:** Function $f$ is *concave* if for any $x,y$ and any $\alpha \in [0,1]$
+
+$$f((1-\alpha)x + \alpha y) \geq (1-\alpha) f(x) + \alpha f(y)$$
+
+--
+
+Suppose that $u$ from the previous slide was concave. Reminder:
+
+$$EU(\mathbf{x}(\alpha ))=(.9)u(1000-25 \alpha )+(.1)u(750+225\alpha )\text{.}$$
+
+Applying concavity yields
+
+$$u(.9(1000- 25 \alpha) + .1(750 + 225 \alpha) \geq (.9)u(1000-\alpha 25)+(.1)u(750+225\alpha)$$
+
+--
+
+$$\Rightarrow u(975) \geq (.9)u(1000-\alpha 25)+(.1)u(750+225\alpha)$$
+
+---
+
+class: MSU
+
+# Application: Demand for Financial Assets
+
+Suppose you have wealth of $1000 --- you are, after all, a student--- and that you plan to invest it for one year and then spend it. There exist two assets in the world in which you might invest:
+
+- A *risk-free asset* that yields a certain return of $0.
+- A *risky asset* that yields a return of $50 with probability $1/2$ and a return of $-40 with probability $1/2$.
+
+--
+
+Let $\alpha$ be the amount you invest in the risky asset, so $1000-\alpha$ is the amount you invest in the risk-free asset. (Assume $0\leq \alpha \leq1000$.)
+
+--
+
+- If do well, final wealth $=(1000-\alpha )(1.00)+\alpha 1.50)=1000+\alpha (.50)$.
+- If do poorly, final wealth $=(1000-\alpha )(1.00)+\alpha (0.60)=1000-\alpha (.40)$.
+
+---
+
+class: MSU
+
+# Application: Demand for Financial Assets
+
+As a function of the $\alpha$ you choose, you face lottery:
+
+$$\mathbf{x} (\alpha )=(\text{ }1000+\alpha (.50)\text{ },\text{ }\frac{1}{2}\text{ };\text{ }1000-\alpha (.40)\text{ },\text{ }\frac{1}{2}\text{ })\text{.}$$
+
+--
+
+As a function of the $\alpha$ you choose, your expected utility is:
+
+$$EU(\mathbf{x} (\alpha))=\frac{1}{2}\text{ }u(1000+\alpha (.50))\text{ }+\text{ }\frac{1}{2}\text{ }u(1000-\alpha (.40))\text{.}$$
+
+---
+
+class: MSU
+
+# Expected Utility and Revealed Preferences
+
+Many people view expected utility as a good *normative* theory. Here's one reason why:
+
+--
+
+Axioms (properties about a person's choices over lotteries):
+
+1. Preferences are complete and transitive.
+2. Preferences are continuous.
+3. *Independence* axiom: If $\mathbf{x\succsim y}$, then for any lottery $\mathbf{z}$:
+
+$$(1-\alpha )\mathbf{x}+\alpha \mathbf{z}\succsim (1-\alpha )\mathbf{y} +\alpha \mathbf{z}~~\text{ for any }~~0<\alpha <1$$.
+
+--
+
+**Theorem:** A person's behavior can be described by expected utility theory if and only if her choices over lotteries are complete, transitive, continuous, and satisfy the independence axiom.
+
+---
+
+class: MSU
+# Expected Utility -- Conclusion
+
+$EU$ might be a desirable normative theory. You can decide.
+
+However, $EU$ seems to fail as a positive (descriptive) theory. That's where we'll go next....
