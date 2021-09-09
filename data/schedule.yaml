@@ -15,7 +15,7 @@ lessons:
     session: 2
     date: "Week 1 (6 September)"
     content: "01-content"
-    #assignment: "01-assignment"
+    assignment: "01-assignment"
 
   - title: 'Evidence that Contradicts Expected Utility'
     session: 3

@@ -41,6 +41,9 @@
 &lt;li class=&#34;nav-item&#34;&gt;
 &lt;a class=&#34;nav-link&#34; id=&#34;expected-utility-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#expected-utility&#34; role=&#34;tab&#34; aria-controls=&#34;expected-utility&#34; aria-selected=&#34;false&#34;&gt;Expected Utility&lt;/a&gt;
 &lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;
+&lt;a class=&#34;nav-link&#34; id=&#34;applications-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#applications&#34; role=&#34;tab&#34; aria-controls=&#34;applications&#34; aria-selected=&#34;false&#34;&gt;Applications&lt;/a&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div id=&#34;slide-tabs&#34; class=&#34;tab-content&#34;&gt;
 &lt;div id=&#34;top&#34; class=&#34;tab-pane fade show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;top-tab&#34;&gt;
@@ -58,6 +61,12 @@
 &lt;div id=&#34;expected-utility&#34; class=&#34;tab-pane fade&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;expected-utility-tab&#34;&gt;
 &lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
 &lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://ec404.netlify.app/slides/01-ExpectedUtility.html#section6&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;applications&#34; class=&#34;tab-pane fade&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;applications-tab&#34;&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
+&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://ec404.netlify.app/slides/01-ExpectedUtility.html#section8&#34;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/div&gt;
