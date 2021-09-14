@@ -20,7 +20,7 @@ lessons:
   - title: 'Evidence that Contradicts Expected Utility'
     session: 3
     date: "Week 2 (13 September)"
-    #content: "02-content"
+    content: "02-content"
     #assignment: "02-assignment"
 
   - title: 'An Alternative Model: Reference-Dependent Preferences'
