@@ -23,19 +23,19 @@ lessons:
     content: "02-content"
     #assignment: "02-assignment"
 
-  - title: 'An Alternative Model: Reference-Dependent Preferences'
+  - title: 'Prospect Theory'
     session: 4
-    date: "Week 2 (13 September)"
-    #content: "03-content"
-    #assignment: "03-assignment"
+    date: "Week 2 (16 September)"
+    content: "03-content"
+    #assignment: "02-assignment"
 
-  - title: 'Applications of Reference-Dependent Preferences'
+  - title: 'Applications of Propect Theory'
     session: 5
     date: "Week 3 (20 September)"
     #content: "03-content"
     #assignment: "03-assignment"
 
-  - title: 'A New Approach to Loss Aversion'
+  - title: 'Reference-Dependent Preferences'
     session: 6
     date: "Week 4 (27 September)"
     #content: "03-content"

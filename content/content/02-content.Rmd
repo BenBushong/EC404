@@ -1,5 +1,5 @@
 ---
-title: "Choice under Uncertainty"
+title: "Choice under Uncertainty: Evidence Contradicting the Standard Model"
 linktitle: "1b: Evidence"
 date: "2021-09-07"
 read_date: "2021-09-07"

@@ -1,5 +1,5 @@
 ---
-title: "Choice under Uncertainty"
+title: "Choice under Uncertainty: The Standard Model"
 linktitle: "1a: The Standard Model"
 date: "2021-09-07"
 read_date: "2021-09-07"
