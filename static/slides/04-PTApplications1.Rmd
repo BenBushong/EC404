@@ -1,0 +1,645 @@
+---
+title: "Choice under Uncertainty (Lecture 1d)"
+subtitle: "EC404; Fall 2021"
+author: "Prof. Ben Bushong"
+date: "Last updated `r format(Sys.Date(), '%B %d, %Y')`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    yolo: false
+    css: [default, metropolis, "EC404.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+    incremental: true
+name: "Cover"
+
+
+---
+```{r setup, include=FALSE}
+
+options(htmltools.dir.version = FALSE)
+options("getSymbols.warning4.0"=FALSE)
+
+
+library(here) # creates absolute paths, but those won't work in html
+library(knitr)
+library(kableExtra)
+library(tidyverse)
+library(wooldridge)
+require(lubridate)
+require(scales)
+require(broom)
+require(visualize)
+
+require(wbstats)
+require(lmtest)
+require(sandwich)
+require(car)
+require(quantmod)
+require(patchwork)
+
+
+
+# https://yihui.org/knitr/options/
+opts_chunk$set(
+  fig.align="center",
+  #dpi=300,
+  fig.path='figs/', # where figs are rendered
+  cache=F,
+  echo=F,
+  message = F,
+  warning = F
+  )
+
+```
+
+layout: true
+
+<div class="msu-header"></div>
+<div style = "position:fixed; visibility: hidden">
+$$\require{color}\definecolor{yellow}{rgb}{1, 0.8, 0.16078431372549}$$
+$$\require{color}\definecolor{orange}{rgb}{0.96078431372549, 0.525490196078431, 0.203921568627451}$$
+$$\require{color}\definecolor{MSUgreen}{rgb}{0.0784313725490196, 0.52156862745098, 0.231372549019608}$$
+</div>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: {
+    Macros: {
+      yellow: ["{\\color{yellow}{#1}}", 1],
+      orange: ["{\\color{orange}{#1}}", 1],
+      MSUgreen: ["{\\color{MSUgreen}{#1}}", 1]
+    },
+    loader: {load: ['[tex]/color']},
+    tex: {packages: {'[+]': ['color']}}
+  }
+});
+</script>
+
+<style>
+.yellow {color: #FFCC29;}
+.orange {color: #F58634;}
+.MSUGreen {color: #14853B;}
+</style>
+
+
+```{r flair_color, echo=FALSE}
+library(flair)
+yellow <- "#FFCC29"
+orange <- "#F58634"
+MSUGreen <- "#14853B"
+```
+
+
+```{r, eval=FALSE}
+
+#BELOW IS WHERE YOU ADD CONTENT. KEEP ABOVE CONSTAN EXCEPT TITLE.
+
+```
+
+---
+
+class: inverseMSU
+name: Overview
+
+# Today
+
+###  **Our Outline:**
+
+(Coming soon when all slides are covered)
+
+
+---
+
+class: inverseMSU
+name: Guide
+
+# Guiding Principles
+
+Here are the two we've discussed so far:
+
+## \#1: Carefully Define Your Environment
+
+## \#2: Use Extreme Cases to Clarify Your Thinking
+
+--
+
+Have you memorized the bold definitions?
+
+Have you tried thinking about extremes?
+
+--
+
+Have you come to office hours? (Answer: no).
+
+
+
+---
+class: MSU
+# Prospect Theory: A One-Slide Reminder
+
+A person evaluates a prospect $\left( x_1,p_1;\dots; x_n,p_n\right)$ according to:
+
+$$V\left( x_1,p_1;\dots; x_n,p_n\right) \quad =\sum_{i=1}^N \pi \left( p_i\right) v\left( x_i\right).$$
+
+--
+
+Notable features:
+
+- Value comes from **changes** in wealth, not absolute wealth
+- $\pi(p) \neq p$ implies people "mess up" probabilities
+- Otherwise similar to expected utility. **Not** radical!
+
+--
+
+A commonly assumed form of $v(\cdot)$ is
+
+$$v(x)=\{ x^{\alpha}\quad \text{ if }\quad x\geq 0$$
+$$\quad \quad \quad \lambda (x)^{\beta}\quad \text{if }\quad x\leq 0$$
+and we'll often just drop the exponents.
+
+---
+
+class: MSU
+# Applications of Prospect Theory
+
+For many years, expected utility has been used by economists to capture risk preferences. Indeed, it is still used in almost all applications.
+
+**But** economists are starting to recognize that some behaviors are hard to interpret in terms of expected utility; and for many such behaviors, prospect theory provides a natural interpretation.
+
+--
+
+To illustrate, we'll consider nine examples.
+
+- I suspect much more work in this area in coming years.
+
+- Only one example addresses probability weighting -- but I suspect it is running around in tons of seemingly-strange behaviors.
+
+---
+
+class: MSU
+# Application \#1: The Samuelson Bet
+
+### Example courtesy of Samuelson (1963)
+
+Consider the following bet:
+
+$$\text{win }\$200\text{ with prob }1/2$$
+$$\text{lose }\$100\text{ with prob }1/2$$
+
+--
+
+Samuelson's colleague turned down this bet, but announced that he would accept 100 plays of the same bet.
+
+--
+
+Samuelson proved that his colleague was "irrational" --- by proving that it is inconsistent with expected-utility theory to turn down the single bet but accept 100 such bets.
+
+--
+
+But **was** his colleague "irrational"?
+
+---
+class: MSU
+# Application \#1: The Samuelson Bet
+
+![](graphics/samuelsonbet.jpg)
+
+---
+
+class: MSU
+# Application \#1: The Samuelson Bet
+
+**Class discussion:** Suppose that a person turns down the bet **at some wealth levels.** Does EU imply that the person must turn down 100 such bets?
+
+--
+
+**Continued:** Suppose that a person turns down the bet **at all wealth levels**. Does EU imply that the person must turn down 100 such bets?
+
+--
+
+What is the basic intuition?
+
+---
+class: MSU
+# Application \#1: The Samuelson Bet
+
+
+**Intuition:** Consider an individual who has said that he is unwilling to take one bet but is willing to play 100 such bets. Suppose this person has played 99 bets.
+
+- If asked whether he would like to stop at this point he will say yes. By assumption, he dislikes one bet at any relevant wealth level.
+
+- However, this means that if asked after 98 bets whether he would like to play number 99 he must also decline.
+
+--
+
+- He should realize (by backward induction) that he would reject bet 100, implying that bet 99 is a single play.
+
+--
+
+The same reasoning applies to the first bet.
+
+**Thinking about economics grad school?** Prove this claim formally.
+
+---
+class: MSU
+# Application \#1: The Samuelson Bet
+
+Consider an alternative "model":
+
+- Suppose that a person evaluates bets according to the value function
+
+$$v(x)= x \quad\text{if }~~~x \geq 0$$
+$$v(x)= 2.5x \quad \text{if }~~~x\leq 0$$
+
+--
+
+Consider the single bet $y=[200,.5;-100,.5]$.
+
+--
+
+Consider taking two such bets. This means you face aggregate gamble $z=[400,.25;100,.5;-200,.25]$.
+
+--
+
+**Point:** Unlike EU, loss aversion can lead a person to reject one play of the bet but to accept multiple plays of the bet.
+
+
+---
+class: MSU
+#  Mental Accounting
+
+### Note: The Previous Explanation Was Underspecified
+
+*Mental accounting:* the process a person uses to interpret a choice situation.
+
+--
+
+- **Any** application of prospect theory requires a mental-accounting assumption.
+
+- Typically, this requires an assumption about how people decide what are the objects for evaluation.
+
+--
+
+- E.g., Kahneman & Tversky interpret the isolation effect as people ignoring seemingly extraneous parts of the problem.
+- E.g., to explain the behavior of Samuelson's colleague, we assumed that the person collapses the aggregate bet into a single lottery and decides whether to accept that lottery.
+
+--
+
+- Sometimes, we must make an assumption about when and how people code outcomes as gains and losses. (We'll do this in later applications)
+
+
+---
+class: MSU
+# Application \#2: Risk Aversion
+
+People tend to dislike risky prospects even when they involve an expected gain.
+
+--
+
+Rabin & Thaler's point, which should feel **very** repetitive by now:
+
+- Calibrationwise, this explanation doesn't work, because according to EU, "anything but virtual risk neutrality over modest stakes implies manifestly unrealistic risk aversion over large stakes."
+
+--
+
+- Now we'll show that *loss aversion* is a useful alternative.
+
+---
+class: MSU
+# Application \#2: Risk Aversion
+
+Suppose you have wealth $20,000, and you turn down a 50-50 bet to win $110 vs. lose $100.
+
+We showed that rejecting the bet implies that $\rho>18.17026$.
+
+**Question:** What about with loss aversion?
+
+--
+
+Two plausible features of preferences consistent with loss aversion:
+
+1. How you feel about absolute gambles is largely insensitive to your wealth --- e.g., you might reject $(101,.5;-100,.5)$ for all $w$.
+
+--
+
+2. At the same time, scaling outcomes proportionally need not change your preferences much --- e.g., you might have
+
+$$(12,.5;-10,.5) \sim (0,1)$$
+$$(120,.5;-100,.5) \sim (0,1)$$
+$$(1200,.5;-1000,.5) \sim (0,1)$$
+
+---
+class: MSU
+# Application \#3: The Equity-Premium Puzzle
+
+### Equity-Premium Puzzle (Mehra & Prescott, 1985)
+
+*Equity premium:* The difference between the returns on stocks and the returns on fixed-income securities.
+
+- The (historical) equity premium is quite large. For instance, since 1926, the real return on stocks has been about 7%, and the real return on T-Bills has been about 1%.
+
+--
+
+**The puzzle:** The equity premium is "too large" --- Mehra and Prescott estimate that investors would need to have absurd levels of risk aversion to explain the historical equity premium.
+
+---
+
+class: MSU
+# Financial Decisionmaking
+
+
+### Standard Economics/Finance View of Financial Decisions
+You have wealth $w$, and you use this wealth for your lifetime consumption profile $(c_{1},c_{2},...,c_{T})$.
+
+Your lifetime consumption profile yields lifetime utility
+
+$$u(c_{1})+\delta u(c_{2})+\delta ^{2}u(c_{3})+...+\delta ^{T-1}u(c_{T})$$
+
+--
+
+Wealth that's targeted for future consumption is invested in financial assets (stocks and bonds).
+
+- Hence, any risk in your financial portfolio gets translated into risk in future consumption.
+
+- And therefore any risk aversion that have with regard to future consumption gets translated into risk aversion with regard to your financial portfolio.
+
+---
+class: MSU
+# The Puzzle
+
+Assume a CRRA utility function (over consumption):
+
+$$u(c)=\frac{(c)^{1-\rho }}{1-\rho }.$$
+
+--
+
+- *Note:* The larger is $\rho$, the **less** risk one takes on in one's financial portfolio (fewer stocks, more bonds).
+
+- Mehra & Prescott show that to explain the observed equity premium, we need to assume that people have $\rho >30$.
+
+- But empirical estimates and theoretical arguments suggest $\rho \approx 1$ (log utility) and definitely not more than 5. (Remember the exercise we did?)
+
+---
+class: inverseMSU 
+
+# The Equity Premium Puzzle
+
+### Two Interpretations for Mehra and Prescott Result
+
+- Given the historical equity premium, under EU (and CRRA utility) people's observed willingness to hold a mix of stocks and bonds can be explained only by a $\rho >30$, which is clearly absurd (i.e., it would imply absurd behavior in other domains).
+
+--
+
+- Given EU and reasonable levels of risk aversion ($\rho =1$ or perhaps even $\rho =5$), under the historical equity premium, we should observe people investing exclusively in stocks.
+
+---
+
+class: MSU
+# "Myopic Loss Aversion"
+
+Benartzi & Thaler's explanation: "Myopic Loss Aversion"
+
+
+- Two components: loss aversion and a specific mental-accounting assumption.
+
+--
+
+**Basic foundation:** From time to time, a person evaluates her portfolio and experiences joy/pain from watching it grow/shrink.
+
+
+
+---
+class: MSU
+# Benartzi & Thaler's Model
+
+### Objects for Evaluation
+
+Suppose a person evaluates her portfolio at dates
+
+$$t,t+\triangle ,t+2\triangle ,...$$
+
+--
+
+Let $Y_{\tau }$ be the value of her portfolio at date $\tau$.
+
+Let $x_{\tau +\Delta }\equiv Y_{\tau +\Delta }-Y_{\tau }$.
+
+--
+
+At date $\tau$, person chooses between lotteries over $x_{\tau+\Delta}$.
+
+--
+
+**Key idea:** The person's portfolio allocation chosen at date $\tau$ generates a lottery over $x_{\tau +\Delta}$ --- that is, a lottery over how	her portfolio will change in value between now ( $\tau$ ) and the next evaluation period ( $\tau +\Delta$ ).
+
+---
+class: MSU
+# Benartzi & Thaler's Model
+
+### A (Much) Simplified Example:
+
+Suppose there are two assets, stocks and bonds, and that between $\tau$ and $\tau +\Delta$ the returns are:
+
+- For bonds: $(+1\%,1)$
+- For stocks: $(+10\%,\frac{1}{2};-5\%,\frac{1}{2})$
+
+--
+
+Suppose further that the person must choose a proportion $\alpha$ of her wealth to invest in stocks, with the remainder invested in bonds. As a function of $\alpha$, the resulting lottery over $x_{\tau +\Delta}$ is
+
+$$\text{Good Outcome:}\quad \quad  \alpha w(.10)+(1-\alpha )w(.01)\text{ },\text{ }\frac{1}{2}$$
+$$\text{Bad Outcome:}\quad \quad \alpha w(-.05)+(1-\alpha )w(.01)\text{ },\text{ }\frac{1}{2}$$
+
+--
+
+Again, at date $\tau$, person chooses between lotteries over $x_{\tau+\Delta}$.
+
+> Note: Major deviation from the standard approach!
+
+---
+
+class: MSU
+# Benartzi & Thaler's Model
+
+### Evaluating Lotteries
+
+At date $t$, person chooses her portfolio to maximize her "prospective utility"
+
+$$\sum_{x_{t+\Delta }}\pi (x_{t+\triangle })v(x_{t+\triangle })\text{.}$$
+
+--
+
+Let's use the value function
+
+$$v(x)=x^{\alpha } \quad \quad \text{if }~~~x\geq 0$$
+$$v(x)= -\lambda (-x)^{\beta } \quad \quad \text{if }~~~x\leq 0$$
+
+--
+
+The authors assume $\alpha =\beta =.88$ and $\lambda =2.25$ (Tversky & Kahneman, 1992).
+
+$\pi (x_{t+\triangle })$ reflects probability weighting. The authors use the cumulative form --- including the suggested parameter values --- from Tversky & Kahneman, 1992.
+
+---
+class: MSU
+# Benartzi & Thaler's Analysis
+
+### General (Simulation) Approach
+
+1. Draw samples from historical (1926-1990) monthly returns on stocks, 5-yr bonds, and T-Bills.
+
+- E.g., if 10 observations of actual monthly returns on an asset were
+
+$$-2\%,1\%,0\%,1\%,-1\%,1\%,2\%,0\%,1\%,0\%$$
+
+... then for that asset they'd set $\Pr (1\%)=0.4$, $\Pr (0\%)=0.3$, etc.
+
+--
+
+2. Then, consider $n$-month evaluation periods, for $n=1,2,3,...$, where the distribution of returns for an $n$-month evaluation period is constructed from $n$ IID draws from the distribution of monthly returns.
+
+- E.g., if the monthly return distribution is $(20\%,1/2;0\%,1/2)$, then the 2-month return distribution is $(44\%,1/4;20\%,1/2;0\%,1/4)$.
+
+---
+class: MSU
+# Benartzi & Thaler's Analysis
+
+### Results
+
+**First question:**  What evaluation period $n$ would make investors *indifferent* between holding all stocks vs. holding all bonds?
+
+--
+
+*Answer:* The historical data are consistent with their model applied as if people evaluated their portfolios about once a year.
+
+--
+
+**Second question:** Assuming yearly evaluations, what is the **optimal** mix of stocks and bonds?
+
+*Answer:* The optimal holdings, given the historical data, are to hold roughly equal amounts in stocks and bonds (as we observe in the world).
+
+---
+class: MSU
+# Application \#4: Non-Linear Probabilities
+
+Snowberg and Wolfers (2010) explore non-linearity in probabilities "in the wild" by investigating horse-race bets.
+
+--
+
+If Horse A is 2:1 odds this should mean both:
+
+1. That the implied probability of winning is $\frac{1}{3}$. Losing is twice as likely as winning and either the horse wins or loses.
+
+2. If you put $1 on horse A, you either receive $3 ($2 winnings + $1 stake) or zero, since $\frac{1}{3} \times 3 + \frac{2}{3} \times 0 = 1$.
+
+--
+
+That is: Betting and not betting should yield the same expected return.
+
+--
+
+(Of course, there is a track profit such that the expected return is a bit negative. But we'll ignore this margin for now.)
+
+--
+
+**Point:** If all odds were appropriate, every horse would have equal expected value and thus equal expected returns.
+
+---
+class: MSU
+# Application \#4: Non-Linear Probabilities
+
+### Finding: The "Favorite-Longshot Bias"
+
+- Longshots have low expected return, given how rarely they win...
+
+--
+
+- and bettors value favorites too little given how **often** they win.
+
+--
+
+- Concretely, betting on a horse with 100/1 odds yields returns of about -61%.
+
+- Betting **randomly** yields average returns of -23%.
+
+--
+
+- Betting on a horse with 1/3 odds yields returns of only -5.5%
+
+---
+
+class: MSU
+# Application \#4: Non-Linear Probabilities in the Wild
+
+![](graphics/longshotbias.png)
+
+---
+class: MSU
+# Application \#5: The Disposition Effect
+
+*"Disposition Effect"*: When investors sell their stocks, they are more prone to sell their winners than their losers.
+--
+
+- A stock is a "winner" if its current price is above its purchase price, and it is a "loser" if its current price is below its purchase price (as in Shefrin & Statman 1985).
+
+--
+
+
+Odean (1998) provides a nice empirical test, and assesses several potential explanations.
+
+---
+class: MSU
+# Application \#5: The Disposition Effect}
+
+Odean (1998) has a dataset of individual traders at a small brokerage house and observes each individual's stock portfolio and all trades made each day.
+
+--
+
+For every individual-day on which he observes trades, he calculates:
+
+1. "Proportion of Gains Realized":
+
+$$PGR\equiv \frac{\text{# of winners sold}}{\text{# of winners in portfolio}}$$
+
+--
+
+2. "Proportion of Losses Realized":
+
+$$PLR\equiv \frac{\text{# of losers sold}}{\text{# of losers in portfolio}}$$
+
+--
+
+**"Disposition Effect":** $PGR>PLR$.
+
+--
+
+**Big Question:** What's the explanation?
+
+---
+class: MSU
+# Application \#5: The Disposition Effect
+
+Rational Explanation \#1: Sell winners to rebalance your portfolio.
+
+--
+
+- If the disposition effect is driven by rebalancing, then if we restrict attention to trades in which (i) only entire holdings of a stock are sold or (ii) no new purchases are made, we should no longer observe a disposition effect.
+
+- When Odean does this, the effect *does not go away*.
+
+--
+
+Rational Explanation \#2: Sell winners because losers are better.
+
+- Odean finds that the winners people sell *outperform* the losers they keep (over various horizons --- 1/3 year, 1 year, 2 years).
+
+--
+
+### Odean's Explanations
+
+- Loss aversion with a mental-accounting assumption that you experience gain-loss utility for a particular stock when you sell that stock.
+
+- Or an irrational belief in mean reversion.
