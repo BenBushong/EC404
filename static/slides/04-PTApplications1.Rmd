@@ -608,7 +608,7 @@ $$PGR\equiv \frac{\text{# of winners sold}}{\text{# of winners in portfolio}}$$
 
 2. "Proportion of Losses Realized":
 
-$$PLR\equiv \frac{\text{# of losers sold}}{\text{# of losers in portfolio}}$$
+$$PLR\equiv \frac{\text{# of losers sold}}{\text{blog# of losers in portfolio}}$$
 
 --
 

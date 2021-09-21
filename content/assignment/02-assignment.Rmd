@@ -17,7 +17,8 @@ editor_options:
 
 
 :::fyi
-**This assignment is due October, 1 before the start of class**
+**This assignment is due Thursday, September, 30 before the start of class**
+
 
 Click the icon to download the problem set: [<i class="fas fa-file-download"></i>](/ps/PS2.pdf).
 
