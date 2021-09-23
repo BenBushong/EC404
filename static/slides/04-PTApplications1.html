@@ -16,7 +16,7 @@ class: center, middle, inverse, title-slide
 # Choice under Uncertainty (Lecture 1d)
 ## EC404; Fall 2021
 ### Prof. Ben Bushong
-### Last updated September 21, 2021
+### Last updated September 23, 2021
 
 ---
 
@@ -66,7 +66,23 @@ name: Overview
 
 ###  **Our Outline:**
 
-(Coming soon when all slides are covered)
+(1) [The Samuelson Bet](#app1)
+
+(2) [Risk Aversion](#app2)
+
+(3) [The Equity Premium Puzzle](#app3)
+
+(4) [Non-Linear Probabilities in Gambling](#app4)
+
+(5) [The Disposition Effect](#app5)
+
+(6) [Price Targeting in Housing](#app6)
+
+(7) [Is Tiger Woods Loss Averse?](#app7)
+
+(8) [The Endowment Effect](#app8)
+
+(9) [Homeowner's Insurance](#app9)
 
 
 ---
@@ -76,23 +92,20 @@ name: Guide
 
 # Guiding Principles
 
-Here are the two we've discussed so far:
+## \#3: Take Refuge in Simplicity
 
-## \#1: Carefully Define Your Environment
+- We often get lost in mathematics or in what seem like complex ideas. I provide mathematical definitions for *precision*, but this can become overwhelming.
 
-## \#2: Use Extreme Cases to Clarify Your Thinking
-
---
-
-Have you memorized the bold definitions?
-
-Have you tried thinking about extremes?
+- **Break the ideas down to their components** then work through the idea bit-by-bit.
 
 --
 
-Have you come to office hours? (Answer: no).
+E.g., the prospect theory mathematics can be confusing, but the "diminishing sensitivity" property of the value function implies that an agent is:
 
+1. Risk averse over only gains.
+2. Risk loving over only losses.
 
+(And you remember these definitions... right?)
 
 ---
 class: MSU
@@ -138,6 +151,7 @@ To illustrate, we'll consider nine examples.
 ---
 
 class: MSU
+name: app1
 # Application \#1: The Samuelson Bet
 
 ### Example courtesy of Samuelson (1963)
@@ -251,6 +265,7 @@ class: MSU
 
 ---
 class: MSU
+name: app2
 # Application \#2: Risk Aversion
 
 People tend to dislike risky prospects even when they involve an expected gain.
@@ -291,6 +306,7 @@ Two plausible features of preferences consistent with loss aversion:
 
 ---
 class: MSU
+name: app3
 # Application \#3: The Equity-Premium Puzzle
 
 ### Equity-Premium Puzzle (Mehra &amp; Prescott, 1985)
@@ -341,7 +357,7 @@ Assume a CRRA utility function (over consumption):
 - But empirical estimates and theoretical arguments suggest `\(\rho \approx 1\)` (log utility) and definitely not more than 5. (Remember the exercise we did?)
 
 ---
-class: inverseMSU 
+class: inverseMSU
 
 # The Equity Premium Puzzle
 
@@ -351,7 +367,7 @@ class: inverseMSU
 
 --
 
-- Given EU and reasonable levels of risk aversion ($\rho =1$ or perhaps even `\(\rho =5\)`), under the historical equity premium, we should observe people investing exclusively in stocks.
+- Given EU and reasonable levels of risk aversion ( `\(\rho=1\)` or perhaps even `\(\rho =5\)`), under the historical equity premium, we should observe people investing exclusively in stocks.
 
 ---
 
@@ -481,6 +497,7 @@ class: MSU
 
 ---
 class: MSU
+name: app4
 # Application \#4: Non-Linear Probabilities
 
 Snowberg and Wolfers (2010) explore non-linearity in probabilities "in the wild" by investigating horse-race bets.
@@ -491,11 +508,9 @@ If Horse A is 2:1 odds this should mean both:
 
 1. That the implied probability of winning is `\(\frac{1}{3}\)`. Losing is twice as likely as winning and either the horse wins or loses.
 
-2. If you put $1 on horse A, you either receive $3 ($2 winnings + $1 stake) or zero, since `\(\frac{1}{3} \times 3 + \frac{2}{3} \times 0 = 1\)`.
+2. If you put $1 on horse A, you either receive $3 ($2 winnings + $1 stake) or zero. 
 
---
-
-That is: Betting and not betting should yield the same expected return.
+3. Since `\(\frac{1}{3} \times 3 + \frac{2}{3} \times 0 = 1\)`, betting and not betting should yield the same expected return.
 
 --
 
@@ -503,7 +518,7 @@ That is: Betting and not betting should yield the same expected return.
 
 --
 
-**Point:** If all odds were appropriate, every horse would have equal expected value and thus equal expected returns.
+**Point:** If all odds were appropriate, the odds on every horse would correspond to lotteries that all have equal expected value.
 
 ---
 class: MSU
@@ -550,7 +565,7 @@ Odean (1998) provides a nice empirical test, and assesses several potential expl
 
 ---
 class: MSU
-# Application \#5: The Disposition Effect}
+# Application \#5: The Disposition Effect
 
 Odean (1998) has a dataset of individual traders at a small brokerage house and observes each individual's stock portfolio and all trades made each day.
 
@@ -601,6 +616,424 @@ Rational Explanation \#2: Sell winners because losers are better.
 - Loss aversion with a mental-accounting assumption that you experience gain-loss utility for a particular stock when you sell that stock.
 
 - Or an irrational belief in mean reversion.
+
+---
+class: MSU
+name: app6
+# Application \#6: Housing Market
+
+Based on Genesove and Mayer (2001).
+
+### Motivating Example
+
+- Suppose you are offered $400,000 for your house. Do you sell?
+
+--
+
+The answer clearly depends on many factors --- for instance:
+
+1. How much you like your house.
+
+2. Is your house too large or too small?
+
+3. Do you need to move to a new area?
+
+--
+
+4. Whether you expect higher offers later.
+
+--
+
+**But** should it matter whether you initially paid $350,000 vs. $450,000 when you bought the house?
+
+---
+class: MSU
+# Application \#6: Housing Market
+
+Genesove and Mayer (2001) analyze data from the Boston condominium market in the 1990's. They compare sellers subject to nominal losses with sellers subject to nominal gains.
+
+--
+
+They find that people subject to nominal losses:
+
+- set higher asking prices --- roughly, 25-35 percent of the magnitude of the expected loss;
+
+- eventually attain a higher selling price --- roughly, 3-18 percent of the magnitude of the expected loss. That is, would-be "losers" sell their homes at 3-18 percent higher than would-be "winners";
+
+- take much longer to sell their houses.
+
+--
+
+Their suggested explanation is myopic loss aversion:
+
+- Loss aversion combined with a mental-accounting assumption that you experience gain-loss utility from (nominal) financial gains and losses upon selling your house.
+
+---
+class: MSU
+name: app7
+# Application \#7: Professional Golf
+
+### Based on Pope &amp; Schweitzer (2011)
+
+In most professional golf tournaments, players play 72 holes, and the order of finish (and hence earnings) is entirely determined by the total number of shots taken over those 72 holes (with the lowest total being the best).
+
+- In addition, each individual hole has a suggested score (*par*). But this suggested score is completely irrelevant to the order of finish and earnings in the tournament.
+
+--
+
+**Question:** Suppose I face a 10-foot putt? Should my effort and concentration on this putt, or my strategy on this putt (i.e., being aggressive vs. safe) depend on whether the putt is for "par" vs. whether the putt is for one better than par (a "birdie")?
+
+---
+class: MSU
+# Application \#7: Professional Golf
+
+Pope &amp; Schweitzer (2011) analyze data from 239 PGA Tour tournaments completed between 2004 and 2009.
+
+- Data from all golfers who attempted at least 1000 putts. This is 421 golfers and over 2.5 million putts.
+
+- Data also contain exact location of the ball and the hole (based on video tracking software that was relatively new at the time).
+
+---
+class: MSU
+# Application \#7: Professional Golf
+
+### Main Finding
+(from Pope &amp; Schweitzer *AER* 2011)
+
+Controlling for the distance of the putt, on average golfers are about 2 percentage points more likely to make a par putt than they are to make a birdie putt.
+
+**Note:** This finding is robust to many additional controls: controlling for the specific golfer, the specific hole, whether one has had prior putts on the same green, and the direction of the putt.
+
+---
+class: MSU
+# Application \#7: Professional Golf
+
+*How to interpret this main finding?*
+
+- Under the assumption that golfers care only about their tournament results (and earnings), this behavior is inconsistent with the standard model. Again, whether a putt is for par vs. birdie is irrelevant to tournament results.
+
+--
+
+Pope &amp; Schweitzer's suggested explanation is loss aversion:
+
+- Loss aversion combined with a mental-accounting assumption that golfers experience gain-loss utility on each hole from performing better or worse than par on that hole.
+
+---
+class: MSU
+name: app8
+# Application \#8: The Endowment Effect
+
+### Experiment 5 from Kahneman, Knetsch, &amp; Thaler (1990)
+
+- Subjects: 59 students in business statistics class at Simon Fraser University.
+
+--
+
+- 30 subjects randomly chosen to be *sellers*.
+
+- 29 subjects randomly chosen to be *buyers*.
+
+- Each seller given a coffee mug.
+
+- Each buyer shown a coffee mug.
+
+--
+
+Then elicit people's reservation values (or reservation prices):
+
+- A buyer's `\(WTP\)` is the *maximum* amount she is willing to pay to obtain the object.
+
+- A seller's `\(WTA\)` is the *minimum* amount she is willing to accept to part with the object.
+
+(If helpful, think about WTA and WTP in terms of indifference.)
+
+
+---
+class: MSU
+# Application \#8: The Endowment Effect
+
+
+Becker, DeGroot, Marschak (*BehSci* 1964) Procedure:
+
+- Participants make lots of decisions for lots of hypothetical prices.
+
+- E.g., "Would you like to keep or sell at price $1?" ... "at price $2?" etc.
+
+--
+
+- Inform subjects that a price will be randomly selected and their choice for that price will be implemented.
+
+--
+
+Explain to subjects two true facts:
+
+1. Their choice cannot affect the price (so there is no reason to behave strategically).
+
+2. This implies that the best thing for them to do is to indicate their true preferences.
+
+
+---
+class: MSU
+# Application \#8: The Endowment Effect
+
+Reservation prices in Experiment 5:
+
+
+| | **Median** | **Mean** |
+|:--|:----:|:----:|
+| Sellers: | $5.75  | $5.78 |
+| Buyers:  | $2.25  | $2.21 |
+
+--
+
+### Endowment Effect
+*(Term first used in Thaler, 1980)*
+
+- People tend to value an object more highly when they own it than when they do not.
+
+---
+class: MSU
+# Application \#8: The Endowment Effect
+
+But, qualitatively, standard wealth effects imply that we should expect `\(WTA&gt;WTP\)` in Experiment 5.
+
+&gt; Do you remember what this phrase means?
+
+--
+
+### Experiment 6 from Kahneman, Knetsch, &amp; Thaler (1990)
+
+77 subjects at SFU randomly assigned to three groups:
+
+- Sellers (as before).
+
+- Buyers (as before).
+
+- *Choosers* who indicate for each price whether they want the mug or the money.
+
+---
+class: MSU
+# Application \#8: The Endowment Effect
+
+Reservation Prices in Experiment 6:
+
+| | **Median** |
+|:--|:----:|
+| Sellers: | $7.12  |
+| Buyers:  | $2.87  |
+| Choosers: | $3.12 |
+
+--
+
+**Conclusion:** Because sellers and choosers face the exact same choice and yet reservation values are larger for sellers, standard wealth effects cannot explain the endowment effect.
+
+---
+class: MSU
+# Application \#8: The Endowment Effect
+
+### Knetsch (AER 1989): Endowment Effect with Two Goods
+
+3 groups of subjects (who were present at different times).
+
+- Group 1: Given a coffee mug. Opportunity to trade for a candy bar.
+- Group 2: Given a candy bar. Opportunity to trade for a coffee mug.
+- Group 3: Choose between a coffee mug &amp; a candy bar.
+
+--
+
+**Results:**
+
+| | Percent Selecting Mugs |
+|:---|---:|
+| Endowed with a mug: |  89% |
+| Endowed with candy: |  10% |
+| Choosers (unendowed)|  56% |
+
+---
+class: MSU
+# Loss Aversion and Endowment
+
+### A Simple Model of Loss Aversion &amp; the Endowment Effect
+
+Suppose you consume mugs and money, where
+
+`$$(\text{Total Utility})=(\text{Mug Utility})+(\text{Money Utility}).$$`
+
+--
+
+Let's also assume linear money utility --- if your consumption of money is `\(m\)`, then (Money Utility) `\(=m\)`.
+
+`$$\Longrightarrow (\text{Total Utility})=(\text{Mug Utility})+m.$$`
+
+---
+class: MSU
+# Loss Aversion and Endowment
+
+Suppose your Mug Utility is `\(u(c,r)\)`, where `\(c\)` is your mug consumption and `\(r\)` is your mug reference point.
+
+- `\(r=0\Longleftrightarrow\)` unendowed (buyers &amp; choosers)
+
+- `\(r=1\Longleftrightarrow\)` endowed (sellers)
+
+--
+
+- `\(c=1\Longleftrightarrow\)` go home with mug (buy, choose, or keep).
+
+- `\(c=0\Longleftrightarrow\)` go home without mug (don't buy, don't choose, or sell)
+
+--
+
+Assume `\(u\left( c,r\right) =w(c)+v(c-r)\)`, where
+
+`$$w(c)= \mu * c$$`
+`$$\quad \text{ and } v(x)= \phi x \quad \text{if } x \geq 0$$`
+`$$\quad \text{ else }v(x)=  \lambda \phi x \quad \text{if }x &lt; 0\text{.}$$`
+
+---
+class: MSU 
+# Loss Aversion and Endowment
+
+Note: We can represent `\(u(c,r)\)` in a 2x2 grid:
+
+(Presented in class. Rows are `\(c=0\)`, `\(c=1\)`. Columns are `\(r=0\)`, `\(r=1\)`)
+
+---
+class: MSU
+# Loss Aversion and Endowment
+
+### Solving the Model
+
+Reservation values for the three types:
+
+**Sellers:** `\(P_{S}=\mu +\lambda \phi\)`, implying you sell if `\(p&gt;P_{S}\)`
+
+--
+
+**Buyers:** `\(P_{B}=\mu +\phi\)`, implying you buy if `\(p&lt;P_{B}\)`
+
+--
+
+**Choosers:** `\(P_{C}=\mu +\phi\)`, implying you choose mug if `\(p&lt;P_{C}\)`
+
+--
+
+*Key fact:* `\(\lambda &gt;1\Longrightarrow P_{S}&gt;P_{C}=P_{B}\)`.
+
+---
+class: inverseMSU
+# Robustness of the Effect
+
+Some ways to make the endowment effect go away:
+
+
+1. Use sufficiently similar goods.
+
+2. Alter procedures to weaken the sense of endowment.
+
+3. Trigger certain emotions (e.g., disgust \&amp; sadness).
+
+4. Market experience (?)
+
+---
+class: MSU
+# Robustness of the Effect
+
+### Evidence from List (2003)
+
+Knetsch (1989)-style experiments: two goods, subjects randomly endowed with one of them and given the opportunity to switch (after a brief delay/survey).
+
+### Experiment 1
+
+Conducted at a sportscard show in Orlando, FL.
+
+- Good A: A Kansas City Royals game ticket stub from the game in which Cal Ripken broke the record for most consecutive games.
+- Good B: A certificate commemorating Nolan Ryan's 300th win that was distributed to fans at that game.
+- The subjects were dealers &amp; non-dealers, and he separates non-dealers into experienced and inexperienced.
+
+---
+class: MSU
+# Robustness of the Effect
+
+### Results
+
+| | Percent Who Trade |
+|:---|---:|
+| Dealers: |  45% |
+| Experienced Non-Dealers: |  46.7% |
+| Inexperienced Non-Dealers: |  6.8% |
+
+
+
+---
+class: MSU
+name: app9
+# Application \#9: Homeowner's Insurance
+
+### Adapted from Sydnor (2010)
+
+Analyzes data on homeowner's insurance for 50,000 households. He investigates people's choice of deductible.
+
+--
+
+For each customer, he observes the person's menu and the person's choice --- for instance, he might observe:
+
+| Deductible | Premium | Choice |
+|:-----------|:-------:|:------:|
+| $1000      | $505    |  .    |
+| $500       | $588    |   X   |
+| $250       | $661    |  .    |
+| $100       | $771    |   .   |
+
+---
+class: MSU
+
+# Application \#9: Homeowner's Insurance
+
+- In the previous example, this person chose to pay an extra $84 to reduce his deductible from $1000 to $500.
+
+Let's translate this into our language:
+
+This person prefers paying a premium of $588 for a $500 deductible over paying a premium of $504 for a $1000 deductible.
+
+--
+
+Let `\(p\)` denote the probability of making a claim during the policy term, and for simplicity let's assume that all claims are larger than $1000.
+
+Then the person's choice reveals:
+
+$$(-\$588,1-p;-588-500,p)\succeq (-\$504,1-p;-504-1000,p)$$
+
+--
+
+Above is one observation. What about averages?
+
+---
+class: MSU
+# Application \#9: Homeowner's Insurance
+
+Striking fact: Among those who chose the $500 deductible (48% of the sample), on average they paid $99.85 in extra premium to reduce their deductible from $1000 to $500. Moreover, the average claim rate in this group is 4.3%, and so (roughly) the expected value of reducing the deductible is $21.50 (i.e., .043(1000-500)).
+
+--
+
+Following Rabin (2000), Sydnor demonstrates that EU with reasonable levels of risk aversion cannot explain this behavior.
+
+- For instance, with CRRA utility, initial wealth $10,000, $1000 deductible, and $500 premium, an EU maximizer with a 4.3% claim rate would choose to pay $99.85 in extra premium to reduce their deductible from $1000 to $500 only if `\(\rho &gt;20.29\)`.
+
+---
+class: MSU
+# Application \#9: Homeowner's Insurance
+
+In contrast, prospect theory **might** be able to explain it:
+
+--
+
+**NOTE:** Kahneman &amp; Tversky (1979) prospect theory cannot.
+
+--
+
+Prospect theory combined with assumption that the premium is not felt as a loss **can**.
+
+- Köszegi-Rabin loss aversion (our final model in this section) captures this idea.
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

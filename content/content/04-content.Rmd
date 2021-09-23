@@ -19,11 +19,7 @@ slides: "04-PTApplications1"
 
 ## Slides
 
-Every single set of class slides can be found on this course website. Use the buttons below to open the slides either as an interactive website or as a static PDF. You can also click in the slides below and navigate through them with your left and right arrow keys.
-
-Please note: you may experience some performance issues when opening the PDF file with Preview; Adobe Acrobat does not have these problems.
-
-### Part 1:
+Note that the two days of applications have been condensed to a single set of slides. 
 
 `r blogdown::shortcode("slide-buttons")`
 
