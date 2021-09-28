@@ -32,13 +32,13 @@ lessons:
   - title: 'Applications of Propect Theory'
     session: 5
     date: "Week 3 (20 September)"
-    #content: "03-content"
+    content: "04-content"
     #assignment: "03-assignment"
 
   - title: 'Reference-Dependent Preferences'
     session: 6
     date: "Week 4 (27 September)"
-    #content: "03-content"
+    content: "05-content"
     #assignment: "03-assignment"
 
   - title: '<i class="fas fa-star"></i> **EXAM 1**'
