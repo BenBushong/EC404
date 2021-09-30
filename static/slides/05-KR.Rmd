@@ -109,24 +109,20 @@ name: Overview
 
 ###  **Our Outline:**
 
-This space will be filled by week's end.
+(1) [Introduction to Modern Prospect Theory](#intro)
 
----
+(2) [Köszegi and Rabin's Model with Two Goods](#sec1)
 
-class: inverseMSU
-# "Participation" Questions
+(3) [A (Not Easy) Exercise](#example)
 
-1. Suzy is risk loving. She faces a lottery (100, .4; -100, .6). She is offered the opportunity to avoid this lottery by paying 15 dollars. Will she do it? 
+(4) [Köszegi and Rabin's Model with Risky Choice](#sec2)
 
-(Yes / No / We need more information)
+(5) [Application: Labor Supply of Taxicab Drivers](#app1)
 
-2. Alexandre has preferences according to prospect theory (with the three properties of the value function we previously discussed). He faces the same lottery. What will he do? 
+(6) [Application: Detecting Loss Aversion with Bunching](#app2)
 
-(Pay $15 / Play the lottery / We need more information)
+(7) [Concluding Thoughts](#conclusion) 
 
-3. Roxanne is confused by the content in this course. However, Roxanne has not come to office hours. Is Roxanne making wise life decisions? 
-
-(Yes / No / We need more information)
 
 ---
 class: MSU
@@ -214,7 +210,7 @@ $$\qquad \qquad \eta*\lambda*z \quad \text{if} \quad z\leq 0$$
 
 
 ---
-class: MSU 
+class: MSU
 # Köszegi & Rabin (2006)
 
 Example: Two goods, shoes ( $c$ ) and money ( $w$ ), with intrinsic utilities:
@@ -234,7 +230,7 @@ Consider the following choice problem:
 
 - Suppose Bogi starts with 0 shoes and wealth $w$, and has the option to purchase a shoe for price $p$. How does Bogi behave as a function of expectations?
 
-**Case 1:** Suppose you expect to buy a pair of shoes 
+**Case 1:** Suppose you expect to buy a pair of shoes
 $\Longrightarrow$ reference point is $(r_{c}=1,r_{m}=w-p)$ :
 
 $$\text{Utility(Buy)} = \left[ \theta +\eta 0\right] + \left[ (w-p)+\eta 0\right]$$
@@ -274,7 +270,7 @@ Because $\lambda >1$ implies $\frac{1+\eta \lambda }{1+\eta }>\frac{1+\eta }{1+\
 
 --
 
-2. If $p<\frac{1+\eta }{1+\eta \lambda }\theta $, buy no matter your beliefs.
+2. If $p<\frac{1+\eta }{1+\eta \lambda }\theta$, buy no matter your beliefs.
 
 --
 
@@ -283,19 +279,21 @@ Because $\lambda >1$ implies $\frac{1+\eta \lambda }{1+\eta }>\frac{1+\eta }{1+\
 **Point:** If the reference point depends on expectations, then, even in the same situation, a person might exhibit different outcomes depending on which set of self-fulfilling expectations he happens to have.
 
 ---
-# Köszegi & Rabin (2006) Example
+class: inverseMSU
+name: exercise
+# An Exercise
 
 Suppose there are two goods, candy bars ($c$) and money ($m$). Paige has initial income $I$, and she is deciding whether to buy 0, 1, or 2 candy bars at a price of $p$ per candy bar. Paige's total utility is the sum of her candy-bar utility and her money utility, and her intrinsic utilities for the two goods are:
 
-$$w_{c}(c) \equiv &\left\{ 0 \text{if }c=0$$
-$$\qquad \theta _{1}  \text{if }c=1$$
-$$\qquad \theta _{1}+\theta _{2} & \text{if }c=2$$
+$$w_{c}(c) \equiv \{\quad  0 \quad \text{if }\quad c=0$$
+$$\qquad \qquad \qquad  \theta _{1} \quad  \text{if } \quad c=1$$
+$$\qquad \qquad \qquad  \theta _{1} + \theta_2 \quad  \text{if } \quad c=2$$
 
-$$\qquad \qquad \text{where }\theta _{1}>\theta _{2} \text{and } w_{m}(m) &\equiv m$$
+Where $\theta _{1}>\theta _{2}$ and $w_{m}(m) \equiv m$ .
 
 ---
-class
-# Köszegi & Rabin (2006) Deterministic Example}
+class: inverseMSU 
+# An Exercise
 
 **(a)** If Paige were a standard agent who only cares about her intrinsic utilities, how would she behave as a function of the price $p$? In other words, for what prices would she buy zero candy bars, for what prices would she buy one candy bar, and for what prices would she buy two candy bars?
 
@@ -318,8 +316,8 @@ Assume one good, money ($x$), with intrinsic utility $w(x)=x$.
 
 Applying their approach, if consume money $x$ given reference point $r$, then total utility is
 
-$$u(x|r)=\left\{x+\eta (x-r) & \text{if }x\geq r$$
-$$\quad \quad x+\eta \lambda (x-r) & \text{if }x\leq r$$
+$$u(x|r)= \{ x+ \eta*(x-r) \quad \text{if } \quad x > r$$
+$$\qquad \qquad \qquad x +\eta*\lambda*(x-r) \quad \text{if } \quad x\leq r$$
 
 ---
 class: MSU
@@ -361,7 +359,7 @@ $$=\text{ }\sum_{j=1}^{M}\text{ }q_{j}\text{ }U(X|r_{j})$$
 $$=\text{ }\sum_{i=1}^{N}\text{ }\sum_{j=1}^{M}\text{ }p_{i}\text{ }q_{j}\text{ }u(x_{i}|r_{j})\text{.}$$
 
 ---
-ckass: MSU
+class: MSU
 # Köszegi & Rabin (2007)
 
 **Example:** If $X=(200,\frac{1}{4};0,\frac{3}{4})$ and $R=(150,\frac{1}{3};50,\frac{2}{3})$, then
@@ -376,694 +374,337 @@ $$U(X|R)=\frac{1}{3}\left[ \frac{1}{4}u(200|150)+\frac{3}{4}u(0|150)\right] + \f
 
 or
 
-U(X|R)=\frac{1}{12}u(200|150)+\frac{1}{6}u(200|50)+\frac{1}{4}u(0|150)+\frac{1}{2}u(0|50)$$.
+$$U(X|R)=\frac{1}{12}u(200|150)+\frac{1}{6}u(200|50)+\frac{1}{4}u(0|150)+\frac{1}{2}u(0|50)$$.
+
+---
+class: MSU
+# Köszegi & Rabin (2007)
+
+**Point 1**: Risk aversion when no possible "losses".
+
+Consider choice
+
+$$A\equiv (y,1)\ \text{with }y\leq 100 \qquad \text{vs.} \qquad B\equiv (\text{ }200,\frac{1}{2}\text{ };\text{ }0,\frac{1}{2}\text{ })$$
+
+--
+
+**Case 1:** Suppose expect $A\Longrightarrow$ reference point is $r=y$:
+
+$$U(A|r) = y + \eta*(0) = y$$
+
+$$U(B|r) = 100 + \left[ \frac{1}{2}\eta (200-y)+\frac{1}{2} \eta \lambda (0-y)\right]$$ 
+--
+
+This implies that you choose $A$ if $y\geq \frac{1+\eta }{1+\frac{1}{2}\eta +\frac{1}{2}\eta \lambda }100\equiv \bar{y}_{1}$
+
+- **Note:** $\lambda >1$ implies $\bar{y}_{1}<100$ --- risk averse!
+
+---
+class: MSU
+# Köszegi & Rabin (2007)
+
+**Case 2:** Suppose expect lottery $B\Longrightarrow$; reference point is $R=(200,\frac{1}{2};0,\frac{1}{2}$
+
+$$U(A|R) = y + \left[ \frac{1}{2}\eta (y-0)+\frac{1}{2}\eta \lambda (y-200)\right]$$
+--
+
+$$U(B|r) = 100 + \frac{1}{2}\left[ \frac{1}{2}\eta (200-0)+ \frac{1}{2}\eta (200-200)\right] +$$ 
+$$\qquad \qquad \qquad \frac{1}{2}\left[ \frac{1}{2}\eta (0-0)+\frac{1}{2}\eta \lambda (0-200)\right]$$
+--
+
+**Result:** Choose $A$ if $y\geq 100\equiv \bar{y}_{2}\text{.}$
+
+- Note: $\bar{y}_{2}>\bar{y}_{1}$; that is, *expecting risk* makes you less risk averse!
+
+- *Intuition:* When expecting risk, even certain outcomes involve gains and losses, and thus they lose part of their advantage relative to risky outcomes.
+
+---
+class: MSU
+# Köszegi & Rabin (2007)
+
+**Point 2:** Above feature helps explain demand for insurance at actuarially unfair prices.
+
+Suppose you have wealth $1000, but there is a 10% chance that you will suffer a loss of $250.
+
+Full insurance is available at price $\pi > 25$ .
+
+--
+
+- If insure, face lottery $(1000-\pi ,1)\equiv A$.
+
+- If don't, face lottery $(1000,.9;750,.1)\equiv B$.
+
+--
+
+**Note:** If reference point is $r=1000$, don't insure! (Prove this.)
+
+--
+
+Could it be that you expect to be insured, and still prefer to be insured?
+
+In other words, given reference point $r=1000-\pi$, do you prefer lottery $A \equiv (1000-\pi ,1)$ over $B\equiv (1000,.9;750,.1)$?
+
+---
+class: MSU
+# Köszegi & Rabin (2007)
+
+In other words, given reference point $r=1000-\pi$, do you prefer lottery $A\equiv (1000-\pi ,1)$ over $B\equiv (1000,.9;750,.1)$?
+
+--
+
+$$U(A|r) = \left[ 1000-\pi \right] + \left[ 0\right]$$
+--
+
+$$U(B|r) = 975 + \left[ .9\eta (\pi )+.1\eta \lambda (\pi-250)\right]$$ 
+
+--
+
+- **Result:** Insure if $\pi \leq \frac{1+\eta \lambda }{1+\eta \lambda -.9\eta (\lambda -1)}25\equiv \bar{\pi}$
+
+- Note: $\lambda >1$ implies $\bar{\pi}>25$ --- indeed willing to insure at actuarially unfair prices.
+
+- *Intuition:* Because expect to pay premium, it's not felt as a loss.
+
 
 ---
 
-	# Köszegi & Rabin (2007)}
+class: MSU 
+name: app1
+# Application: Labor Supply of Taxi Drivers
 
-	\textbf{Point 1:} Risk aversion when no possible "losses".
+### Camerer, Babcock, Loewenstein, & Thaler (1997)
 
+For many jobs, people choose how to allocate their labor from day-to-day, or from week-to-week, or from month-to-month.
 
+--
 
-	Consider choice%
-	\[
-	A\equiv (y,1)\ \text{with }y\leq 100\qquad \text{vs.\qquad }B\equiv (\text{ }%
-	200,\frac{1}{2}\text{ };\text{ }0,\frac{1}{2}\text{ })
-	\]
+**Benchmark:** The standard life-cycle model of labor supply says that, if your wage varies over time, you should work more when the wage is high than you do when the wage is low.
 
-	 %
+--
 
-	Case 1: Suppose expect lottery $A\Longrightarrow $ reference point is $r=y$:
+- Simple intuition: efficiently allocate your work effort.
 
-	\begin{center}
-		\begin{tabular}{llclc}
-			&  &  &  &  \\
-			$U(A|r)$ & $=$ & $y$ & $+$ & $\left[ 0\right] $ \\
-			&  &  &  &  \\
-			$U(B|r)$ & $=$ & $100$ & $+$ & $\left[ \frac{1}{2}\eta (200-y)+\frac{1}{2}%
-			\eta \lambda (0-y)\right] $ \\
-			&  &  &  &
-		\end{tabular}
+- Authors test this prediction on NYC cab drivers.
 
-		\[
-		\text{Choose }A\text{ if }y\geq \frac{1+\eta }{1+\frac{1}{2}\eta +\frac{1}{2}%
-			\eta \lambda }100\equiv \bar{y}_{1}\text{.}
-		\]
-	\end{center}
+---
+class: MSU
+# Labor Supply of Taxi Drivers
 
-	 % Note: $\lambda >1$ implies $\bar{y}_{1}<100$ --- risk averse!
+**First finding:** Their data permits them to calculate an average hourly wage for cab drivers, and they conclude that wages are highly correlated within a day, but not correlated across days.
 
-	%TCIMACRO{\TeXButton{EndFrame}{---}}%
-	%BeginExpansion
----%
-%EndExpansion
+--
 
-%TCIMACRO{\TeXButton{BeginFrame}{}}%
-%BeginExpansion
-%
-	%EndExpansion
+Hence, they take their unit of observation to be a day --- in particular, they estimate a daily wage equation:
 
-	# Köszegi & Rabin (2007)}
+$$\ln H_{t}=\gamma \ln W_{t}+\beta X_{t}+\varepsilon _{t}$$
 
-	Case 2: Suppose expect lottery $B\Longrightarrow $ reference point is
-	\newline
-	$R=($ $200,\frac{1}{2}$ $;$ $0,\frac{1}{2}$ $)$:
+--
 
-	\begin{center}
-		\begin{tabular}{llclc}
-			&  &  &  &  \\
-			$U(A|R)$ & $=$ & $y$ & $+$ & $\left[ \frac{1}{2}\eta (y-0)+\frac{1}{2}\eta
-			\lambda (y-200)\right] $ \\
-			&  &  &  &  \\
-			$U(B|r)$ & $=$ & $100$ & $+$ & $\frac{1}{2}\left[ \frac{1}{2}\eta (200-0)+%
-			\frac{1}{2}\eta (200-200)\right] $ \\
-			&  &  & $+$ & $\frac{1}{2}\left[ \frac{1}{2}\eta (0-0)+\frac{1}{2}\eta
-			\lambda (0-200)\right] $ \\
-			&  &  &  &
-		\end{tabular}
-	\end{center}
+- $H_{t}\equiv$ hours worked on day $t$
 
-	\[
-	\text{Choose }A\text{ if }y\geq 100\equiv \bar{y}_{2}\text{.}
-	\]
+- $W_{t}\equiv$ average wage on day $t$
 
-	 %
+--
 
-	Note: $\bar{y}_{2}>\bar{y}_{1}$ --- expecting risk makes you less risk
-	averse!
+Standard model predicts $\gamma >0$, but they find $\gamma <0$.
 
-	\begin{itemize}
-		\item Intuition: When expect risk, even certain outcomes involve gains and
-		losses, and thus they lose part of their advantage relative to risky
-		outcomes.
-	\end{itemize}
+In words, the standard model predicts positive wage elasticities, but they find **negative** wage elasticities.
 
-	%TCIMACRO{\TeXButton{EndFrame}{---}}%
-	%BeginExpansion
----%
-%EndExpansion
+---
+class: MSU 
+# Labor Supply of Taxi Drivers
 
-%TCIMACRO{\TeXButton{BeginFrame}{}}%
-%BeginExpansion
-%
-	%EndExpansion
+Their explanation is income targeting driven by loss aversion:
 
-	# Köszegi & Rabin (2007)}
+- Drivers have one-day time horizon for decision making.
 
-	Point 2: Demand for insurance at actuarially unfair prices.
+- Their reference point is a daily income target.
 
+- They feel losses relative to the target loom larger than gains.
 
+---
+class: MSU 
+# Labor Supply of Taxi Drivers
 
-	Suppose you have wealth \$1000, but there is a 10\% chance that you will
-	suffer a loss of \$250.
+### Farber (2005)
 
+Provides several critiques of Camerer et al (1997):
 
+- There is a "division bias": wages are calculated as earnings divided by hours, but hours are endogenous.
 
-	Full insurance is available at price $\pi >\$25$.
+- $\Rightarrow$ Negative bias in wage elasticity estimates.
 
-	\begin{itemize}
-		\item If insure, face lottery $(1000-\pi ,1)\equiv A$.
+--
 
-		\item If don't, face lottery $(1000,.9;750,.1)\equiv B$.
-	\end{itemize}
+- After cutting the data in a different way, Farber finds that it is not so clear there is more inter-day variation in the wage than intra-day variation in the wage.
 
-	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
-	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
-	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
-	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
-	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
-	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
-	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
-	\symbol{94}\symbol{94}\symbol{94}\symbol{94}
+--
 
-	Note: If reference point is $r=1000$, don't insure!
+**Main point:** There is a better approach that gets around these problems: instead of estimating usual wage regressions, estimate a probit optimal-stopping model.
 
-	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
-	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
-	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
-	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
-	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
-	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
-	\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}\symbol{94}%
-	\symbol{94}\symbol{94}\symbol{94}\symbol{94}
+---
+class: MSU 
+# Farber (JPE 2005)}
 
+> [And now for a little econometrics.]
 
+--
 
-	Could it be that you expect to be insured, and still prefer to be insured?
+### Probit optimal-stopping model:
 
+- Stop when $R(\tau )\geq 0$, where $R(\tau )=\gamma _{1}h_{\tau}+\gamma _{2}y_{\tau }+\beta X_{\tau }+\varepsilon _{\tau }$.
 
+- $h_{\tau }\equiv$ hours worked today after trip $\tau$ . 
 
-	In other words, given reference point $r=1000-\pi $, do you prefer lottery $%
-	A\equiv (1000-\pi ,1)$ over $B\equiv (1000,.9;750,.1)$?
+- $y_{\tau }\equiv$ earnings today after trip $\tau$ . 
 
-	%TCIMACRO{\TeXButton{EndFrame}{---}}%
-	%BeginExpansion
----%
-%EndExpansion
+--
 
-%TCIMACRO{\TeXButton{BeginFrame}{}}%
-%BeginExpansion
-%
-	%EndExpansion
+**Note:** Standard model predicts $\gamma _{1}>0$ and $\gamma _{2}=0$.
 
-	# Köszegi & Rabin (2007)}
+Farber indeed finds evidence consistent with $\gamma _{1}>0$ and $\gamma_{2}=0$, as in the standard model.
 
-	In other words, given reference point $r=1000-\pi $, do you prefer lottery $%
-	A\equiv (1000-\pi ,1)$ over $B\equiv (1000,.9;750,.1)$?
+- BUT it's not clear whether this result is inconsistent with income targeting, since income targeting does not imply $\gamma _{1}=0$.
 
-	\begin{center}
-		\begin{tabular}{ccccc}
-			&  &  &  &  \\
-			$U(A|r)$ & $=$ & $\left[ 1000-\pi \right] $ & $+$ & $\left[ 0\right] $ \\
-			&  &  &  &  \\
-			$U(B|r)$ & $=$ & $975$ & $+$ & $\left[ .9\eta (\pi )+.1\eta \lambda (\pi
-			-250)\right] $ \\
-			&  &  &  &
-		\end{tabular}
-	\end{center}
+---
+class: MSU 
+# Crawford & Meng (AER 2011)
 
-	\[
-	\text{Insure if }\pi \leq \frac{1+\eta \lambda }{1+\eta \lambda -.9\eta
-		(\lambda -1)}25\equiv \bar{\pi}
-	\]
+### Crawford & Meng (AER 2011)
 
+They apply the Köszegi-Rabin perspective to this debate:
 
+- There should be gain-loss utility over each dimension of consumption. Here, this means over income (as usual) but also over hours worked.
 
-	Note: $\lambda >1$ implies $\bar{\pi}>25$ --- indeed willing to insure at
-	actuarially unfair prices.
+- Take the reference point to be people's expectations about outcomes; in particular, take them to be people's average experienced outcomes.
 
-	\begin{itemize}
-		\item Intuition: Because expect to pay premium, it's not felt as a loss.
-	\end{itemize}
+	$H_{t}\equiv$ hours worked on day $t$
+	$Y_{t}\equiv$ income on day $t$
+	$W_{t}\equiv Y_{t}/H_{t}$
+	
+	$H^{e}\equiv$ average of $H_{t}$ \\
+	$Y^{e}\equiv$ average of $Y_{t}$ \\
+	$W^{e}\equiv Y^{e}/H^{e}$
 
-	%TCIMACRO{\TeXButton{EndFrame}{---}}%
-	%BeginExpansion
----%
-%EndExpansion
+--
 
-%TCIMACRO{\TeXButton{BeginFrame}{}}%
-%BeginExpansion
-%
-	%EndExpansion
+Their Hypothesis: Reference point is $(H^{e},Y^{e})$.
 
-	# Application: Labor Supply of Taxicab Drivers}
+---
+class: MSU 
+# Crawford & Meng (AER 2011)
 
-	\underline{Camerer, Babcock, Loewenstein, & Thaler (1997)}
+- Working fewer than $H^{e}$ hours generates gain utility, and working more than $H^{e}$ hours generates loss utility.
 
-	\vspace*{.2in}
+- Earning more than income $Y^{e}$ generates gain utility, and earning less than income $Y^{e}$ generates loss utility.
 
-	\begin{itemize}
-		\item For many jobs, people choose how to allocate their labor from
-		day-to-day, or from week-to-week, or from month-to-month.
+### Key Idea:
 
+- On high-wage days ( $W_{t}>W^{e}$ ), hit $Y^{e}$ first and $H^{e}$ second.
 
+- On low-wage days ( $W_{t}<W^{e}$ ), hit $H^{e}$ first and $Y^{e}$ second.
 
-		\item Benchmark: The standard life-cycle model of labor supply says that, if
-		your wage varies over time, you should work more when the wage is high than
-		you do when the wage is low.
+--
 
-		\begin{itemize}
-			\item Simple intuition: efficiently allocate your work effort.
-		\end{itemize}
+This suggests splitting the sample into high-wage days vs. low-wage days, because this model predicts that we should see different patterns of behavior.
 
+**And** when they do so, they find evidence consistent with their model and strongly reject Farber's analysis.
 
+--
 
-		\item They test this prediction on NYC cab drivers.
-	\end{itemize}
+Moreover, they show that targets in hours loom larger than targets in wages, which is consistent with the theory.
 
-	%TCIMACRO{\TeXButton{EndFrame}{---}}%
-	%BeginExpansion
----%
-%EndExpansion
 
-%TCIMACRO{\TeXButton{BeginFrame}{}}%
-%BeginExpansion
-%
-	%EndExpansion
-
-	# Camerer, Babcock, Loewenstein, & Thaler (1997)}
-
-	First finding: Their data permits them to calculate an average hourly wage
-	for cab drivers, and they conclude that wages are highly correlated within a
-	day, but not correlated across days.
-
-	\vspace*{.25in}
-
-	Hence, they take their unit of observation to be a day --- in particular,
-	they estimate a daily wage equation:%
-	\[
-	\ln H_{t}=\gamma \ln W_{t}+\beta X_{t}+\varepsilon _{t}
-	\]
-
-	\begin{itemize}
-		\item $H_{t}\equiv $ hours worked on day $t$
-
-		\item $W_{t}\equiv $ average wage on day $t$
-	\end{itemize}
-
-	\vspace*{.25in}
-
-	Standard model predicts $\gamma >0$, but they find $\gamma <0$.
-
-
-
-	In words, the standard model predicts positive wage elasticities, but they
-	find negative wage elasticities.
-
-	%TCIMACRO{\TeXButton{EndFrame}{---}}%
-	%BeginExpansion
----%
-%EndExpansion
-
-%TCIMACRO{\TeXButton{BeginFrame}{}}%
-%BeginExpansion
-%
-	%EndExpansion
-
-	# Camerer, Babcock, Loewenstein, & Thaler (QJE 1997)}
-
-	Their explanation is income targeting driven by loss aversion:
-
-	\begin{itemize}
-		\item one-day time horizon for decision making.
-
-		\item reference point is a daily income target.
-
-		\item losses relative to the target loom larger than gains.
-	\end{itemize}
-
-	%TCIMACRO{\TeXButton{EndFrame}{---}}%
-	%BeginExpansion
----%
-%EndExpansion
-
-%TCIMACRO{\TeXButton{BeginFrame}{}}%
-%BeginExpansion
-%
-	%EndExpansion
-
-	# Farber (JPE 2005)}
-
-	\underline{Farber (\emph{JPE} 2005)}
-
-
-
-	He first provides several critiques of Camerer et al (\emph{QJE} 1997):
-
-	\begin{itemize}
-		\item There is a \textquotedblleft division bias\textquotedblright\ ---
-		Camerer et al attempt to correct for it, but there are good reasons to doubt
-		their correction.
-
-		\begin{itemize}
-			\item "Division bias": wages are calculated as earnings divided by hours, but hours are endogenous.
-
-			\item[$\rightarrow$] Negative bias in wage elasticity estimates.
-		\end{itemize}
-
-		\item After cutting the data in a different way, he finds that it is not so
-		clear there is more inter-day variation in the wage than intra-day variation
-		in the wage.
-	\end{itemize}
-
-	\vspace*{0.1in}
-
-	Main point: There is a better approach that gets around these problems:
-	instead of estimating usual wage regressions, estimate a probit
-	optimal-stopping model.
-
-	%TCIMACRO{\TeXButton{EndFrame}{---}}%
-	%BeginExpansion
----%
-%EndExpansion
-
-%TCIMACRO{\TeXButton{BeginFrame}{}}%
-%BeginExpansion
-%
-	%EndExpansion
-
-	# Farber (JPE 2005)}
-
-	[And now for a little econometrics!]
-
-	\vspace*{0.1in}
-
-	Probit optimal-stopping model:
-
-	\begin{itemize}
-		\item Stop when $R(\tau )\geq 0$, where $R(\tau )=\gamma _{1}h_{\tau
-		}+\gamma _{2}y_{\tau }+\beta X_{\tau }+\varepsilon _{\tau }$.
-
-		\begin{itemize}
-			\item $h_{\tau }\equiv $ hours worked today after trip $\tau $
-
-			\item $y_{\tau }\equiv $ earnings today after trip $\tau $
-		\end{itemize}
-	\end{itemize}
-
-
-
-	\begin{itemize}
-		\item Standard model predicts $\gamma _{1}>0$ and $\gamma _{2}=0$.
-	\end{itemize}
-
-	%TCIMACRO{\TeXButton{EndFrame}{---}}%
-	%BeginExpansion
----%
-%EndExpansion
-
-%TCIMACRO{\TeXButton{BeginFrame}{}}%
-%BeginExpansion
-%
-	%EndExpansion
-
-	# Farber (JPE 2005)}
-
-	\begin{itemize}
-		\item He indeed finds evidence consistent with $\gamma _{1}>0$ and $\gamma
-		_{2}=0$, as in the standard model.
-	\end{itemize}
-
-	\vspace*{.2in}
-
-	\begin{itemize}
-		\item BUT it's not clear whether this result is inconsistent with income
-		targeting.
-
-		\begin{itemize}
-			\item Income targeting does not imply $\gamma _{1}=0$.
-
-			\item Perhaps a misspecification of the daily-income effect.
-		\end{itemize}
-	\end{itemize}
-
-	%TCIMACRO{\TeXButton{EndFrame}{---}}%
-	%BeginExpansion
----%
-%EndExpansion
-
-%TCIMACRO{\TeXButton{BeginFrame}{}}%
-%BeginExpansion
-%
-	%EndExpansion
-
-	# Crawford & Meng (AER 2011)}
-
-	\underline{Crawford & Meng (AER 2011)}
-
-	\vspace*{.2in}
-
-	They apply the Köszegi-Rabin perspective to this debate:
-
-	\begin{itemize}
-		\item There should be gain-loss utility over each dimension of consumption
-		--- here, this means over income (as usual) but also over hours worked.
-
-
-
-		\item Take the reference point to be people's expectations about outcomes
-		--- in particular, take them to be people's average experienced outcomes.
-	\end{itemize}
-
-	%TCIMACRO{\TeXButton{EndFrame}{---}}%
-	%BeginExpansion
----%
-%EndExpansion
-
-%TCIMACRO{\TeXButton{BeginFrame}{}}%
-%BeginExpansion
-%
-	%EndExpansion
-
-	# Crawford & Meng (AER 2011)}
-
-	Define:
-	\begin{tabular}[t]{l}
-		$H_{t}\equiv $ hours worked on day $t$ \\
-		$Y_{t}\equiv $ income on day $t$ \\
-		$W_{t}\equiv Y_{t}/H_{t}$ \\
-		\\
-		$H^{e}\equiv $ average of $H_{t}$ \\
-		$Y^{e}\equiv $ average of $Y_{t}$ \\
-		$W^{e}\equiv Y^{e}/H^{e}$
-	\end{tabular}
-
-	\vspace*{0.25in}
-
-	Their Hypothesis: Reference point is $(H^{e},Y^{e})$.
-
-	\begin{itemize}
-		\item Working fewer than $H^{e}$ hours generates gain utility, and working
-		more than $H^{e}$ hours generates loss utility.
-
-		\item Earning more than income $Y^{e}$ generates gain utility, and earning
-		less than income $Y^{e}$ generates loss utility.
-	\end{itemize}
-
-	%TCIMACRO{\TeXButton{EndFrame}{---}}%
-	%BeginExpansion
----%
-%EndExpansion
-
-%TCIMACRO{\TeXButton{BeginFrame}{}}%
-%BeginExpansion
-%
-	%EndExpansion
-
-	# Crawford & Meng (AER 2011)}
-
-	Key Idea:
-
-	\begin{itemize}
-		\item On high-wage days ($W_{t}>W^{e}$), hit $Y^{e}$ first and $H^{e}$
-		second.
-
-		\item On low-wage days ($W_{t}<W^{e}$), hit $H^{e}$ first and $Y^{e}$ second.
-	\end{itemize}
-
-	\vspace*{0.3in}
-
-	This suggests splitting the sample into high-wage days vs. low-wage days,
-	because this model predicts that we should see different patterns of
-	behavior.
-
-
-
-	Hence, Crawford & Meng re-run the Farber (2005) estimation (with Farber's
-	dataset), except they split the dataset into observations on
-	\textquotedblleft high-wage days\textquotedblright\ vs. \textquotedblleft
-	low-wage days\textquotedblright .
-
-	%TCIMACRO{\TeXButton{EndFrame}{---}}%
-	%BeginExpansion
----%
-%EndExpansion
-
-%TCIMACRO{\TeXButton{BeginFrame}{}}%
-%BeginExpansion
-%
-	%EndExpansion
-
-	# Crawford & Meng (AER 2011)}
-
-	Recall that the Farber (2005) model is:
-
-	\begin{itemize}
-		\item Stop when $R(\tau )\geq 0$, where $R(\tau )=\gamma _{1}h_{\tau
-		}+\gamma _{2}y_{\tau }+\beta X_{\tau }+\varepsilon _{\tau }$
-	\end{itemize}
-
-	Note: The predicted pattern of behavior depends on whether stopping
-	typically closer to when hit first or second reference point.
-
-	\begin{itemize}
-		\item If stopping closer to first reference point, model predicts:
-
-		\begin{itemize}
-			\item For high-wage days, $\gamma _{2}>0$ while $\gamma _{1}=0$.
-
-			\item For low-wage days, $\gamma _{1}>0$ while $\gamma _{2}=0$.
-		\end{itemize}
-
-		\item If stopping closer to second reference point, model predicts:
-
-		\begin{itemize}
-			\item For high-wage days, $\gamma _{1}>0$ while $\gamma _{2}=0$.
-
-			\item For low-wage days, $\gamma _{2}>0$ while $\gamma _{1}=0$.
-		\end{itemize}
-	\end{itemize}
-
-	Standard model predicts $\gamma _{1}>0$ while $\gamma _{2}=0$ for either
-	case.
-
-	%TCIMACRO{\TeXButton{EndFrame}{---}}%
-	%BeginExpansion
----%
-%EndExpansion
-
-%TCIMACRO{\TeXButton{BeginFrame}{}}%
-%BeginExpansion
-%
-	%EndExpansion
-
-	# Crawford & Meng (AER 2011)}
-
-	They find evidence consistent with their model and strongly reject Farber's analysis.
-
-
-
-	Moreover, they show that targets in hours loom larger than targets in wages, which is consistent with the theory.
-
-	%TCIMACRO{\TeXButton{EndFrame}{---}}%
-	%BeginExpansion
----%
-
-
-
-# Other Empirical Work}
+---
+class: MSU
+name: app2
+# Other Empirical Work
 
 Crawford and Meng (2011) and its predecessors have been influential because of the domain: labor supply. However, this domain can make the analysis more complex than it needs to be.
 
-\vspace*{0.1in}
+--
 
 An alternative approach (innovated by Saez 2010; and Chetty et. al 2011): search for excess "bunching".
 
-\begin{itemize}
-	\item Observed distribution of data exceeds a modeled counterfactual distribution or a normative distribution.
+- Observed distribution of data exceeds a modeled counterfactual distribution or a normative distribution.
 
-	\vspace*{0.1in}
+- Chetty et al. (2011) application: taxes and kinks in the tax schedule.
 
-	\item Chetty et al. (2011) application: taxes and kinks in the tax schedule.
-\end{itemize}
-
-Allen et al. (2017) looks for this in marathon runners.
+- Allen et al. (2017) looks for this in marathon runners.
 
 ---
+class: MSU
+# Time Targets in Runners
 
+![](graphics/allenetal2017_1.png)
 
-
-# Allen et al. 2017}
-
-\begin{center}
-\begin{figure}
-	\includegraphics[scale=.55]{graphics/allenetal2017_1}
-\end{figure}
-\end{center}
 
 ---
+class: MSU 
+# Time Targets in Runners
 
-
-
-
-
-# Allen et al. 2017}
-
-\begin{center}
-\begin{figure}
-\includegraphics[scale=.33]{graphics/allenetal2017_2}
-\end{figure}
-\end{center}
+![](graphics/allenetal2017_2.png)
 
 ---
+class: inverseMSU 
+name: conclusion
+# Reference-Dependent Welfare
 
 
+### Are people worse off for having made loss-averse decisions?
 
+- Samuelson showed us that they are worse of mathematically.
 
-# Reference-Dependent Welfare}
+-  Ultimately, answer to this question depends on modeler's beliefs about whether loss aversion is something that people really *feel*, or merely an artifact of some choice bias or mistake.
 
-\dots not \textbf{that} kind of welfare. The economics kind.
+--
 
-\vspace*{0.1in}
-
-Put more concretely: are people worse off for having made risk averse decisions?
-
-\begin{itemize}
-\item Samuelson showed us that they are worse of mathematically.
-
-\vspace*{0.1in}
-
-\item Ultimately, answer to this question depends on modeler's beliefs about whether loss aversion is something that people really \textit{feel}, or merely an artifact of some choice bias or mistake.
-
-\item Two camps: (1) Loss aversion is an affective forecasting error; (2) Loss aversion is a real manifestation of preferences.
-\end{itemize}
+Two camps: (1) Loss aversion is an affective forecasting error; (2) Loss aversion is a real manifestation of preferences.
 
 Surprisingly: Kahneman waffles between two; see e.g. Schkade and Kahneman (1998).
 
-\vspace*{0.1in}
-
-\alert{Me:} (2.5) Loss aversion is a little bit an affective forecasting error and a little bit "real".
+**Me:** (2.5) Loss aversion is a little bit an affective forecasting error and a little bit "real".
 
 ---
-
-
-
-# Epilogue}
+class: inverseMSU 
+# Epilogue
 
 What have we learned in $\approx 500$ years of studying risk preferences?
 
-\vspace*{0.1in}
+--
 
-\textbf{Expected values} matter, but don't wholly determine choice.
+**Expected values** matter, but don't wholly determine choice.
 
-\begin{itemize}
-\item \dots except they probably \textit{should}. [Begin rant.]
+--
 
-\vspace*{0.1in}
+- $\dots$ except they probably should. [Begin rant.]
 
-\item \dots most of the time. [End rant.]
-\end{itemize}
+--
 
-\vspace*{0.1in}
+- $\dots$ most of the time. [End rant.]
 
-\textbf{Diminishing marginal utility} matters, but definitely does not explain most choices over risk.
+--
 
-\begin{itemize}
-\item \dots and I'm suspicious of \textit{all} evidence on diminishing marginal utility of wealth.
+**Diminishing marginal utility** definitely does not explain most choices over risk.
 
-\item Evidence conflated with reference-point effects (e.g. hedonic treadmill).
-\end{itemize}
+- $\dots$ and I'm suspicious of **all** evidence on diminishing marginal utility of wealth.
+
+-  Evidence conflated with reference-point effects (e.g. hedonic treadmill).
 
 ---
+class: inverseMSU
+# Epilogue
 
+**Prospect Theory** matters, but you need to apply it correctly.
 
-# Epilogue}
+- Misleading conclusions when you fail to account for beliefs.
 
-\textbf{Prospect Theory} matters, but you need to apply it correctly.
+- $\dots$ but when you apply the "correct model", your intuitions are preserved.
 
-\begin{itemize}
-\item Misleading conclusions when you fail to account for beliefs.
+--
 
-\vspace*{0.1in}
-
-\item \dots  but when you apply the "correct model", your intuitions are preserved.
-\end{itemize}
-
-\vspace*{0.1in}
-
-BUT: there are a lot of open questions about Köszegi and Rabin's theory.
-
-\indent (Wanna go to grad school?)
-
----
-
-
-
-# Epilogue}
-
-We've also (sneakily) introduced a new category of utility function:\textbf{ belief-based utility}.
-
-
+We've also (sneakily) introduced a new category of model: *belief-based utility*.
 
 We will return to some other models in this space.
 
-\begin{itemize}
-\item \dots and in doing so we can address the lingering question: what \textit{is} the reference point?
-\end{itemize}
 
----
-
-%EndExpansion
-
-\end{document}
