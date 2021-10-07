@@ -1,6 +1,6 @@
 ---
-title: "Choice under Uncertainty: Prospect Theory in the 21st Century"
-linktitle: "1e: Refinements of PT"
+title: "Limited Rationality"
+linktitle: "2: Limited Thinking"
 date: "2021-09-07"
 read_date: "2021-09-07"
 draft: false
@@ -13,7 +13,7 @@ type: docs
 output:
   blogdown::html_page:
     toc: false
-slides: "05-KR"
+slides: "06-LimitedRationality"
 
 ---
 
@@ -30,8 +30,8 @@ sections <- tibble::tribble(
   ~name, ~slide, ~active,
   "Top", "Cover", TRUE,
  )
-slide_tabs(sections, "/slides/05-KR.html")
-pdfize(here::here("static/slides/05-KR.html"))
+slide_tabs(sections, "/slides/06-LimitedRationality.html")
+pdfize(here::here("static/slides/06-LimitedRationality.html"))
 ```
 
 

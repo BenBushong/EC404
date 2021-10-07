@@ -1,0 +1,441 @@
+---
+title: "Introduction to Limited Rationality"
+subtitle: "EC404; Fall 2021"
+author: "Prof. Ben Bushong"
+date: "Last updated `r format(Sys.Date(), '%B %d, %Y')`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    yolo: false
+    css: [default, metropolis, "EC404.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+    incremental: true
+name: "Cover"
+
+
+---
+```{r setup, include=FALSE}
+
+options(htmltools.dir.version = FALSE)
+options("getSymbols.warning4.0"=FALSE)
+
+
+library(here) # creates absolute paths, but those won't work in html
+library(knitr)
+library(kableExtra)
+library(tidyverse)
+library(wooldridge)
+require(lubridate)
+require(scales)
+require(broom)
+require(visualize)
+
+require(wbstats)
+require(lmtest)
+require(sandwich)
+require(car)
+require(quantmod)
+require(patchwork)
+
+
+
+# https://yihui.org/knitr/options/
+opts_chunk$set(
+  fig.align="center",
+  #dpi=300,
+  fig.path='figs/', # where figs are rendered
+  cache=F,
+  echo=F,
+  message = F,
+  warning = F
+  )
+
+```
+
+layout: true
+
+<div class="msu-header"></div>
+<div style = "position:fixed; visibility: hidden">
+$$\require{color}\definecolor{yellow}{rgb}{1, 0.8, 0.16078431372549}$$
+$$\require{color}\definecolor{orange}{rgb}{0.96078431372549, 0.525490196078431, 0.203921568627451}$$
+$$\require{color}\definecolor{MSUgreen}{rgb}{0.0784313725490196, 0.52156862745098, 0.231372549019608}$$
+</div>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: {
+    Macros: {
+      yellow: ["{\\color{yellow}{#1}}", 1],
+      orange: ["{\\color{orange}{#1}}", 1],
+      MSUgreen: ["{\\color{MSUgreen}{#1}}", 1]
+    },
+    loader: {load: ['[tex]/color']},
+    tex: {packages: {'[+]': ['color']}}
+  }
+});
+</script>
+
+<style>
+.yellow {color: #FFCC29;}
+.orange {color: #F58634;}
+.MSUGreen {color: #14853B;}
+</style>
+
+
+```{r flair_color, echo=FALSE}
+library(flair)
+yellow <- "#FFCC29"
+orange <- "#F58634"
+MSUGreen <- "#14853B"
+```
+
+
+```{r, eval=FALSE}
+
+#BELOW IS WHERE YOU ADD CONTENT. KEEP ABOVE CONSTANT EXCEPT TITLE.
+
+```
+
+---
+
+
+class: inverseMSU
+name: Overview
+
+# Some Thoughts
+
+
+
+
+---
+class: MSU
+# Introduction to Limited Rationality
+We can think about the idea of "Limited Rationality" in two ways (both are inspired by tons of work in psychology and under-explored in economics):
+
+1. Informally: "Ways that our probabilistic beliefs are wrong". We call these collected errors **Quasi-Bayesian**.
+
+- [1.1] Errors in probabilistic judgments about things. e.g., base-rate neglect, gambler's fallacy.
+
+- [1.2] Errors in statistical reasoning about volitional agents e.g., level-k reasoning, cursedness and inferential
+  naivety, hindsight bias.
+
+- [1.3] "Motivated cognition": preferences and emotions distorting probabilistic judgments e.g., cognitive dissonance, self-serving biases.
+
+--
+
+But category we do for next few weeks $\dots$
+
+
+---
+class: MSU
+# Introduction to Limited Rationality
+
+### "Quasi-Maximization"
+
+We will model the person as engaging in traditional constrained maximization at each moment in time.
+
+- But specify exact mistake the person is making in which function she is maximizing, or in what choice set she is choosing from.
+
+--
+
+Does not correspond to maximizing **true** preferences because
+
+- [1.1] Present bias: moment by moment, you maximize full intertemporal utility, but at each moment tend to overweight current utility (and may mispredict the propensity to do so in the future).
+
+- [1.2] Utility misprediction: because of current tastes or current focus, you (actively or passively) mispredict utility of future situations.
+
+- [1.3] " Decision neglect" and "narrow bracketing": maximizing true utility among each choice set you focus on, but don't focus globally
+
+
+---
+class: MSU
+# Introduction to Limited Rationality
+
+### Quasi-Maximization Defined More Broadly
+
+Person maximizes a particular " goal" given his choice set:
+
+$$ \text{Max}_{x\in X} V(x).$$
+
+--
+
+But $V$ not actual utility function **should** be maximizing.
+
+---
+class: MSU
+# Introduction to Limited Rationality
+
+Lesson and theme for economics of quasi-maximization perspective:
+
+-  Have we ever chosen our " life course" ?
+
+--
+
+$\Rightarrow$ Our piecemeal maximization may lead to life course we never **chose**.
+
+--
+
+-  A smoker "decided" thousands of times to smoke ... but did she ever decide to become a smoker?
+
+-  A person in $12,000 credit-card debt made all the choices leading to that debt  ... but did she ever decide to be $12,000 in debt?
+
+--
+
+All three quasi-maximization errors contribute.
+
+
+---
+class: MSU
+# Decision Neglect and Narrow Bracketing
+
+### Life.
+
+--
+
+Life's a bitch \_\_\_\_\_\_\_\_, and then \_\_\_\_\_\_\_ you die.
+
+-  Life's a bitch *of a complicated expected-utility maximization problem*, and then *millions of isolated decisions taken and billions of potential decisions untaken later* you die.
+
+-  Economic models tend to operate as if we sit down and formulate a complete contingent plan of what we'll do. And then we implement that choice.
+
+--
+
+Of course, perfect planning followed by perfect execution of plans is not what people do. Two hard-to-distinguish departures:
+
+--
+
+1. **Decision Neglect:** We make choices in only infinitesimal percentage of infinity of choice sets we face.
+
+--
+
+2. **Narrow bracketing:** We don't fully integrate our decisions with other decisions even when we could increase utility from doing so.
+
+
+---
+class: MSU
+# Decision Neglect and Narrow Bracketing
+
+Nobody (including economists) thinks people do the maximize-complete-contingent-lifetime-expected-utility thing.
+
+But turns out our failure to do global maximization matters.
+
+--
+
+-  This limit to rationality is the closest to a complexity-based mistake that we'll discuss in this course. (There are, of course, others)
+
+--
+
+We'll show:
+
+-  People narrowly bracket even in relatively simple settings.
+
+--
+
+-  The **way** people narrowly bracket is suboptimal within the class of narrow-bracketing rules of behavior.
+
+--
+
+-  $\dots$ and worse than **simpler** rules.
+
+
+
+---
+class: MSU
+# Decision Neglect and Narrow Bracketing
+
+Life is an infinite series of (potential) choice sets, $X_{1}, X_{2}, \dots X_{N},$ .
+
+--
+
+When facing choice sets $X$ and $Y$, the agent
+
+### Should:
+
+
+$$\text{Max}_{x,y\in X\times Y} u(x,y).$$
+
+--
+
+### Instead might:
+
+- **Decision Neglect**: "choose" some $\overline{x}\in X$ without
+    thinking, or
+
+--
+
+- **Narrowly Bracket**: } $\text{Max}_{x\in X} u(x),$ and $\text{Max}_{y\in Y} u(y)$ separately.
+
+
+---
+class: MSU
+# Decision Neglect and Narrow Bracketing
+
+Casey faces choice: 50/50 lose $80 / lose nothing over lose $35 for sure?
+
+--
+
+-  Per prospect theory, Casey may choose the 50/50 gamble.
+
+-  This is throwing away expected value.
+
+--
+
+What if Casey has a coin in their pocket. Could take the sure loss $35, then play 50/50  $40 with person next to them.
+
+--
+
+- This generates 50/50 lose $75, gain $5.
+
+-  Unambiguously better than what most people do.
+
+--
+
+**Deeper question:** what does it mean if *merely reminding you of a possibility* changes your choice?
+
+
+
+---
+class: MSU
+# Decision Neglect and Narrow Bracketing
+
+# Social-preferences example
+
+-  Suppose you are choosing between 15 apples for self and 0 for an anonymous other vs. 9 for self and 4 for that other person.
+
+**Would you choose (15, 0), or (9, 4)?**
+
+--
+
+Could take the 15 apples and split them up any way you want.
+
+  -  Didn't prevent you from doing whatever you wanted afterwards.
+
+  -  (15,0) isn't your final allocation if you don't want it to be.
+
+  -  Why not turn (15,0) into (9,6)?
+
+--
+
+Huge literature in economics about so-called "Dictator Games".
+
+-  How many $10 dictator games did person to left of you play yesterday?
+
+
+---
+class: MSU
+# Decision Neglect and Narrow Bracketing
+
+These are cases of " Decision Neglect" .
+
+
+-  Experimenters bring into focus relevant pies to pay attention to, and the relevant set of people to split it among.
+
+-  But more generally in life such focus happens by accident, by the design of others, and occasionally by our own design.
+
+
+---
+class: MSU
+# Decision Neglect and Narrow Bracketing
+
+
+Two general approaches to showing that people "narrowly bracket" :
+
+-  Direct---show people don't combine problems they'd be better off combining.
+
+-  Indirect---combine presumptive facts about "background noise" to argue calibrationally that observed choices are " too non-linear" to be consistent with integrating with unobserved other parts of life.
+
+-  Note: "indirect" shows simultaneously that people don't even narrowly bracket in as wise a way as they could.
+
+
+
+---
+class: MSU
+# Decision Neglect and Narrow Bracketing
+
+
+**Decision (i):** Choose between
+
+> $240 for certain and (.25, $1000; .75, $0)
+
+
+**Decision (ii):** Choose between
+
+> $-750 for certain and (.75, -$1000; .25, $0)
+
+--
+
+What does Prospect Theory tell us about behavior in this setting?
+
+-  84% A over B, 87% D over C.
+
+--
+
+### This is an error of narrow bracketing!
+
+
+---
+class: MSU
+# Decision Neglect and Narrow Bracketing
+
+We can see the real problem when we look at the combination of choices.
+
+Subjects' combined choices:
+
+-  73% AD, 11% AC, 14% BD, 3% BC.
+
+--
+
+But:
+
+-  AD is really a lottery composed of: (.75, -$760; .25, $240).
+
+-  BC is really a lottery composed of: (.75, -$750; .25 +$250).
+
+--
+
+So prefering AD to BC inconsistent with any theory ever proposed in either psychology or economics.
+
+---
+class: MSU
+# Decision Neglect and Narrow Bracketing
+
+### So What?
+
+You might retort: Okay, so people don't do impossible and completely integrate life choices. And?
+
+--
+
+**Answer 1:** yes, impossible. And so we study it.
+
+- Claim is not that people are stupider than they have to be given that they are subject to human constraints.
+
+- Humans on average make the mistakes that humans on average make.
+
+- The point is rather: people are less rational than economic models suppose, in ways that matter.
+
+--
+
+**Answer 2:** This situation is in your face, and still don't integrate.
+
+- So we've learned something about how powerful it is.
+
+
+---
+class: MSU
+# Decision Neglect and Narrow Bracketing
+
+**Answer 3:** This result is general; it's not about these preferences, or this pair of choices.
+
+
+Rabin and Weizsacker argue the violation we just illustrated
+
+-  can occur for arbitrarily small degrees of narrow bracketing
+
+-  can be economically significant
+
+-  appear in a wide range of experimental tasks
+
+-  Almost surely is exhibited massively in non-campus life.
