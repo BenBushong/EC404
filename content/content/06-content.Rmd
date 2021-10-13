@@ -1,6 +1,6 @@
 ---
 title: "Limited Rationality"
-linktitle: "2: Limited Thinking"
+linktitle: "A1: Limited Thinking"
 date: "2021-09-07"
 read_date: "2021-09-07"
 draft: false

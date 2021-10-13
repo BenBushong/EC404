@@ -1,0 +1,24 @@
+---
+title: "Problem Set 0: Not A Real Problem Set"
+linktitle: "PS0"
+publishDate: "2021-09-09"
+output:
+  blogdown::html_page:
+    toc: true
+menu:
+  assignment:
+    parent: Problem Sets
+    weight: 2
+type: docs
+weight: 1
+editor_options:
+  chunk_output_type: console
+---
+
+
+:::fyi
+**This "problem set" may be a useful resource for solving constrained optimization problems. It is not required; solutions are provided.**
+
+Click the icon to download the problem set: [<i class="fas fa-file-download"></i>](/ps/PS0.pdf).
+
+:::

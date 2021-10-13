@@ -1,0 +1,26 @@
+---
+title: "Choice over Time: Introduction and Standard Model"
+linktitle: "2: Choice over Time"
+date: "2021-09-07"
+read_date: "2021-09-07"
+draft: false
+lastmod: "`r Sys.Date()`"
+menu:
+  content:
+    parent: Course content
+    weight: 1
+type: docs
+output:
+  blogdown::html_page:
+    toc: false
+
+
+---
+
+## Slides
+
+Note that the slides aren't rendering properly at the moment. You can find them at the links below.
+
+Click this first icon to download the first batch of slides (discussing interest rates and present discounted value): [<i class="fas fa-file-download"></i>](/ps/EC404_Lecture4a.pdf).
+
+Click this second icon to download the second batch of slides (discussing the "standard model" aka exponential discounting): [<i class="fas fa-file-download"></i>](/ps/EC404_Lecture4b.pdf).
