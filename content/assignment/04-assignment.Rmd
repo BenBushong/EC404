@@ -1,6 +1,6 @@
 ---
 title: "Problem Set 4: Tatum"
-linktitle: "PS3"
+linktitle: "PS4"
 publishDate: "2021-10-21"
 output:
   blogdown::html_page:
