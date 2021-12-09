@@ -21,4 +21,6 @@ output:
 
 Due to slide rendering issues, all PDFs will be hosted below for the time being.
 
-Click this icon to download the slides: [<i class="fas fa-file-download"></i>](/ps/EC404_Lecture7a.pdf).
+Click this icon to download the slides on Bayes' Rule and evidence against the standard model: [<i class="fas fa-file-download"></i>](/ps/EC404_Lecture7a.pdf).
+
+Click this icon to download the slides on an alternative model: [<i class="fas fa-file-download"></i>](/ps/EC404_Lecture7b.pdf).
