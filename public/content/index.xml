@@ -5,64 +5,12 @@
     <link>https://ec404.netlify.app/content/</link>
       <atom:link href="https://ec404.netlify.app/content/index.xml" rel="self" type="application/rss+xml" />
     <description>Slides and Videos</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Tue, 11 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ec404.netlify.app/img/social-image.png</url>
       <title>Slides and Videos</title>
       <link>https://ec404.netlify.app/content/</link>
     </image>
-    
-    <item>
-      <title>Errors in Information Processing</title>
-      <link>https://ec404.netlify.app/content/10-content/</link>
-      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/content/10-content/</guid>
-      <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Due to slide rendering issues, all PDFs will be hosted below for the time being.&lt;/p&gt;
-&lt;p&gt;Click this icon to download the slides on Bayes’ Rule and evidence against the standard model: &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture7a.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Click this icon to download the slides on an alternative model: &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture7b.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Altruism, Fairness, and Social Preferences</title>
-      <link>https://ec404.netlify.app/content/09-content/</link>
-      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/content/09-content/</guid>
-      <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Due to slide rendering issues, all PDFs will be hosted below for the time being.&lt;/p&gt;
-&lt;p&gt;Click this icon to download the slides: &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture6.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Public Policy to Combat Errors</title>
-      <link>https://ec404.netlify.app/content/08-content/</link>
-      <pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/content/08-content/</guid>
-      <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Due to slide rendering issues, all PDFs will be hosted below for the time being.&lt;/p&gt;
-&lt;p&gt;Click this icon to download the slides: &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture5.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
     
     <item>
       <title>Choice under Uncertainty: The Standard Model</title>
@@ -272,65 +220,6 @@
 &lt;div id=&#34;top&#34; class=&#34;tab-pane fade show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;top-tab&#34;&gt;
 &lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
 &lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://ec404.netlify.app/slides/05-KR.html#Cover&#34;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;fyi&#34;&gt;
-&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands; on some slides, this might give helpful hints!&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Choice over Time: All Notes</title>
-      <link>https://ec404.netlify.app/content/07-content/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/content/07-content/</guid>
-      <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Due to slide rendering issues, all PDFs will be hosted below for the time being.&lt;/p&gt;
-&lt;p&gt;Click this first icon to download the first batch of slides (discussing interest rates and present discounted value): &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4a.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Click this second icon to download the second batch of slides (discussing the “standard model” aka exponential discounting): &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4b.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Click this third icon to download the third batch of slides (discussing evidence contradicting the standard model): &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4c.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Click this fourth icon to download the fourth batch of slides (discussing an alternative model—“present bias”): &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4d.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Click this fifth icon to download the fifth batch of slides (discussing applications of present bias): &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4e.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Click this sixth icon to download the sixth batch of slides (discussing more applications of present bias): &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4e2.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Click this seventh icon to download the seventh batch of slides (discussing more applications of present bias): &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4f.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Limited Rationality</title>
-      <link>https://ec404.netlify.app/content/06-content/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/content/06-content/</guid>
-      <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Note that the two days of this content will eventually be contained on this single slide deck.&lt;/p&gt;
-&lt;p&gt;
-&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/06-LimitedRationality.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/06-LimitedRationality.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;&lt;/p&gt;
-
-&lt;/p&gt;
-&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;slide-tabs&#34; role=&#34;tablist&#34;&gt;
-&lt;li class=&#34;nav-item&#34;&gt;
-&lt;a class=&#34;nav-link active&#34; id=&#34;top-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#top&#34; role=&#34;tab&#34; aria-controls=&#34;top&#34; aria-selected=&#34;true&#34;&gt;Top&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div id=&#34;slide-tabs&#34; class=&#34;tab-content&#34;&gt;
-&lt;div id=&#34;top&#34; class=&#34;tab-pane fade show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;top-tab&#34;&gt;
-&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://ec404.netlify.app/slides/06-LimitedRationality.html#Cover&#34;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/div&gt;

@@ -21,7 +21,7 @@ library(pander)
 
 ### Office Hours
 
-My office hours are 5:15 - 6:15 on Thursdays. Zoom link [here](https://msu.zoom.us/j/2711311082) (Passcode: GODUCKS).
+My office hours are 5:30 - 6:30 on Thursdays. Zoom link [here](https://msu.zoom.us/j/2711311082) (Passcode: GODUCKS).
 
 ## What Is This Course and Can / Should You Take It?
 
@@ -57,7 +57,7 @@ In the most important senses, the course won’t at all be a departure from main
 
 
 ## Contacting Me
-I have moved this up to an odd spot in a---likely unsuccessful---attempt to minimize our collective headache.
+I have moved this up to an odd spot in a (likely unsuccessful) attempt to minimize our collective headache.
 
 Email is a blessing and a curse. Instant communication is wonderful, but often email is the wrong medium to have a productive conversation about course material. Moreover, I get a **lot** of emails. This means that I am frequently triaging emails into two piles: "my house is burning down" and "everything else". Your email is unlikely to make the former pile. So, asking questions about course material is always best done in-class or in office hours. Students always roll their eyes when professors say things like that, but it’s true that if you have a question, it’s very likely someone else has the same question.
 
