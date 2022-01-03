@@ -91,14 +91,6 @@ authors: Ben Bushong
 ##
 ##############################
 
-#instructor:
-#  name: Prof. Justin Kirkpatrick
-#  email: jkirk@msu.edu
-#  url: "https://www.justinkirkpatrick.com"
-#  office: "105 Old Botany"
-#  twitter: 'ajkirkpatrick2'
-#  contact_policy: >-
-#    Please consider whether your question is short and concrete; if so, feel free to email me. If your question is deep, vague, interesting, or otherwise complex, please come to office hours or we can discuss in class. See syllabus for details.
 
 instructor:
   name: Prof. Ben Bushong
@@ -118,10 +110,10 @@ course:
   semester: "Spring Semester 2022"
   days: "Tuesday and Thursday"
   time: "8:30am - 9:50am"
-  dates: "January – May, 2022"
+  dates: "January – May"
   copyrightYear: "2022"
   slack: "https://join.slack.com/t/slack-nzx9830/shared_invite/zt-v1w19zom-xpFAQGba3R25MYQzVViHqQ"
-  office_hours: = "Thursdays 4:15pm - 5:15pm"
+  office_hours: = "Thursdays 5:30pm - 6:30pm"
 
 university:
   name: Michigan State University
