@@ -1,8 +1,8 @@
 ---
 title: "Choice under Uncertainty: Applications of Prospect Theory"
 linktitle: "1d: Applications of PT"
-date: "2021-09-07"
-read_date: "2021-09-07"
+date: "2022-01-01"
+read_date: "2022-01-01"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
@@ -19,7 +19,7 @@ slides: "04-PTApplications1"
 
 ## Slides
 
-Note that the two days of applications have been condensed to a single set of slides. 
+Note that the two days of applications have been condensed to a single set of slides.
 
 `r blogdown::shortcode("slide-buttons")`
 

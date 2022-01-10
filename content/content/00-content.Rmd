@@ -1,8 +1,8 @@
 ---
 title: "Welcome Back"
 linktitle: "0: Introduction"
-date: "2021-09-02"
-read_date: "2021-09-02"
+date: "2022-01-11"
+read_date: "2022-01-11"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
