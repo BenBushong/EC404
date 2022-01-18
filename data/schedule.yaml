@@ -6,7 +6,7 @@ lessons:
     session: 1
     date: "Week 1 (11 January)"
     content: "00-content"
-    #assignment: "00-assignment"
+    assignment: "00-assignment"
 
   - title: '<span class="fake-header-table">Choice under Uncertainty</span>'
     header: True
@@ -14,8 +14,8 @@ lessons:
   - title: 'The Standard Model: Expected Utility'
     session: 2
     date: "Week 1 (13 January)"
-    #content: "01-content"
-    #assignment: "01-assignment"
+    content: "01-content"
+    assignment: "01-assignment"
 
   - title: 'Evidence that Contradicts Expected Utility'
     session: 3
