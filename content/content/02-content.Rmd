@@ -1,8 +1,8 @@
 ---
 title: "Choice under Uncertainty: Evidence Contradicting the Standard Model"
 linktitle: "1b: Evidence"
-date: "2022-01-01"
-read_date: "2022-01-01"
+date: "2022-01-20"
+read_date: "2022-01-20"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
