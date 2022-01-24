@@ -1,6 +1,6 @@
 ---
 title: "Choice under Uncertainty (Lecture 1c)"
-subtitle: "EC404; Fall 2021"
+subtitle: "EC404; Spring 2022"
 author: "Prof. Ben Bushong"
 date: "Last updated `r format(Sys.Date(), '%B %d, %Y')`"
 output:
@@ -137,7 +137,7 @@ Some concepts are hard to get your head around. It can be easier to think about 
 --
 
 - E.g., "risk aversion" will continue to trip you up throughout this section.
-- Think about the limit case: a person who is infinitely risk averse.
+- Think about the limit case: a person who is **infinitely** risk averse.
 - Now think about the other limit case: a person who is risk neutral.
 - In between those lies reality. The **definition** of the term only offers that a person is a teensy tiny itty bitty bit above risk neutrality. How she actually behaves depends on *how* risk averse she is.
 
@@ -145,7 +145,6 @@ Some concepts are hard to get your head around. It can be easier to think about 
 
 **Your task:** think about limit cases.
 
-Also, go here: https://forms.gle/6UJKTLugp5bmMTBY6
 
 ---
 

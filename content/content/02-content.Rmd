@@ -23,7 +23,7 @@ Every single set of class slides can be found on this course website. Use the bu
 
 Please note: you may experience some performance issues when opening the PDF file with Preview; Adobe Acrobat does not have these problems.
 
-### Part 1:
+### Evidence Contracticting the Standard Model: 
 
 `r blogdown::shortcode("slide-buttons")`
 
