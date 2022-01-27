@@ -28,6 +28,11 @@
   </url>
   
   <url>
+    <loc>https://ec404.netlify.app/content/04-content/</loc>
+    <lastmod>2022-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ec404.netlify.app/</loc>
     <lastmod>2022-01-27T00:00:00+00:00</lastmod>
   </url>
@@ -49,11 +54,6 @@
   
   <url>
     <loc>https://ec404.netlify.app/content/03-content/</loc>
-    <lastmod>2022-01-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ec404.netlify.app/content/04-content/</loc>
     <lastmod>2022-01-27T00:00:00+00:00</lastmod>
   </url>
   
