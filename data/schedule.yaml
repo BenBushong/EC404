@@ -20,20 +20,20 @@ lessons:
   - title: 'Evidence that Contradicts Expected Utility'
     session: 3
     date: "Week 2 (18 January)"
-    #content: "02-content"
+    content: "02-content"
     #assignment: "02-assignment"
 
   - title: 'Prospect Theory'
     session: 4
     date: "Week 2 (20 January)"
-    #content: "03-content"
+    content: "03-content"
     #assignment: "02-assignment"
 
   - title: 'Applications of Propect Theory'
     session: 5
     date: "Week 3 (25 January)"
-    #content: "04-content"
-    #assignment: "03-assignment"
+    content: "04-content"
+    assignment: "02-assignment"
 
   - title: 'Reference-Dependent Preferences'
     session: 6
@@ -42,7 +42,7 @@ lessons:
     #assignment: "03-assignment"
 
   - title: '<i class="fas fa-star"></i> **EXAM 1**'
-    date: "8 February (Tentative)"
+    date: "15 February"
     #assignment: "project1"
 
   - title: '<span class="fake-header-table">Intertemporal Choice — Making Choices over Time</span>'
@@ -98,7 +98,7 @@ lessons:
     #assignment: "07-assignment"
 
   - title: '<i class="fas fa-star"></i> **EXAM 2**'
-    date: "17 March (Tentative)"
+    date: "29 March"
     #assignment: "project2"
 
   - title: '<span class="fake-header-table">Public Policy to Combat Errors</span>'
@@ -106,14 +106,14 @@ lessons:
 
   - title: 'Is "Paternalism" Acceptable or Justified?'
     session: 14
-    date: "Week 10 (22 March)"
+    date: "Week 11 (31 March)"
     #content: "10-content"
     #example: "10-example"
     #assignment: "10-assignment"
 
   - title: 'Optimal Sin Taxes'
     session: 15
-    date: "Week 10 (24 March)"
+    date: "Week 12 (5 April)"
     #content: "11-content"
     #example: "11-example"
     #assignment: "11-assignment"
@@ -123,28 +123,28 @@ lessons:
 
   - title: 'The Standard Model: Self Interest'
     session: 16
-    date: "Week 11 (29 March)"
+    date: "Week 13 (12 April)"
     #content: "11-content"
     #example: "11-example"
     #assignment: "11-assignment"
 
   - title: 'Evidence That Contradicts the Self-Interest Model'
     session: 16
-    date: "Week 11 (29 March)"
+    date: "Week 13 (12 April)"
     #content: "11-content"
     #example: "11-example"
     #assignment: "11-assignment"
 
   - title: 'Theories of Social Preferences'
     session: 17
-    date: "Week 11 (31 March)"
+    date: "Week 13 (14 April)"
     # content: "13-content"
     # example: "NA"
     # assignment: "NA"
 
   - title: 'Do "Intentions" Matter?'
     session: 18
-    date: "Week 12 (5 April)"
+    date: "Week 14 (19 April)"
     #content: "12-content"
     #example: "12-example"
     # assignment: "10-assignment"
@@ -154,21 +154,21 @@ lessons:
 
   - title: 'The Standard Model: Bayesian Information Processing'
     session: 19
-    date: "Week 12 (7 April)"
+    date: "Week 14 (21 April)"
     #content: "12-content"
     #example: "12-example"
     # assignment: "10-assignment"
 
   - title: 'Evidence that Contradicts Bayesian Information Processing'
     session: 15
-    date: "Week 13 (12 April)"
+    date: "Week 15 (26 April)"
     #content: "12-content"
     #example: "12-example"
     # assignment: "10-assignment"
 
   - title: 'An Alternative Model: The "Law Of Small Numbers"'
     session: 15
-    date: "Week 13 (14 April)"
+    date: "Week 15 (28 April)"
     #content: "12-content"
     #example: "12-example"
     # assignment: "10-assignment"
