@@ -38,7 +38,7 @@ lessons:
   - title: 'Reference-Dependent Preferences'
     session: 6
     date: "Week 4 (1 February)"
-    #content: "05-content"
+    content: "05-content"
     #assignment: "03-assignment"
 
   - title: '<i class="fas fa-star"></i> **EXAM 1**'
