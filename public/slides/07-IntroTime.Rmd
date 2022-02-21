@@ -103,7 +103,8 @@ MSUGreen <- "#14853B"
 class: MSU
 # Overview of Topic 2
 
-## Topic 2: Intertemporal Choice --- Making Choices Over Time
+## Topic 2: 
+### Intertemporal Choice: Making Choices Over Time
 
 Many interesting questions in economics involve choice over time:
 
@@ -111,9 +112,14 @@ Many interesting questions in economics involve choice over time:
 
 - How do people decide when to work on tasks?
 
-- For goods that yield short-term consumption utility but generate negative consequences in the long-term --- e.g., alcohol, cigarettes, potato chips --- how do people trade off the short-term benefits vs. the long-term costs?
+- For goods that yield short-term consumption utility but generate negative consequences in the long-term---e.g., alcohol, cigarettes, potato chips---how do people trade off the short-term benefits vs. the long-term costs?
 
---
+
+
+---
+class: MSU
+# Overview of Topic 2
+
 
 The standard model ("exponential discounting") assumes:
 
@@ -138,11 +144,11 @@ class: MSU
 
 **Example A:** Suppose you put $1000 into a bank account that pays 10% interest per year.
 
-- After 1 year, you'll have $(\$1000)\ast (1.10)=\$1100$.
+- After 1 year, you'll have $1000 * (1.10) = $1100 .
 
-- After 2 years, you'll have $(\$1100)\ast (1.10)=\$1210$.
+- After 2 years, you'll have $1100 * (1.10)= $1210 .
 
-- After 3 years, you'll have $(\$1210)\ast (1.10)=\$1331$.
+- After 3 years, you'll have $1210 * (1.10)= $1331 .
 
 --
 
@@ -178,7 +184,7 @@ class: MSU
 
 Because a 10% annual interest rate implies a 5% semi-annual interest rate:
 
-- After 6 months, you'll have $ 1000 \ast (1.05)= 1050$ .
+- After 6 months, you'll have $1000 \ast (1.05)= 1050$ .
 
 - After 1 year, you'll have $1050 \ast (1.05)= 1102.50$ .
 
@@ -249,7 +255,7 @@ We can answer this question by asking how much you could borrow now such that yo
 
 **Definition**: Given per-period interest rate $r$, the *present discounted value* (or sometimes just *present value* or *PDV*) of $P$ to be paid $T$ periods in the future is
 
-$$frac{P}{(1+r)^{T}}$$
+$$\frac{P}{(1+r)^{T}}$$
 
 
 ---
@@ -261,11 +267,11 @@ Some $PDV$ 's for $P=1000$ and yearly compounding:
 
 | $r$ | 1 Year | 2 Years | 3 Years | 10 Years | 20 Years |
 |:---:|:------:|:-------:|:-------:|:--------:|:--------:|
-3% | $971 | $943 | $915 | $744 | $554 |
-4% | $962 | $925 | $889 | $676 | $456 |
-5% | $952 | $907 | $864 | $614 | $377 |
-6% | $943 | $890 | $840 | $558 | $312 |
-7% | $935 | $873 | $816 | $508 | $258 |
+| 3% | $971 | $943 | $915 | $744 | $554 |
+| 4% | $962 | $925 | $889 | $676 | $456 |
+| 5% | $952 | $907 | $864 | $614 | $377 |
+| 6% | $943 | $890 | $840 | $558 | $312 |
+| 7% | $935 | $873 | $816 | $508 | $258 |
 
 
 ---
@@ -290,42 +296,43 @@ More generally: Given per-period interest rate $r$, a stream of future revenues 
 $$PDV=\frac{R_{1}}{(1+r)}+\frac{R_{2}}{(1+r)^{2}}+...+\frac{R_{N}}{(1+r)^{N}}.$$
 
 ---
+class: MSU
 # Time-Varying Interest Rates
 
-\underline{Definition}: The \emph{period-}$t$\emph{\ interest rate} $r_{t}$
-is the interest rate between period $t$ and period $t+1$. In other words, if
-in period $t$ your principal is $P_{t}$, then in period $t+1$ it becomes $%
-P_{t+1}=(1+r_{t})P_{t}$.
+**Definition:** The *period-* $t$ *interest rate* $r_{t}$ is the interest rate between period $t$ and period $t+1$. In other words, if in period $t$ your principal is $P_{t}$, then in period $t+1$ it becomes $P_{t+1}=(1+r_{t})P_{t}$.
 
-\vspace*{.1in}
+--
 
-Hence, if $P_{t}$ is the principal in your bank account in period $t$, and
-if your bank account pays per-period interest rates $(r_{t},r_{t+1},...)$,
+Hence, if $P_{t}$ is the principal in your bank account in period $t$, and if your bank account pays per-period interest rates $(r_{t},r_{t+1},...)$,
 then:
 
-\begin{itemize}
-\item $P_{t+1}=(1+r_{t})P_{t}$.
 
-\item $P_{t+2}=(1+r_{t+1})P_{t+1}=(1+r_{t+1})(1+r_{t})P_{t}$.
+- $P_{t+1}=(1+r_{t})P_{t}$.
 
-\item $P_{t+3}=(1+r_{t+2})P_{t+2}=(1+r_{t+2})(1+r_{t+1})(1+r_{t})P_{t}$.
+- $P_{t+2}=(1+r_{t+1})P_{t+1}=(1+r_{t+1})(1+r_{t})P_{t}$.
 
-\item And so on....
-\end{itemize}
+- $P_{t+3}=(1+r_{t+2})P_{t+2}=(1+r_{t+2})(1+r_{t+1})(1+r_{t})P_{t}$.
 
-\vspace*{.1in}
+- And so on....
+
+---
+class: MSU
+# Time-Varying Interest Rates
 
 Given per-period interest rates $(r_{t},r_{t+1},...)$, a stream of future
 revenues $(R_{t+1},R_{t+2},R_{t+3})$ has a present discounted value of
 
-\[
-PDV=\frac{R_{t+1}}{(1+r_{t})}+\frac{R_{t+2}}{(1+r_{t})(1+r_{t+1})}+\frac{%
-R_{t+3}}{(1+r_{t})(1+r_{t+1})(1+r_{t+2})}.
-\]
+$$PDV = \frac{R_{t+1}}{(1+r_{t})}+\frac{R_{t+2}}{(1+r_{t})(1+r_{t+1})}+\frac{R_{t+3}}{(1+r_{t})(1+r_{t+1})(1+r_{t+2})}.$$
 
-%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
-%BeginExpansion
-\end{frame}%
-%EndExpansion
+---
+class: inverseMSU 
+# End of Warm-Up 
 
-\end{document}
+As always, you will *not* need to memorize any of these equations. But we want to remind ourselves how to think about choices across time. 
+
+- How do you assess today versus tomorrow? 
+- What is the "correct" weight to put on money today versus money tomorrow? 
+- What determines this tradeoff? 
+
+We'll explore these questions (and many more) coming up. 
+

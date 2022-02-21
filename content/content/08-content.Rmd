@@ -1,0 +1,39 @@
+---
+title: "The Standard Model: Exponential Discounting"
+linktitle: "2b: Exponential Discounting"
+date: "2022-02-24"
+read_date: "2022-02-24"
+draft: false
+lastmod: "`r Sys.Date()`"
+menu:
+  content:
+    parent: Course content
+    weight: 1
+type: docs
+output:
+  blogdown::html_page:
+    toc: false
+slides: "08-ExponentialDiscounting"
+
+---
+
+## Slides
+
+
+`r blogdown::shortcode("slide-buttons")`
+
+```{r show-slide-tabs, echo=FALSE, results="asis"}
+source(here::here("R/slide_tabs.R"))
+source(here::here("R/pdfize.R"))
+sections <- tibble::tribble(
+  ~name, ~slide, ~active,
+  "Top", "Cover", TRUE,
+ )
+slide_tabs(sections, "/slides/08-ExponentialDiscounting.html")
+pdfize(here::here("static/slides/08-ExponentialDiscounting.html"))
+```
+
+
+:::fyi
+**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands; on some slides, this might give helpful hints!
+:::

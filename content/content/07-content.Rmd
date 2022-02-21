@@ -1,0 +1,39 @@
+---
+title: "Introduction to Choice over Time"
+linktitle: "2a: Choice Over Time -- Introduction"
+date: "2022-02-17"
+read_date: "2022-02-17"
+draft: false
+lastmod: "`r Sys.Date()`"
+menu:
+  content:
+    parent: Course content
+    weight: 1
+type: docs
+output:
+  blogdown::html_page:
+    toc: false
+slides: "07-IntroTime"
+
+---
+
+## Slides
+
+
+`r blogdown::shortcode("slide-buttons")`
+
+```{r show-slide-tabs, echo=FALSE, results="asis"}
+source(here::here("R/slide_tabs.R"))
+source(here::here("R/pdfize.R"))
+sections <- tibble::tribble(
+  ~name, ~slide, ~active,
+  "Top", "Cover", TRUE,
+ )
+slide_tabs(sections, "/slides/07-IntroTime.html")
+pdfize(here::here("static/slides/07-IntroTime.html"))
+```
+
+
+:::fyi
+**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands; on some slides, this might give helpful hints!
+:::

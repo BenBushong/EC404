@@ -1,6 +1,6 @@
 ---
 title: "Choice under Uncertainty: The Standard Model"
-linktitle: "1a: The Standard Model"
+linktitle: "1a: Uncertainty -- The Standard Model"
 date: "2022-01-13"
 read_date: "2022-01-13"
 draft: false
