@@ -1,6 +1,6 @@
 ---
 title: "Limited Rationality"
-linktitle: "2: Limited Rationality"
+linktitle: "A1: Limited Rationality"
 date: "2022-02-17"
 read_date: "2022-02-17"
 draft: false
