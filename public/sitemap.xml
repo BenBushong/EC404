@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ec404.netlify.app/assignment/03-assignment/</loc>
+    <lastmod>2022-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ec404.netlify.app/assignment/02-assignment/</loc>
     <lastmod>2022-01-27T00:00:00+00:00</lastmod>
   </url>
@@ -28,12 +33,17 @@
   </url>
   
   <url>
-    <loc>https://ec404.netlify.app/content/08-content/</loc>
-    <lastmod>2022-02-21T00:00:00+00:00</lastmod>
+    <loc>https://ec404.netlify.app/content/09-content/</loc>
+    <lastmod>2022-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ec404.netlify.app/</loc>
+    <lastmod>2022-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ec404.netlify.app/content/08-content/</loc>
     <lastmod>2022-02-21T00:00:00+00:00</lastmod>
   </url>
   
