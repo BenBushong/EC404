@@ -33,12 +33,17 @@
   </url>
   
   <url>
-    <loc>https://ec404.netlify.app/content/09-content/</loc>
-    <lastmod>2022-03-01T00:00:00+00:00</lastmod>
+    <loc>https://ec404.netlify.app/content/10-content/</loc>
+    <lastmod>2022-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ec404.netlify.app/</loc>
+    <lastmod>2022-03-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ec404.netlify.app/content/09-content/</loc>
     <lastmod>2022-03-01T00:00:00+00:00</lastmod>
   </url>
   
