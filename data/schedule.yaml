@@ -69,30 +69,30 @@ lessons:
     #example: "06-example"
     #assignment: "06-assignment"
 
-  - title: 'An Alternative Model: Quasi-Hyperbolic Discounting'
+  - title: 'An Alternative Model: Present Bias'
     session: 10
-    date: "Week 6 (17 February)"
+    date: "Week 8 (1 March)"
     #content: "07-content"
     #example: "07-example"
     #assignment: "07-assignment"
 
-  - title: 'Applications of Hyperbolic Discounting'
+  - title: 'Applications of Present Bias'
     session: 11
-    date: "Week 7/8 (24 February)"
+    date: "Week 9 (15 March)"
     #content: "09-content"
     #example: "09-example"
     #assignment: "09-assignment"
 
   - title: 'Utility from "Anticipation"'
     session: 12
-    date: "Week 8 (1 March)"
+    date: "Week 10 (22 March)"
     #content: "08-content"
     #example: "08-example"
     #assignment: "07-assignment"
 
   - title: '"Projection Bias" — Mispredicting Future Tastes'
     session: 13
-    date: "Week 8 (3 March)"
+    date: "Week 10 (24) March)"
     #content: "08-content"
     #example: "08-example"
     #assignment: "07-assignment"
