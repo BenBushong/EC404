@@ -51,42 +51,42 @@ lessons:
   - title: 'Warm-Up: Interest Rates, Compounding, PDV,...'
     session: 7
     date: "Week 5 (10 February)"
-    #content: "04-content"
+    content: "07-content"
     #example: "04-example"
     #assignment: "04-assignment"
 
   - title: 'The Standard Model: Exponential Discounting'
     session: 8
     date: "Week 5 (10 February)"
-    #content: "05-content"
+    content: "08-content"
     #example: "05-example"
-    #assignment: "05-assignment"
+    assignment: "03-assignment"
 
   - title: 'Evidence that Contradicts Exponential Discounting'
     session: 9
     date: "Week 6 (15 February)"
-    #content: "06-content"
+    content: "09-content"
     #example: "06-example"
     #assignment: "06-assignment"
 
   - title: 'An Alternative Model: Present Bias'
     session: 10
     date: "Week 8 (1 March)"
-    #content: "07-content"
+    content: "10-content"
     #example: "07-example"
-    #assignment: "07-assignment"
+    assignment: "04-assignment"
 
   - title: 'Applications of Present Bias'
     session: 11
     date: "Week 9 (15 March)"
-    #content: "09-content"
+    content: "11-content"
     #example: "09-example"
-    #assignment: "09-assignment"
+    assignment: "05-assignment"
 
   - title: 'Utility from "Anticipation"'
     session: 12
     date: "Week 10 (22 March)"
-    #content: "08-content"
+    content: "12-content"
     #example: "08-example"
     #assignment: "07-assignment"
 
