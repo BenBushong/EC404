@@ -93,7 +93,7 @@ lessons:
   - title: '"Projection Bias" — Mispredicting Future Tastes'
     session: 13
     date: "Week 10 (24) March)"
-    #content: "08-content"
+    content: "13-content"
     #example: "08-example"
     #assignment: "07-assignment"
 
@@ -124,28 +124,28 @@ lessons:
   - title: 'The Standard Model: Self Interest'
     session: 16
     date: "Week 13 (12 April)"
-    #content: "11-content"
+    content: "14-content"
     #example: "11-example"
     #assignment: "11-assignment"
 
   - title: 'Evidence That Contradicts the Self-Interest Model'
     session: 16
     date: "Week 13 (12 April)"
-    #content: "11-content"
+    content: "14-content"
     #example: "11-example"
     #assignment: "11-assignment"
 
   - title: 'Theories of Social Preferences'
     session: 17
     date: "Week 13 (14 April)"
-    # content: "13-content"
+    content: "14-content"
     # example: "NA"
     # assignment: "NA"
 
   - title: 'Do "Intentions" Matter?'
     session: 18
     date: "Week 14 (19 April)"
-    #content: "12-content"
+    content: "14-content"
     #example: "12-example"
     # assignment: "10-assignment"
 
