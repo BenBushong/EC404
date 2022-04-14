@@ -155,21 +155,21 @@ lessons:
   - title: 'The Standard Model: Bayesian Information Processing'
     session: 19
     date: "Week 14 (21 April)"
-    #content: "12-content"
+    content: "15-content"
     #example: "12-example"
     # assignment: "10-assignment"
 
   - title: 'Evidence that Contradicts Bayesian Information Processing'
     session: 15
     date: "Week 15 (26 April)"
-    #content: "12-content"
+    content: "15-content"
     #example: "12-example"
     # assignment: "10-assignment"
 
   - title: 'An Alternative Model: The "Law Of Small Numbers"'
     session: 15
     date: "Week 15 (28 April)"
-    #content: "12-content"
+    content: "16-content"
     #example: "12-example"
     # assignment: "10-assignment"
 
