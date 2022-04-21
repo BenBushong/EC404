@@ -107,14 +107,14 @@ lessons:
   - title: 'Is "Paternalism" Acceptable or Justified?'
     session: 14
     date: "Week 11 (31 March)"
-    #content: "10-content"
+    content: "16-content"
     #example: "10-example"
     #assignment: "10-assignment"
 
   - title: 'Optimal Sin Taxes'
     session: 15
     date: "Week 12 (5 April)"
-    #content: "11-content"
+    content: "16-content"
     #example: "11-example"
     #assignment: "11-assignment"
 
@@ -169,7 +169,7 @@ lessons:
   - title: 'An Alternative Model: The "Law Of Small Numbers"'
     session: 15
     date: "Week 15 (28 April)"
-    content: "16-content"
+    content: "17-content"
     #example: "12-example"
     # assignment: "10-assignment"
 
