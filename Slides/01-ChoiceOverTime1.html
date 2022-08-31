@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Default Effects</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Prof. Ben Bushong" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis.css" rel="stylesheet" />
+    <link rel="stylesheet" href="EC804.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Default Effects
+## EC895; Fall 2022
+### Prof. Ben Bushong
+### Last updated August 30, 2022
+
+---
+
+
+
+layout: true
+
+&lt;div class="msu-header"&gt;&lt;/div&gt;
+&lt;div style = "position:fixed; visibility: hidden"&gt;
+`$$\require{color}\definecolor{yellow}{rgb}{1, 0.8, 0.16078431372549}$$`
+`$$\require{color}\definecolor{orange}{rgb}{0.96078431372549, 0.525490196078431, 0.203921568627451}$$`
+`$$\require{color}\definecolor{MSUgreen}{rgb}{0.0784313725490196, 0.52156862745098, 0.231372549019608}$$`
+&lt;/div&gt;
+
+&lt;script type="text/x-mathjax-config"&gt;
+MathJax.Hub.Config({
+  TeX: {
+    Macros: {
+      yellow: ["{\\color{yellow}{#1}}", 1],
+      orange: ["{\\color{orange}{#1}}", 1],
+      MSUgreen: ["{\\color{MSUgreen}{#1}}", 1]
+    },
+    loader: {load: ['[tex]/color']},
+    tex: {packages: {'[+]': ['color']}}
+  }
+});
+&lt;/script&gt;
+
+&lt;style&gt;
+.yellow {color: #FFCC29;}
+.orange {color: #F58634;}
+.MSUGreen {color: #14853B;}
+&lt;/style&gt;
+
+
+
+
+
+
+---
+
+class: inverseMSU
+name: Overview
+
+# Today
+
+###  **Our Outline:**
+
+(1) [The Standard Model](#section1)
+
+(2) [401k Savings: Introduction](#section2)
+
+(3) [Present Bias](#section3)
+
+(4) [Facts About Household Finance](#section4)
+
+
+
+---
+
+class: MSU 
+name: section1
+# Choice over Time
+
+
+**Exponential discounting:** When a person receives utility at different points in time, she seeks to maximize her *intertemporal utility*:
+
+`$$U \equiv u_{1}+\delta u_{2}+\delta ^{2}u_{3}+...+\delta ^{T-1}u_{T}$$`
+
+--
+
+or put another way: 
+`$$= \sum_{t=1}^{T}\delta ^{t-1}u_{t}\text{.}$$`
+--
+
+- `\(u_{t}\)` is her **instantaneous utility** in period `\(t\)` (or her "well-being" in period `\(t\)`).
+
+--
+	
+- `\(\delta\)` is her **discount factor**, where `\(\delta \in (0,1]\)`.
+
+---
+class: MSU 
+name: section2
+# 401k Savings
+
+
+401(k) savings is the most common voluntary savings vehicle in the US. In brief:
+
+- Purpose is to let people set aside money for retirement
+
+- Free choice of contribution rate, and (mostly free choice) over asset allocation
+
+- Generally large penalties for early withdrawal
+
+- Employer sometimes pays matching contribution up to a threshold.
+	
+- Tax deferred: employee pays (typically lower) marginal tax rate during retirement
+
+--
+
+# Patterns of 401(k) Investment (Choi et al. 2005)
+
+- Two thirds of employees believe that they are saving too little.
+		
+- A quarter of these intend to raise their savings in the next 2 months.
+
+- Almost nobody follows through.
+	
+- Reported undersavers have low savings rates.
+	
+- (Similar patterns in other surveys)
+		
+---
+class: MSU 
+# Discussion Points
+
+**Should** people save more? 
+
+Can we trust self-reported desires / interests? 
+
+- Consumption drops discretely at retirement, which might suggest under-saving
+				
+- But it's hard to show that people undersave [http://faculty.chicagobooth.edu/erik.hurst/research/retirement_consumption_survey_nber_final.pdf](Erik Hurst's work)
+	
+- Increased saving from automatic enrollment may come from more debt rather than from reduced consumption (Beshears et al. 2017)
+	
+
+---
+
+class: MSU 
+# Enter: The Real World
+
+The nature of the conflict between selves is often seen in our daily activities. 
+
+However, as PhD Economists, we are often looking for smoking guns in the domain where our expertise lies (economics). 
+
+--
+
+In the next mess of slides, I will make the argument that one domain worthy of lots of additional exploration is *household finance.* 
+
+I'll present a series of facts, many of which I will argue stem from a conflict between selves. But this is a bold assertion and you should be skeptical and inquisitive. 
+
+---
+class: MSU 
+section: section4
+# Nine Facts About Household Finance
+
+Households in the United States: 
+
+1. Have low levels of financial literacy
+
+2. Have very few liquid assets (live hand to mouth)
+
+3. Have substantial illiquid wealth
+
+4. Have a high marginal propensity to consume out of liquid wealth
+
+5. Have a low marginal propensity to consume out of illiquid wealth
+
+6. Choose suboptimal financial service products 
+
+7. Barely change their behavior after financial education interventions
+
+8. Have misaligned financial intentions and financial actions
+
+9. Make financial choices that can be manipulated
+
+---
+class: MSU 
+# Financial Literacy 
+
+(This is one of the only times I'll discuss such things in this course.)
+
+Assessing literacy often comes down to simple questions such as: 
+
+&gt; Suppose you had $100 in a savings account and the interest rate was 2% per year.  After 5 years, how much do you think you would have in the account if you left the money to grow?
+
+&gt;i) More than $102
+
+&gt;ii) Exactly $102
+
+&gt;iii) Less than $102
+
+&gt;iv) Don’t know 
+
+&gt;v) Refuse to answer
+
+
+
+---
+class: MSU 
+# Financial Literacy 
+
+&gt; Imagine that the interest rate on your savings account was 1% per year and inflation was 2% per year.  After 1 year, would you be able to buy with the money in this account:”
+
+&gt;i) More than today 
+
+&gt;ii) Exactly the same
+
+&gt;iii) Less than today
+
+&gt;iv) Don't know 
+
+&gt;v) Refuse to answer
+
+
+---
+class: MSU 
+# Financial Literacy 
+
+&gt; Do you think the following statement is true or false? Buying a single company stock usually provides a safer return than a stock mutual fund.
+
+&gt;i) True
+
+&gt;ii) False
+
+&gt;iii) Don't know 
+
+&gt;iv) Refuse to answer
+
+
+---
+class: MSU 
+# Financial Literacy: Data
+
+Data from Lusardi and Mitchell (2014)
+
+&lt;img src="graphics/literacy.png" width="800px" style="display: block; margin: auto;" /&gt;
+
+
+---
+class: MSU 
+# Hand-to-Mouth Living
+
+### A Fact
+
+Forty-six percent of U.S. adults report that they either could not come up with $400 to cover an emergency expense, or would have to borrow or sell something to do so. (Board of Governors of the Federal Reserve System, 2016).
+
+--
+
+### Another Fact
+
+Most of these households are not negative net worth. 
+
+---
+class: MSU 
+# "Wealthy" Hand-to-Mouth
+
+Data from Kaplan, Violante, and Weidner (2014)
+
+&lt;img src="graphics/htm1.png" width="500px" style="display: block; margin: auto;" /&gt;
+
+
+---
+class: MSU 
+# "Wealthy" Hand-to-Mouth
+
+Data from Laibson, Lee, Maxted, Repetto, Tobacman (2022)
+*(Composite of 2013, 2016, 2019 surveys)*
+
+&lt;img src="graphics/htm2.png" width="700px" style="display: block; margin: auto;" /&gt;
+
+---
+class: MSU 
+# Liquidity and Consumption 
+
+- Shapiro (2005): People on food stamps exhibit a monthly caloric cycle wherein calories drop 10-15% over the month
+
+--
+
+- Parker (2014): Nielsen data around 2008 Economic Stimulus Payments suggests a within-year MPX of 60%
+
+--
+
+- Ganong and Noel (2016): when unemployment insurance runs out (a predictable event), household consumption drops by 11%.
+
+--
+
+- Fagereng, Holm, and Natvik (2020): "Low-liquidity winners of the smallest prizes (around $1500) are estimated to spend all within the year of winning. The corresponding estimate for high-liquidity winners of large prizes ($8300-150K) is slightly below one half."
+
+--
+
+- Gerard and Naritomi (2021): “Displaced workers eligible for both UI and SP increase consumption at layoff by 35% despite experiencing a 17% consumption loss after they stop receiving any benefits”
+
+--
+
+*Also see Shea (1995), Mastrobuoni and Weinberg (2009), Hastings and Washington (2010), Olafsson and Pagel (2018), Stephens and Toohey (2018)*
+
+
+---
+
+class: MSU 
+# Present-Biased Preferences
+
+The **quasi-hyperbolic discount function** (Phelps and Pollak 1968, Laibson 1997, O'Donoghue and Rabin 1999):
+
+`$$D(\tau) = \begin{cases}
+1 &amp; \text{ if } \tau = 0 \\
+\beta \cdot \delta^{\tau} &amp; \text{ if } \tau \in \{1, 2, \ldots\}
+\end{cases}$$`
+
+where `\(\beta \leq 1\)`
+
+--
+
+- We can then write the utility function as:
+
+`$$U^{t} = u_{t} + \beta \sum_{\tau = 1}^{T-t} \delta^{\tau} u_{t+\tau}$$`
+
+
+
+
+---
+class: MSU 
+# Present-Biased Preferences
+
+### Intuitive Example 
+
+(*Courtesy of Matthew Rabin*) Suppose there is a task that you must complete on one of the next four days.
+
+To complete this task, you incur costs as follows: 
+
+- If you complete the task in period 1, the cost is 3.
+
+- If you complete the task in period 2, the cost is 5. 
+
+- If you complete the task in period 3, the cost is 8.
+
+- If you complete the task in period 4, the cost is 13.
+
+--
+
+Suppose there is no reward, that you value costs linearly, and that you have `\(\beta =1/2\)` and `\(\delta =1\)`.
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

@@ -1,0 +1,1762 @@
+---
+title: "Default Effects"
+subtitle: "EC895; Fall 2022"
+author: "Prof. Ben Bushong"
+date: "Last updated `r format(Sys.Date(), '%B %d, %Y')`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    yolo: false
+    css: [default, metropolis, "EC804.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+    incremental: true
+
+---
+```{r setup, include=FALSE}
+
+options(htmltools.dir.version = FALSE)
+options("getSymbols.warning4.0"=FALSE)
+
+
+library(here) # creates absolute paths, but those won't work in html
+library(knitr)
+library(kableExtra)
+library(tidyverse)
+library(wooldridge)
+library(flair)
+require(lubridate)
+require(scales)
+require(broom)
+require(visualize)
+library(mathjaxr)
+library(RefManageR)
+require(wbstats)
+require(lmtest)
+require(sandwich)
+require(car)
+require(quantmod)
+require(patchwork)
+
+
+
+# https://yihui.org/knitr/options/
+opts_chunk$set(
+  fig.align="center",
+  #dpi=300,
+  fig.path='figs/', # where figs are rendered
+  cache=F,
+  echo=F,
+  message = F,
+  warning = F
+  )
+
+```
+
+layout: true
+
+<div class="msu-header"></div>
+<div style = "position:fixed; visibility: hidden">
+$$\require{color}\definecolor{yellow}{rgb}{1, 0.8, 0.16078431372549}$$
+$$\require{color}\definecolor{orange}{rgb}{0.96078431372549, 0.525490196078431, 0.203921568627451}$$
+$$\require{color}\definecolor{MSUgreen}{rgb}{0.0784313725490196, 0.52156862745098, 0.231372549019608}$$
+</div>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: {
+    Macros: {
+      yellow: ["{\\color{yellow}{#1}}", 1],
+      orange: ["{\\color{orange}{#1}}", 1],
+      MSUgreen: ["{\\color{MSUgreen}{#1}}", 1]
+    },
+    loader: {load: ['[tex]/color']},
+    tex: {packages: {'[+]': ['color']}}
+  }
+});
+</script>
+
+<style>
+.yellow {color: #FFCC29;}
+.orange {color: #F58634;}
+.MSUGreen {color: #14853B;}
+</style>
+
+
+```{r topdfs_colors, echo=FALSE}
+yellow <- "#FFCC29"
+orange <- "#F58634"
+MSUGreen <- "#14853B"
+source(here::here("Slides/pdfize.R"))
+#pdfize(here::here("Slides/01-DefaultEffects.html"))
+```
+
+```{r, load_refs, include=FALSE, cache=FALSE}
+library(RefManageR)
+BibOptions(check.entries = FALSE,
+           style = "markdown",
+           hyperlink = FALSE)
+myBib <- ReadBib("EC804.bib", check = FALSE)
+```
+
+---
+class: inverseMSU
+name: Overview
+# Today
+
+###  **Our Outline:**
+
+(1) [The Standard Model](#section1)
+
+(2) [401(k) Savings: Introduction](#section2)
+
+(3) [Docuenting Default Effects](#section3)
+
+(4) [Facts About Household Finance](#section4)
+
+
+---
+class: MSU 
+name: section1
+# Choice over Time
+
+
+**Exponential discounting:** When a person receives utility at different points in time, she seeks to maximize her *intertemporal utility*:
+
+$$U \equiv u_{1}+\delta u_{2}+\delta ^{2}u_{3}+...+\delta ^{T-1}u_{T}$$
+
+--
+
+or put another way: 
+$$= \sum_{t=1}^{T}\delta ^{t-1}u_{t}\text{.}$$
+--
+
+- $u_{t}$ is her **instantaneous utility** in period $t$ (or her "well-being" in period $t$).
+
+--
+	
+- $\delta$ is her **discount factor**, where $\delta \in (0,1]$.
+
+---
+class: MSU 
+name: section2
+# 401(k) Savings
+
+
+401(k) savings is the most common voluntary savings vehicle in the US. In brief:
+
+- Purpose is to let people set aside money for retirement
+
+- Free choice of contribution rate, and (mostly free choice) over asset allocation
+
+- Generally large penalties for early withdrawal
+
+- Employer sometimes pays matching contribution up to a threshold.
+	
+- Tax deferred: employee pays (typically lower) marginal tax rate during retirement
+
+--
+
+# Patterns of 401(k) Investment `r Citep(myBib, Choi2005)`
+
+- Two thirds of employees believe that they are saving too little.
+		
+- A quarter of these intend to raise their savings in the next 2 months.
+
+- Almost nobody follows through.
+	
+- Reported undersavers have low savings rates.
+	
+- (Similar patterns in other surveys)
+		
+---
+class: MSU 
+# Discussion Points
+
+**Should** people save more? 
+
+Can we trust self-reported desires / interests? 
+
+- Consumption drops discretely at retirement, which might suggest under-saving
+				
+- But it's hard to show that people undersave [http://faculty.chicagobooth.edu/erik.hurst/research/retirement_consumption_survey_nber_final.pdf](Erik Hurst's work)
+	
+- Increased saving from automatic enrollment may come from more debt rather than from reduced consumption `r Citep(myBib, "beshears2017borrowing")`
+	
+--
+
+### Costs of Non-Participation
+
+- Foregone tax benefits
+
+- Foregone employer match
+
+- (Implicitly) foregone consumption smoothing
+	
+---
+class: MSU
+# Tools to Combat Underuse
+
+There are a set of typically applied tools that employers use to increase savings in 401ks.
+
+- Financial education (we'll discuss this more later)
+
+- Vary employer matching contribution
+
+- Provide additional (or "better") choices
+		
+--
+
+### The Power of Suggestion: `R Citet(myBib, "Madrian2001")`
+
+Explores the impact of automatic enrollment on 401(k) savings behavior:
+		
+- 401(k) participation (yes/no)
+
+- Contribution rates and asset allocation
+	
+---
+
+class: MSU
+# Breaking the 4th Wall
+
+This was a tremendously successful paper. **Why?**
+
+--
+
+I conjecture all of the following played a role: 
+
+- Concerns an *important* economic decision
+
+- There are potentially large welfare effects
+
+- Standard economics approaches were unsuccessful in raising savings
+
+- Standard economics approaches have a hard time explaining default effects
+
+--
+
+In this sense, this paper provides a useful recipe for your own research and I encourage you to think about this type of environment. 
+
+---
+class: MSU 
+# Details and Environment
+
+### Madrian et al. 2001 Specifics
+
+Data came from a large, publicly traded Fortune 500 health care company. Employees had flexibility and could enroll inthe  401(k) savings plan any day by:
+	
+- Filling out enrollment form, or
+
+- calling the 401(k) record keeper.
+
+$\Rightarrow$ Small direct transaction costs of starting/changing 401(k) allocation
+
+--
+
+Company had a 50% matching contribution for first 6%. (This is modal policy in "real world".)
+	
+- E.g., if an employee chooses 4%, the company pays an additional 2%. If an employee chooses 10%, the company pays an additional 3%.
+
+- Employees first eligible after one year of employment (before change).
+	
+---
+class: MSU
+name: section3
+# Findings
+
+The authors found a discontinuity of 401(k) plan **defaults** based on date of hire:
+	
+Cohort 1 was hired April 1996 to March 1997:
+
+- Default: *no* enrollment
+
+- 1-year wait period for eligibility
+
+--
+
+Cohort 2 was hired April 1997 to March 1998
+
+- Default: *no* enrollment
+
+- Wait period until April 1998
+	
+--
+
+Cohort 3 hired April 1998 to March 1999
+
+- Default: enrollment 
+			
+- 3 percent contribution rate
+
+- 100 percent invested in money market fund (*Editorial comment:* gross)
+
+- Can change both contribution rate and fund allocation at any time
+
+---
+class: MSU 
+# Design 
+
+MadrianShea_Design2b 
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{401(k) plans are otherwise identical.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\begin{figure}[htbp]
+%\begin{center}
+%\includegraphics[width=80mm]{MadrianShea_Design1b} \\
+%%\caption{}
+%\end{center}
+%\end{figure}
+%
+%\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{Balance checks: no large differences across cohorts}%{Design}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\begin{figure}[htbp]
+%\begin{center}
+%\includegraphics[width=75mm]{MadrianShea_Balance} \\
+%%\caption{}
+%\end{center}
+%\end{figure}
+%
+%\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Participation rates in 401(k) by June '99}%{Design}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{adjustwidth}{-2em}{-2em}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=100mm]{MadrianShea_Participation1b} \\
+%\caption{}
+\end{center}
+\end{figure}
+
+\pause
+
+\vspace{0.5cm}
+
+\begin{itemize}
+
+	\item Prior to automatic enrollment, participation increases with tenure.
+	\item Highest participation rate for employees hired under automatic enrollment
+
+\end{itemize}
+
+\end{adjustwidth}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Even larger differences when tenure is held constant}%{Design}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=70mm]{MadrianShea_Participation2b} \\
+%\caption{}
+\end{center}
+\end{figure}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Majority keeps default contribution rate...}%{Design}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+	\begin{itemize}
+
+		\item WINDOW: 63\% are at 0 percent (default), 4\% at 3 percent
+		\item NEW: 14\% are at 0 percent, 65\% are at 3 percent (default)
+
+	\end{itemize}
+
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=110mm]{MadrianShea_Contribution1} \\
+%\caption{}
+\end{center}
+\end{figure}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{...and asset allocation.}%{Design}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+
+		\item Share of assets invested in stocks varies dramatically by cohort.
+				
+		\item OLD: 75\%; WINDOW: 73\%; NEW: 16\%
+
+	\end{itemize}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=80mm]{MadrianShea_Allocation1} \\
+%\caption{}
+\end{center}
+\end{figure}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Summary of main results}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{enumerate}[(1)]
+
+	\item 40 to 50 percent of individuals follow the default plan 
+		
+	\begin{itemize}
+		
+		\item[(1a)] 401(k) participation rate (yes/no)
+		\item[(1b)] Contribution rate and asset allocation
+	
+	\end{itemize}
+		
+	\item `Suggested choice' not very attractive unless default
+		
+	\begin{itemize}
+		
+		\item WINDOW cohort resembles OLD cohort.
+		\item WINDOW cohort does \textit{not} follow NEW cohort's default (which could be have been perceived as choice suggested by the company).
+		
+	\end{itemize}
+			
+\end{enumerate}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{Other findings}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\begin{itemize}
+%
+%	\item Largest effects for least likely participants under old plan
+%	
+%		\begin{itemize}
+%
+%			\item Lower-income employees
+%			\item Minorities
+%		
+%		\end{itemize}
+%		
+%	\item Change in timing of eligibility has only small effect (if any).
+%		
+%	\item Results are equally strong with controls (Table VI).
+%
+%	\item Effect of default falls over time, but is still large after two years.
+%	
+%	\begin{itemize}
+%	
+%		\item Enrollment increases in tenure for cohorts with no-enrollment default.
+%		\item See also \citet{Choi2005}.
+%		
+%	\end{itemize}
+%	
+%\end{itemize}
+%
+%\end{frame}	
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Results very robust: \citet{Choi2005}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+
+\item Company B switches from OLD to NEW to OLD.
+
+\end{itemize}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=100mm]{Choi_Figure1A} \\
+%\caption{}
+\end{center}
+\end{figure}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Results very robust: \citet{Choi2005}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+
+\item Company C switches from OLD to NEW to NEW2.
+
+\end{itemize}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=100mm]{Choi_Figure1B} \\
+%\caption{}
+\end{center}
+\end{figure}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Is automatic enrollment optimal?}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+	
+	\item Default effects not informative of optimal saving plans.
+		
+		\begin{itemize}
+		
+			\item Is OLD cohort under-saving?
+
+			\item Is NEW cohort over-saving?
+
+		\end{itemize}
+
+	\item Automatic enrollment:
+	
+	\begin{itemize}
+
+		\item lowers contribution rate, conditional on participating, 
+			
+		\item seems to make some people save \textit{less}, and 
+			
+		\item may even decrease overall savings after a few years.
+		
+		\begin{itemize}
+		
+			\item Lower contribution rates due to default
+			\item More conservative asset allocation
+			
+		\end{itemize}
+
+	\end{itemize}
+					
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{\citet{Carroll2009}: Active Choice}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+	
+	\item Large Fortune-500 Company, financial services industry
+	
+	\item Comparison between:
+	
+	\begin{itemize}
+	
+		\item Before: active choice within 30 days of hire (paper-based)
+		\item After: no-enrollment default (phone-based)
+
+	\end{itemize}	
+
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{Other changes in plan make participation \textit{more} attractive.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\begin{figure}[htbp]
+%\begin{center}
+%\includegraphics[width=110mm]{Carroll_Design} \\
+%%\caption{}
+%\end{center}
+%\end{figure}
+%
+%\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{No substantial differences across cohorts}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\begin{figure}[htbp]
+%\begin{center}
+%\includegraphics[width=90mm]{Carroll_Balance} \\
+%%\caption{}
+%\end{center}
+%\end{figure}
+%
+%\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Much higher participation under active choice}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+
+	\item ACTIVE: 69\% -- OLD2:\ 41\% (at month 3)
+
+	\item Compare to NEW (86\%) and OLD (57\%) in MS01 after $>$ 6 months
+
+	%\item Does not depend on month of hire (see below)
+
+\end{itemize}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=90mm]{Carroll_Participation} \\
+%\caption{}
+\end{center}
+\end{figure}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Active choice increases (unconditional) contribution rate.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+
+	\item ACTIVE:\ 4.8\% -- OLD2: 3.5\% 
+	\item Longitudinal data becomes only available after 9 months.
+
+\end{itemize}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=100mm]{Carroll_Contribution1} \\
+%\caption{}
+\end{center}
+\end{figure}
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Lower conditional contribution rate under active choice}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+	
+	\item ACTIVE:\ 6.8\% -- OLD2: 7.5\% (at month 9)
+
+	\item Selection effect: marginal individuals have lower contribution rates.
+	
+\end{itemize}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=100mm]{Carroll_Contribution2} \\
+%\caption{}
+\end{center}
+\end{figure}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{Differences disappear by year 3.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\begin{figure}[htbp]
+%\begin{center}
+%\includegraphics[width=110mm]{Carroll_Participation2} \\
+%%\caption{}
+%\end{center}
+%\end{figure}
+%
+%\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Summary}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{enumerate}
+	
+	\item[(1)] ACTIVE resembles NEW and markedly differs from OLD and OLD2.
+
+	\begin{itemize}
+
+		\item Suggests \citet{Madrian2001} default alleviated under-saving.
+
+	\end{itemize}
+
+	\item[(2)] Effect of default mostly disappears after three years.
+	
+	\begin{itemize}
+
+		\item But no catch-up in levels
+		\item Moreover, individuals change employers frequently.
+
+	\end{itemize}
+
+
+\end{enumerate}
+
+\end{frame}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{\citet{Cronqvist2004}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\begin{adjustwidth}{-1.5em}{-1.5em}
+%
+%\begin{itemize}
+%
+%	\item Other evidence on default effects in choice of savings
+%
+%		\item Privatization of Social Security in Sweden in 2000
+%
+%		\item 456 funds, 1 default fund (chosen by government)
+%
+%	\pause
+%
+%		\item Year 2000:\ 
+%
+%		\begin{itemize}
+%
+%			\item Choice of default is discouraged with massive marketing campaign.
+%
+%			\item Among new participants, 43.3 percent chooses default
+%
+%		\end{itemize}
+%
+%		\item Year 2003:
+%
+%		\begin{itemize}
+%
+%			\item End of marketing campaign.
+%
+%			\item Among new participants, 91.6 percent chooses default
+%
+%		\end{itemize}
+%
+%	\pause
+%
+%	\item Portfolio actively chosen in 2000 does \textit{worse} than default (Table 1).
+%
+%	\begin{itemize}
+%
+%		\item Active choice less attractive if consumers are less financially sophisticated.
+%		\item See also \citet*{Bhargava2015}.
+%		\item \citet{Handel2013}: another setting in which active choice seems to lower welfare.
+%
+%	\end{itemize}
+%
+%\end{itemize}
+%
+%\end{adjustwidth}
+%
+%\end{frame}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\begin{figure}[htbp]
+%\begin{center}
+%\includegraphics[width=60mm]{CronqvistThaler} \\
+%%\caption{}
+%\end{center}
+%\end{figure}
+%
+%\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{\citet{Chetty2014}: Substitution of Assets}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{adjustwidth}{-1.5em}{-1.5em}
+
+\begin{itemize}
+
+	\item Body of research shows that employees largely follow default 401(k) plans.
+	
+	\begin{itemize}
+
+		\item What if they compensate changed savings through other assets? 
+	
+		\item Savings in bank accounts, stock participation, etc.
+		\item Credit card debt?
+		
+	\end{itemize}
+		
+	\pause
+		
+	\item Need comprehensive asset information
+
+	\begin{itemize}
+	
+		\item Only partial, suggestive information in \citet{Madrian2001}
+		\item No such information in \citet{Carroll2009}
+		
+	\end{itemize}
+
+	\pause
+
+	\item Chetty et al.\ (2014): access to comprehensive data from Denmark
+
+	\begin{itemize}
+
+		\item Employer-contributed pension
+
+		\item Individual-chosen pension contribution
+
+		\item Other savings 
+
+	\end{itemize}
+
+	\item See Raj Chetty's \color{blue}{\href{http://events.mediasite.com/Mediasite/Play/44057958d9fb44198c0f6a8ae47c35cd1d}{Ely Lecture}} \color{black} for a discussion.
+
+
+\end{itemize}
+
+\end{adjustwidth}
+
+\end{frame}
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Exploit variation in employers' retirement plans.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+
+	\item Event-Study Design: examine workers that switch employers	
+	\item Employers and individuals contribute to same account.
+	\item Employer contribution is a perfect substitute for individual saving.
+
+\end{itemize}
+
+\pause
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=80mm]{Chetty_Switchers1} \\
+%\caption{}
+\end{center}
+\end{figure}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Does bunching at zero savings cause these patterns?}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+
+	\item Restricting sample to employees with positive savings does not change the observed patterns.
+
+\end{itemize}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=80mm]{Chetty_Switchers2} \\
+%\caption{}
+\end{center}
+\end{figure}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{How many individuals switch their individual pensions?}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+
+	\item What fraction fully offsets the employer pension change? Zero!
+
+\end{itemize}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=90mm]{Chetty_Switchers3} \\
+%\caption{}
+\end{center}
+\end{figure}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Identification concerns}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+
+	\item Ideal experiment: randomize automatic contributions holding fixed total compensation
+	
+	\item \citet{Chetty2014} approximate ideal experiment by using changes in employer-provided pension contributions due to job changes
+	
+	\item But job changes are endogenous. Does this explain the above results? Unlikely.
+
+	\begin{itemize}
+	
+		\item No pre-trends towards higher individual pension contributions prior to year 0
+		
+		\item The vast majority of individuals do not change their individual pension contribution at the time of the job switch.
+	
+	\end{itemize}
+
+
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Other graphical evidence}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+
+	\item Scatterplots by change in employer pension
+	\item Nearly complete pass-though of employer pensions savings
+
+\end{itemize}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=80mm]{Chetty_TotalPensions1} \\
+%\caption{}
+\end{center}
+\end{figure}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Pass-through on overall savings still very high}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+	\begin{itemize}
+
+		\item No evidence of larger adjustment when bigger change %(\emph{optimal inattention)}
+		\item Behavior does not appear to reflect rational inattention.
+		
+	\end{itemize}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=80mm]{Chetty_TotalPensions2} \\
+%\caption{}
+\end{center}
+\end{figure}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Effect persists for at least a decade.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=105mm]{Chetty_Longrun} \\
+%\caption{}
+\end{center}
+\end{figure}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Preliminary summary}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{adjustwidth}{-1.5em}{-1.5em}
+
+\begin{itemize}
+
+	\item About 85\% of individuals are ``passive savers"
+
+	\begin{itemize}
+	
+		\item They respond passively to changes in employer contribution.
+		\item Employer contribution is very effective tool to affect \textit{total} savings.
+		\item Effect is highly persistent and affects wealth at retirement.
+		
+	\end{itemize}
+
+	\pause
+
+
+
+	\item Contrast to impact of financial education on retirement savings
+
+	\begin{itemize}
+
+	\item Positive, but only moderate effects \citep{Duflo2003}.
+
+	\end{itemize}
+
+	\pause
+	
+	\item Now contrast to impact of reduced subsidy (14 cents per DKr)
+	
+	
+\end{itemize}
+
+\end{adjustwidth}
+
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[width=110mm]{Chetty1.png} \\
+	\end{center}
+\end{figure}
+\end{frame}	
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[htbp]
+\begin{center}
+	\includegraphics[width=110mm]{Chetty2.png} \\
+\end{center}
+\end{figure}
+\end{frame}	
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=110mm]{Chetty3.png} \\
+\end{center}
+\end{figure}
+\end{frame}	
+
+
+
+%%%%%%%%%%%%%%%%%%
+\begin{frame}{\cite{Chetty2014}: Effects of Tax Subsidies}
+%%%%%%%%%%%%%%%%%%
+
+
+\begin{itemize}
+
+\item Aggregate reduction is entirely driven by 19\% of treated households who completely stop contributing to pensions
+
+\item Remaining 81\% do not change their retirement contributions at all
+
+\item Suggests most individuals are inattentive to savings incentives or procrastinate in planning for retirement 
+
+\item Moreover, 90\% of the reduction in retirement contributions is offset by more saving in non-retirement accounts (“crowd-out”)
+
+\item Each \$1 of marginal expenditure on tax subsidies raises total personal saving by approximately 1 cent
+
+
+
+\end{itemize}
+
+\end{frame}
+
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{Default effects in other settings: organ donations}%{Design}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%	\begin{figure}[htbp]
+%	\begin{center}
+%	\includegraphics[width=110mm]{Default_organs} \\
+%	\caption{\textit{Source:} \citet{Johnson2003}}	
+%	\end{center}
+%	\end{figure}
+%
+%\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Preliminary summary (cont'd)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+	
+	\item Defaults can have powerful effects.
+	
+	\begin{itemize}
+		
+		\item 401(k) savings: defaults seem to be most effective policy tool.
+		\item Defaults are also very cheap.
+
+	\end{itemize}
+
+	\pause
+
+	\item Distributional aspects
+		
+	\begin{itemize}
+	
+		\item 401(k) default effects appear to be larger among the poor.
+		\item Why?
+		
+		\begin{itemize}
+
+			\item Is it because the default contribution is closer to optimal for the poor? 
+			\item Or are the poor more inattentive or more likely to procrastinate?
+			\item Or is switching more costly for the poor?
+		
+		\end{itemize}
+	
+	\end{itemize}
+
+	\pause
+
+	\item Optimal defaults, active choice, and welfare \citep{Carroll2009}
+
+	\begin{itemize}
+
+	\item What is the optimal default?
+	
+	\pause
+	
+	\item Consumer heterogeneity makes active choice more attractive.
+
+	\item But active choice only improves outcomes if consumers choose what is good for them.
+	
+	\pause
+	
+	\item What are the welfare effects of defaults \citep{Bernheim2015}?	
+
+	\item Do individuals prefer defaults?
+
+	\item Do firms use defaults optimally?
+
+	\end{itemize}
+			
+\end{itemize}
+
+\end{frame}
+
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{Do defaults always `work'?}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\begin{itemize}
+%
+%	\item Extraordinary large effects of defaults in some settings
+%
+%	\begin{itemize}
+%
+%		\item 401(k) savings
+%		\item Organ donations
+%
+%	\end{itemize}
+%
+%	\item Relatively few successful examples. Why?
+%
+%%	\pause
+%%	
+%%	\item When do defaults \textit{not} `work'?
+%%
+%%	\begin{itemize}
+%%
+%%		\item \citet{Bronchetti2013} find no effect of framing/default intervention
+%%		\item ``Opt in" vs.\ ``opt out" of savings of tax refunds
+%%		
+%%		\pause
+%%		
+%%	%	\item What can we learn from their experiment?
+%%		\item Did the experiment really create differences in \textit{defaults} across treatment groups?
+%%		
+%%	\end{itemize}
+%
+%\end{itemize}
+%
+%\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{Default failure}%{Design}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%	\begin{figure}[htbp]
+%	\begin{center}
+%	\includegraphics[width=100mm]{Bronchetti} \\
+%%	\caption{\textit{Source:} \citet{Johnson2003}}	
+%	\end{center}
+%	\end{figure}
+%
+%\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{What explains default effects?}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+
+	\item Mechanisms
+	
+	\pause
+	
+	\begin{itemize}
+		
+		\item What drives default effects?	
+		\item Under which conditions do defaults work?
+	
+	\end{itemize}
+
+	\pause
+
+	\item Potential candidates
+
+	\pause
+
+	\begin{itemize}
+	
+%		\item Awareness
+		\item Implicit endorsement
+		\item Inattention/memory
+		\item Present bias (+ naivete)
+		\item Disliking making choices (why?)
+		\item Other?
+		
+	\end{itemize}
+
+\end{itemize}
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Blumenstock et al. (2018)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+
+	\item Cell phone-based savings account in Afghanistans
+
+	\begin{itemize}
+	
+		\item Accounts include automatic payroll deduction plan
+		\item Random variation in default (in or out) and matching contribution
+	
+	\end{itemize}
+
+	\item Two main contributions:
+	
+	\begin{itemize}
+
+		\item Does default enrollment increase savings?
+		\item Attempt to rule in/out potential mechanisms
+	
+	\end{itemize}
+	
+\end{itemize}
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Default is roughly equivalent to 50\% match.}%{Design}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+	\begin{figure}[htbp]
+	\begin{center}
+	\includegraphics[width=70mm]{Blumenstock_default} \\
+	\caption{Blumenstock et al.\ (2016): main effect of defaults}
+	\end{center}
+	\end{figure}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Ruling out potential mechanisms}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{enumerate}[(1)]
+		
+	\item Awareness/understanding that/how contribution can be changed
+	
+	\pause
+	
+	\begin{itemize}	
+	
+		\item Extensive training
+		\item Everyone knows and understands product features.
+		\item Very low transaction costs
+		
+	\end{itemize}
+	
+	\pause
+	
+	\item Employer endorsement: ``My employer knows better."
+
+	\pause
+		
+	\begin{itemize}
+		
+		\item Individual-level randomization
+		\item Everyone is told explicitly about randomization
+		
+	\end{itemize}
+	
+	\pause
+	
+	\item Inattention/memory
+
+	\pause
+	
+	\begin{itemize}
+
+		\item SMS reminders
+		\item Phone surveys
+	
+	\end{itemize}
+	
+\end{enumerate}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Remaining candidate mechanism: present bias}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+
+	\item Present bias, measured in a price list, robustly predicts propensity to follow default.
+		
+	\item Financial consultation intervention moves employees from their default.
+	
+	\begin{itemize}
+
+		\item	Financial consultation interpreted as reducing the mental costs of switching.
+		
+		\item Or are people just worried about making mistakes?
+		
+		\item Related twist: Individuals tend to delay the financial consultation visit
+		
+		\item Interesting read: \color{blue} \href{http://www.nytimes.com/2015/07/12/upshot/investing-in-the-dark-the-biggest-cost-of-fear-is-paralysis.html}{Why Investing Is So Complicated}
+		
+	\end{itemize}
+	
+\end{itemize}
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}{Assessment}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\begin{itemize}
+%
+%	\item Nice contribution to the literature
+%	
+%	\begin{itemize}
+%	
+%		\item Replication of savings-default effects outside of the 401(k) savings setting
+%		\item Evidence on underlying mechanisms
+%	
+%	\end{itemize}
+%
+%	\item Some issues
+%	
+%	\begin{itemize}
+%
+%		\item Link to present bias is fairly indirect
+%		\item Measure of time preferences in not state of the art 
+%%		\item What's going on with overall savings (hidden in Appendix Table A2)?		
+%%		\item Direct manipulation of attention would be nice
+%	
+%	\end{itemize}
+%	
+%\end{itemize}
+%
+%\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Defaults  in Health Insurance}
+	%%%%%%%%%%%%%%%%%%%%%%%
+
+Very active literature studying defaults and mistakes in active choice in health insurance (see \citet{chandra2019behavioral} for a review)
+
+\bigskip
+
+\pause
+	
+	\begin{itemize}
+		
+		\item In US, people often have option of choosing their health insurance  or prescription drug plan each year
+		
+		\begin{itemize}
+			
+			\item Typically with a default option: what you chose last year
+			
+		\end{itemize}
+				
+		
+		\pause
+		
+		\item People are very likely to stick with default (`inertia')
+		
+		\begin{itemize}
+		
+			
+			\item Even when the plan loses them money relative to the best option  
+			
+			\pause
+			
+			\item As plans evolve over time, they often move even further from optimum \citep{handel2013adverse}
+			
+			\pause
+			
+			\item Likelihood of making active choice does not seem to depend on how bad the default option is relative to the best option  \citep{brot2021behavioral}
+			
+		\end{itemize}
+		
+
+		
+		
+	\end{itemize}
+	
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Defaults and Active Choice in Health Insurance}
+	%%%%%%%%%%%%%%%%%%%%%%%
+	
+
+	
+	\begin{itemize}
+		
+	
+		
+		\item But forcing active choice does not always help much!
+		
+		\begin{itemize}
+			
+			\item Because they choose poorly
+			
+			\pause
+			
+			\item Often choose dominated plans, likely due to poor understanding of health insurance (e.g. \citet{bhargava2017choose}
+			
+			\pause
+			
+			\item Seem to overweight premiums compared to out-of-pocket payments \citep{abaluck2011choice}
+			
+		\end{itemize}
+	
+
+		
+	\end{itemize}
+	
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Some welfare and policy implications}
+	%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	
+	\begin{itemize}
+		
+		\item Consumers are losing substantial amounts of money due to inertia and poor active choice in health insurance (e.g. \$2000 per year in \citet{handel2013adverse})
+		
+					\pause
+		
+		\item Inertia + poor active choice also reduce market discipline for suppliers
+		
+					\pause
+		
+		\item Less understanding of how to improve things
+		
+		\begin{itemize}
+			
+			\item Reducing the size of choice sets may not help in itself \citep{bhargava2017choose}
+			
+						\pause
+			
+			\item Forcing active choice sometimes helps but not always
+			
+						\pause
+			
+			\item Educating people about these plans seems difficult to do \citep{abaluck2016improving}
+			
+						\pause
+			
+			\item Removing bad choices (e.g. dominated options) from choice set is likely to improve welfare
+			
+		\end{itemize}
+		
+
+		
+		
+		
+		
+	\end{itemize}
+	
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Next week}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+	
+	%\item How do we explain default effects?
+	
+	\item Self Control - I - Evidence and Measurement
+	
+	\item Please read Ericson and Laibson ``Intertemporal Choice''
+	
+	
+		
+\end{itemize}
+
+\end{frame}
+
+	
+	
+	
+	
+	
+
+---
+class: MSU 
+# Enter: The Real World
+
+The nature of the conflict between selves is often seen in our daily activities. 
+
+However, as PhD Economists, we are often looking for smoking guns in the domain where our expertise lies (economics). 
+
+--
+
+In the next mess of slides, I will make the argument that one domain worthy of lots of additional exploration is *household finance.* 
+
+I'll present a series of facts, many of which I will argue stem from a conflict between selves. But this is a bold assertion and you should be skeptical and inquisitive. 
+
+---
+class: MSU 
+section: section4
+# Nine Facts About Household Finance
+
+Households in the United States: 
+
+1. Have low levels of financial literacy
+
+2. Have very few liquid assets (live hand to mouth)
+
+3. Have substantial illiquid wealth
+
+4. Have a high marginal propensity to consume out of liquid wealth
+
+5. Have a low marginal propensity to consume out of illiquid wealth
+
+6. Choose suboptimal financial service products 
+
+7. Barely change their behavior after financial education interventions
+
+8. Have misaligned financial intentions and financial actions
+
+9. Make financial choices that can be manipulated
+
+---
+class: MSU 
+# Financial Literacy 
+
+(This is one of the only times I'll discuss such things in this course.)
+
+Assessing literacy often comes down to simple questions such as: 
+
+> Suppose you had $100 in a savings account and the interest rate was 2% per year.  After 5 years, how much do you think you would have in the account if you left the money to grow?
+
+>i) More than $102
+
+>ii) Exactly $102
+
+>iii) Less than $102
+
+>iv) Don’t know 
+
+>v) Refuse to answer
+
+
+
+---
+class: MSU 
+# Financial Literacy 
+
+> Imagine that the interest rate on your savings account was 1% per year and inflation was 2% per year.  After 1 year, would you be able to buy with the money in this account:”
+
+>i) More than today 
+
+>ii) Exactly the same
+
+>iii) Less than today
+
+>iv) Don't know 
+
+>v) Refuse to answer
+
+
+---
+class: MSU 
+# Financial Literacy 
+
+> Do you think the following statement is true or false? Buying a single company stock usually provides a safer return than a stock mutual fund.
+
+>i) True
+
+>ii) False
+
+>iii) Don't know 
+
+>iv) Refuse to answer
+
+
+---
+class: MSU 
+# Financial Literacy: Data
+
+Data from Lusardi and Mitchell (2014)
+
+```{r, out.width = "800px"}
+knitr::include_graphics("graphics/literacy.png")
+```
+
+
+---
+class: MSU 
+# Hand-to-Mouth Living
+
+### A Fact
+
+Forty-six percent of U.S. adults report that they either could not come up with $400 to cover an emergency expense, or would have to borrow or sell something to do so. (Board of Governors of the Federal Reserve System, 2016).
+
+--
+
+### Another Fact
+
+Most of these households are not negative net worth. 
+
+---
+class: MSU 
+# "Wealthy" Hand-to-Mouth
+
+Data from Kaplan, Violante, and Weidner (2014)
+
+```{r, out.width = "500px"}
+knitr::include_graphics("graphics/htm1.png")
+```
+
+
+---
+class: MSU 
+# "Wealthy" Hand-to-Mouth
+
+Data from Laibson, Lee, Maxted, Repetto, Tobacman (2022)
+*(Composite of 2013, 2016, 2019 surveys)*
+
+```{r, out.width = "700px"}
+knitr::include_graphics("graphics/htm2.png")
+```
+
+---
+class: MSU 
+# Liquidity and Consumption 
+
+- Shapiro (2005): People on food stamps exhibit a monthly caloric cycle wherein calories drop 10-15% over the month
+
+--
+
+- Parker (2014): Nielsen data around 2008 Economic Stimulus Payments suggests a within-year MPX of 60%
+
+--
+
+- Ganong and Noel (2016): when unemployment insurance runs out (a predictable event), household consumption drops by 11%.
+
+--
+
+- Fagereng, Holm, and Natvik (2020): "Low-liquidity winners of the smallest prizes (around $1500) are estimated to spend all within the year of winning. The corresponding estimate for high-liquidity winners of large prizes ($8300-150K) is slightly below one half."
+
+--
+
+- Gerard and Naritomi (2021): “Displaced workers eligible for both UI and SP increase consumption at layoff by 35% despite experiencing a 17% consumption loss after they stop receiving any benefits”
+
+--
+
+*Also see Shea (1995), Mastrobuoni and Weinberg (2009), Hastings and Washington (2010), Olafsson and Pagel (2018), Stephens and Toohey (2018)*
+
+
+---
+
+class: MSU 
+# Present-Biased Preferences
+
+The **quasi-hyperbolic discount function** (Phelps and Pollak 1968, Laibson 1997, O'Donoghue and Rabin 1999):
+
+$$D(\tau) = \begin{cases}
+1 & \text{ if } \tau = 0 \\
+\beta \cdot \delta^{\tau} & \text{ if } \tau \in \{1, 2, \ldots\}
+\end{cases}$$
+
+where $\beta \leq 1$
+
+--
+
+- We can then write the utility function as:
+
+$$U^{t} = u_{t} + \beta \sum_{\tau = 1}^{T-t} \delta^{\tau} u_{t+\tau}$$
+
+
+
+
+---
+class: MSU 
+# Present-Biased Preferences
+
+### Intuitive Example 
+
+(*Courtesy of Matthew Rabin*) Suppose there is a task that you must complete on one of the next four days.
+
+To complete this task, you incur costs as follows: 
+
+- If you complete the task in period 1, the cost is 3.
+
+- If you complete the task in period 2, the cost is 5. 
+
+- If you complete the task in period 3, the cost is 8.
+
+- If you complete the task in period 4, the cost is 13.
+
+--
+
+Suppose there is no reward, that you value costs linearly, and that you have $\beta =1/2$ and $\delta =1$.
+
