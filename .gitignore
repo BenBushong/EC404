@@ -7,5 +7,5 @@
 *.rdx
 \\.knit\\.md$
 \\.utf8\\.md$
-blogdown/
+/blogdown
 Submissions
