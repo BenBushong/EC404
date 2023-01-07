@@ -21,7 +21,7 @@ library(pander)
 
 ### Office Hours
 
-My office hours are 5:30 - 6:30 on Thursdays. Zoom link [here](https://msu.zoom.us/j/2711311082) (Passcode: GODUCKS).
+My office hours are 5:30 - 6:30 on Thursdays. My office is 25A Marshall-Adams Hall; it is in the lower level (not quite a true basement, but close). 
 
 ## What Is This Course and Can / Should You Take It?
 
@@ -188,15 +188,15 @@ This class is designed to be fairly accomodating without a student asking. Howev
 Michigan State University is committed to providing equal opportunity for participation in all programs, services and activities. Requests for accommodations by persons with disabilities may be made by contacting the Resource Center for Persons with Disabilities at 517-884-RCPD or on the web [(here)](rcpd.msu.edu). Once your eligibility for an accommodation has been determined, you will be issued a verified individual services accommodation (“VISA”) form. Please present this form to me at the start of the term and/or two weeks prior to the accommodation date (test, project, etc). Requests received after this date will be honored whenever possible.
 
 
-### A Note on COVID-19
+### A Note on Things Right Now
 
-Things for you might be especially hard right now.
+Things for you might be especially hard right now. I get that.
 
 **I'm fully committed to making sure that you learn everything you were hoping to learn from this class.** I will make whatever accommodations I can to help you finish your exercises, do well on your projects, and learn and understand the class material. Under ordinary conditions, I am flexible and lenient with grading and course expectations when students face difficult challenges. Given the challenges of the past two years, that flexibility and leniency is intensified.
 
 If you feel like you're behind or not understanding everything, **do not suffer in silence.** *Please* contact me. I'm available via [e-mail](mailto:bbushong@msu.edu); or come see me.
 
-As a final note on COVID---this term may have abrupt and wild changes. If you've been on this planet for the past year, you're well aware of what I'm talking about. If such a change happens, I will do my best to ensure that your experience in this course does not suffer. That said, I hope you will extend a bit of leeway in such a circumstance.
+As a final note: if you've been on this planet for the past few years, you're well aware that we've had some wild and wacky changes that we had to confront. If such a change happens, I will do my best to ensure that your experience in this course does not suffer. That said, I hope you will extend a bit of leeway in such a circumstance.
 
 
 ### Mandated Reporting
@@ -210,7 +210,7 @@ These reports may trigger contact from a campus official who will want to talk w
 
 ## Miscellanea
 
-D2L will be used sparingly for submission of assignments and distribution of grades.
+D2L will be used sparingly---primarily for submission of assignments and distribution of grades.
 
 ### Using Office Hours
 
@@ -222,4 +222,4 @@ Some gentle requests regarding office hours and on contacting me. First, my offi
 
 
 ### Letters of Recommendation / References
-If you are applying for further study or another pursuit that requires letters of recommendation and you’d like me to recommend you, I will only write a letter on your behalf if your final grade is a 4.0. In addition, you should have held at least three substantial conversations with me about the course material or other academic subjects over the course of the semester. Please ask if you're concerned about this. I'm not an asshole---it's better for *you* if I know you well before writing a letter.
+I'm not doing letters of recommendation at the moment. It's not you, it's me. 
