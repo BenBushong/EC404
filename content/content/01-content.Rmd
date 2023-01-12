@@ -1,8 +1,8 @@
 ---
 title: "Choice under Uncertainty: The Standard Model"
 linktitle: "1a: Uncertainty -- The Standard Model"
-date: "2022-01-13"
-read_date: "2022-01-13"
+date: "2023-01-12"
+read_date: "2023-01-12"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
@@ -16,6 +16,9 @@ output:
 slides: "01-ExpectedUtility"
 
 ---
+## A Note on Old Materials
+
+The course website has some older notes posted. It is not recommended that you use these. When in doubt, check the date on the top of the page to verify you're viewing current materials. 
 
 ## Slides
 
