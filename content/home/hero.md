@@ -20,7 +20,7 @@ design:
     text_color_light: true
 
 cta_note:
-  label: EC404 • Spring 2022<br>College of Social Science<br>Michigan State University
+  label: EC404 • Spring 2023<br>College of Social Science<br>Michigan State University
 ---
 
 ****
