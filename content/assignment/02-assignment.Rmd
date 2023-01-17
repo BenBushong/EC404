@@ -1,5 +1,5 @@
 ---
-title: "Problem Set 2: Henry"
+title: "Problem Set 2: "
 linktitle: "PS2"
 publishDate: "2022-01-27"
 output:

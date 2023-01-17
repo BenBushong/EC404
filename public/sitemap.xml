@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ec404.netlify.app/assignment/01-assignment/</loc>
+    <lastmod>2023-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ec404.netlify.app/assignment/00-assignment/</loc>
+    <lastmod>2023-01-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ec404.netlify.app/assignment/06-assignment/</loc>
     <lastmod>2022-04-12T00:00:00+00:00</lastmod>
   </url>
@@ -28,11 +38,6 @@
   </url>
   
   <url>
-    <loc>https://ec404.netlify.app/assignment/01-assignment/</loc>
-    <lastmod>2022-01-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ec404.netlify.app/assignment/</loc>
     <lastmod>2022-01-11T00:00:00+00:00</lastmod>
   </url>
@@ -43,17 +48,12 @@
   </url>
   
   <url>
-    <loc>https://ec404.netlify.app/assignment/00-assignment/</loc>
-    <lastmod>2021-01-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ec404.netlify.app/content/01-content/</loc>
+    <loc>https://ec404.netlify.app/</loc>
     <lastmod>2023-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ec404.netlify.app/</loc>
+    <loc>https://ec404.netlify.app/content/01-content/</loc>
     <lastmod>2023-01-17T00:00:00+00:00</lastmod>
   </url>
   
