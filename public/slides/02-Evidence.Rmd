@@ -1,6 +1,6 @@
 ---
 title: "Choice under Uncertainty (Lecture 1b)"
-subtitle: "EC404; Spring 2022"
+subtitle: "EC404; Spring 2023"
 author: "Prof. Ben Bushong"
 date: "Last updated `r format(Sys.Date(), '%B %d, %Y')`"
 output:
@@ -98,6 +98,22 @@ MSUGreen <- "#14853B"
 #BELOW IS WHERE YOU ADD CONTENT. KEEP ABOVE CONSTAN EXCEPT TITLE.
 
 ```
+
+---
+class: inverseMSU
+# Reminders and Comments
+
+### This course is very much about time management.
+
+By now you've hopefully opened the first problem set. That's a good start, but I encourage you to engage early and often.
+
+The second one will follow immediately on its heels. 
+
+--
+
+A helpful mantra: 
+> There are two possible times to do something: now or never. Tomorrow isn't an option.
+
 
 ---
 
