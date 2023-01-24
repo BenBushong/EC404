@@ -1,6 +1,6 @@
 ---
 title: "Choice under Uncertainty (Lecture 1c)"
-subtitle: "EC404; Spring 2022"
+subtitle: "EC404; Spring 2023"
 author: "Prof. Ben Bushong"
 date: "Last updated `r format(Sys.Date(), '%B %d, %Y')`"
 output:
@@ -200,7 +200,7 @@ name: section2
 # Prospect Theory
 
 ![](graphics/kahnemantversky.jpg)
-Amos Tversky and Daniel Kahneman worked on this in the 1970s. Kahneman won the Nobel Prize in Economics for their joint work in 2002.
+Amos Tversky and Daniel Kahneman worked on this in the 1970s. Kahneman won the Nobel Prize in Economics in 2002 for their joint work.
 
 ---
 class: MSU

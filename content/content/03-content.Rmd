@@ -1,8 +1,8 @@
 ---
 title: "Choice under Uncertainty: Prospect Theory"
 linktitle: "1c: Prospect Theory"
-date: "2022-01-01"
-read_date: "2022-01-25"
+date: "2023-01-24"
+read_date: "2023-01-24"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
@@ -17,9 +17,13 @@ slides: "03-ProspectTheory"
 
 ---
 
+## A (Gentle) Reminder
+
+Problem sets are your main way of learning the material for this course. You ought to be engaging with them early and often. They don't take a collosal amount of time, but they can be a real bear if you try to do them at the last minute. (And then you won't learn things very well, if at all.)
+
 ## Slides
 
-All class slides can be found on this course website. Use the buttons below to open the slides either as an interactive website or as a static PDF. You can also click in the slides below and navigate through them with your left and right arrow keys.
+Use the buttons below to open the slides either as an interactive website or as a static PDF. You can also click in the slides below and navigate through them with your left and right arrow keys.
 
 Please note: you may experience some performance issues when opening the PDF file with Preview; Adobe Acrobat does not have these problems.
 
