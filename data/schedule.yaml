@@ -31,18 +31,18 @@ lessons:
 
   - title: 'Applications of Propect Theory'
     session: 5
-    date: "Week 3 (24 January)"
+    date: "Week 3-4 (24 January)"
     content: "04-content"
     assignment: "02-assignment"
 
   - title: 'Reference-Dependent Preferences'
     session: 6
-    date: "Week 4 (31 January)"
+    date: "Week 4-5 (2 February)"
     content: "05-content"
     #assignment: "03-assignment"
 
   - title: '<i class="fas fa-star"></i> **EXAM 1**'
-    date: "7 February"
+    date: "14 February"
     #assignment: "project1"
 
   - title: '<span class="fake-header-table">Intertemporal Choice — Making Choices over Time</span>'
@@ -50,49 +50,49 @@ lessons:
 
   - title: 'Warm-Up: Interest Rates, Compounding, PDV,...'
     session: 7
-    date: "Week 5 (9 February)"
+    date: "Week 6 (16 February)"
     content: "07-content"
     #example: "04-example"
     #assignment: "04-assignment"
 
   - title: 'The Standard Model: Exponential Discounting'
     session: 8
-    date: "Week 5 (9 February)"
+    date: "Week 7 (21 February)"
     content: "08-content"
     #example: "05-example"
     assignment: "03-assignment"
 
   - title: 'Evidence that Contradicts Exponential Discounting'
     session: 9
-    date: "Week 6 (14 February)"
+    date: "Week 7 (23 February)"
     content: "09-content"
     #example: "06-example"
     #assignment: "06-assignment"
 
   - title: 'An Alternative Model: Present Bias'
     session: 10
-    date: "Week 8 (16 February)"
+    date: "Week 8 (28 February)"
     content: "10-content"
     #example: "07-example"
     assignment: "04-assignment"
 
   - title: 'Applications of Present Bias'
     session: 11
-    date: "Week 9 (23 February)"
+    date: "Week 9 (14 March)"
     content: "11-content"
     #example: "09-example"
     assignment: "05-assignment"
 
   - title: 'Utility from "Anticipation"'
     session: 12
-    date: "Week 10 (2 March)"
+    date: "Week 10 (16 March)"
     content: "12-content"
     #example: "08-example"
     #assignment: "07-assignment"
 
   - title: '"Projection Bias" — Mispredicting Future Tastes'
     session: 13
-    date: "Week 10 (14 March)"
+    date: "Week 10 (18 March)"
     content: "13-content"
     #example: "08-example"
     #assignment: "07-assignment"
