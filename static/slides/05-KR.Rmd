@@ -1,6 +1,6 @@
 ---
 title: "Choice under Uncertainty (Lecture 1e)"
-subtitle: "EC404; Spring 2022"
+subtitle: "EC404; Spring 2023"
 author: "Prof. Ben Bushong"
 date: "Last updated `r format(Sys.Date(), '%B %d, %Y')`"
 output:
