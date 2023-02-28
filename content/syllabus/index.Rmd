@@ -19,6 +19,10 @@ library(pander)
 
 `r blogdown::shortcode("courseinfo")`
 
+### Spring 2023 Update
+
+Please note that this syllabus has changed in the middle of Spring 2023 due to changes in MSU's policies. 
+
 ### Office Hours
 
 My office hours are 5:30 - 6:30 on Thursdays. My office is 25A Marshall-Adams Hall; it is in the lower level (not quite a true basement, but close). 
@@ -114,13 +118,15 @@ In the end, problem sets aren’t a big component of your grade. Their primary p
 
 Your grade in this course will be based on attendance + participation, assignments, three exams, and a writing project. The general breakdown for grades will be 15% for attendance, 30% for assignments, 45% for exams, and 10% for a "paper". Details on the paper will be distributed midway through the course – it is designed not to deter anyone from taking this course who might otherwise be interested.
 
-Each exam will have a variable grading weight, depending on your performance. The ranges of grading weights for each exam are as follows:
+Each exam will have a variable grading weight. As a result of changes in Spring 2023, the weights have been adjusted to the following:
 
-- Midterm 1:	5% – 20%
-- Midterm 2:	5% – 20%
-- Final Exam:	10% – 35%
+- Midterm 1:	20% 
+- Midterm 2:	10%
+- Final Exam:	15%
 
-To calculate your overall exam score, I will automatically choose the grading weights most advantageous to you. For example, if the final exam is your best score, then your grading weights will be 35% for the final exam and 5% for each midterm.  If the final exam is your worst score, then your grading weights will be 10% for the final exam and 17.5% for each prelim. This scheme will help mitigate the effects of one-time disasters, including poor performance early in the course. I reserve the right to give higher grades, but the above is guaranteed. Any adjustments will be done consistently, with course attendance and completion percentage (e.g., did you do all the assigned work?) serving as tiebreakers where needed.
+<!-- To calculate your overall exam score, I will automatically choose the grading weights most advantageous to you. For example, if the final exam is your best score, then your grading weights will be 35% for the final exam and 5% for each midterm.  If the final exam is your worst score, then your grading weights will be 10% for the final exam and 17.5% for each prelim. This scheme will help mitigate the effects of one-time disasters, including poor performance early in the course.  -->
+
+I reserve the right to give higher grades, but the above is guaranteed. Any adjustments will be done consistently, with course attendance and completion percentage (e.g., did you do all the assigned work?) serving as tiebreakers where needed.
 
 Attendance and participation grades will be based on completion of in-class assignments. This is intended to be an easy way to get points.
 
