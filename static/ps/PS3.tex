@@ -1,0 +1,293 @@
+%2multibyte Version: 5.50.0.2960 CodePage: 1251
+%\renewcommand{\baselinestretch}{1.8}
+%\input{tcilatex}
+%\input{tcilatex}
+%\usepackage{harvard}
+%\input{tcilatex}
+%\input{tcilatex}
+
+
+\documentclass[12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{amsthm}
+\usepackage{framed}
+\usepackage{times}
+\usepackage{mathptmx}
+\usepackage{clrscode}
+\usepackage{natbib}
+\usepackage{booktabs,caption,fixltx2e}
+\usepackage[flushleft]{threeparttable}
+\usepackage{xpatch}
+\usepackage{tabu}
+\usepackage{setspace}
+\usepackage[margin=1in]{geometry}
+
+\setcounter{MaxMatrixCols}{10}
+%TCIDATA{OutputFilter=LATEX.DLL}
+%TCIDATA{Version=5.50.0.2960}
+%TCIDATA{Codepage=1251}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{BibliographyScheme=Manual}
+%TCIDATA{Created=Friday, July 11, 2003 08:16:50}
+%TCIDATA{LastRevised=Tuesday, July 22, 2014 01:00:36}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+%TCIDATA{Language=American English}
+
+\makeatletter
+\chardef\TPT@@@asteriskcatcode=\catcode`*
+\catcode`*=11
+\xpatchcmd{\threeparttable}
+{\TPT@hookin{tabular}}
+{\TPT@hookin{tabular}\TPT@hookin{tabu}}
+{}{}
+\catcode`*=\TPT@@@asteriskcatcode
+\makeatother
+\parskip 0cm
+\parindent .4cm
+\textwidth=6.5in
+\oddsidemargin .0in
+\topmargin -.5in
+\textheight 9in
+\doublespacing
+\newtheorem{proposition}{Proposition}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheorem{assumption}{Assumption}
+\newtheorem{example}{Example}
+\newtheorem{am}{Alternative Model}
+\renewcommand{\proofname}{\bf Proof}
+\renewcommand{\qedsymbol}{$\blacksquare$}
+
+\newcommand{\bpi}{\boldsymbol{\pi}}
+\newcommand{\he}{\hat{\eta}}
+\newcommand{\etahat}{\hat{\eta}}
+\newcommand{\hx}{\hat{x}}
+\newcommand{\that}{\hat{\theta}}
+\newcommand{\hv}{\hat{\theta}}
+\newcommand{\hvl}{\hv_L}
+\newcommand{\hvh}{\hv_H}
+\newcommand{\vl}{\theta_L}
+\newcommand{\vh}{\theta_H}
+\newcommand{\hp}{\hat{p}}
+%\newcommand{\bv}{\bar{v}}
+\newcommand{\bv}{\theta}
+\newcommand{\s}{\sigma}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\ind}{\mathbbm{1}}
+\newcommand{\bigmid}{\;\bigg|\;}
+\newcommand{\lbigmid}{\;\big|\;}
+\newcommand{\cas}{\overset{\textnormal{a.s.}}{\longrightarrow}} 
+
+
+\newcommand{\al}{\alpha}
+
+
+%from P and A file
+
+\newcommand{\hy}{\hat{y}}
+\newcommand{\hh}{\hat{h}}
+\newcommand{\hI}{\hat{I}}
+\newcommand{\hF}{\hat{F}}
+\newcommand{\hE}{\hat{E}}
+
+\newcommand{\ah}{\hat{\theta}}
+\newcommand{\at}{\tilde{\theta}}
+\newcommand{\Fh}{\widehat{F}}
+\newcommand{\eh}{\hat{e}}
+\newcommand{\yh}{\hat{y}}
+%\newcommand{\sh}{\widehat{\sigma}}
+\newcommand{\sh}{\sigma}
+
+\newcommand{\et}{\tilde{e}}
+\newcommand{\zt}{\tilde{z}}
+\newcommand{\Zt}{\widetilde{Z}}
+\newcommand{\es}{e^*}
+\newcommand{\xh}{\hat{x}}
+\newcommand{\zh}{\hat{z}}
+\newcommand{\Zh}{\widehat{Z}}
+\newcommand{\e}{\epsilon}
+\newcommand{\D}{\partial}
+\newcommand{\Eh}{\widehat{\mathbb{E}}}
+
+
+\raggedbottom
+\begin{document}
+	
+	
+	\begin{center}
+		\underline{{\Large Problem Set Vincent}}
+		
+		\textbf{[Due at the beginning of class on Thursday, March 16th]}
+	\end{center}
+\bigskip
+
+\underline{Question 1}:
+
+Consider a simple two-period model of intertemporal choice. Suppose that a
+person receives income \$37,254 in period 1 and additional income \$33,169
+in period 2. The market interest rate at which the person can both borrow
+and save is 3\%. Finally, the person's preferences are given by 
+\[
+U(c_{1},c_{2})=\frac{4}{3}\left( c_{1}\right) ^{3/4}\text{ }+\text{ }\delta 
+\frac{4}{3}\left( c_{2}\right) ^{3/4}. 
+\]
+
+\textbf{(a)} Derive the budget constraint that the person faces.
+
+\textbf{(b)} Solve for the optimal $c_{1}$ and $c_{2}$ as a function of $%
+\delta $.
+
+\textbf{(c)} As $\delta $ increases, what happens to the optimal $c_{1}$ and 
+$c_{2}$? Provide some intuition for your answer.
+
+\textbf{(d)} For what values of $\delta $ will the person save, and for what
+values of $\delta $ will she borrow?\newline
+[\textbf{Note: Please report your answer to 5 decimal points.]}
+
+\textbf{(e)} For what values of $\delta $ is the person's $c_{1}$ larger
+than her $c_{2}$? How does this compare to the condition that we discussed
+in class (for the case of log utility)?
+
+\textbf{(f)} Consider the following alternative income streams:
+
+\begin{quotation}
+	Alternative A: Receive \$47,923 in period 1 and \$21,535 in period 2.
+	
+	Alternative B: Receive \$28,716 in period 1 and \$41,963 in period 2.
+\end{quotation}
+
+Discuss how the person's optimal consumption path under these alternatives
+would compare to her optimal consumption path under the initial income
+stream --- that is, discuss whether $c_{1}$ is larger, smaller, or the same,
+and discuss whether $c_{2}$ is larger, smaller, or the same. In addition,
+discuss how the person's period-1 saving under these alternatives would
+compare to her priod-1 saving under the initial income stream. \textbf{%
+	[Note: You can and should answer part (f) without re-solving for the
+	person's behavior.]}
+
+\medskip
+
+\underline{Question 2 [Optional for two bonus points]}:
+
+Consider a model exactly like that in Question 1 --- where the person
+receives income \$37,254 in period 1 and additional income \$33,169 in
+period 2 --- except let's now suppose that the person faces a liquidity
+constraint. Specifically, she can still save at an interest rate of 3\%, but
+if she borrows, then she must pay an interest rate of 9\%.
+
+\textbf{(a)} If the person wants to save, the relevant interest rate is 3\%.
+For what values of $\delta $ is it optimal to save? [Hint: You already know
+the answer from Question 1.]
+
+\textbf{(b)} If the person wants to borrow, the relevant interest rate is
+9\%.
+
+\begin{quotation}
+	(i) Suppose the interest rate is 9\%, and solve for the optimal $c_{1}$ and $%
+	c_{2}$ \newline
+	as a function of $\delta $.
+	
+	(ii) If the interest rate is 9\%, for what values of $\delta $ is it optimal
+	to borrow?\newline
+	[\textbf{Note: Please report your answer to 5 decimal points.]}
+\end{quotation}
+
+\textbf{(c)} Given the liquidity constraint, for what values of $\delta $ is
+it optimal to neither borrow nor save?\newline
+[Hint: Two conditions must hold: (i) $\delta $ must be such that the person
+does NOT want to save at an interest rate of 3\%, and (ii) $\delta $ must be
+such that the person does NOT want to borrow at an interest rate of 9\%.]
+
+\textbf{(d)} Draw three pictures that illustrate the three cases --- when
+it's optimal to save, when it's optimal to borrow, and when it's optimal to
+neither borrow nor save. Each picture should depict (i) the budget
+constraint, (ii) some indifference curves, and (iii) the optimal $c_{1}$ and 
+$c_{2}$.
+
+\underline{Question 3}
+
+Suppose that Mr. Z has a tree growing in his yard that has become too large,
+and he must cut it down within the next four years. Cutting down the tree
+requires effort, and he would like to wait and cut down the tree later.
+However, each year that he delays, the tree gets bigger and requires even
+more effort to cut down. Specifically, suppose that the effort cost to cut
+down the tree in year $\bar{\tau}$ is $c(\bar{\tau})$, where $c(1)=13$, $%
+c(2)=20$, $c(3)=32$, and $c(4)=55$. Suppose that Mr. Z is an exponential
+discounter with discount factor $\delta $, and that the only utility
+consequence of cutting down the tree is the disutility of effort experienced
+when the tree is cut.
+
+\textbf{(a)} From a year-1 perspective:
+
+\begin{quotation}
+	(i) For what $\delta $ does Mr. Z prefer cutting in year 1 rather than year
+	2?\newline
+	(ii) For what $\delta $ does Mr. Z prefer cutting in year 2 rather than year
+	3?\newline
+	(iii) For what $\delta $ does Mr. Z prefer cutting in year 3 rather than
+	year 4?
+\end{quotation}
+
+\textbf{(b)} As a function of $\delta $, when is Mr. Z's preferred time to
+cut down the tree?
+
+\textbf{(c)} Suppose Mr. Z does not harvest the tree in year 1. From a
+year-2 perspective:
+
+\begin{quotation}
+	(i) For what $\delta $ does Mr. Z prefer cutting in year 2 rather than year
+	3?\newline
+	(ii) For what $\delta $ does Mr. Z prefer cutting in year 3 rather than year
+	4?
+\end{quotation}
+
+\textbf{(d)} Is there any $\delta $ for which Mr. Z would decide in year 2
+to deviate from his initial year-1 plan?
+
+\bigskip
+
+\underline{Question 4}
+
+We can write the standard $T$-period saving-consumption model as:
+
+\begin{quotation}
+	Choose $(c_{1},c_{2},...,c_{T})$ to maximize%
+	\[
+	U(c_{1},c_{2},...,c_{T})=u(c_{1})+\delta u(c_{2})+...+\delta ^{T-1}u(c_{T}) 
+	\]
+	
+	subject to%
+	\[
+	c_{1}+\frac{c_{2}}{1+r}+...+\frac{c_{T}}{(1+r)^{T-1}}\leq W. 
+	\]
+\end{quotation}
+
+In this model, there are three motivations that influence the allocation of
+consumption across periods: \textquotedblleft impatience\textquotedblright ,
+\textquotedblleft future consumption is cheaper\textquotedblright , and
+\textquotedblleft consumption smoothing\textquotedblright .
+
+\textbf{(a)} For each of these motivations, (i) describe in words how the
+motivation impacts the allocation of consumption across periods (i.e., how $%
+c_{1}$ compares to $c_{2}$, $c_{3}$, and so forth), (ii) describe
+mathematically how it enters the problem above, and (iii) describe
+mathematically the special case of the problem above when the motivation is
+absent.
+\textbf{[Note: You should have a total of 9 responses for part a]}
+
+\textbf{(b)} Suppose that $T=2$ and $u(c)=a+bc$. Derive the optimal
+consumption path as a function of $\delta $ and $r$.
+
+Hint: Use the substitution method in part \textbf{(b)}.
+
+Hint: Your answer to part \textbf{(b)} might provide insight that helps you
+to answer part \textbf{(a)}.
+
+\end{document}

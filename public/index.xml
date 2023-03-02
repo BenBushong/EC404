@@ -5,12 +5,29 @@
     <link>https://ec404.netlify.app/</link>
       <atom:link href="https://ec404.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <description>Course materials</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Thu, 02 Mar 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ec404.netlify.app/img/social-image.png</url>
       <title>Course materials</title>
       <link>https://ec404.netlify.app/</link>
     </image>
+    
+    <item>
+      <title>Problem Set 3: Vincent</title>
+      <link>https://ec404.netlify.app/assignment/03-assignment/</link>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/assignment/03-assignment/</guid>
+      <description>
+&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;This assignment is due March 16th at the start of class&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS3.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You may turn in your answers in person and need not type them.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Problem Set 2: Stevenson (2)</title>
@@ -108,23 +125,6 @@
 &lt;div class=&#34;fyi&#34;&gt;
 &lt;p&gt;&lt;strong&gt;This assignment is due Thursday, March 24th at 11:59 PM&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS4.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You may turn in your answers in person and need not type them.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Problem Set 3: </title>
-      <link>https://ec404.netlify.app/assignment/03-assignment/</link>
-      <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/assignment/03-assignment/</guid>
-      <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;div class=&#34;fyi&#34;&gt;
-&lt;p&gt;&lt;strong&gt;This assignment is due March 13th at 11:59 PM&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS3.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You may turn in your answers in person and need not type them.&lt;/p&gt;
 &lt;/div&gt;
 </description>
@@ -663,6 +663,7 @@
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#spring-2023-update&#34; id=&#34;toc-spring-2023-update&#34;&gt;Spring 2023 Update&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#office-hours&#34; id=&#34;toc-office-hours&#34;&gt;Office Hours&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#what-is-this-course-and-can-should-you-take-it&#34; id=&#34;toc-what-is-this-course-and-can-should-you-take-it&#34;&gt;What Is This Course and Can / Should You Take It?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#non-detailed-course-psuedo-description&#34; id=&#34;toc-non-detailed-course-psuedo-description&#34;&gt;Non-Detailed Course Psuedo-Description&lt;/a&gt;&lt;/li&gt;
@@ -718,6 +719,10 @@
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
+&lt;div id=&#34;spring-2023-update&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Spring 2023 Update&lt;/h3&gt;
+&lt;p&gt;Please note that this syllabus has changed in the middle of Spring 2023 due to changes in MSU’s policies.&lt;/p&gt;
+&lt;/div&gt;
 &lt;div id=&#34;office-hours&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Office Hours&lt;/h3&gt;
 &lt;p&gt;My office hours are 5:30 - 6:30 on Thursdays. My office is 25A Marshall-Adams Hall; it is in the lower level (not quite a true basement, but close).&lt;/p&gt;
@@ -795,13 +800,14 @@ Student McStudentFace&lt;/p&gt;
 &lt;div id=&#34;evaluations-and-grades&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Evaluations and Grades&lt;/h3&gt;
 &lt;p&gt;Your grade in this course will be based on attendance + participation, assignments, three exams, and a writing project. The general breakdown for grades will be 15% for attendance, 30% for assignments, 45% for exams, and 10% for a “paper”. Details on the paper will be distributed midway through the course – it is designed not to deter anyone from taking this course who might otherwise be interested.&lt;/p&gt;
-&lt;p&gt;Each exam will have a variable grading weight, depending on your performance. The ranges of grading weights for each exam are as follows:&lt;/p&gt;
+&lt;p&gt;Each exam will have a variable grading weight. As a result of changes in Spring 2023, the weights have been adjusted to the following:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Midterm 1: 5% – 20%&lt;/li&gt;
-&lt;li&gt;Midterm 2: 5% – 20%&lt;/li&gt;
-&lt;li&gt;Final Exam: 10% – 35%&lt;/li&gt;
+&lt;li&gt;Midterm 1: 20%&lt;/li&gt;
+&lt;li&gt;Midterm 2: 10%&lt;/li&gt;
+&lt;li&gt;Final Exam: 15%&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;To calculate your overall exam score, I will automatically choose the grading weights most advantageous to you. For example, if the final exam is your best score, then your grading weights will be 35% for the final exam and 5% for each midterm. If the final exam is your worst score, then your grading weights will be 10% for the final exam and 17.5% for each prelim. This scheme will help mitigate the effects of one-time disasters, including poor performance early in the course. I reserve the right to give higher grades, but the above is guaranteed. Any adjustments will be done consistently, with course attendance and completion percentage (e.g., did you do all the assigned work?) serving as tiebreakers where needed.&lt;/p&gt;
+&lt;!-- To calculate your overall exam score, I will automatically choose the grading weights most advantageous to you. For example, if the final exam is your best score, then your grading weights will be 35% for the final exam and 5% for each midterm.  If the final exam is your worst score, then your grading weights will be 10% for the final exam and 17.5% for each prelim. This scheme will help mitigate the effects of one-time disasters, including poor performance early in the course.  --&gt;
+&lt;p&gt;I reserve the right to give higher grades, but the above is guaranteed. Any adjustments will be done consistently, with course attendance and completion percentage (e.g., did you do all the assigned work?) serving as tiebreakers where needed.&lt;/p&gt;
 &lt;p&gt;Attendance and participation grades will be based on completion of in-class assignments. This is intended to be an easy way to get points.&lt;/p&gt;
 &lt;p&gt;More in-depth descriptions for all the assignments will be on the &lt;a href=&#34;https://ec404.netlify.app/assignment/&#34;&gt;assignments page&lt;/a&gt;. As the course progresses, the assignments themselves will be posted within that page.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;To Recap:&lt;/strong&gt;&lt;/p&gt;

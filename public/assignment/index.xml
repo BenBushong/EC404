@@ -13,6 +13,23 @@
     </image>
     
     <item>
+      <title>Problem Set 3: Vincent</title>
+      <link>https://ec404.netlify.app/assignment/03-assignment/</link>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/assignment/03-assignment/</guid>
+      <description>
+&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;This assignment is due March 16th at the start of class&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS3.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You may turn in your answers in person and need not type them.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Problem Set 2: Stevenson (2)</title>
       <link>https://ec404.netlify.app/assignment/02-assignment/</link>
       <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
@@ -108,23 +125,6 @@
 &lt;div class=&#34;fyi&#34;&gt;
 &lt;p&gt;&lt;strong&gt;This assignment is due Thursday, March 24th at 11:59 PM&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS4.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You may turn in your answers in person and need not type them.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Problem Set 3: </title>
-      <link>https://ec404.netlify.app/assignment/03-assignment/</link>
-      <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/assignment/03-assignment/</guid>
-      <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;div class=&#34;fyi&#34;&gt;
-&lt;p&gt;&lt;strong&gt;This assignment is due March 13th at 11:59 PM&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS3.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You may turn in your answers in person and need not type them.&lt;/p&gt;
 &lt;/div&gt;
 </description>

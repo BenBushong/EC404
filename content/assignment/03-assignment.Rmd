@@ -1,7 +1,7 @@
 ---
-title: "Problem Set 3: "
+title: "Problem Set 3: Vincent"
 linktitle: "PS3"
-publishDate: "2022-02-24"
+publishDate: "2023-03-02"
 output:
   blogdown::html_page:
     toc: true
@@ -17,7 +17,7 @@ editor_options:
 
 
 :::fyi
-**This assignment is due March 13th at 11:59 PM**
+**This assignment is due March 16th at the start of class**
 
 
 Click the icon to download the problem set: [<i class="fas fa-file-download"></i>](/ps/PS3.pdf).
