@@ -1,6 +1,6 @@
 ---
 title: "Choice over Time: Exponential Discounting"
-subtitle: "EC404; Fall 2022"
+subtitle: "EC404; Fall 2023"
 author: "Prof. Ben Bushong"
 date: "Last updated `r format(Sys.Date(), '%B %d, %Y')`"
 output:

@@ -1,8 +1,8 @@
 ---
 title: "Choice over Time: Evidence"
 linktitle: "2c: Evidence"
-date: "2022-03-01"
-read_date: "2022-03-01"
+date: "2023-03-14"
+read_date: "2023-03-14"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
