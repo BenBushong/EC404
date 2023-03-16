@@ -1,8 +1,8 @@
 ---
 title: "Choice over Time: Present Bias"
 linktitle: "2d: Present Bias"
-date: "2022-03-03"
-read_date: "2022-03-03"
+date: "2023-03-16"
+read_date: "2023-03-16"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
