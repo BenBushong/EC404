@@ -4,7 +4,7 @@ lessons:
 
   - title: 'Welcome'
     session: 1
-    date: "Week 1 (10 January)"
+    date: ""
     content: "00-content"
     assignment: "00-assignment"
 
@@ -13,31 +13,31 @@ lessons:
 
   - title: 'The Standard Model: Expected Utility'
     session: 2
-    date: "Week 1 (12 January)"
+    date: ""
     content: "01-content"
     assignment: "01-assignment"
 
   - title: 'Evidence that Contradicts Expected Utility'
     session: 3
-    date: "Week 2 (17 January)"
+    date: ""
     content: "02-content"
     #assignment: "02-assignment"
 
   - title: 'Prospect Theory'
     session: 4
-    date: "Week 2 (19 January)"
+    date: ""
     content: "03-content"
     #assignment: "02-assignment"
 
   - title: 'Applications of Propect Theory'
     session: 5
-    date: "Week 3-4 (24 January)"
+    date: ""
     content: "04-content"
     assignment: "02-assignment"
 
   - title: 'Reference-Dependent Preferences'
     session: 6
-    date: "Week 4-5 (2 February)"
+    date: ""
     content: "05-content"
     #assignment: "03-assignment"
 
@@ -50,55 +50,55 @@ lessons:
 
   - title: 'Warm-Up: Interest Rates, Compounding, PDV,...'
     session: 7
-    date: "Week 6 (16 February)"
+    date: ""
     content: "07-content"
     #example: "04-example"
     #assignment: "04-assignment"
 
   - title: 'The Standard Model: Exponential Discounting'
     session: 8
-    date: "Week 7 (21 February)"
+    date: ""
     content: "08-content"
     #example: "05-example"
     assignment: "03-assignment"
 
   - title: 'Evidence that Contradicts Exponential Discounting'
     session: 9
-    date: "Week 7 (23 February)"
+    date: ""
     content: "09-content"
     #example: "06-example"
     #assignment: "06-assignment"
 
   - title: 'An Alternative Model: Present Bias'
     session: 10
-    date: "Week 8 (28 February)"
+    date: ""
     content: "10-content"
     #example: "07-example"
     assignment: "04-assignment"
 
   - title: 'Applications of Present Bias'
     session: 11
-    date: "Week 9 (14 March)"
+    date: ""
     content: "11-content"
     #example: "09-example"
     assignment: "05-assignment"
 
   - title: 'Utility from "Anticipation"'
     session: 12
-    date: "Week 10 (16 March)"
+    date: ""
     content: "12-content"
     #example: "08-example"
     #assignment: "07-assignment"
 
   - title: '"Projection Bias" — Mispredicting Future Tastes'
     session: 13
-    date: "Week 10 (18 March)"
+    date: ""
     content: "13-content"
     #example: "08-example"
     #assignment: "07-assignment"
 
   - title: '<i class="fas fa-star"></i> **EXAM 2**'
-    date: "21 March"
+    date: "6 April"
     #assignment: "project2"
 
   - title: '<span class="fake-header-table">Public Policy to Combat Errors</span>'
@@ -106,14 +106,14 @@ lessons:
 
   - title: 'Is "Paternalism" Acceptable or Justified?'
     session: 14
-    date: "Week 11 (23 March)"
+    date: ""
     content: "16-content"
     #example: "10-example"
     #assignment: "10-assignment"
 
   - title: 'Optimal Sin Taxes'
     session: 15
-    date: "Week 12 (28 March)"
+    date: ""
     content: "16-content"
     #example: "11-example"
     #assignment: "11-assignment"
@@ -123,28 +123,28 @@ lessons:
 
   - title: 'The Standard Model: Self Interest'
     session: 16
-    date: "Week 13 (4 April)"
+    date: ""
     content: "14-content"
     #example: "11-example"
     #assignment: "11-assignment"
 
   - title: 'Evidence That Contradicts the Self-Interest Model'
     session: 16
-    date: "Week 13 (6 April)"
+    date: ""
     content: "14-content"
     #example: "11-example"
     #assignment: "11-assignment"
 
   - title: 'Theories of Social Preferences'
     session: 17
-    date: "Week 13 (6 April)"
+    date: ""
     content: "14-content"
     # example: "NA"
     # assignment: "NA"
 
   - title: 'Do "Intentions" Matter?'
     session: 18
-    date: "Week 14 (11 April)"
+    date: ""
     content: "14-content"
     #example: "12-example"
     # assignment: "10-assignment"
@@ -154,21 +154,21 @@ lessons:
 
   - title: 'The Standard Model: Bayesian Information Processing'
     session: 19
-    date: "Week 15 (18 April)"
+    date: ""
     content: "15-content"
     #example: "12-example"
     # assignment: "10-assignment"
 
   - title: 'Evidence that Contradicts Bayesian Information Processing'
     session: 15
-    date: "Week 15 (18 April)"
+    date: ""
     content: "15-content"
     #example: "12-example"
     # assignment: "10-assignment"
 
   - title: 'An Alternative Model: The "Law Of Small Numbers"'
     session: 15
-    date: "Week 15 (20 April)"
+    date: ""
     content: "17-content"
     #example: "12-example"
     # assignment: "10-assignment"

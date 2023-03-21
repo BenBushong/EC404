@@ -5,7 +5,7 @@
     <link>https://ec404.netlify.app/</link>
       <atom:link href="https://ec404.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <description>Course materials</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Thu, 16 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Tue, 21 Mar 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ec404.netlify.app/img/social-image.png</url>
       <title>Course materials</title>
@@ -126,6 +126,19 @@
 &lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS5.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You may turn in your answers in person and need not type them.&lt;/p&gt;
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Choice over Time: Applications of Present Bias</title>
+      <link>https://ec404.netlify.app/content/11-content/</link>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/content/11-content/</guid>
+      <description>
+
+
+&lt;p&gt;Click this icon to download the fourth batch of slides (discussing applications of present bias): &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4e.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This group of slides is split in two; additional link here: &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4e2.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;. I will complete the reformatting to .html “shortly.”&lt;/p&gt;
 </description>
     </item>
     
@@ -601,20 +614,6 @@
     </item>
     
     <item>
-      <title>Choice over Time: Applications of Present Bias</title>
-      <link>https://ec404.netlify.app/content/11-content/</link>
-      <pubDate>Thu, 03 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/content/11-content/</guid>
-      <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;p&gt;Click this icon to download the fourth batch of slides (discussing applications of present bias): &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4e.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This group of slides is split in two; additional link here: &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4e2.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;. I will complete the reformatting to .html “shortly.”&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Additional Topics in Limited Rationality</title>
       <link>https://ec404.netlify.app/content/06-content/</link>
       <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
@@ -976,7 +975,7 @@ Student McStudentFace&lt;/p&gt;
             &lt;td style=&#34;width:8%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Assignment&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 1 (10 January)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Welcome&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/00-content/&#34;&gt;
@@ -992,7 +991,7 @@ Student McStudentFace&lt;/p&gt;
             &lt;td style=&#34;width:8%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Assignment&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 1 (12 January)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;The Standard Model: Expected Utility&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/01-content/&#34;&gt;
@@ -1001,7 +1000,7 @@ Student McStudentFace&lt;/p&gt;
                     &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 2 (17 January)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Evidence that Contradicts Expected Utility&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/02-content/&#34;&gt;
@@ -1012,7 +1011,7 @@ Student McStudentFace&lt;/p&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 2 (19 January)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Prospect Theory&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/03-content/&#34;&gt;
@@ -1023,7 +1022,7 @@ Student McStudentFace&lt;/p&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 3-4 (24 January)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Applications of Propect Theory&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/04-content/&#34;&gt;
@@ -1032,7 +1031,7 @@ Student McStudentFace&lt;/p&gt;
                     &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 4-5 (2 February)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Reference-Dependent Preferences&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/05-content/&#34;&gt;
@@ -1062,7 +1061,7 @@ Student McStudentFace&lt;/p&gt;
             &lt;td style=&#34;width:8%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Assignment&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 6 (16 February)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Warm-Up: Interest Rates, Compounding, PDV,&amp;hellip;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/07-content/&#34;&gt;
@@ -1073,7 +1072,7 @@ Student McStudentFace&lt;/p&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 7 (21 February)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;The Standard Model: Exponential Discounting&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/08-content/&#34;&gt;
@@ -1082,7 +1081,7 @@ Student McStudentFace&lt;/p&gt;
                     &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 7 (23 February)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Evidence that Contradicts Exponential Discounting&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/09-content/&#34;&gt;
@@ -1093,7 +1092,7 @@ Student McStudentFace&lt;/p&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 8 (28 February)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;An Alternative Model: Present Bias&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/10-content/&#34;&gt;
@@ -1102,7 +1101,7 @@ Student McStudentFace&lt;/p&gt;
                     &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 9 (14 March)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Applications of Present Bias&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/11-content/&#34;&gt;
@@ -1111,7 +1110,7 @@ Student McStudentFace&lt;/p&gt;
                     &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 10 (16 March)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Utility from &amp;ldquo;Anticipation&amp;rdquo;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/12-content/&#34;&gt;
@@ -1122,7 +1121,7 @@ Student McStudentFace&lt;/p&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 10 (18 March)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&amp;ldquo;Projection Bias&amp;rdquo; — Mispredicting Future Tastes&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/13-content/&#34;&gt;
@@ -1133,7 +1132,7 @@ Student McStudentFace&lt;/p&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;21 March&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;6 April&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-star&#34;&gt;&lt;/i&gt; &lt;strong&gt;EXAM 2&lt;/strong&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -1152,7 +1151,7 @@ Student McStudentFace&lt;/p&gt;
             &lt;td style=&#34;width:8%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Assignment&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 11 (23 March)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Is &amp;ldquo;Paternalism&amp;rdquo; Acceptable or Justified?&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/16-content/&#34;&gt;
@@ -1163,7 +1162,7 @@ Student McStudentFace&lt;/p&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 12 (28 March)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Optimal Sin Taxes&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/16-content/&#34;&gt;
@@ -1181,7 +1180,7 @@ Student McStudentFace&lt;/p&gt;
             &lt;td style=&#34;width:8%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Assignment&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 13 (4 April)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;The Standard Model: Self Interest&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/14-content/&#34;&gt;
@@ -1192,7 +1191,7 @@ Student McStudentFace&lt;/p&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 13 (6 April)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Evidence That Contradicts the Self-Interest Model&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/14-content/&#34;&gt;
@@ -1203,7 +1202,7 @@ Student McStudentFace&lt;/p&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 13 (6 April)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Theories of Social Preferences&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/14-content/&#34;&gt;
@@ -1214,7 +1213,7 @@ Student McStudentFace&lt;/p&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 14 (11 April)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Do &amp;ldquo;Intentions&amp;rdquo; Matter?&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/14-content/&#34;&gt;
@@ -1232,7 +1231,7 @@ Student McStudentFace&lt;/p&gt;
             &lt;td style=&#34;width:8%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Assignment&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 15 (18 April)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;The Standard Model: Bayesian Information Processing&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/15-content/&#34;&gt;
@@ -1243,7 +1242,7 @@ Student McStudentFace&lt;/p&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 15 (18 April)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Evidence that Contradicts Bayesian Information Processing&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/15-content/&#34;&gt;
@@ -1254,7 +1253,7 @@ Student McStudentFace&lt;/p&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 15 (20 April)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;An Alternative Model: The &amp;ldquo;Law Of Small Numbers&amp;rdquo;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/17-content/&#34;&gt;
