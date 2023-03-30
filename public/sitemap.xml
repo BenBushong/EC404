@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ec404.netlify.app/assignment/05-assignment/</loc>
+    <lastmod>2023-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ec404.netlify.app/assignment/04-assignment/</loc>
     <lastmod>2023-03-16T00:00:00+00:00</lastmod>
   </url>
@@ -33,11 +38,6 @@
   </url>
   
   <url>
-    <loc>https://ec404.netlify.app/assignment/05-assignment/</loc>
-    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ec404.netlify.app/assignment/</loc>
     <lastmod>2022-01-11T00:00:00+00:00</lastmod>
   </url>
@@ -48,12 +48,17 @@
   </url>
   
   <url>
-    <loc>https://ec404.netlify.app/content/12-content/</loc>
-    <lastmod>2023-03-28T00:00:00+00:00</lastmod>
+    <loc>https://ec404.netlify.app/content/13-content/</loc>
+    <lastmod>2023-03-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ec404.netlify.app/</loc>
+    <lastmod>2023-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ec404.netlify.app/content/12-content/</loc>
     <lastmod>2023-03-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -129,11 +134,6 @@
   
   <url>
     <loc>https://ec404.netlify.app/content/16-content/</loc>
-    <lastmod>2023-01-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ec404.netlify.app/content/13-content/</loc>
     <lastmod>2023-01-07T00:00:00+00:00</lastmod>
   </url>
   
