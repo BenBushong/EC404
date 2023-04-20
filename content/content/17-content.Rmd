@@ -1,8 +1,8 @@
 ---
 title: "Learning under the Law of Small Numbers"
-linktitle: "4b: An Alternative Model"
-date: "2022-04-14"
-read_date: "2022-04-14"
+linktitle: "3b: An Alternative Model"
+date: "2023-04-13"
+read_date: "2023-04-13"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
