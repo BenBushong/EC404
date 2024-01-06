@@ -1,8 +1,8 @@
 ---
-title: "Limited Rationality"
-linktitle: "A1: Limited Thinking"
-date: "2021-09-07"
-read_date: "2021-09-07"
+title: "Additional Topics in Limited Rationality"
+linktitle: "A1: Limited Rationality"
+date: "2022-02-17"
+read_date: "2022-02-17"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
@@ -19,7 +19,6 @@ slides: "06-LimitedRationality"
 
 ## Slides
 
-Note that the two days of this content will eventually be contained on this single slide deck.
 
 `r blogdown::shortcode("slide-buttons")`
 

@@ -1,6 +1,6 @@
 ---
 title: "Choice under Uncertainty (Lecture 1c)"
-subtitle: "EC404; Fall 2021"
+subtitle: "EC404; Spring 2023"
 author: "Prof. Ben Bushong"
 date: "Last updated `r format(Sys.Date(), '%B %d, %Y')`"
 output:
@@ -137,7 +137,7 @@ Some concepts are hard to get your head around. It can be easier to think about 
 --
 
 - E.g., "risk aversion" will continue to trip you up throughout this section.
-- Think about the limit case: a person who is infinitely risk averse.
+- Think about the limit case: a person who is **infinitely** risk averse.
 - Now think about the other limit case: a person who is risk neutral.
 - In between those lies reality. The **definition** of the term only offers that a person is a teensy tiny itty bitty bit above risk neutrality. How she actually behaves depends on *how* risk averse she is.
 
@@ -145,7 +145,6 @@ Some concepts are hard to get your head around. It can be easier to think about 
 
 **Your task:** think about limit cases.
 
-Also, go here: https://forms.gle/6UJKTLugp5bmMTBY6
 
 ---
 
@@ -201,7 +200,7 @@ name: section2
 # Prospect Theory
 
 ![](graphics/kahnemantversky.jpg)
-Amos Tversky and Daniel Kahneman worked on this in the 1970s. Kahneman won the Nobel Prize in Economics for their joint work in 2002.
+Amos Tversky and Daniel Kahneman worked on this in the 1970s. Kahneman won the Nobel Prize in Economics in 2002 for their joint work.
 
 ---
 class: MSU
@@ -384,7 +383,7 @@ $$V\left( x_1,p_1;\dots; x_n,p_n\right) \quad =\sum_{i=1}^N \pi \left( p_i\right
 
 Contrast this with the Expected Utility definition
 
-$$EU\left( x_1,p_1;\dots; x_n,p_n\right) = \sum_{i=1}^N p_i u\left( x_i\right)$$
+$$EU\left( x_1,p_1;\dots; x_n,p_n\right) = \sum_{i=1}^N p_i u\left(w + x_i\right)$$
 
 --
 

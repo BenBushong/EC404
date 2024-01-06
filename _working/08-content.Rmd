@@ -1,0 +1,24 @@
+---
+title: "Public Policy to Combat Errors"
+linktitle: "3: Public Policy to Combat Errors"
+date: "2021-11-16"
+read_date: "2021-11-16"
+draft: false
+lastmod: "`r Sys.Date()`"
+menu:
+  content:
+    parent: Course content
+    weight: 1
+type: docs
+output:
+  blogdown::html_page:
+    toc: false
+
+
+---
+
+## Slides
+
+Due to slide rendering issues, all PDFs will be hosted below for the time being.
+
+Click this icon to download the slides: [<i class="fas fa-file-download"></i>](/ps/EC404_Lecture5.pdf).

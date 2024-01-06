@@ -4,45 +4,45 @@ lessons:
 
   - title: 'Welcome'
     session: 1
-    date: "Week 0 (2 September)"
+    date: ""
     content: "00-content"
-    #assignment: "00-assignment"
+    assignment: "00-assignment"
 
   - title: '<span class="fake-header-table">Choice under Uncertainty</span>'
     header: True
 
   - title: 'The Standard Model: Expected Utility'
     session: 2
-    date: "Week 1 (6 September)"
+    date: ""
     content: "01-content"
     assignment: "01-assignment"
 
   - title: 'Evidence that Contradicts Expected Utility'
     session: 3
-    date: "Week 2 (13 September)"
+    date: ""
     content: "02-content"
     #assignment: "02-assignment"
 
   - title: 'Prospect Theory'
     session: 4
-    date: "Week 2 (16 September)"
+    date: ""
     content: "03-content"
     #assignment: "02-assignment"
 
   - title: 'Applications of Propect Theory'
     session: 5
-    date: "Week 3 (20 September)"
+    date: ""
     content: "04-content"
-    #assignment: "03-assignment"
+    assignment: "02-assignment"
 
   - title: 'Reference-Dependent Preferences'
     session: 6
-    date: "Week 4 (27 September)"
+    date: ""
     content: "05-content"
     #assignment: "03-assignment"
 
   - title: '<i class="fas fa-star"></i> **EXAM 1**'
-    date: "5 October"
+    date: "14 February"
     #assignment: "project1"
 
   - title: '<span class="fake-header-table">Intertemporal Choice — Making Choices over Time</span>'
@@ -50,55 +50,55 @@ lessons:
 
   - title: 'Warm-Up: Interest Rates, Compounding, PDV,...'
     session: 7
-    date: "Week 5 (4 October)"
-    #content: "04-content"
+    date: ""
+    content: "07-content"
     #example: "04-example"
     #assignment: "04-assignment"
 
   - title: 'The Standard Model: Exponential Discounting'
     session: 8
-    date: "Week 6 (11 October)"
-    #content: "05-content"
+    date: ""
+    content: "08-content"
     #example: "05-example"
-    #assignment: "05-assignment"
+    assignment: "03-assignment"
 
   - title: 'Evidence that Contradicts Exponential Discounting'
     session: 9
-    date: "Week 6 (11 October)"
-    #content: "06-content"
+    date: ""
+    content: "09-content"
     #example: "06-example"
     #assignment: "06-assignment"
 
-  - title: 'An Alternative Model: Hyperbolic Discounting'
+  - title: 'An Alternative Model: Present Bias'
     session: 10
-    date: "Week 7 (18 October)"
-    #content: "07-content"
+    date: ""
+    content: "10-content"
     #example: "07-example"
-    #assignment: "07-assignment"
+    assignment: "04-assignment"
 
-  - title: 'Applications of Hyperbolic Discounting'
+  - title: 'Applications of Present Bias'
     session: 11
-    date: "Week 8 (25 October)"
-    #content: "09-content"
+    date: ""
+    content: "11-content"
     #example: "09-example"
-    #assignment: "09-assignment"
+    assignment: "05-assignment"
 
   - title: 'Utility from "Anticipation"'
     session: 12
-    date: "Week 9 (1 November)"
-    #content: "08-content"
+    date: ""
+    content: "12-content"
     #example: "08-example"
     #assignment: "07-assignment"
 
   - title: '"Projection Bias" — Mispredicting Future Tastes'
     session: 13
-    date: "Week 9 (1 November)"
-    #content: "08-content"
+    date: ""
+    content: "13-content"
     #example: "08-example"
     #assignment: "07-assignment"
 
   - title: '<i class="fas fa-star"></i> **EXAM 2**'
-    date: "9 November"
+    date: "6 April"
     #assignment: "project2"
 
   - title: '<span class="fake-header-table">Public Policy to Combat Errors</span>'
@@ -106,15 +106,15 @@ lessons:
 
   - title: 'Is "Paternalism" Acceptable or Justified?'
     session: 14
-    date: "Week 10 (8 November)"
-    #content: "10-content"
+    date: ""
+    content: "16-content"
     #example: "10-example"
     #assignment: "10-assignment"
 
   - title: 'Optimal Sin Taxes'
     session: 15
-    date: "Week 11 (15 November)"
-    #content: "11-content"
+    date: ""
+    content: "16-content"
     #example: "11-example"
     #assignment: "11-assignment"
 
@@ -123,28 +123,29 @@ lessons:
 
   - title: 'The Standard Model: Self Interest'
     session: 16
-    date: "Week 11 (15 November)"
-    #content: "11-content"
+    date: ""
+    content: "14-content"
     #example: "11-example"
     #assignment: "11-assignment"
+
   - title: 'Evidence That Contradicts the Self-Interest Model'
     session: 16
-    date: "Week 11 (15 November)"
-    #content: "11-content"
+    date: ""
+    content: "14-content"
     #example: "11-example"
     #assignment: "11-assignment"
 
   - title: 'Theories of Social Preferences'
     session: 17
-    date: "Week 12 (22 November)"
-    # content: "13-content"
+    date: ""
+    content: "14-content"
     # example: "NA"
     # assignment: "NA"
 
   - title: 'Do "Intentions" Matter?'
     session: 18
-    date: "Week 13 (29 November)"
-    #content: "12-content"
+    date: ""
+    content: "14-content"
     #example: "12-example"
     # assignment: "10-assignment"
 
@@ -153,24 +154,24 @@ lessons:
 
   - title: 'The Standard Model: Bayesian Information Processing'
     session: 19
-    date: "Week 13 (29 November)"
-    #content: "12-content"
+    date: ""
+    content: "15-content"
     #example: "12-example"
     # assignment: "10-assignment"
 
   - title: 'Evidence that Contradicts Bayesian Information Processing'
     session: 15
-    date: "Week 13 (6 December)"
-    #content: "12-content"
+    date: ""
+    content: "15-content"
     #example: "12-example"
     # assignment: "10-assignment"
 
   - title: 'An Alternative Model: The "Law Of Small Numbers"'
     session: 15
-    date: "Week 13 (6 December)"
-    #content: "12-content"
+    date: ""
+    content: "17-content"
     #example: "12-example"
     # assignment: "10-assignment"
 
   - title: '<i class="fas fa-star"></i> **Final Exam**'
-    date: "Wednesday December 15th from 10:00 AM to 12:00 PM"
+    date: "Tuesday, May 3 from 7:45am - 9:45am"

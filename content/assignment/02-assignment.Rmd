@@ -1,7 +1,7 @@
 ---
-title: "Problem Set 2: Casey"
+title: "Problem Set 2: Stevenson (2)"
 linktitle: "PS2"
-publishDate: "2021-09-09"
+publishDate: "2023-01-31"
 output:
   blogdown::html_page:
     toc: true
@@ -17,7 +17,7 @@ editor_options:
 
 
 :::fyi
-**This assignment is due Thursday, September, 30 before the start of class**
+**This assignment is due Thursday, February, 9 by class time.**
 
 
 Click the icon to download the problem set: [<i class="fas fa-file-download"></i>](/ps/PS2.pdf).

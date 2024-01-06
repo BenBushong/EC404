@@ -1,8 +1,8 @@
 ---
-title: "Errors in Information Processing"
-linktitle: "5: Non-Bayesian Updating"
-date: "2021-12-07"
-read_date: "2021-12-07"
+title: "Choice over Time: Present Bias"
+linktitle: "2d: Present Bias"
+date: "2023-03-16"
+read_date: "2023-03-16"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
@@ -13,14 +13,8 @@ type: docs
 output:
   blogdown::html_page:
     toc: false
-
+slides: "09-Evidence"
 
 ---
 
-## Slides
-
-Due to slide rendering issues, all PDFs will be hosted below for the time being.
-
-Click this icon to download the slides on Bayes' Rule and evidence against the standard model: [<i class="fas fa-file-download"></i>](/ps/EC404_Lecture7a.pdf).
-
-Click this icon to download the slides on an alternative model: [<i class="fas fa-file-download"></i>](/ps/EC404_Lecture7b.pdf).
+Click this icon to download the fourth batch of slides (discussing present bias): [<i class="fas fa-file-download"></i>](/ps/EC404_Lecture4d.pdf). I will complete the reformatting to .html shortly.

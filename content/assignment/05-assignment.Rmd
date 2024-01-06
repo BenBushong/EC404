@@ -1,7 +1,7 @@
 ---
-title: "Problem Set 5: Kenny"
+title: "Problem Set 5: Peyton"
 linktitle: "PS5"
-publishDate: "2021-11-02"
+publishDate: "2023-03-30"
 output:
   blogdown::html_page:
     toc: true
@@ -17,8 +17,7 @@ editor_options:
 
 
 :::fyi
-**This assignment is due Tuesday, November, 9 before the start of class**
-
+**This assignment is due Thursday, April 6th before class.**
 
 Click the icon to download the problem set: [<i class="fas fa-file-download"></i>](/ps/PS5.pdf).
 

@@ -1,6 +1,6 @@
 ---
 title: "Choice under Uncertainty (Lecture 1a)"
-subtitle: "EC404; Fall 2021"
+subtitle: "EC404; Spring 2023"
 author: "Prof. Ben Bushong"
 date: "Last updated `r format(Sys.Date(), '%B %d, %Y')`"
 output:
@@ -143,9 +143,11 @@ My view: it is impossible to operate without precise definitions of things.
 
 This rings especially true when we try to deal with "intuitive" things like "risk".
 
-> Your task: understand the definitions in this course. They are precise.
+> Your task: understand the definitions in this course. They are __precise__.
 
---
+---
+class: inverseMSU
+# Guiding Questions
 
 1. What are the arguments of the utility function?
 2. Can a risk-loving person choose $10 for sure over a gamble between $0 and $14? Why or why not?

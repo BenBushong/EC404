@@ -5,7 +5,7 @@
     <link>https://ec404.netlify.app/</link>
       <atom:link href="https://ec404.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <description>Course materials</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Tue, 07 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ec404.netlify.app/img/social-image.png</url>
       <title>Course materials</title>
@@ -13,16 +13,15 @@
     </image>
     
     <item>
-      <title>Problem Set 5: Kenny</title>
+      <title>Problem Set 5: Peyton</title>
       <link>https://ec404.netlify.app/assignment/05-assignment/</link>
-      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://ec404.netlify.app/assignment/05-assignment/</guid>
       <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div class=&#34;fyi&#34;&gt;
-&lt;p&gt;&lt;strong&gt;This assignment is due Tuesday, November, 9 before the start of class&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This assignment is due Thursday, April 6th before class.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS5.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You may turn in your answers in person and need not type them.&lt;/p&gt;
 &lt;/div&gt;
@@ -30,16 +29,15 @@
     </item>
     
     <item>
-      <title>Problem Set 4: Tatum</title>
+      <title>Problem Set 4: Vincent (2)</title>
       <link>https://ec404.netlify.app/assignment/04-assignment/</link>
-      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://ec404.netlify.app/assignment/04-assignment/</guid>
       <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div class=&#34;fyi&#34;&gt;
-&lt;p&gt;&lt;strong&gt;This assignment is due Tuesday, November, 2 before the start of class&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This assignment is due Thursday, March 30th at 11:59 PM&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS4.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You may turn in your answers in person and need not type them.&lt;/p&gt;
 &lt;/div&gt;
@@ -47,16 +45,16 @@
     </item>
     
     <item>
-      <title>Problem Set 3: Arthur</title>
+      <title>Problem Set 3: Vincent</title>
       <link>https://ec404.netlify.app/assignment/03-assignment/</link>
-      <pubDate>Wed, 13 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://ec404.netlify.app/assignment/03-assignment/</guid>
       <description>
 &lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div class=&#34;fyi&#34;&gt;
-&lt;p&gt;&lt;strong&gt;This assignment is due Thursday, October, 21 before the start of class&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This assignment is due March 16th at the start of class&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS3.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You may turn in your answers in person and need not type them.&lt;/p&gt;
 &lt;/div&gt;
@@ -64,9 +62,43 @@
     </item>
     
     <item>
+      <title>Problem Set 2: Stevenson (2)</title>
+      <link>https://ec404.netlify.app/assignment/02-assignment/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/assignment/02-assignment/</guid>
+      <description>
+&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;This assignment is due Thursday, February, 9 by class time.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS2.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You may turn in your answers in person and need not type them. However, there is an additional requirement for this problem set. Please read the problem set carefully.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Problem Set 1: Stevenson</title>
+      <link>https://ec404.netlify.app/assignment/01-assignment/</link>
+      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/assignment/01-assignment/</guid>
+      <description>
+&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;This assignment is due Tuesday, January 31 in class. If you like, you may turn it in via D2L, but in-person is fine also.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS1.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You need not type your solutions if you turn in via D2L; a (reasonably clear) photo is sufficient.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Problem Set 0: Not A Real Problem Set</title>
       <link>https://ec404.netlify.app/assignment/00-assignment/</link>
-      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://ec404.netlify.app/assignment/00-assignment/</guid>
       <description>
 &lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
@@ -80,87 +112,366 @@
     </item>
     
     <item>
-      <title>Problem Set 1: Steven</title>
-      <link>https://ec404.netlify.app/assignment/01-assignment/</link>
-      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/assignment/01-assignment/</guid>
+      <title>Problem Set 6: Angela</title>
+      <link>https://ec404.netlify.app/assignment/06-assignment/</link>
+      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/assignment/06-assignment/</guid>
       <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div class=&#34;fyi&#34;&gt;
-&lt;p&gt;&lt;strong&gt;This assignment is due Tuesday, September 21 before the start of class&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS1.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This assignment is due Tuesday, May 2nd at 11:59 PM. Turn in via D2L (or early, but let’s not kid ourselves… you probably won’t do that).&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS6.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You may turn in your answers in person and need not type them.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
     
     <item>
-      <title>Problem Set 2: Casey</title>
-      <link>https://ec404.netlify.app/assignment/02-assignment/</link>
-      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/assignment/02-assignment/</guid>
+      <title>Altruism and Social Preferences</title>
+      <link>https://ec404.netlify.app/content/14-content/</link>
+      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/content/14-content/</guid>
       <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;div class=&#34;fyi&#34;&gt;
-&lt;p&gt;&lt;strong&gt;This assignment is due Thursday, September, 30 before the start of class&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS2.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You may turn in your answers in person and need not type them. However, there is an additional requirement for this problem set. Please read the problem set carefully.&lt;/p&gt;
-&lt;/div&gt;
+&lt;p&gt;Click this icon to download the slides: &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture6.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Errors in Information Processing</title>
+      <title>Learning under the Law of Small Numbers</title>
+      <link>https://ec404.netlify.app/content/17-content/</link>
+      <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/content/17-content/</guid>
+      <description>
+
+
+&lt;p&gt;Click this icon to download the slides: &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture7b.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bayesian Information Processing</title>
+      <link>https://ec404.netlify.app/content/15-content/</link>
+      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/content/15-content/</guid>
+      <description>
+
+
+&lt;p&gt;Click this icon to download the slides: &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture7a.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Choice over Time: Projection Bias</title>
+      <link>https://ec404.netlify.app/content/13-content/</link>
+      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/content/13-content/</guid>
+      <description>
+
+
+&lt;p&gt;Click this icon to download the slides: &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4g.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Choice over Time: Utility from Anticipation</title>
+      <link>https://ec404.netlify.app/content/12-content/</link>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/content/12-content/</guid>
+      <description>
+
+
+&lt;p&gt;Click this icon to download the slides: &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4f.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Choice over Time: Applications of Present Bias</title>
+      <link>https://ec404.netlify.app/content/11-content/</link>
+      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/content/11-content/</guid>
+      <description>
+
+
+&lt;p&gt;Click this icon to download the fourth batch of slides (discussing applications of present bias): &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4e.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This group of slides is split in two; additional link here: &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4e2.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;. I will complete the reformatting to .html “shortly.”&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Choice over Time: Present Bias</title>
       <link>https://ec404.netlify.app/content/10-content/</link>
-      <pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://ec404.netlify.app/content/10-content/</guid>
       <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Due to slide rendering issues, all PDFs will be hosted below for the time being.&lt;/p&gt;
-&lt;p&gt;Click this icon to download the slides on Bayes’ Rule and evidence against the standard model: &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture7a.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Click this icon to download the slides on an alternative model: &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture7b.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
+&lt;p&gt;Click this icon to download the fourth batch of slides (discussing present bias): &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4d.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;. I will complete the reformatting to .html shortly.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Altruism, Fairness, and Social Preferences</title>
-      <link>https://ec404.netlify.app/content/09-content/</link>
-      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/content/09-content/</guid>
-      <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Due to slide rendering issues, all PDFs will be hosted below for the time being.&lt;/p&gt;
-&lt;p&gt;Click this icon to download the slides: &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture6.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Public Policy to Combat Errors</title>
+      <title>The Standard Model: Exponential Discounting</title>
       <link>https://ec404.netlify.app/content/08-content/</link>
-      <pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://ec404.netlify.app/content/08-content/</guid>
       <description>
+
+
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/08-ExponentialDiscounting.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/08-ExponentialDiscounting.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;&lt;/p&gt;
+
+&lt;/p&gt;
+&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;slide-tabs&#34; role=&#34;tablist&#34;&gt;
+&lt;li class=&#34;nav-item&#34;&gt;
+&lt;a class=&#34;nav-link active&#34; id=&#34;top-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#top&#34; role=&#34;tab&#34; aria-controls=&#34;top&#34; aria-selected=&#34;true&#34;&gt;Top&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;slide-tabs&#34; class=&#34;tab-content&#34;&gt;
+&lt;div id=&#34;top&#34; class=&#34;tab-pane fade show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;top-tab&#34;&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
+&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://ec404.netlify.app/slides/08-ExponentialDiscounting.html#Cover&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands; on some slides, this might give helpful hints!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Choice over Time: Evidence</title>
+      <link>https://ec404.netlify.app/content/09-content/</link>
+      <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/content/09-content/</guid>
+      <description>
+
+
+&lt;p&gt;Click this icon to download the third batch of slides (discussing evidence contradicting the standard model): &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4c.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;. I will complete the reformatting to .html shortly.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Choice over Time</title>
+      <link>https://ec404.netlify.app/content/07-content/</link>
+      <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/content/07-content/</guid>
+      <description>
 &lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Due to slide rendering issues, all PDFs will be hosted below for the time being.&lt;/p&gt;
-&lt;p&gt;Click this icon to download the slides: &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture5.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/07-IntroTime.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/07-IntroTime.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;&lt;/p&gt;
+
+&lt;/p&gt;
+&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;slide-tabs&#34; role=&#34;tablist&#34;&gt;
+&lt;li class=&#34;nav-item&#34;&gt;
+&lt;a class=&#34;nav-link active&#34; id=&#34;top-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#top&#34; role=&#34;tab&#34; aria-controls=&#34;top&#34; aria-selected=&#34;true&#34;&gt;Top&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;slide-tabs&#34; class=&#34;tab-content&#34;&gt;
+&lt;div id=&#34;top&#34; class=&#34;tab-pane fade show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;top-tab&#34;&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
+&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://ec404.netlify.app/slides/07-IntroTime.html#Cover&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands; on some slides, this might give helpful hints!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Choice under Uncertainty: Prospect Theory in the 21st Century</title>
+      <link>https://ec404.netlify.app/content/05-content/</link>
+      <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/content/05-content/</guid>
+      <description>
+&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Note that the two days of this content will eventually be contained on this single slide deck.&lt;/p&gt;
+&lt;p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/05-KR.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/05-KR.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;&lt;/p&gt;
+
+&lt;/p&gt;
+&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;slide-tabs&#34; role=&#34;tablist&#34;&gt;
+&lt;li class=&#34;nav-item&#34;&gt;
+&lt;a class=&#34;nav-link active&#34; id=&#34;top-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#top&#34; role=&#34;tab&#34; aria-controls=&#34;top&#34; aria-selected=&#34;true&#34;&gt;Top&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;slide-tabs&#34; class=&#34;tab-content&#34;&gt;
+&lt;div id=&#34;top&#34; class=&#34;tab-pane fade show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;top-tab&#34;&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
+&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://ec404.netlify.app/slides/05-KR.html#Cover&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands; on some slides, this might give helpful hints!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Choice under Uncertainty: Applications of Prospect Theory</title>
+      <link>https://ec404.netlify.app/content/04-content/</link>
+      <pubDate>Thu, 26 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/content/04-content/</guid>
+      <description>
+&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Note that the two days of applications have been condensed to a single set of slides.&lt;/p&gt;
+&lt;p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/04-PTApplications1.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/04-PTApplications1.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;&lt;/p&gt;
+
+&lt;/p&gt;
+&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;slide-tabs&#34; role=&#34;tablist&#34;&gt;
+&lt;li class=&#34;nav-item&#34;&gt;
+&lt;a class=&#34;nav-link active&#34; id=&#34;top-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#top&#34; role=&#34;tab&#34; aria-controls=&#34;top&#34; aria-selected=&#34;true&#34;&gt;Top&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;
+&lt;a class=&#34;nav-link&#34; id=&#34;application-1-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#application-1&#34; role=&#34;tab&#34; aria-controls=&#34;application-1&#34; aria-selected=&#34;false&#34;&gt;Application 1&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;
+&lt;a class=&#34;nav-link&#34; id=&#34;end-of-day-1-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#end-of-day-1&#34; role=&#34;tab&#34; aria-controls=&#34;end-of-day-1&#34; aria-selected=&#34;false&#34;&gt;End of Day 1&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#34;nav-item&#34;&gt;
+&lt;a class=&#34;nav-link&#34; id=&#34;the-endowment-effect-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#the-endowment-effect&#34; role=&#34;tab&#34; aria-controls=&#34;the-endowment-effect&#34; aria-selected=&#34;false&#34;&gt;The Endowment Effect&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;slide-tabs&#34; class=&#34;tab-content&#34;&gt;
+&lt;div id=&#34;top&#34; class=&#34;tab-pane fade show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;top-tab&#34;&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
+&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://ec404.netlify.app/slides/04-PTApplications1.html#Cover&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;application-1&#34; class=&#34;tab-pane fade&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;application-1-tab&#34;&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
+&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://ec404.netlify.app/slides/04-PTApplications1.html#app1&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;end-of-day-1&#34; class=&#34;tab-pane fade&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;end-of-day-1-tab&#34;&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
+&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://ec404.netlify.app/slides/04-PTApplications1.html#app5&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-endowment-effect&#34; class=&#34;tab-pane fade&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;the-endowment-effect-tab&#34;&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
+&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://ec404.netlify.app/slides/04-PTApplications1.html#app8&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands; on some slides, this might give helpful hints!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Choice under Uncertainty: Prospect Theory</title>
+      <link>https://ec404.netlify.app/content/03-content/</link>
+      <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/content/03-content/</guid>
+      <description>
+&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;a-gentle-reminder&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;A (Gentle) Reminder&lt;/h2&gt;
+&lt;p&gt;Problem sets are your main way of learning the material for this course. You ought to be engaging with them early and often. They don’t take a collosal amount of time, but they can be a real bear if you try to do them at the last minute. (And then you won’t learn things very well, if at all.)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Use the buttons below to open the slides either as an interactive website or as a static PDF. You can also click in the slides below and navigate through them with your left and right arrow keys.&lt;/p&gt;
+&lt;p&gt;Please note: you may experience some performance issues when opening the PDF file with Preview; Adobe Acrobat does not have these problems.&lt;/p&gt;
+&lt;div id=&#34;prospect-theory&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Prospect Theory:&lt;/h3&gt;
+&lt;p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/03-ProspectTheory.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/03-ProspectTheory.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;&lt;/p&gt;
+
+&lt;/p&gt;
+&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;slide-tabs&#34; role=&#34;tablist&#34;&gt;
+&lt;li class=&#34;nav-item&#34;&gt;
+&lt;a class=&#34;nav-link active&#34; id=&#34;top-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#top&#34; role=&#34;tab&#34; aria-controls=&#34;top&#34; aria-selected=&#34;true&#34;&gt;Top&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;slide-tabs&#34; class=&#34;tab-content&#34;&gt;
+&lt;div id=&#34;top&#34; class=&#34;tab-pane fade show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;top-tab&#34;&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
+&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://ec404.netlify.app/slides/03-ProspectTheory.html#Cover&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands; on some slides, this might give helpful hints!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Choice under Uncertainty: Evidence Contradicting the Standard Model</title>
+      <link>https://ec404.netlify.app/content/02-content/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/content/02-content/</guid>
+      <description>
+&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;These slides discuss evidence that goes against the expected-utility model and heavily emphasizes the groundbreaking work of Amos Tversky and Daniel Kahneman. If you’d like to read more about them, I recommend the book &lt;code&gt;The Undoing Project&lt;/code&gt; by Michael Lewis.&lt;/p&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Please note: you may experience some performance issues when opening the PDF file with Preview; Adobe Acrobat does not have these problems.&lt;/p&gt;
+&lt;div id=&#34;evidence-contracticting-the-standard-model&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Evidence Contracticting the Standard Model:&lt;/h3&gt;
+&lt;p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/02-Evidence.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/02-Evidence.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;&lt;/p&gt;
+
+&lt;/p&gt;
+&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;slide-tabs&#34; role=&#34;tablist&#34;&gt;
+&lt;li class=&#34;nav-item&#34;&gt;
+&lt;a class=&#34;nav-link active&#34; id=&#34;top-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#top&#34; role=&#34;tab&#34; aria-controls=&#34;top&#34; aria-selected=&#34;true&#34;&gt;Top&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;slide-tabs&#34; class=&#34;tab-content&#34;&gt;
+&lt;div id=&#34;top&#34; class=&#34;tab-pane fade show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;top-tab&#34;&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
+&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://ec404.netlify.app/slides/02-Evidence.html#Cover&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands; on some slides, this might give helpful hints!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -168,18 +479,22 @@
     <item>
       <title>Choice under Uncertainty: The Standard Model</title>
       <link>https://ec404.netlify.app/content/01-content/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://ec404.netlify.app/content/01-content/</guid>
       <description>
 &lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
+&lt;div id=&#34;a-note-on-old-materials&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;A Note on Old Materials&lt;/h2&gt;
+&lt;p&gt;The course website has some older notes posted. It is not recommended that you use these. When in doubt, check the date on the top of the page to verify you’re viewing current materials.&lt;/p&gt;
+&lt;/div&gt;
 &lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Slides&lt;/h2&gt;
 &lt;p&gt;Every single set of class slides can be found on this course website. Use the buttons below to open the slides either as an interactive website or as a static PDF. You can also click in the slides below and navigate through them with your left and right arrow keys.&lt;/p&gt;
 &lt;p&gt;Please note: you may experience some performance issues when opening the PDF file with Preview; Adobe Acrobat does not have these problems.&lt;/p&gt;
-&lt;div id=&#34;part-1&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Part 1:&lt;/h3&gt;
+&lt;div id=&#34;introduction-to-choice-under-uncertainty&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Introduction to Choice under Uncertainty&lt;/h3&gt;
 &lt;p&gt;
 &lt;p&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/01-ExpectedUtility.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/01-ExpectedUtility.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;&lt;/p&gt;
 
@@ -233,220 +548,9 @@
     </item>
     
     <item>
-      <title>Choice under Uncertainty: Evidence Contradicting the Standard Model</title>
-      <link>https://ec404.netlify.app/content/02-content/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/content/02-content/</guid>
-      <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Every single set of class slides can be found on this course website. Use the buttons below to open the slides either as an interactive website or as a static PDF. You can also click in the slides below and navigate through them with your left and right arrow keys.&lt;/p&gt;
-&lt;p&gt;Please note: you may experience some performance issues when opening the PDF file with Preview; Adobe Acrobat does not have these problems.&lt;/p&gt;
-&lt;div id=&#34;part-1&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Part 1:&lt;/h3&gt;
-&lt;p&gt;
-&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/02-Evidence.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/02-Evidence.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;&lt;/p&gt;
-
-&lt;/p&gt;
-&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;slide-tabs&#34; role=&#34;tablist&#34;&gt;
-&lt;li class=&#34;nav-item&#34;&gt;
-&lt;a class=&#34;nav-link active&#34; id=&#34;top-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#top&#34; role=&#34;tab&#34; aria-controls=&#34;top&#34; aria-selected=&#34;true&#34;&gt;Top&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div id=&#34;slide-tabs&#34; class=&#34;tab-content&#34;&gt;
-&lt;div id=&#34;top&#34; class=&#34;tab-pane fade show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;top-tab&#34;&gt;
-&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://ec404.netlify.app/slides/02-Evidence.html#Cover&#34;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;fyi&#34;&gt;
-&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands; on some slides, this might give helpful hints!&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Choice under Uncertainty: Prospect Theory</title>
-      <link>https://ec404.netlify.app/content/03-content/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/content/03-content/</guid>
-      <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Every single set of class slides can be found on this course website. Use the buttons below to open the slides either as an interactive website or as a static PDF. You can also click in the slides below and navigate through them with your left and right arrow keys.&lt;/p&gt;
-&lt;p&gt;Please note: you may experience some performance issues when opening the PDF file with Preview; Adobe Acrobat does not have these problems.&lt;/p&gt;
-&lt;div id=&#34;part-1&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Part 1:&lt;/h3&gt;
-&lt;p&gt;
-&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/03-ProspectTheory.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/03-ProspectTheory.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;&lt;/p&gt;
-
-&lt;/p&gt;
-&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;slide-tabs&#34; role=&#34;tablist&#34;&gt;
-&lt;li class=&#34;nav-item&#34;&gt;
-&lt;a class=&#34;nav-link active&#34; id=&#34;top-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#top&#34; role=&#34;tab&#34; aria-controls=&#34;top&#34; aria-selected=&#34;true&#34;&gt;Top&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div id=&#34;slide-tabs&#34; class=&#34;tab-content&#34;&gt;
-&lt;div id=&#34;top&#34; class=&#34;tab-pane fade show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;top-tab&#34;&gt;
-&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://ec404.netlify.app/slides/03-ProspectTheory.html#Cover&#34;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;fyi&#34;&gt;
-&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands; on some slides, this might give helpful hints!&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Choice under Uncertainty: Applications of Prospect Theory</title>
-      <link>https://ec404.netlify.app/content/04-content/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/content/04-content/</guid>
-      <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Note that the two days of applications have been condensed to a single set of slides.&lt;/p&gt;
-&lt;p&gt;
-&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/04-PTApplications1.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/04-PTApplications1.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;&lt;/p&gt;
-
-&lt;/p&gt;
-&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;slide-tabs&#34; role=&#34;tablist&#34;&gt;
-&lt;li class=&#34;nav-item&#34;&gt;
-&lt;a class=&#34;nav-link active&#34; id=&#34;top-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#top&#34; role=&#34;tab&#34; aria-controls=&#34;top&#34; aria-selected=&#34;true&#34;&gt;Top&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div id=&#34;slide-tabs&#34; class=&#34;tab-content&#34;&gt;
-&lt;div id=&#34;top&#34; class=&#34;tab-pane fade show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;top-tab&#34;&gt;
-&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://ec404.netlify.app/slides/04-PTApplications1.html#Cover&#34;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;fyi&#34;&gt;
-&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands; on some slides, this might give helpful hints!&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Choice under Uncertainty: Prospect Theory in the 21st Century</title>
-      <link>https://ec404.netlify.app/content/05-content/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/content/05-content/</guid>
-      <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Note that the two days of this content will eventually be contained on this single slide deck.&lt;/p&gt;
-&lt;p&gt;
-&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/05-KR.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/05-KR.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;&lt;/p&gt;
-
-&lt;/p&gt;
-&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;slide-tabs&#34; role=&#34;tablist&#34;&gt;
-&lt;li class=&#34;nav-item&#34;&gt;
-&lt;a class=&#34;nav-link active&#34; id=&#34;top-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#top&#34; role=&#34;tab&#34; aria-controls=&#34;top&#34; aria-selected=&#34;true&#34;&gt;Top&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div id=&#34;slide-tabs&#34; class=&#34;tab-content&#34;&gt;
-&lt;div id=&#34;top&#34; class=&#34;tab-pane fade show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;top-tab&#34;&gt;
-&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://ec404.netlify.app/slides/05-KR.html#Cover&#34;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;fyi&#34;&gt;
-&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands; on some slides, this might give helpful hints!&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Choice over Time: All Notes</title>
-      <link>https://ec404.netlify.app/content/07-content/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/content/07-content/</guid>
-      <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Due to slide rendering issues, all PDFs will be hosted below for the time being.&lt;/p&gt;
-&lt;p&gt;Click this first icon to download the first batch of slides (discussing interest rates and present discounted value): &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4a.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Click this second icon to download the second batch of slides (discussing the “standard model” aka exponential discounting): &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4b.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Click this third icon to download the third batch of slides (discussing evidence contradicting the standard model): &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4c.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Click this fourth icon to download the fourth batch of slides (discussing an alternative model—“present bias”): &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4d.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Click this fifth icon to download the fifth batch of slides (discussing applications of present bias): &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4e.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Click this sixth icon to download the sixth batch of slides (discussing more applications of present bias): &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4e2.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Click this seventh icon to download the seventh batch of slides (discussing more applications of present bias): &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4f.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Limited Rationality</title>
-      <link>https://ec404.netlify.app/content/06-content/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/content/06-content/</guid>
-      <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Note that the two days of this content will eventually be contained on this single slide deck.&lt;/p&gt;
-&lt;p&gt;
-&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/06-LimitedRationality.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/06-LimitedRationality.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;&lt;/p&gt;
-
-&lt;/p&gt;
-&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;slide-tabs&#34; role=&#34;tablist&#34;&gt;
-&lt;li class=&#34;nav-item&#34;&gt;
-&lt;a class=&#34;nav-link active&#34; id=&#34;top-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#top&#34; role=&#34;tab&#34; aria-controls=&#34;top&#34; aria-selected=&#34;true&#34;&gt;Top&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div id=&#34;slide-tabs&#34; class=&#34;tab-content&#34;&gt;
-&lt;div id=&#34;top&#34; class=&#34;tab-pane fade show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;top-tab&#34;&gt;
-&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
-&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://ec404.netlify.app/slides/06-LimitedRationality.html#Cover&#34;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;fyi&#34;&gt;
-&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands; on some slides, this might give helpful hints!&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Welcome Back</title>
       <link>https://ec404.netlify.app/content/00-content/</link>
-      <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://ec404.netlify.app/content/00-content/</guid>
       <description>
 &lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
@@ -454,7 +558,7 @@
 
 &lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Every single set of class slides can be found on this course website. Use the buttons below to open the slides either as an interactive website or as a static PDF. You can also click in the slides below and navigate through them with your left and right arrow keys.&lt;/p&gt;
+&lt;p&gt;Throughout the course, every set of class slides will be posted on this course website. Many are posted already, but do not rely on old versions. Use the buttons below to open the slides either as an interactive website or as a static PDF. You can also click in the slides below and navigate through them with your left and right arrow keys.&lt;/p&gt;
 &lt;p&gt;Please note: you may experience some performance issues when opening the PDF file with Preview; Adobe Acrobat does not have these problems.&lt;/p&gt;
 &lt;p&gt;
 &lt;p&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/00-Introduction.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/00-Introduction.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;&lt;/p&gt;
@@ -490,6 +594,54 @@
     </item>
     
     <item>
+      <title>Public Policy to Combat Errors</title>
+      <link>https://ec404.netlify.app/content/16-content/</link>
+      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/content/16-content/</guid>
+      <description>
+&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Click this icon to download the slides: &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture5.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Additional Topics in Limited Rationality</title>
+      <link>https://ec404.netlify.app/content/06-content/</link>
+      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/content/06-content/</guid>
+      <description>
+&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/06-LimitedRationality.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-alt&#34;&gt;&lt;/i&gt; View all slides in new window&lt;/a&gt; &lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://ec404.netlify.app/slides/06-LimitedRationality.pdf&#34; role=&#34;button&#34;&gt;&lt;i class=&#34;far fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF of all slides&lt;/a&gt;&lt;/p&gt;
+
+&lt;/p&gt;
+&lt;ul class=&#34;nav nav-tabs&#34; id=&#34;slide-tabs&#34; role=&#34;tablist&#34;&gt;
+&lt;li class=&#34;nav-item&#34;&gt;
+&lt;a class=&#34;nav-link active&#34; id=&#34;top-tab&#34; data-toggle=&#34;tab&#34; href=&#34;#top&#34; role=&#34;tab&#34; aria-controls=&#34;top&#34; aria-selected=&#34;true&#34;&gt;Top&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;slide-tabs&#34; class=&#34;tab-content&#34;&gt;
+&lt;div id=&#34;top&#34; class=&#34;tab-pane fade show active&#34; role=&#34;tabpanel&#34; aria-labelledby=&#34;top-tab&#34;&gt;
+&lt;div class=&#34;embed-responsive embed-responsive-16by9&#34;&gt;
+&lt;iframe class=&#34;embed-responsive-item&#34; src=&#34;https://ec404.netlify.app/slides/06-LimitedRationality.html#Cover&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Fun fact&lt;/strong&gt;: If you type &lt;kbd&gt;?&lt;/kbd&gt; (or &lt;kbd&gt;shift&lt;/kbd&gt; + &lt;kbd&gt;/&lt;/kbd&gt;) while going through the slides, you can see a list of special slide-specific commands; on some slides, this might give helpful hints!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Syllabus</title>
       <link>https://ec404.netlify.app/syllabus/</link>
       <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
@@ -499,26 +651,27 @@
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#office-hours&#34;&gt;Office Hours&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#what-is-this-course-and-can-should-you-take-it&#34;&gt;What Is This Course and Can / Should You Take It?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#non-detailed-course-psuedo-description&#34;&gt;Non-Detailed Course Psuedo-Description&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#contacting-me&#34;&gt;Contacting Me&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#success-in-this-course&#34;&gt;Success in This Course&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#spring-2023-update&#34; id=&#34;toc-spring-2023-update&#34;&gt;Spring 2023 Update&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#office-hours&#34; id=&#34;toc-office-hours&#34;&gt;Office Hours&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#what-is-this-course-and-can-should-you-take-it&#34; id=&#34;toc-what-is-this-course-and-can-should-you-take-it&#34;&gt;What Is This Course and Can / Should You Take It?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#non-detailed-course-psuedo-description&#34; id=&#34;toc-non-detailed-course-psuedo-description&#34;&gt;Non-Detailed Course Psuedo-Description&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#contacting-me&#34; id=&#34;toc-contacting-me&#34;&gt;Contacting Me&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#success-in-this-course&#34; id=&#34;toc-success-in-this-course&#34;&gt;Success in This Course&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#problem-sets&#34;&gt;Problem Sets&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#evaluations-and-grades&#34;&gt;Evaluations and Grades&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#academic-honesty&#34;&gt;Academic Honesty&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#problem-sets&#34; id=&#34;toc-problem-sets&#34;&gt;Problem Sets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#evaluations-and-grades&#34; id=&#34;toc-evaluations-and-grades&#34;&gt;Evaluations and Grades&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#academic-honesty&#34; id=&#34;toc-academic-honesty&#34;&gt;Academic Honesty&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#resources&#34;&gt;Resources&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#resources&#34; id=&#34;toc-resources&#34;&gt;Resources&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#accommodations&#34;&gt;Accommodations&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#a-note-on-covid-19&#34;&gt;A Note on COVID-19&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#mandated-reporting&#34;&gt;Mandated Reporting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#accommodations&#34; id=&#34;toc-accommodations&#34;&gt;Accommodations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#a-note-on-things-right-now&#34; id=&#34;toc-a-note-on-things-right-now&#34;&gt;A Note on Things Right Now&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#mandated-reporting&#34; id=&#34;toc-mandated-reporting&#34;&gt;Mandated Reporting&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#miscellanea&#34;&gt;Miscellanea&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#miscellanea&#34; id=&#34;toc-miscellanea&#34;&gt;Miscellanea&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#using-office-hours&#34;&gt;Using Office Hours&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#letters-of-recommendation-references&#34;&gt;Letters of Recommendation / References&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#using-office-hours&#34; id=&#34;toc-using-office-hours&#34;&gt;Using Office Hours&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#letters-of-recommendation-references&#34; id=&#34;toc-letters-of-recommendation-references&#34;&gt;Letters of Recommendation / References&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -540,10 +693,10 @@
 
         &lt;ul class=&#34;icon-list&#34;&gt;
             &lt;li&gt;&lt;i class=&#34;far fa-calendar&#34;&gt;&lt;/i&gt; Tuesday and Thursday&lt;/li&gt;
-            &lt;li&gt;&lt;i class=&#34;far fa-calendar-alt&#34;&gt;&lt;/i&gt; September – December, 2021&lt;/li&gt;
+            &lt;li&gt;&lt;i class=&#34;far fa-calendar-alt&#34;&gt;&lt;/i&gt; January – May&lt;/li&gt;
             &lt;li&gt;&lt;i class=&#34;far fa-clock&#34;&gt;&lt;/i&gt; 2:40pm - 4:00pm&lt;/li&gt;
             
-            &lt;li&gt;&lt;i class=&#34;fab fa-slack&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://join.slack.com/t/slack-nzx9830/shared_invite/zt-v1w19zom-xpFAQGba3R25MYQzVViHqQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Slack&lt;/a&gt;&lt;/li&gt;
+            
         &lt;/ul&gt;
     &lt;/div&gt;
 
@@ -554,9 +707,13 @@
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
+&lt;div id=&#34;spring-2023-update&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Spring 2023 Update&lt;/h3&gt;
+&lt;p&gt;Please note that this syllabus has changed in the middle of Spring 2023 due to changes in MSU’s policies.&lt;/p&gt;
+&lt;/div&gt;
 &lt;div id=&#34;office-hours&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Office Hours&lt;/h3&gt;
-&lt;p&gt;My office hours are 5:15 - 6:15 on Thursdays. Zoom link &lt;a href=&#34;https://msu.zoom.us/j/2711311082&#34;&gt;here&lt;/a&gt; (Passcode: GODUCKS).&lt;/p&gt;
+&lt;p&gt;My office hours are 5:30 - 6:30 on Thursdays. My office is 25A Marshall-Adams Hall; it is in the lower level (not quite a true basement, but close).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;what-is-this-course-and-can-should-you-take-it&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;What Is This Course and Can / Should You Take It?&lt;/h2&gt;
@@ -588,7 +745,7 @@
 &lt;/div&gt;
 &lt;div id=&#34;contacting-me&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Contacting Me&lt;/h2&gt;
-&lt;p&gt;I have moved this up to an odd spot in a—likely unsuccessful—attempt to minimize our collective headache.&lt;/p&gt;
+&lt;p&gt;I have moved this up to an odd spot in a (likely unsuccessful) attempt to minimize our collective headache.&lt;/p&gt;
 &lt;p&gt;Email is a blessing and a curse. Instant communication is wonderful, but often email is the wrong medium to have a productive conversation about course material. Moreover, I get a &lt;strong&gt;lot&lt;/strong&gt; of emails. This means that I am frequently triaging emails into two piles: “my house is burning down” and “everything else”. Your email is unlikely to make the former pile. So, asking questions about course material is always best done in-class or in office hours. Students always roll their eyes when professors say things like that, but it’s true that if you have a question, it’s very likely someone else has the same question.&lt;/p&gt;
 &lt;p&gt;That said, it benefits us both if any emails you send are clear and effective. There’s an (unfunny) joke in academia that professors (i) read an email until they find a question; (ii) respond to that question and; (iii) ignore the rest of the email. I won’t do this, but I think it is helpful to assume that the person on the receiving end of an email will operate this way.&lt;/p&gt;
 &lt;p&gt;Some general tips:&lt;/p&gt;
@@ -631,13 +788,14 @@ Student McStudentFace&lt;/p&gt;
 &lt;div id=&#34;evaluations-and-grades&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Evaluations and Grades&lt;/h3&gt;
 &lt;p&gt;Your grade in this course will be based on attendance + participation, assignments, three exams, and a writing project. The general breakdown for grades will be 15% for attendance, 30% for assignments, 45% for exams, and 10% for a “paper”. Details on the paper will be distributed midway through the course – it is designed not to deter anyone from taking this course who might otherwise be interested.&lt;/p&gt;
-&lt;p&gt;Each exam will have a variable grading weight, depending on your performance. The ranges of grading weights for each exam are as follows:&lt;/p&gt;
+&lt;p&gt;Each exam will have a variable grading weight. As a result of changes in Spring 2023, the weights have been adjusted to the following:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Midterm 1: 5% – 20%&lt;/li&gt;
-&lt;li&gt;Midterm 2: 5% – 20%&lt;/li&gt;
-&lt;li&gt;Final Exam: 10% – 35%&lt;/li&gt;
+&lt;li&gt;Midterm 1: 20%&lt;/li&gt;
+&lt;li&gt;Midterm 2: 10%&lt;/li&gt;
+&lt;li&gt;Final Exam: 15%&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;To calculate your overall exam score, I will automatically choose the grading weights most advantageous to you. For example, if the final exam is your best score, then your grading weights will be 35% for the final exam and 5% for each midterm. If the final exam is your worst score, then your grading weights will be 10% for the final exam and 17.5% for each prelim. This scheme will help mitigate the effects of one-time disasters, including poor performance early in the course. I reserve the right to give higher grades, but the above is guaranteed. Any adjustments will be done consistently, with course attendance and completion percentage (e.g., did you do all the assigned work?) serving as tiebreakers where needed.&lt;/p&gt;
+&lt;!-- To calculate your overall exam score, I will automatically choose the grading weights most advantageous to you. For example, if the final exam is your best score, then your grading weights will be 35% for the final exam and 5% for each midterm.  If the final exam is your worst score, then your grading weights will be 10% for the final exam and 17.5% for each prelim. This scheme will help mitigate the effects of one-time disasters, including poor performance early in the course.  --&gt;
+&lt;p&gt;I reserve the right to give higher grades, but the above is guaranteed. Any adjustments will be done consistently, with course attendance and completion percentage (e.g., did you do all the assigned work?) serving as tiebreakers where needed.&lt;/p&gt;
 &lt;p&gt;Attendance and participation grades will be based on completion of in-class assignments. This is intended to be an easy way to get points.&lt;/p&gt;
 &lt;p&gt;More in-depth descriptions for all the assignments will be on the &lt;a href=&#34;https://ec404.netlify.app/assignment/&#34;&gt;assignments page&lt;/a&gt;. As the course progresses, the assignments themselves will be posted within that page.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;To Recap:&lt;/strong&gt;&lt;/p&gt;
@@ -743,12 +901,12 @@ Student McStudentFace&lt;/p&gt;
 &lt;p&gt;This class is designed to be fairly accomodating without a student asking. However, if you need a special accommodation for a disability, religious observance, or have any other concerns about your ability to perform well in this course, please contact me immediately so that we can discuss the issue and make appropriate arrangements.&lt;/p&gt;
 &lt;p&gt;Michigan State University is committed to providing equal opportunity for participation in all programs, services and activities. Requests for accommodations by persons with disabilities may be made by contacting the Resource Center for Persons with Disabilities at 517-884-RCPD or on the web &lt;a href=&#34;rcpd.msu.edu&#34;&gt;(here)&lt;/a&gt;. Once your eligibility for an accommodation has been determined, you will be issued a verified individual services accommodation (“VISA”) form. Please present this form to me at the start of the term and/or two weeks prior to the accommodation date (test, project, etc). Requests received after this date will be honored whenever possible.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;a-note-on-covid-19&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;A Note on COVID-19&lt;/h3&gt;
-&lt;p&gt;Things for you might be especially hard right now.&lt;/p&gt;
+&lt;div id=&#34;a-note-on-things-right-now&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;A Note on Things Right Now&lt;/h3&gt;
+&lt;p&gt;Things for you might be especially hard right now. I get that.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;I’m fully committed to making sure that you learn everything you were hoping to learn from this class.&lt;/strong&gt; I will make whatever accommodations I can to help you finish your exercises, do well on your projects, and learn and understand the class material. Under ordinary conditions, I am flexible and lenient with grading and course expectations when students face difficult challenges. Given the challenges of the past two years, that flexibility and leniency is intensified.&lt;/p&gt;
 &lt;p&gt;If you feel like you’re behind or not understanding everything, &lt;strong&gt;do not suffer in silence.&lt;/strong&gt; &lt;em&gt;Please&lt;/em&gt; contact me. I’m available via &lt;a href=&#34;mailto:bbushong@msu.edu&#34;&gt;e-mail&lt;/a&gt;; or come see me.&lt;/p&gt;
-&lt;p&gt;As a final note on COVID—this term may have abrupt and wild changes. If you’ve been on this planet for the past year, you’re well aware of what I’m talking about. If such a change happens, I will do my best to ensure that your experience in this course does not suffer. That said, I hope you will extend a bit of leeway in such a circumstance.&lt;/p&gt;
+&lt;p&gt;As a final note: if you’ve been on this planet for the past few years, you’re well aware that we’ve had some wild and wacky changes that we had to confront. If such a change happens, I will do my best to ensure that your experience in this course does not suffer. That said, I hope you will extend a bit of leeway in such a circumstance.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;mandated-reporting&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Mandated Reporting&lt;/h3&gt;
@@ -761,7 +919,7 @@ Student McStudentFace&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;miscellanea&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Miscellanea&lt;/h2&gt;
-&lt;p&gt;D2L will be used sparingly for submission of assignments and distribution of grades.&lt;/p&gt;
+&lt;p&gt;D2L will be used sparingly—primarily for submission of assignments and distribution of grades.&lt;/p&gt;
 &lt;div id=&#34;using-office-hours&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Using Office Hours&lt;/h3&gt;
 &lt;p&gt;Please use my office hours. It would be remarkable if you didn’t need some assistance with the material, and I am here to help. One of the benefits of open office hours is to accommodate many students at once; if fellow students are “in my office”, please join in and feel very free to show up in groups. Office hours will move around a little bit throughout the semester to attempt to meet the needs of all students.&lt;/p&gt;
@@ -770,7 +928,7 @@ Student McStudentFace&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;letters-of-recommendation-references&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Letters of Recommendation / References&lt;/h3&gt;
-&lt;p&gt;If you are applying for further study or another pursuit that requires letters of recommendation and you’d like me to recommend you, I will only write a letter on your behalf if your final grade is a 4.0. In addition, you should have held at least three substantial conversations with me about the course material or other academic subjects over the course of the semester. Please ask if you’re concerned about this. I’m not an asshole—it’s better for &lt;em&gt;you&lt;/em&gt; if I know you well before writing a letter.&lt;/p&gt;
+&lt;p&gt;I’m not doing letters of recommendation at the moment. It’s not you, it’s me.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footnotes footnotes-end-of-document&#34;&gt;
@@ -791,7 +949,7 @@ Student McStudentFace&lt;/p&gt;
 &lt;script src=&#34;https://ec404.netlify.app/schedule/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;p&gt;Below is a roadmap for the semester. Note that this will inevitably change from the first day you access this course.&lt;/p&gt;
+&lt;p&gt;Below is a roadmap for the semester. Note that this will inevitably change from the first day you access this course but will be updated as required.&lt;/p&gt;
 &lt;div id=&#34;overview&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Overview&lt;/h3&gt;
 &lt;p&gt;The class is fundamentally based on lectures. The slides for the lectures can be found at the “content” page. Everything else should be relatively self-explanatory.&lt;/p&gt;
@@ -810,15 +968,13 @@ Student McStudentFace&lt;/p&gt;
             &lt;td style=&#34;width:8%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Assignment&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 0 (2 September)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Welcome&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/00-content/&#34;&gt;
                     &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://ec404.netlify.app/assignment/00-assignment/&#34;&gt;
+                    &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
@@ -828,7 +984,7 @@ Student McStudentFace&lt;/p&gt;
             &lt;td style=&#34;width:8%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Assignment&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 1 (6 September)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;The Standard Model: Expected Utility&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/01-content/&#34;&gt;
@@ -837,7 +993,7 @@ Student McStudentFace&lt;/p&gt;
                     &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 2 (13 September)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Evidence that Contradicts Expected Utility&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/02-content/&#34;&gt;
@@ -848,7 +1004,7 @@ Student McStudentFace&lt;/p&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 2 (16 September)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Prospect Theory&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/03-content/&#34;&gt;
@@ -859,18 +1015,16 @@ Student McStudentFace&lt;/p&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 3 (20 September)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Applications of Propect Theory&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/04-content/&#34;&gt;
                     &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://ec404.netlify.app/assignment/02-assignment/&#34;&gt;
+                    &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 4 (27 September)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Reference-Dependent Preferences&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/05-content/&#34;&gt;
@@ -881,7 +1035,7 @@ Student McStudentFace&lt;/p&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;5 October&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;14 February&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-star&#34;&gt;&lt;/i&gt; &lt;strong&gt;EXAM 1&lt;/strong&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -900,91 +1054,78 @@ Student McStudentFace&lt;/p&gt;
             &lt;td style=&#34;width:8%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Assignment&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 5 (4 October)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Warm-Up: Interest Rates, Compounding, PDV,&amp;hellip;&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
+                    href=&#34;https://ec404.netlify.app/content/07-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 6 (11 October)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;The Standard Model: Exponential Discounting&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
+                    href=&#34;https://ec404.netlify.app/content/08-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://ec404.netlify.app/assignment/03-assignment/&#34;&gt;
+                    &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 6 (11 October)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Evidence that Contradicts Exponential Discounting&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 7 (18 October)&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;An Alternative Model: Hyperbolic Discounting&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
+                    href=&#34;https://ec404.netlify.app/content/09-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 8 (25 October)&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Applications of Hyperbolic Discounting&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;An Alternative Model: Present Bias&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
+                    href=&#34;https://ec404.netlify.app/content/10-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://ec404.netlify.app/assignment/04-assignment/&#34;&gt;
+                    &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 9 (1 November)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Applications of Present Bias&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
+                    href=&#34;https://ec404.netlify.app/content/11-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://ec404.netlify.app/assignment/05-assignment/&#34;&gt;
+                    &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Utility from &amp;ldquo;Anticipation&amp;rdquo;&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
+                    href=&#34;https://ec404.netlify.app/content/12-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 9 (1 November)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&amp;ldquo;Projection Bias&amp;rdquo; — Mispredicting Future Tastes&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
+                    href=&#34;https://ec404.netlify.app/content/13-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;9 November&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;6 April&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-star&#34;&gt;&lt;/i&gt; &lt;strong&gt;EXAM 2&lt;/strong&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
@@ -1003,24 +1144,22 @@ Student McStudentFace&lt;/p&gt;
             &lt;td style=&#34;width:8%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Assignment&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 10 (8 November)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Is &amp;ldquo;Paternalism&amp;rdquo; Acceptable or Justified?&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
+                    href=&#34;https://ec404.netlify.app/content/16-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 11 (15 November)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Optimal Sin Taxes&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
+                    href=&#34;https://ec404.netlify.app/content/16-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
@@ -1034,48 +1173,44 @@ Student McStudentFace&lt;/p&gt;
             &lt;td style=&#34;width:8%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Assignment&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 11 (15 November)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;The Standard Model: Self Interest&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
+                    href=&#34;https://ec404.netlify.app/content/14-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 11 (15 November)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Evidence That Contradicts the Self-Interest Model&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
+                    href=&#34;https://ec404.netlify.app/content/14-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 12 (22 November)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Theories of Social Preferences&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
+                    href=&#34;https://ec404.netlify.app/content/14-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 13 (29 November)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Do &amp;ldquo;Intentions&amp;rdquo; Matter?&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
+                    href=&#34;https://ec404.netlify.app/content/14-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
@@ -1089,43 +1224,40 @@ Student McStudentFace&lt;/p&gt;
             &lt;td style=&#34;width:8%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Assignment&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 13 (29 November)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;The Standard Model: Bayesian Information Processing&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
+                    href=&#34;https://ec404.netlify.app/content/15-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 13 (6 December)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Evidence that Contradicts Bayesian Information Processing&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
+                    href=&#34;https://ec404.netlify.app/content/15-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Week 13 (6 December)&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;An Alternative Model: The &amp;ldquo;Law Of Small Numbers&amp;rdquo;&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
+                    href=&#34;https://ec404.netlify.app/content/17-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;
                     &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Wednesday December 15th from 10:00 AM to 12:00 PM&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Tuesday, May 3 from 7:45am - 9:45am&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-star&#34;&gt;&lt;/i&gt; &lt;strong&gt;Final Exam&lt;/strong&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;

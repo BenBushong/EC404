@@ -1,8 +1,8 @@
 ---
-title: "Public Policy to Combat Errors"
-linktitle: "3: Public Policy to Combat Errors"
-date: "2021-11-16"
-read_date: "2021-11-16"
+title: "The Standard Model: Exponential Discounting"
+linktitle: "2b: Exponential Discounting"
+date: "2023-03-14"
+read_date: "2023-03-14"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
@@ -13,12 +13,27 @@ type: docs
 output:
   blogdown::html_page:
     toc: false
-
+slides: "08-ExponentialDiscounting"
 
 ---
 
 ## Slides
 
-Due to slide rendering issues, all PDFs will be hosted below for the time being.
 
-Click this icon to download the slides: [<i class="fas fa-file-download"></i>](/ps/EC404_Lecture5.pdf).
+`r blogdown::shortcode("slide-buttons")`
+
+```{r show-slide-tabs, echo=FALSE, results="asis"}
+source(here::here("R/slide_tabs.R"))
+source(here::here("R/pdfize.R"))
+sections <- tibble::tribble(
+  ~name, ~slide, ~active,
+  "Top", "Cover", TRUE,
+ )
+slide_tabs(sections, "/slides/08-ExponentialDiscounting.html")
+pdfize(here::here("static/slides/08-ExponentialDiscounting.html"))
+```
+
+
+:::fyi
+**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands; on some slides, this might give helpful hints!
+:::

@@ -1,0 +1,20 @@
+---
+title: "Bayesian Information Processing"
+linktitle: "3: Information and Learning"
+date: "2023-04-11"
+read_date: "2023-04-11"
+draft: false
+lastmod: "`r Sys.Date()`"
+menu:
+  content:
+    parent: Course content
+    weight: 1
+type: docs
+output:
+  blogdown::html_page:
+    toc: false
+slides: "09-Evidence"
+
+---
+
+Click this icon to download the slides: [<i class="fas fa-file-download"></i>](/ps/EC404_Lecture7a.pdf).

@@ -1,8 +1,8 @@
 ---
 title: "Choice under Uncertainty: Applications of Prospect Theory"
 linktitle: "1d: Applications of PT"
-date: "2021-09-07"
-read_date: "2021-09-07"
+date: "2023-01-26"
+read_date: "2023-01-26"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
@@ -19,7 +19,7 @@ slides: "04-PTApplications1"
 
 ## Slides
 
-Note that the two days of applications have been condensed to a single set of slides. 
+Note that the two days of applications have been condensed to a single set of slides.
 
 `r blogdown::shortcode("slide-buttons")`
 
@@ -29,6 +29,9 @@ source(here::here("R/pdfize.R"))
 sections <- tibble::tribble(
   ~name, ~slide, ~active,
   "Top", "Cover", TRUE,
+  "Application 1", "app1", FALSE,
+  "End of Day 1", "app5", FALSE,
+  "The Endowment Effect", "app8", FALSE,
  )
 slide_tabs(sections, "/slides/04-PTApplications1.html")
 pdfize(here::here("static/slides/04-PTApplications1.html"))

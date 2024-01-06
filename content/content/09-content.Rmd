@@ -1,8 +1,8 @@
 ---
-title: "Altruism, Fairness, and Social Preferences"
-linktitle: "4: Altruism and Fairness"
-date: "2021-11-18"
-read_date: "2021-11-18"
+title: "Choice over Time: Evidence"
+linktitle: "2c: Evidence"
+date: "2023-03-14"
+read_date: "2023-03-14"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
@@ -13,12 +13,8 @@ type: docs
 output:
   blogdown::html_page:
     toc: false
-
+slides: "09-Evidence"
 
 ---
 
-## Slides
-
-Due to slide rendering issues, all PDFs will be hosted below for the time being.
-
-Click this icon to download the slides: [<i class="fas fa-file-download"></i>](/ps/EC404_Lecture6.pdf).
+Click this icon to download the third batch of slides (discussing evidence contradicting the standard model): [<i class="fas fa-file-download"></i>](/ps/EC404_Lecture4c.pdf). I will complete the reformatting to .html shortly. 

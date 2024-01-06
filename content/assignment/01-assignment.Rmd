@@ -1,7 +1,7 @@
 ---
-title: "Problem Set 1: Steven"
+title: "Problem Set 1: Stevenson"
 linktitle: "PS1"
-publishDate: "2021-09-09"
+publishDate: "2023-01-17"
 output:
   blogdown::html_page:
     toc: true
@@ -17,9 +17,9 @@ editor_options:
 
 
 :::fyi
-**This assignment is due Tuesday, September 21 before the start of class**
+**This assignment is due Tuesday, January 31 in class. If you like, you may turn it in via D2L, but in-person is fine also.**
 
 Click the icon to download the problem set: [<i class="fas fa-file-download"></i>](/ps/PS1.pdf).
 
-You may turn in your answers in person and need not type them.
+You need not type your solutions if you turn in via D2L; a (reasonably clear) photo is sufficient.
 :::
