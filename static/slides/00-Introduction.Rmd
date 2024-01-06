@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Behavioral Economics"
-subtitle: "EC404; Spring 2023"
+subtitle: "EC404; Spring 2024"
 author: "Prof. Ben Bushong"
 date: "Last updated `r format(Sys.Date(), '%B %d, %Y')`"
 output:
@@ -108,7 +108,6 @@ name: Overview
 
 ###  **Our Outline:**
 
-
 (1) [About Me](#section1)
 
 (2) [Is This Course Right for You?](#section2)
@@ -125,7 +124,7 @@ class: inverseMSU
 
 ## Here We Are 
 
-> Welcome. Have fun. Relax.
+> Welcome. Have fun. Relax. Enjoy yourself.
 
 --
 
