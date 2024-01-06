@@ -1,10 +1,8 @@
 ---
 title: Syllabus
 slug: syllabus
-publishDate: "2020-12-27"
+publishDate: "2024-01-08"
 citeproc: true
-bibliography: ../../static/bib/references.bib
-csl: ../../static/bib/chicago-syllabus-no-bib.csl
 output:
   blogdown::html_page:
     toc: true
@@ -19,13 +17,9 @@ library(pander)
 
 `r blogdown::shortcode("courseinfo")`
 
-### Spring 2023 Update
-
-Please note that this syllabus has changed in the middle of Spring 2023 due to changes in MSU's policies. 
-
 ### Office Hours
 
-My office hours are 5:30 - 6:30 on Thursdays. My office is 25A Marshall-Adams Hall; it is in the lower level (not quite a true basement, but close). 
+My office hours are 5:00 - 6:00 on Tuesdays and Thursdays. My office is 25A Marshall-Adams Hall; it is in the lower level (not quite a true basement, but close). 
 
 ## What Is This Course and Can / Should You Take It?
 
@@ -118,13 +112,13 @@ In the end, problem sets aren’t a big component of your grade. Their primary p
 
 Your grade in this course will be based on attendance + participation, assignments, three exams, and a writing project. The general breakdown for grades will be 15% for attendance, 30% for assignments, 45% for exams, and 10% for a "paper". Details on the paper will be distributed midway through the course – it is designed not to deter anyone from taking this course who might otherwise be interested.
 
-Each exam will have a variable grading weight. As a result of changes in Spring 2023, the weights have been adjusted to the following:
+Each exam will have a variable grading weight.
 
-- Midterm 1:	20% 
-- Midterm 2:	10%
-- Final Exam:	15%
+- Midterm 1:	5-17.5% 
+- Midterm 2:	5-17.5%
+- Final Exam:	10-35%
 
-<!-- To calculate your overall exam score, I will automatically choose the grading weights most advantageous to you. For example, if the final exam is your best score, then your grading weights will be 35% for the final exam and 5% for each midterm.  If the final exam is your worst score, then your grading weights will be 10% for the final exam and 17.5% for each prelim. This scheme will help mitigate the effects of one-time disasters, including poor performance early in the course.  -->
+To calculate your overall exam score, I will automatically choose the grading weights most advantageous to you. For example, if the final exam is your best score, then your grading weights will be 35% for the final exam and 5% for each midterm.  If the final exam is your worst score, then your grading weights will be 10% for the final exam and 17.5% for each prelim. This scheme will help mitigate the effects of one-time disasters, including poor performance early in the course (it happens).
 
 I reserve the right to give higher grades, but the above is guaranteed. Any adjustments will be done consistently, with course attendance and completion percentage (e.g., did you do all the assigned work?) serving as tiebreakers where needed.
 
@@ -204,7 +198,6 @@ If you feel like you're behind or not understanding everything, **do not suffer 
 
 As a final note: if you've been on this planet for the past few years, you're well aware that we've had some wild and wacky changes that we had to confront. If such a change happens, I will do my best to ensure that your experience in this course does not suffer. That said, I hope you will extend a bit of leeway in such a circumstance.
 
-
 ### Mandated Reporting
 
 Materials submitted for this class are generally considered confidential pursuant to the University's student record policies.  However, students should be aware that University employees, including instructors, may not be able to maintain confidentiality when it conflicts with their responsibility to report certain issues to protect the health and safety of MSU community members and others.  As the instructor, I must report the following information to other University offices (including the Department of Police and Public Safety) if you share it with me:
@@ -216,13 +209,13 @@ These reports may trigger contact from a campus official who will want to talk w
 
 ## Miscellanea
 
-D2L will be used sparingly---primarily for submission of assignments and distribution of grades.
+D2L will be used sparingly---primarily for submission of assignments and distribution of grades. This course website is the primary source of information.
 
 ### Using Office Hours
 
 Please use my office hours. It would be remarkable if you didn’t need some assistance with the material, and I am here to help.  One of the benefits of open office hours is to accommodate many students at once; if fellow students are "in my office", please join in and feel very free to show up in groups. Office hours will move around a little bit throughout the semester to attempt to meet the needs of all students.
 
-In addition to drop-in office hours, I always have sign-up office hours for advising and other purposes. As a general rule, please first seek course-related help from the drop-in office hours. However, if my scheduled office hours are always infeasible for you, let me know, and then I may encourage you to make appointments with me. I ask that you schedule your studying so that you are prepared to ask questions during office hours – office hours are not a lecture and if you’re not prepared with questions we will end up awkwardly staring at each other for an hour until you leave.
+In addition to drop-in office hours, I always have sign-up office hours for advising and other purposes. As a general rule, please first seek course-related help from the drop-in office hours. However, if my scheduled office hours are never feasible for you, let me know, and then I may encourage you to make appointments with me. I ask that you schedule your studying so that you are prepared to ask questions during office hours – office hours are not a lecture and if you’re not prepared with questions we will end up awkwardly staring at each other for an hour until you leave.
 
 Some gentle requests regarding office hours and on contacting me. First, my office hours end sharply at the end, so don’t arrive 10 minutes before the scheduled end and expect a full session. Please arrive early if you have lengthy questions, or if you don’t want to risk not having time due to others’ questions. You are free to ask me some stuff by e-mail, (e.g. a typo or something on a handout), but please know e-mail sucks for answering many types of questions. “How do I do this assignment?” or “What’s up with calculus?” are short questions with long answers. Come to office hours.
 
