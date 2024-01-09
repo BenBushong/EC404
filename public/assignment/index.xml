@@ -13,7 +13,23 @@
     </image>
     
     <item>
-      <title>Problem Set 5: Peyton</title>
+      <title>Problem Set 1: Linda</title>
+      <link>https://ec404.netlify.app/assignment/01-assignment/</link>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/assignment/01-assignment/</guid>
+      <description>
+
+
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;This assignment is due Tuesday, January 31 in class. If you like, you may turn it in via D2L, but in-person is fine also.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS1.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You need not type your solutions if you turn in via D2L; a (reasonably clear) photo is sufficient.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Problem Set 5: Walt</title>
       <link>https://ec404.netlify.app/assignment/05-assignment/</link>
       <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://ec404.netlify.app/assignment/05-assignment/</guid>
@@ -29,7 +45,7 @@
     </item>
     
     <item>
-      <title>Problem Set 4: Vincent (2)</title>
+      <title>Problem Set 4: Joni</title>
       <link>https://ec404.netlify.app/assignment/04-assignment/</link>
       <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://ec404.netlify.app/assignment/04-assignment/</guid>
@@ -45,12 +61,11 @@
     </item>
     
     <item>
-      <title>Problem Set 3: Vincent</title>
+      <title>Problem Set 3: Neil</title>
       <link>https://ec404.netlify.app/assignment/03-assignment/</link>
       <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://ec404.netlify.app/assignment/03-assignment/</guid>
       <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div class=&#34;fyi&#34;&gt;
@@ -62,35 +77,17 @@
     </item>
     
     <item>
-      <title>Problem Set 2: Stevenson (2)</title>
+      <title>Problem Set 2: Richard</title>
       <link>https://ec404.netlify.app/assignment/02-assignment/</link>
       <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://ec404.netlify.app/assignment/02-assignment/</guid>
       <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div class=&#34;fyi&#34;&gt;
 &lt;p&gt;&lt;strong&gt;This assignment is due Thursday, February, 9 by class time.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS2.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You may turn in your answers in person and need not type them. However, there is an additional requirement for this problem set. Please read the problem set carefully.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Problem Set 1: Stevenson</title>
-      <link>https://ec404.netlify.app/assignment/01-assignment/</link>
-      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/assignment/01-assignment/</guid>
-      <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;div class=&#34;fyi&#34;&gt;
-&lt;p&gt;&lt;strong&gt;This assignment is due Tuesday, January 31 in class. If you like, you may turn it in via D2L, but in-person is fine also.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS1.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You need not type your solutions if you turn in via D2L; a (reasonably clear) photo is sufficient.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -112,23 +109,7 @@
     </item>
     
     <item>
-      <title>Problem Set 6: Angela</title>
-      <link>https://ec404.netlify.app/assignment/06-assignment-2/</link>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/assignment/06-assignment-2/</guid>
-      <description>
-
-
-&lt;div class=&#34;fyi&#34;&gt;
-&lt;p&gt;&lt;strong&gt;This assignment is due Tuesday, May 2nd at 11:59 PM. Turn in via D2L (or early, but let’s not kid ourselves… you probably won’t do that).&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS6.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You may turn in your answers in person and need not type them.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Problem Set 6: Angela</title>
+      <title>Problem Set 6: (You Tell Me)</title>
       <link>https://ec404.netlify.app/assignment/06-assignment/</link>
       <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
       <guid>https://ec404.netlify.app/assignment/06-assignment/</guid>

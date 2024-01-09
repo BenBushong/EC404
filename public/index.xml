@@ -5,7 +5,7 @@
     <link>https://ec404.netlify.app/</link>
       <atom:link href="https://ec404.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <description>Course materials</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Mon, 08 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Wed, 17 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ec404.netlify.app/img/social-image.png</url>
       <title>Course materials</title>
@@ -13,7 +13,23 @@
     </image>
     
     <item>
-      <title>Problem Set 5: Peyton</title>
+      <title>Problem Set 1: Linda</title>
+      <link>https://ec404.netlify.app/assignment/01-assignment/</link>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/assignment/01-assignment/</guid>
+      <description>
+
+
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;This assignment is due Tuesday, January 31 in class. If you like, you may turn it in via D2L, but in-person is fine also.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS1.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You need not type your solutions if you turn in via D2L; a (reasonably clear) photo is sufficient.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Problem Set 5: Walt</title>
       <link>https://ec404.netlify.app/assignment/05-assignment/</link>
       <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://ec404.netlify.app/assignment/05-assignment/</guid>
@@ -29,7 +45,7 @@
     </item>
     
     <item>
-      <title>Problem Set 4: Vincent (2)</title>
+      <title>Problem Set 4: Joni</title>
       <link>https://ec404.netlify.app/assignment/04-assignment/</link>
       <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://ec404.netlify.app/assignment/04-assignment/</guid>
@@ -45,12 +61,11 @@
     </item>
     
     <item>
-      <title>Problem Set 3: Vincent</title>
+      <title>Problem Set 3: Neil</title>
       <link>https://ec404.netlify.app/assignment/03-assignment/</link>
       <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://ec404.netlify.app/assignment/03-assignment/</guid>
       <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div class=&#34;fyi&#34;&gt;
@@ -62,35 +77,17 @@
     </item>
     
     <item>
-      <title>Problem Set 2: Stevenson (2)</title>
+      <title>Problem Set 2: Richard</title>
       <link>https://ec404.netlify.app/assignment/02-assignment/</link>
       <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://ec404.netlify.app/assignment/02-assignment/</guid>
       <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div class=&#34;fyi&#34;&gt;
 &lt;p&gt;&lt;strong&gt;This assignment is due Thursday, February, 9 by class time.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS2.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You may turn in your answers in person and need not type them. However, there is an additional requirement for this problem set. Please read the problem set carefully.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Problem Set 1: Stevenson</title>
-      <link>https://ec404.netlify.app/assignment/01-assignment/</link>
-      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/assignment/01-assignment/</guid>
-      <description>
-&lt;script src=&#34;https://ec404.netlify.app/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;div class=&#34;fyi&#34;&gt;
-&lt;p&gt;&lt;strong&gt;This assignment is due Tuesday, January 31 in class. If you like, you may turn it in via D2L, but in-person is fine also.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS1.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You need not type your solutions if you turn in via D2L; a (reasonably clear) photo is sufficient.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -112,23 +109,7 @@
     </item>
     
     <item>
-      <title>Problem Set 6: Angela</title>
-      <link>https://ec404.netlify.app/assignment/06-assignment-2/</link>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/assignment/06-assignment-2/</guid>
-      <description>
-
-
-&lt;div class=&#34;fyi&#34;&gt;
-&lt;p&gt;&lt;strong&gt;This assignment is due Tuesday, May 2nd at 11:59 PM. Turn in via D2L (or early, but let’s not kid ourselves… you probably won’t do that).&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS6.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You may turn in your answers in person and need not type them.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Problem Set 6: Angela</title>
+      <title>Problem Set 6: (You Tell Me)</title>
       <link>https://ec404.netlify.app/assignment/06-assignment/</link>
       <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
       <guid>https://ec404.netlify.app/assignment/06-assignment/</guid>
@@ -211,7 +192,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#accommodations&#34; id=&#34;toc-accommodations&#34;&gt;Accommodations&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#a-note-on-things-right-now&#34; id=&#34;toc-a-note-on-things-right-now&#34;&gt;A Note on Things Right Now&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#mandated-reporting&#34; id=&#34;toc-mandated-reporting&#34;&gt;Mandated Reporting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#mandatory-reporting&#34; id=&#34;toc-mandatory-reporting&#34;&gt;Mandatory Reporting&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#miscellanea&#34; id=&#34;toc-miscellanea&#34;&gt;Miscellanea&lt;/a&gt;
 &lt;ul&gt;
@@ -323,8 +304,8 @@ Student McStudentFace&lt;/p&gt;
 &lt;p&gt;There will be six problem sets. Problems will range in difficulty from moderately hard to impossibly, annoyingly hard, so don’t panic if you struggle with them. You are encouraged to work together on the problem sets, but you are not allowed to read others’ answers from past or present problem sets, and should hand in solutions separately that reflect your own understanding. You should acknowledge collaborators and describe the extent of collaboration at the top of the relevant problem sets. While collaboration is allowed, directly copying someone else’s work is not.&lt;/p&gt;
 &lt;p&gt;Problem sets are due at the beginning of lecture the day they are due. Late problem sets will not be accepted. Please staple your problem set together (paper clips and folded corners are not staples). If you cannot attend lecture the day a problem set is due, you can turn it in to either my office or the TA’s office.&lt;/p&gt;
 &lt;p&gt;There is a limited amount of time we can spend grading the problem sets. Problems will frequently require substantial math; you are welcome to hand in all the work you did to reach an answer, but that is not required. Clearly indicate your answer by labeling (if typed) or circling (if handwritten). You will not receive feedback on your problem sets, but you will receive an answer sheet.&lt;/p&gt;
-&lt;p&gt;Problem sets will be graded either a 4,8, or 10. Problem sets that are late will be given a 0. We will grade problem sets in the most forgiving way possible. However, lengthy explanations of how you arrived at a wrong answer will not necessarily entitle you to full credit, regardless of the length. A good-faith effort will generally earn you an 8; correct answers will earn a 10.&lt;/p&gt;
-&lt;p&gt;In the end, problem sets aren’t a big component of your grade. Their primary purpose is to teach you the actual material and to prepare you for exams—hence the relaxed grading and feedback. There will be two midterms and a final exam (see next page). These will draw heavily from the problem sets, and therefore a deep understanding of the problem sets is the best way to succeed in this course. I may even repeat questions directly from problem sets onto an exam…&lt;/p&gt;
+&lt;p&gt;Problem sets will be graded using a simple system. Problem sets that are late will be given a 0. We will grade problem sets in the most forgiving way possible, but you must complete each problem. That said, lengthy explanations of how you arrived at a wrong answer will not necessarily entitle you to full credit, regardless of the length. A good-faith effort will generally earn you an 10. Exceptional work (with mostly or entirely correct answers) will earn 11.5.&lt;/p&gt;
+&lt;p&gt;In the end, problem sets aren’t a big component of your grade. Their primary purpose is to teach you the actual material and to prepare you for exams—hence the relaxed grading and feedback. There will be two midterms and a final exam (see next page). These will draw heavily from the problem sets, and therefore a deep understanding of the problem sets is the best way to succeed in this course.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;evaluations-and-grades&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Evaluations and Grades&lt;/h3&gt;
@@ -338,7 +319,7 @@ Student McStudentFace&lt;/p&gt;
 &lt;p&gt;To calculate your overall exam score, I will automatically choose the grading weights most advantageous to you. For example, if the final exam is your best score, then your grading weights will be 35% for the final exam and 5% for each midterm. If the final exam is your worst score, then your grading weights will be 10% for the final exam and 17.5% for each prelim. This scheme will help mitigate the effects of one-time disasters, including poor performance early in the course (it happens).&lt;/p&gt;
 &lt;p&gt;I reserve the right to give higher grades, but the above is guaranteed. Any adjustments will be done consistently, with course attendance and completion percentage (e.g., did you do all the assigned work?) serving as tiebreakers where needed.&lt;/p&gt;
 &lt;p&gt;Attendance and participation grades will be based on completion of in-class assignments. This is intended to be an easy way to get points.&lt;/p&gt;
-&lt;p&gt;More in-depth descriptions for all the assignments will be on the &lt;a href=&#34;https://ec404.netlify.app/assignment/&#34;&gt;assignments page&lt;/a&gt;. As the course progresses, the assignments themselves will be posted within that page.&lt;/p&gt;
+&lt;p&gt;More in-depth descriptions for all the assignments will be on the &lt;a href=&#34;https://ec404.netlify.app/assignment/&#34;&gt;assignments page&lt;/a&gt;. As the course progresses, the assignments themselves will be posted to the appropriate place.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;To Recap:&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;centered-table&#34;&gt;
 &lt;table style=&#34;width:57%;&#34;&gt;
@@ -431,7 +412,7 @@ Student McStudentFace&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;academic-honesty&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Academic Honesty&lt;/h3&gt;
-&lt;p&gt;Violation of &lt;a href=&#34;http://asmsu.msu.edu/home/initiatives/spartan-code-of-honor/&#34;&gt;MSU’s Spartan Code of Honor&lt;/a&gt; will result in a grade of 0.0 in the course. Moreover, I am required by MSU policy to report suspected cases of academic dishonesty for possible disciplinary action.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Violation of &lt;a href=&#34;http://asmsu.msu.edu/home/initiatives/spartan-code-of-honor/&#34;&gt;MSU’s Spartan Code of Honor&lt;/a&gt; will result in a grade of 0.0 in the course. Moreover, I am required by MSU policy to report suspected cases of academic dishonesty for possible disciplinary action. Concretely: you may &lt;strong&gt;not&lt;/strong&gt; use old course materials, even if you find them online or a friend gives them to you. I am good at changing things &lt;em&gt;just slightly&lt;/em&gt; so as to catch those whose work is not their own.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;resources&#34; class=&#34;section level2&#34;&gt;
@@ -439,7 +420,7 @@ Student McStudentFace&lt;/p&gt;
 &lt;p&gt;Mental health issues or stressful events may lead to diminished academic performance or otherwise reduce your ability to participate in daily activities. Services are available to assist you with addressing these and other concerns you may be experiencing. You can learn more about the broad range of confidential mental health services available on campus via the Counseling &amp;amp; Psychiatric Services (CAPS) website linked &lt;a href=&#34;www.caps.msu.edu&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;div id=&#34;accommodations&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Accommodations&lt;/h3&gt;
-&lt;p&gt;This class is designed to be fairly accomodating without a student asking. However, if you need a special accommodation for a disability, religious observance, or have any other concerns about your ability to perform well in this course, please contact me immediately so that we can discuss the issue and make appropriate arrangements.&lt;/p&gt;
+&lt;p&gt;This class is designed to be fairly accommodating without a student asking. However, if you need a special accommodation for a disability, religious observance, or have any other concerns about your ability to perform well in this course, please contact me immediately so that we can discuss the issue and make appropriate arrangements.&lt;/p&gt;
 &lt;p&gt;Michigan State University is committed to providing equal opportunity for participation in all programs, services and activities. Requests for accommodations by persons with disabilities may be made by contacting the Resource Center for Persons with Disabilities at 517-884-RCPD or on the web &lt;a href=&#34;rcpd.msu.edu&#34;&gt;(here)&lt;/a&gt;. Once your eligibility for an accommodation has been determined, you will be issued a verified individual services accommodation (“VISA”) form. Please present this form to me at the start of the term and/or two weeks prior to the accommodation date (test, project, etc). Requests received after this date will be honored whenever possible.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;a-note-on-things-right-now&#34; class=&#34;section level3&#34;&gt;
@@ -449,8 +430,8 @@ Student McStudentFace&lt;/p&gt;
 &lt;p&gt;If you feel like you’re behind or not understanding everything, &lt;strong&gt;do not suffer in silence.&lt;/strong&gt; &lt;em&gt;Please&lt;/em&gt; contact me. I’m available via &lt;a href=&#34;mailto:bbushong@msu.edu&#34;&gt;e-mail&lt;/a&gt;; or come see me.&lt;/p&gt;
 &lt;p&gt;As a final note: if you’ve been on this planet for the past few years, you’re well aware that we’ve had some wild and wacky changes that we had to confront. If such a change happens, I will do my best to ensure that your experience in this course does not suffer. That said, I hope you will extend a bit of leeway in such a circumstance.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;mandated-reporting&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Mandated Reporting&lt;/h3&gt;
+&lt;div id=&#34;mandatory-reporting&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Mandatory Reporting&lt;/h3&gt;
 &lt;p&gt;Materials submitted for this class are generally considered confidential pursuant to the University’s student record policies. However, students should be aware that University employees, including instructors, may not be able to maintain confidentiality when it conflicts with their responsibility to report certain issues to protect the health and safety of MSU community members and others. As the instructor, I must report the following information to other University offices (including the Department of Police and Public Safety) if you share it with me:
 - Suspected child abuse/neglect, even if this maltreatment happened when you were a child;
 - Allegations of sexual assault, relationship violence, stalking, or sexual harassment; and
@@ -469,7 +450,7 @@ Student McStudentFace&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;letters-of-recommendation-references&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Letters of Recommendation / References&lt;/h3&gt;
-&lt;p&gt;I’m not doing letters of recommendation at the moment. It’s not you, it’s me.&lt;/p&gt;
+&lt;p&gt;I’m not doing letters of recommendation at the moment. It’s not you, it’s me. If you want to convince me otherwise, you may try, but I’m not optimistic.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footnotes footnotes-end-of-document&#34;&gt;
