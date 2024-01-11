@@ -32,6 +32,9 @@
     <loc>https://ec404.netlify.app/</loc>
     <lastmod>2024-01-17T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ec404.netlify.app/content/01-content/</loc>
+    <lastmod>2024-01-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ec404.netlify.app/content/00-content/</loc>
     <lastmod>2024-01-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -97,9 +100,6 @@
   </url><url>
     <loc>https://ec404.netlify.app/content/02-content/</loc>
     <lastmod>2023-01-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ec404.netlify.app/content/01-content/</loc>
-    <lastmod>2023-01-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ec404.netlify.app/content/16-content-2/</loc>
     <lastmod>2023-01-07T00:00:00+00:00</lastmod>

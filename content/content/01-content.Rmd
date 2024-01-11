@@ -1,8 +1,8 @@
 ---
 title: "Choice under Uncertainty: The Standard Model"
 linktitle: "1a: Uncertainty -- The Standard Model"
-date: "2023-01-12"
-read_date: "2023-01-12"
+date: "2024-01-11"
+read_date: "2024-01-11"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
@@ -18,11 +18,9 @@ slides: "01-ExpectedUtility"
 ---
 ## A Note on Old Materials
 
-The course website has some older notes posted. It is not recommended that you use these. When in doubt, check the date on the top of the page to verify you're viewing current materials. 
+The course website has some older notes posted. **Do not** use these. When in doubt, check the date on the top of the page to verify you're viewing current materials. 
 
 ## Slides
-
-Every single set of class slides can be found on this course website. Use the buttons below to open the slides either as an interactive website or as a static PDF. You can also click in the slides below and navigate through them with your left and right arrow keys.
 
 Please note: you may experience some performance issues when opening the PDF file with Preview; Adobe Acrobat does not have these problems.
 

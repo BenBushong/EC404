@@ -1,6 +1,6 @@
 ---
 title: "Choice under Uncertainty (Lecture 1a)"
-subtitle: "EC404; Spring 2023"
+subtitle: "EC404; Spring 2024"
 author: "Prof. Ben Bushong"
 date: "Last updated `r format(Sys.Date(), '%B %d, %Y')`"
 output:
@@ -153,7 +153,7 @@ class: inverseMSU
 2. Can a risk-loving person choose $10 for sure over a gamble between $0 and $14? Why or why not?
 3. What assumptions do economists typically make about how risk aversion depends on wealth? 
 
-(*) Using the definition of risk aversion from the class, how might we think about vacccine hesitancy? 
+(*) Using the definition of risk aversion from the class, how might we think about vaccine hesitancy? 
 
 ---
 class: MSU
