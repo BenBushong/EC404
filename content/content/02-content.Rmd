@@ -23,7 +23,7 @@ These slides discuss evidence that goes against the expected-utility model and h
  
 Please note: you may experience some performance issues when opening the PDF file with Preview; Adobe Acrobat does not have these problems.
 
-### Evidence Contracticting the Standard Model:  
+### Evidence Contracticting the Standard Model:   
 
 `r blogdown::shortcode("slide-buttons")`
 
