@@ -1,8 +1,8 @@
 ---
 title: "Choice under Uncertainty: Evidence Contradicting the Standard Model"
 linktitle: "1b: Evidence"
-date: "2023-01-19"
-read_date: "2023-01-19"
+date: "2024-01-18"
+read_date: "2024-01-18"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
@@ -17,13 +17,13 @@ slides: "02-Evidence"
 
 ---
 
-These slides discuss evidence that goes against the expected-utility model and heavily emphasizes the groundbreaking work of Amos Tversky and Daniel Kahneman. If you'd like to read more about them, I recommend the book `The Undoing Project` by Michael Lewis.
+These slides discuss evidence that goes against the expected-utility model and heavily emphasizes the groundbreaking work of Amos Tversky and Daniel Kahneman. If you'd like to read more about them, I recommend the book `The Undoing Project` by Michael Lewis. (It's a little "fluffy" but whatever... not every book needs to be an academic tome.)
 
 ## Slides
-
+ 
 Please note: you may experience some performance issues when opening the PDF file with Preview; Adobe Acrobat does not have these problems.
 
-### Evidence Contracticting the Standard Model: 
+### Evidence Contracticting the Standard Model:  
 
 `r blogdown::shortcode("slide-buttons")`
 
