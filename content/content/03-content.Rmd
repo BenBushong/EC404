@@ -19,7 +19,7 @@ slides: "03-ProspectTheory"
 
 ## A (Gentle) Reminder
 
-Problem sets are your main way of learning the material for this course. You ought to be engaging with them early and often. They don't take a collosal amount of time, but they can be a real bear if you try to do them at the last minute. (And then you won't learn things very well, if at all.)
+Problem sets are your main way of learning the material for this course. You ought to be engaging with them early and often. They don't take a colossal amount of time, but they can be a real bear if you try to do them at the last minute. (And then you won't learn things very well, if at all.)
 
 ## Slides
 

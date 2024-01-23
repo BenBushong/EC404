@@ -13,10 +13,18 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # Choice under Uncertainty (Lecture 1c)
-## EC404; Spring 2023
+]
+.subtitle[
+## EC404; Spring 2024
+]
+.author[
 ### Prof. Ben Bushong
-### Last updated January 24, 2023
+]
+.date[
+### Last updated January 23, 2024
+]
 
 ---
 
@@ -566,6 +574,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable

@@ -1,7 +1,7 @@
 ---
 title: "Problem Set 2: Richard"
 linktitle: "PS2"
-publishDate: "2023-01-31"
+publishDate: "2024-01-23"
 output:
   blogdown::html_page:
     toc: true
@@ -17,7 +17,7 @@ editor_options:
 
 
 :::fyi
-**This assignment is due Thursday, February, 9 by class time.**
+**This assignment is due Tuesday, February, 6 by class time.**
 
 
 Click the icon to download the problem set: [<i class="fas fa-file-download"></i>](/ps/PS2.pdf).
