@@ -14,7 +14,6 @@ output:
   blogdown::html_page:
     toc: false
 slides: "02-Evidence"
-
 ---
 
 These slides discuss evidence that goes against the expected-utility model and heavily emphasizes the groundbreaking work of Amos Tversky and Daniel Kahneman. If you'd like to read more about them, I recommend the book `The Undoing Project` by Michael Lewis. (It's a little "fluffy" but whatever... not every book needs to be an academic tome.) 
