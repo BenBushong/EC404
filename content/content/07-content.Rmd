@@ -1,8 +1,8 @@
 ---
 title: "Introduction to Choice over Time"
 linktitle: "2a: Choice Over Time -- Introduction"
-date: "2023-02-28"
-read_date: "2023-02-28"
+date: "2024-02-20"
+read_date: "2024-02-20"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
