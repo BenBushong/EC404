@@ -1,0 +1,401 @@
+---
+title: "Choice over Time: Evidence that Contradicts the Standard Model"
+subtitle: "EC404; Spring 2024"
+author: "Prof. Ben Bushong"
+date: "Last updated `r format(Sys.Date(), '%B %d, %Y')`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    yolo: false
+    css: [default, metropolis, "EC404.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+    incremental: true
+name: "Cover"
+
+
+---
+```{r setup, include=FALSE}
+
+options(htmltools.dir.version = FALSE)
+options("getSymbols.warning4.0"=FALSE)
+
+
+library(here) # creates absolute paths, but those won't work in html
+library(knitr)
+library(kableExtra)
+library(tidyverse)
+library(wooldridge)
+require(lubridate)
+require(scales)
+require(broom)
+require(visualize)
+
+require(wbstats)
+require(lmtest)
+require(sandwich)
+require(car)
+require(quantmod)
+require(patchwork)
+
+
+
+# https://yihui.org/knitr/options/
+opts_chunk$set(
+  fig.align="center",
+  #dpi=300,
+  fig.path='figs/', # where figs are rendered
+  cache=F,
+  echo=F,
+  message = F,
+  warning = F
+  )
+
+```
+
+layout: true
+
+<div class="msu-header"></div>
+<div style = "position:fixed; visibility: hidden">
+$$\require{color}\definecolor{yellow}{rgb}{1, 0.8, 0.16078431372549}$$
+$$\require{color}\definecolor{orange}{rgb}{0.96078431372549, 0.525490196078431, 0.203921568627451}$$
+$$\require{color}\definecolor{MSUgreen}{rgb}{0.0784313725490196, 0.52156862745098, 0.231372549019608}$$
+</div>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: {
+    Macros: {
+      yellow: ["{\\color{yellow}{#1}}", 1],
+      orange: ["{\\color{orange}{#1}}", 1],
+      MSUgreen: ["{\\color{MSUgreen}{#1}}", 1]
+    },
+    loader: {load: ['[tex]/color']},
+    tex: {packages: {'[+]': ['color']}}
+  }
+});
+</script>
+
+<style>
+.yellow {color: #FFCC29;}
+.orange {color: #F58634;}
+.MSUGreen {color: #14853B;}
+</style>
+
+
+```{r flair_color, echo=FALSE}
+library(flair)
+yellow <- "#FFCC29"
+orange <- "#F58634"
+MSUGreen <- "#14853B"
+```
+
+
+```{r, eval=FALSE}
+
+#BELOW IS WHERE YOU ADD CONTENT. KEEP ABOVE CONSTANT EXCEPT TITLE.
+
+```
+
+---
+class: MSU
+# General Version of Discounted Utility
+
+Recall the general version of the discounted-utility model:
+
+
+$$U^{t}=\sum_{x=0}^{T-t}D(x)\text{ }u_{t+x}.$$
+
+  - $U^{t}$ is intertemporal utility from perspective of period $t$. 
+  
+  - $u_{\tau }$ is instantaneous utility in period $\tau$ ("well-being" in period $t$). 
+  
+	- $x$ is the delay before receiving some utility. 
+	
+	- $D(x)$ is a discount function that specifies the amount of discounting associated with delay $x$. 
+
+Again, in principle, we could have any discount function. 
+
+Exponential discounting **assumes** $D(x)=\delta ^{x}$.
+
+---
+class: MSU
+# How to Measure Discount Functions?
+
+Typical procedure elicits indifference points of the form:
+
+
+$(A$ at date $x)$ $\sim$ $(B$ at date $x+y)$ 
+
+--
+
+To interpret, typically make four assumptions (aka **The Usual Assumptions**) 
+
+
+1. People obey discounted utility model. 
+
+2. People treat these amounts as "bursts" of consumption. 
+
+3. Utility is linear in the amount. 
+
+4. Normalize $D(0)=1$. 
+
+---
+class: MSU
+# How to Measure Discount Functions?
+
+An implication of the usual assumptions:
+
+$$(A\text{ now})\text{ }\sim \text{ }(B\text{ at date }x)$$
+
+--
+
+$$\Longleftrightarrow D(0)u(A)=D(x)u(B)$$
+--
+
+$$A=D(x)B$$ 
+--
+
+$$D(x)=\frac{A}{B}$$
+
+---
+class: MSU 
+# How to Measure Discount Functions?
+
+More generally, the usual assumptions imply:
+
+$$(A\text{ at date }x)\text{ }\sim \text{ }(B\text{ at date }x+y)$$
+
+$$ \Longleftrightarrow \qquad D(x)u(A)=D(x+y)u(B)$$ 
+--
+
+$$D(x)A=D(x+y)B$$
+
+--
+
+$$ \frac{D(x+y)}{D(x)}=\frac{A}{B}$$
+
+---
+class: MSU 
+# How to Measure Discount Functions?
+
+An alternative procedure elicits WTP now for something to be received later. 
+
+E.g., if WTP up to $A$ now to obtain $B$ at date $x$, this implies: 
+
+$(-A$ now & $+B$ at date $x)$ $\sim$ $($ no changes $)$ 
+
+--
+
+Applying the usual assumptions here yields:
+
+$$D(0)u(-A)+D(x)u(B)=0$$ 
+
+--
+
+$$D(x)B=A$$
+
+$$D(x)=\frac{A}{B}$$
+
+---
+class: MSU 
+# Some Evidence from Thaler (1981)
+
+Using a (hypothetical) matching technique, Thaler found that people were indifferent between: 
+
+| Option | Comparison                              |
+|--------|-----------------------------------------|
+| a.     | ($15 now) ~ ($30 in 3 months)           |
+| b.     | ($15 now) ~ ($60 in 1 year)             |
+| c.     | ($15 now) ~ ($100 in 3 years)           |
+
+--
+
+Implications under the usual assumptions: 
+
+a. $D(3$ months $)=\frac{15}{30}=0.50$. 
+
+b. $D(1$ year $)=\frac{15}{60}=0.25$. 
+
+c. $D(3$ years $)=\frac{15}{100}=0.15$.
+
+---
+class: MSU
+# Interpreting Thaler's Evidence
+
+We can convert each $D(x)$ into an implicit yearly discount rate: 
+
+**Definition:** The *average yearly discount rate* applied to delay $x$ (where $x$ is specified in years) is the $\rho$ such that 
+
+$$e^{-\rho x}=D(x)\qquad \text{or} \qquad\rho =\frac{1}{x}(-\ln D(x)).$$
+--
+
+Applying this definition:
+
+a. $D(3$ months $)=0.50$ $\Longrightarrow$ 277% yearly discounting. 
+
+b. $D(1$ year $)=0.25$ $\Longrightarrow$ 139% yearly discounting. 
+
+c. $D(3$ years $)=0.15$ $\Longrightarrow$ 63% yearly discounting.
+
+
+---
+class: MSU
+# More Evidence from Thaler (1981)
+
+Thaler (1981) also found that people were indifferent between: 
+
+| Option | Comparison                              |
+|--------|-----------------------------------------|
+| e.     | ($250 now) ~ ($300 in 3 months)         |
+| f.     | ($250 now) ~ ($350 in 1 year)           |
+| g.     | ($250 now) ~ ($500 in 3 years)          |
+
+--
+
+Implications under the usual assumptions: 
+
+e. $D(3$ months $)=\frac{250}{300}=0.83$ $\Longrightarrow$ 73% yearly discounting. 
+
+f. $D(1$ year $)=\frac{250}{350}=0.71$ $\Longrightarrow$ 34% yearly discounting. 
+
+g. $D(3$ years $)=\frac{250}{500}=0.50$ $\Longrightarrow$ 23% yearly discounting. 
+
+
+---
+class: MSU 
+# Conclusions from Thaler (1981)
+
+Conclusion #1: The amount matters --- there is more discounting for smaller amounts ("magnitude effect" ). 
+
+--
+
+But the __key__ conclusion is: 
+
+Conclusion #2: For either amount, discount rates are higher in the short run than in the long run (sometimes referred to as "declining discount rates" ).
+
+--
+
+This finding is inconsistent with exponential discounting!
+
+---
+class: MSU
+# Some "Preference Reversals"
+
+Consider the following (hypothetical) choice scenarios: 
+
+__Choice 1:__
+
+$$\left[ 10\text{ M&Ms now}\right] \qquad \text{vs.} \qquad  \left[ 15\text{
+M&Ms tomorrow}\right]$$
+
+--
+
+__Choice 2:__
+$$\left[ 10\text{ M&Ms in 7 days}\right] \qquad \text{vs.} \qquad  \left[ 15\text{
+M&M in 8 days}\right]$$
+
+--
+
+A plausible pattern:
+
+$$(10 \text{ M&Ms now } ) \succ (15 \text{ M&Ms tomorrow})$$
+
+$$( 15 \text{ M&Ms in eight days} ) \succ (10 \text{ M&Ms in seven days})$$
+---
+class: MSU 
+# Using these "Preference Reversals"
+
+Implication: Under the usual assumptions, this pattern implies 
+
+$$D(0)10 > D(1)15\qquad \Longleftrightarrow \qquad \frac{D(0)}{D(1)}>1.5$$
+--
+
+$$ D(7)10 < D(8)15\qquad \Longleftrightarrow \qquad \frac{D(7)}{D(8)}<1.5$$ 
+--
+
+$$ \text{Hence}\text{: } \frac{D(0)}{D(1)}>\frac{D(7)}{D(8)} $$ 
+--
+
+**Conclusion:** If you exhibit this pattern, then you are more impatient toward the now-vs.-near-future tradeoff than you are toward the near-future-vs.-further-future tradeoff.
+
+---
+class: MSU 
+# Real Evidence of "Preference Reversals"
+
+In fact, Kirby & Herrnstein (1995) show that, for 23 of their 24 subjects, they can make the subject exhibit this type of "preference reversal" . 
+
+--
+
+For instance, for each of these 23 subjects, they find an $x>0$ and a $y>0$
+such that the subject's preferences are 
+
+$$( \text{45 now }) \succ ( \text{52 in } y \text{ days})$$  
+
+
+$$( \text{ 45 in } x \text{ days} ) \succ ( \text{ 52 in } y \text{ days})$$  
+--
+
+Much as above, under the usual assumptions, this implies
+
+
+$$\frac{D(0)}{D(y)}>\frac{D(x)}{D(x+y)}$$
+
+--
+
+Again, more impatient toward the now-vs.-near-future tradeoff than toward the near-future-vs.-further-future tradeoff.
+
+---
+class: MSU 
+# Evidence of "Hyperbolic Discounting"
+
+Another approach to the same type of data is to directly compare two functional forms: 
+
+1.  Exponential Discounting: $D(x)=e^{-kx}$ 
+
+2. Hyperbolic Discounting: $D(x)=\frac{1}{1+kx}$ 
+
+--
+
+In these comparisons, the answer is that hyperbolic discounting is virtually always a better fit (occasionally, they're equally good).
+
+---
+class: MSU 
+# Evidence of "Hyperbolic Discounting"
+\frametitle{Evidence of " Hyperbolic
+Discounting" }
+
+For instance, Kirby (1997) elicited WTP's for $20 to be received in $x$ days, where each subject answered for every odd $x$ between 1 and 29. 
+
+--
+
+He then tested for each subject whether their discount function was better fit by the exponential functional form or the hyperbolic functional form. 
+
+--
+
+**Results:** Hyperbolic was a better fit for 59 of 67 subjects, exponential was a better fit for 6 subjects, and for 2 subjects the functions were equally good.
+
+---
+class: MSU 
+# Conclusions from the Evidence
+
+In the experimental data, there seems to be a key feature that virtually always holds: 
+
+- Discount rates are higher in the short run than in the long run (sometimes referred to as "declining discount
+rates" ). 
+
+--
+
+In terms of our notation, the evidence seems to suggest:
+
+$$\frac{D(0)}{D(1)}>\frac{D(1)}{D(2)}>\frac{D(2)}{D(3)}>...$$
+
+--
+
+Note: This suggests a time inconsistency of an impulsive nature: 
+
+--
+
+- When thinking about some future period, you'd like to behave relatively patiently; but when the time comes to actually choose your behavior, you want to behave relatively impatiently.

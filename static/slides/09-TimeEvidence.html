@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Choice over Time: Evidence that Contradicts the Standard Model</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Prof. Ben Bushong" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis.css" rel="stylesheet" />
+    <link rel="stylesheet" href="EC404.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Choice over Time: Evidence that Contradicts the Standard Model
+]
+.subtitle[
+## EC404; Spring 2024
+]
+.author[
+### Prof. Ben Bushong
+]
+.date[
+### Last updated February 22, 2024
+]
+
+---
+
+
+
+layout: true
+
+&lt;div class="msu-header"&gt;&lt;/div&gt;
+&lt;div style = "position:fixed; visibility: hidden"&gt;
+`$$\require{color}\definecolor{yellow}{rgb}{1, 0.8, 0.16078431372549}$$`
+`$$\require{color}\definecolor{orange}{rgb}{0.96078431372549, 0.525490196078431, 0.203921568627451}$$`
+`$$\require{color}\definecolor{MSUgreen}{rgb}{0.0784313725490196, 0.52156862745098, 0.231372549019608}$$`
+&lt;/div&gt;
+
+&lt;script type="text/x-mathjax-config"&gt;
+MathJax.Hub.Config({
+  TeX: {
+    Macros: {
+      yellow: ["{\\color{yellow}{#1}}", 1],
+      orange: ["{\\color{orange}{#1}}", 1],
+      MSUgreen: ["{\\color{MSUgreen}{#1}}", 1]
+    },
+    loader: {load: ['[tex]/color']},
+    tex: {packages: {'[+]': ['color']}}
+  }
+});
+&lt;/script&gt;
+
+&lt;style&gt;
+.yellow {color: #FFCC29;}
+.orange {color: #F58634;}
+.MSUGreen {color: #14853B;}
+&lt;/style&gt;
+
+
+
+
+
+
+
+---
+class: MSU
+# General Version of Discounted Utility
+
+Recall the general version of the discounted-utility model:
+
+
+`$$U^{t}=\sum_{x=0}^{T-t}D(x)\text{ }u_{t+x}.$$`
+
+  - `\(U^{t}\)` is intertemporal utility from perspective of period `\(t\)`. 
+  
+  - `\(u_{\tau }\)` is instantaneous utility in period `\(\tau\)` ("well-being" in period `\(t\)`). 
+  
+	- `\(x\)` is the delay before receiving some utility. 
+	
+	- `\(D(x)\)` is a discount function that specifies the amount of discounting associated with delay `\(x\)`. 
+
+Again, in principle, we could have any discount function. 
+
+Exponential discounting **assumes** `\(D(x)=\delta ^{x}\)`.
+
+---
+class: MSU
+# How to Measure Discount Functions?
+
+Typical procedure elicits indifference points of the form:
+
+
+`\((A\)` at date `\(x)\)` `\(\sim\)` `\((B\)` at date `\(x+y)\)` 
+
+--
+
+To interpret, typically make four assumptions (aka **The Usual Assumptions**) 
+
+
+1. People obey discounted utility model. 
+
+2. People treat these amounts as "bursts" of consumption. 
+
+3. Utility is linear in the amount. 
+
+4. Normalize `\(D(0)=1\)`. 
+
+---
+class: MSU
+# How to Measure Discount Functions?
+
+An implication of the usual assumptions:
+
+`$$(A\text{ now})\text{ }\sim \text{ }(B\text{ at date }x)$$`
+
+--
+
+`$$\Longleftrightarrow D(0)u(A)=D(x)u(B)$$`
+--
+
+`$$A=D(x)B$$` 
+--
+
+`$$D(x)=\frac{A}{B}$$`
+
+---
+class: MSU 
+# How to Measure Discount Functions?
+
+More generally, the usual assumptions imply:
+
+`$$(A\text{ at date }x)\text{ }\sim \text{ }(B\text{ at date }x+y)$$`
+
+$$ \Longleftrightarrow \qquad D(x)u(A)=D(x+y)u(B)$$ 
+--
+
+`$$D(x)A=D(x+y)B$$`
+
+--
+
+$$ \frac{D(x+y)}{D(x)}=\frac{A}{B}$$
+
+---
+class: MSU 
+# How to Measure Discount Functions?
+
+An alternative procedure elicits WTP now for something to be received later. 
+
+E.g., if WTP up to `\(A\)` now to obtain `\(B\)` at date `\(x\)`, this implies: 
+
+`\((-A\)` now &amp; `\(+B\)` at date `\(x)\)` `\(\sim\)` `\((\)` no changes `\()\)` 
+
+--
+
+Applying the usual assumptions here yields:
+
+`$$D(0)u(-A)+D(x)u(B)=0$$` 
+
+--
+
+`$$D(x)B=A$$`
+
+`$$D(x)=\frac{A}{B}$$`
+
+---
+class: MSU 
+# Some Evidence from Thaler (1981)
+
+Using a (hypothetical) matching technique, Thaler found that people were indifferent between: 
+
+| Option | Comparison                              |
+|--------|-----------------------------------------|
+| a.     | ($15 now) ~ ($30 in 3 months)           |
+| b.     | ($15 now) ~ ($60 in 1 year)             |
+| c.     | ($15 now) ~ ($100 in 3 years)           |
+
+--
+
+Implications under the usual assumptions: 
+
+a. `\(D(3\)` months `\()=\frac{15}{30}=0.50\)`. 
+
+b. `\(D(1\)` year `\()=\frac{15}{60}=0.25\)`. 
+
+c. `\(D(3\)` years `\()=\frac{15}{100}=0.15\)`.
+
+---
+class: MSU
+# Interpreting Thaler's Evidence
+
+We can convert each `\(D(x)\)` into an implicit yearly discount rate: 
+
+**Definition:** The *average yearly discount rate* applied to delay `\(x\)` (where `\(x\)` is specified in years) is the `\(\rho\)` such that 
+
+`$$e^{-\rho x}=D(x)\qquad \text{or} \qquad\rho =\frac{1}{x}(-\ln D(x)).$$`
+--
+
+Applying this definition:
+
+a. `\(D(3\)` months `\()=0.50\)` `\(\Longrightarrow\)` 277% yearly discounting. 
+
+b. `\(D(1\)` year `\()=0.25\)` `\(\Longrightarrow\)` 139% yearly discounting. 
+
+c. `\(D(3\)` years `\()=0.15\)` `\(\Longrightarrow\)` 63% yearly discounting.
+
+
+---
+class: MSU
+# More Evidence from Thaler (1981)
+
+Thaler (1981) also found that people were indifferent between: 
+
+| Option | Comparison                              |
+|--------|-----------------------------------------|
+| e.     | ($250 now) ~ ($300 in 3 months)         |
+| f.     | ($250 now) ~ ($350 in 1 year)           |
+| g.     | ($250 now) ~ ($500 in 3 years)          |
+
+--
+
+Implications under the usual assumptions: 
+
+e. `\(D(3\)` months `\()=\frac{250}{300}=0.83\)` `\(\Longrightarrow\)` 73% yearly discounting. 
+
+f. `\(D(1\)` year `\()=\frac{250}{350}=0.71\)` `\(\Longrightarrow\)` 34% yearly discounting. 
+
+g. `\(D(3\)` years `\()=\frac{250}{500}=0.50\)` `\(\Longrightarrow\)` 23% yearly discounting. 
+
+
+---
+class: MSU 
+# Conclusions from Thaler (1981)
+
+Conclusion #1: The amount matters --- there is more discounting for smaller amounts ("magnitude effect" ). 
+
+--
+
+But the __key__ conclusion is: 
+
+Conclusion #2: For either amount, discount rates are higher in the short run than in the long run (sometimes referred to as "declining discount rates" ).
+
+--
+
+This finding is inconsistent with exponential discounting!
+
+---
+class: MSU
+# Some "Preference Reversals"
+
+Consider the following (hypothetical) choice scenarios: 
+
+__Choice 1:__
+
+`$$\left[ 10\text{ M&amp;Ms now}\right] \qquad \text{vs.} \qquad  \left[ 15\text{
+M&amp;Ms tomorrow}\right]$$`
+
+--
+
+__Choice 2:__
+`$$\left[ 10\text{ M&amp;Ms in 7 days}\right] \qquad \text{vs.} \qquad  \left[ 15\text{
+M&amp;M in 8 days}\right]$$`
+
+--
+
+A plausible pattern:
+
+`$$(10 \text{ M&amp;Ms now } ) \succ (15 \text{ M&amp;Ms tomorrow})$$`
+
+`$$( 15 \text{ M&amp;Ms in eight days} ) \succ (10 \text{ M&amp;Ms in seven days})$$`
+---
+class: MSU 
+# Using these "Preference Reversals"
+
+Implication: Under the usual assumptions, this pattern implies 
+
+`$$D(0)10 &gt; D(1)15\qquad \Longleftrightarrow \qquad \frac{D(0)}{D(1)}&gt;1.5$$`
+--
+
+$$ D(7)10 &lt; D(8)15\qquad \Longleftrightarrow \qquad \frac{D(7)}{D(8)}&lt;1.5$$ 
+--
+
+$$ \text{Hence}\text{: } \frac{D(0)}{D(1)}&gt;\frac{D(7)}{D(8)} $$ 
+--
+
+**Conclusion:** If you exhibit this pattern, then you are more impatient toward the now-vs.-near-future tradeoff than you are toward the near-future-vs.-further-future tradeoff.
+
+---
+class: MSU 
+# Real Evidence of "Preference Reversals"
+
+In fact, Kirby &amp; Herrnstein (1995) show that, for 23 of their 24 subjects, they can make the subject exhibit this type of "preference reversal" . 
+
+--
+
+For instance, for each of these 23 subjects, they find an `\(x&gt;0\)` and a `\(y&gt;0\)`
+such that the subject's preferences are 
+
+`$$( \text{45 now }) \succ ( \text{52 in } y \text{ days})$$`  
+
+
+`$$( \text{ 45 in } x \text{ days} ) \succ ( \text{ 52 in } y \text{ days})$$`  
+--
+
+Much as above, under the usual assumptions, this implies
+
+
+`$$\frac{D(0)}{D(y)}&gt;\frac{D(x)}{D(x+y)}$$`
+
+--
+
+Again, more impatient toward the now-vs.-near-future tradeoff than toward the near-future-vs.-further-future tradeoff.
+
+---
+class: MSU 
+# Evidence of "Hyperbolic Discounting"
+
+Another approach to the same type of data is to directly compare two functional forms: 
+
+1.  Exponential Discounting: `\(D(x)=e^{-kx}\)` 
+
+2. Hyperbolic Discounting: `\(D(x)=\frac{1}{1+kx}\)` 
+
+--
+
+In these comparisons, the answer is that hyperbolic discounting is virtually always a better fit (occasionally, they're equally good).
+
+---
+class: MSU 
+# Evidence of "Hyperbolic Discounting"
+\frametitle{Evidence of " Hyperbolic
+Discounting" }
+
+For instance, Kirby (1997) elicited WTP's for $20 to be received in `\(x\)` days, where each subject answered for every odd `\(x\)` between 1 and 29. 
+
+--
+
+He then tested for each subject whether their discount function was better fit by the exponential functional form or the hyperbolic functional form. 
+
+--
+
+**Results:** Hyperbolic was a better fit for 59 of 67 subjects, exponential was a better fit for 6 subjects, and for 2 subjects the functions were equally good.
+
+---
+class: MSU 
+# Conclusions from the Evidence
+
+In the experimental data, there seems to be a key feature that virtually always holds: 
+
+- Discount rates are higher in the short run than in the long run (sometimes referred to as "declining discount
+rates" ). 
+
+--
+
+In terms of our notation, the evidence seems to suggest:
+
+`$$\frac{D(0)}{D(1)}&gt;\frac{D(1)}{D(2)}&gt;\frac{D(2)}{D(3)}&gt;...$$`
+
+--
+
+Note: This suggests a time inconsistency of an impulsive nature: 
+
+--
+
+- When thinking about some future period, you'd like to behave relatively patiently; but when the time comes to actually choose your behavior, you want to behave relatively impatiently.
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
