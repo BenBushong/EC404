@@ -1,7 +1,7 @@
 ---
-title: "Problem Set 4: Joni"
+title: "Problem Set 4: Michael"
 linktitle: "PS4"
-publishDate: "2023-03-16"
+publishDate: "2024-03-16"
 output:
   blogdown::html_page:
     toc: true
@@ -17,10 +17,10 @@ editor_options:
 
 
 :::fyi
-**This assignment is due Thursday, March 30th at 11:59 PM**
+**This assignment is due SOMETIME**
 
 
-Click the icon to download the problem set: [<i class="fas fa-file-download"></i>](/ps/PS4.pdf).
+Click the icon to download the problem set: [<i class="fas fa-file-download"></i>]().
 
 You may turn in your answers in person and need not type them. 
 :::
