@@ -17,7 +17,7 @@ editor_options:
 
 
 :::fyi
-**This assignment is due SOMETIME**
+**This assignment is due Tuesday, March 19th**
 
 
 Click the icon to download the problem set: [<i class="fas fa-file-download"></i>]().
