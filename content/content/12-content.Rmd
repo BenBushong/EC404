@@ -1,8 +1,8 @@
 ---
 title: "Choice over Time: Utility from Anticipation"
 linktitle: "2f: Anticipatory Utility"
-date: "2023-03-28"
-read_date: "2023-03-28"
+date: "2023-04-28"
+read_date: "2024-03-14"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
@@ -17,4 +17,4 @@ slides: "09-Evidence"
 
 ---
 
-Click this icon to download the slides: [<i class="fas fa-file-download"></i>](/ps/EC404_Lecture4f.pdf).
+Click this icon to download the slides: [<i class="fas fa-file-download"></i>](/ps/Lecture2f.pdf).
