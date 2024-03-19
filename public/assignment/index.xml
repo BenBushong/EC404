@@ -13,6 +13,22 @@
     </image>
     
     <item>
+      <title>Problem Set 6: (You Tell Me)</title>
+      <link>https://ec404.netlify.app/assignment/06-assignment/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/assignment/06-assignment/</guid>
+      <description>
+
+
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;This assignment is due SOMETIME.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS6.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You may turn in your answers in person and need not type them.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Problem Set 5: Eileen</title>
       <link>https://ec404.netlify.app/assignment/05-assignment/</link>
       <pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate>
@@ -104,22 +120,6 @@
 &lt;div class=&#34;fyi&#34;&gt;
 &lt;p&gt;&lt;strong&gt;This “problem set” may be a useful resource for solving constrained optimization problems. It is not required; solutions are provided.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS0.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Problem Set 6: (You Tell Me)</title>
-      <link>https://ec404.netlify.app/assignment/06-assignment/</link>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/assignment/06-assignment/</guid>
-      <description>
-
-
-&lt;div class=&#34;fyi&#34;&gt;
-&lt;p&gt;&lt;strong&gt;This assignment is due SOMETIME.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS6.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You may turn in your answers in person and need not type them.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>

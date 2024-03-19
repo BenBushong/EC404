@@ -5,12 +5,28 @@
     <link>https://ec404.netlify.app/</link>
       <atom:link href="https://ec404.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <description>Course materials</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Tue, 26 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ec404.netlify.app/img/social-image.png</url>
       <title>Course materials</title>
       <link>https://ec404.netlify.app/</link>
     </image>
+    
+    <item>
+      <title>Problem Set 6: (You Tell Me)</title>
+      <link>https://ec404.netlify.app/assignment/06-assignment/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/assignment/06-assignment/</guid>
+      <description>
+
+
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;This assignment is due SOMETIME.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS6.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You may turn in your answers in person and need not type them.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Problem Set 5: Eileen</title>
@@ -109,18 +125,14 @@
     </item>
     
     <item>
-      <title>Problem Set 6: (You Tell Me)</title>
-      <link>https://ec404.netlify.app/assignment/06-assignment/</link>
-      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/assignment/06-assignment/</guid>
+      <title>Choice over Time: Projection Bias</title>
+      <link>https://ec404.netlify.app/content/13-content/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/content/13-content/</guid>
       <description>
 
 
-&lt;div class=&#34;fyi&#34;&gt;
-&lt;p&gt;&lt;strong&gt;This assignment is due SOMETIME.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS6.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You may turn in your answers in person and need not type them.&lt;/p&gt;
-&lt;/div&gt;
+&lt;p&gt;Click this icon to download the slides: &lt;a href=&#34;https://ec404.netlify.app/ps/Lecture2g.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -838,18 +850,6 @@ Student McStudentFace&lt;/p&gt;
 
 
 &lt;p&gt;Click this icon to download the slides: &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture7a.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Choice over Time: Projection Bias</title>
-      <link>https://ec404.netlify.app/content/13-content/</link>
-      <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/content/13-content/</guid>
-      <description>
-
-
-&lt;p&gt;Click this icon to download the slides: &lt;a href=&#34;https://ec404.netlify.app/ps/EC404_Lecture4g.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
