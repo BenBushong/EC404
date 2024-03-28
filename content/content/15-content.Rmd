@@ -1,6 +1,6 @@
 ---
 title: "Bayesian Information Processing"
-linktitle: "3: Information and Learning"
+linktitle: "4: Information and Learning"
 date: "2023-04-11"
 read_date: "2023-04-11"
 draft: false

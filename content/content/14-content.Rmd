@@ -1,6 +1,6 @@
 ---
 title: "Altruism and Social Preferences"
-linktitle: "4: Social Preferences"
+linktitle: "5: Social Preferences"
 date: "2023-04-20"
 read_date: "2023-04-20"
 draft: false
