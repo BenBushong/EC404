@@ -18,3 +18,6 @@ slides: "09-Evidence"
 ---
 
 Click this icon to download the slides: [<i class="fas fa-file-download"></i>](/ps/Lecture4a.pdf).
+
+
+This link will be used in class: [fun stuff](https://msu.co1.qualtrics.com/jfe/form/SV_9mAzQUWQsZ651s2)
