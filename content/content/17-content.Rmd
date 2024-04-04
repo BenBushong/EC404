@@ -1,8 +1,8 @@
 ---
 title: "Learning under the Law of Small Numbers"
 linktitle: "4b: An Alternative Model"
-date: "2023-04-13"
-read_date: "2023-04-13"
+date: "2024-04-04"
+read_date: "2024-04-04"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
@@ -17,4 +17,4 @@ slides: "09-Evidence"
 
 ---
 
-Click this icon to download the slides: [<i class="fas fa-file-download"></i>](/ps/EC404_Lecture7b.pdf).
+Click this icon to download the slides: [<i class="fas fa-file-download"></i>](/ps/Lecture4b.pdf).

@@ -15,12 +15,12 @@ editor_options:
   chunk_output_type: console
 ---
 
+This problem set, like the weekend, comes in two parts.
 
 :::fyi
-**This assignment is due SOMETIME.**
+**The full assignment is due April 18th at 2:00 PM**
 
-
-Click the icon to download the problem set: [<i class="fas fa-file-download"></i>](/ps/PS6.pdf).
+Click the icon to download the FIRST PART of the problem set: [<i class="fas fa-file-download"></i>](/ps/PS6a.pdf).
 
 You may turn in your answers in person and need not type them.
 :::
