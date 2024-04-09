@@ -1,8 +1,8 @@
 ---
 title: "Altruism and Social Preferences"
 linktitle: "5: Social Preferences"
-date: "2023-04-20"
-read_date: "2023-04-20"
+date: "2024-04-09"
+read_date: "2024-04-09"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
@@ -17,4 +17,4 @@ slides: "09-Evidence"
 
 ---
 
-Click this icon to download the slides: [<i class="fas fa-file-download"></i>](/ps/EC404_Lecture6.pdf).
+Click this icon to download the slides: [<i class="fas fa-file-download"></i>](/ps/Lecture5.pdf).
