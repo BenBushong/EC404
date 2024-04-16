@@ -1,0 +1,20 @@
+---
+title: "The Psychological Costs of Poverty"
+linktitle: "6: Poverty and Mental Health"
+date: "2024-04-16"
+read_date: "2024-04-16"
+draft: false
+lastmod: "`r Sys.Date()`"
+menu:
+  content:
+    parent: Course content
+    weight: 1
+type: docs
+output:
+  blogdown::html_page:
+    toc: false
+slides: "09-Evidence"
+
+---
+
+Click this icon to download the slides: [<i class="fas fa-file-download"></i>](/ps/Lecture6.pdf).

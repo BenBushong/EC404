@@ -5,7 +5,7 @@
     <link>https://ec404.netlify.app/</link>
       <atom:link href="https://ec404.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <description>Course materials</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Tue, 09 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ec404.netlify.app/img/social-image.png</url>
       <title>Course materials</title>
@@ -123,6 +123,18 @@
 &lt;p&gt;&lt;strong&gt;This “problem set” may be a useful resource for solving constrained optimization problems. It is not required; solutions are provided.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS0.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Psychological Costs of Poverty</title>
+      <link>https://ec404.netlify.app/content/18-content/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/content/18-content/</guid>
+      <description>
+
+
+&lt;p&gt;Click this icon to download the slides: &lt;a href=&#34;https://ec404.netlify.app/ps/Lecture6.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -959,7 +971,7 @@ Student McStudentFace&lt;/p&gt;
 &lt;p&gt;The class is fundamentally based on lectures. The slides for the lectures can be found at the “content” page. Everything else should be relatively self-explanatory.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://ec404.netlify.app/content/&#34;&gt;&lt;strong&gt;Content&lt;/strong&gt;&lt;/a&gt; (&lt;i class=&#34;fas fa-book-reader&#34;&gt;&lt;/i&gt;): This page contains the lectures and recorded videos (as applicable) for the topic. These pages should be read completely. Lectures are &lt;em&gt;not&lt;/em&gt; an exact replication of the written content; on the contrary, the lectures are intended to keep you engaged and have a great deal more information than the slides alone. Come to class.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://ec404.netlify.app/assignment/&#34;&gt;&lt;strong&gt;Assignments&lt;/strong&gt;&lt;/a&gt; (&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt;): This page contains the instructions for assignments. &lt;strong&gt;Assignments are always due before 11:59 PM (Eastern).&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://ec404.netlify.app/assignment/&#34;&gt;&lt;strong&gt;Assignments&lt;/strong&gt;&lt;/a&gt; (&lt;i class=&#34;fas fa-pencil-ruler&#34;&gt;&lt;/i&gt;): This page contains the instructions for assignments. &lt;strong&gt;Assignments are always due nefore the start of class.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;&lt;table class=&#34;table schedule&#34; style=&#34;max-width:100%&#34;&gt;
@@ -1171,57 +1183,6 @@ Student McStudentFace&lt;/p&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;span class=&#34;fake-header-table&#34;&gt;Altruism, Fairness, and Social Preferencess&lt;/span&gt;&lt;/td&gt;
-
-            &lt;td style=&#34;width:8%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Content&lt;/td&gt;
-            &lt;td style=&#34;width:8%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Assignment&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;The Standard Model: Self Interest&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
-                    href=&#34;https://ec404.netlify.app/content/14-content/&#34;&gt;
-                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Evidence That Contradicts the Self-Interest Model&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
-                    href=&#34;https://ec404.netlify.app/content/14-content/&#34;&gt;
-                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Theories of Social Preferences&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
-                    href=&#34;https://ec404.netlify.app/content/14-content/&#34;&gt;
-                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
-            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Do &amp;ldquo;Intentions&amp;rdquo; Matter?&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
-                    href=&#34;https://ec404.netlify.app/content/14-content/&#34;&gt;
-                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;span class=&#34;fake-header-table&#34;&gt;Errors in Statistical Reasoning&lt;/span&gt;&lt;/td&gt;
 
             &lt;td style=&#34;width:8%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Content&lt;/td&gt;
@@ -1233,10 +1194,8 @@ Student McStudentFace&lt;/p&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
                     href=&#34;https://ec404.netlify.app/content/15-content/&#34;&gt;
                     &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
-            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
-                &lt;font color=&#34;f1f1f1&#34;&gt;
-                    &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
-            &lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://ec404.netlify.app/assignment/06-assignment/&#34;&gt;
+                    &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
@@ -1261,7 +1220,25 @@ Student McStudentFace&lt;/p&gt;
             &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;TBD&lt;/td&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;span class=&#34;fake-header-table&#34;&gt;Poverty and Mental Health&lt;/span&gt;&lt;/td&gt;
+
+            &lt;td style=&#34;width:8%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Content&lt;/td&gt;
+            &lt;td style=&#34;width:8%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Assignment&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;&lt;/td&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;The Psychological Costs of Poverty&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a
+                    href=&#34;https://ec404.netlify.app/content/18-content/&#34;&gt;
+                    &lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
+                &lt;font color=&#34;f1f1f1&#34;&gt;
+                    &lt;i class=&#34;fas fa-pencil-ruler fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:18%;text-align:right&#34;&gt;Thursday, April 25th at 3:00 PM&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-star&#34;&gt;&lt;/i&gt; &lt;strong&gt;Final Exam&lt;/strong&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;
                 &lt;font color=&#34;f1f1f1&#34;&gt;

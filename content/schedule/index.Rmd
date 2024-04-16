@@ -3,7 +3,7 @@ title: "Schedule"
 slug: schedule
 ---
 
-Below is a roadmap for the semester. Note that this will inevitably change from the first day you access this course but will be updated as required.
+Below is a roadmap for the semester. Note that this will inevitably change from the first day you access this course but will be updated as required. 
 
 ### Overview
 
@@ -11,7 +11,7 @@ The class is fundamentally based on lectures. The slides for the lectures can be
 
 - [**Content**](/content/) (<i class="fas fa-book-reader"></i>): This page contains the lectures and recorded videos (as applicable) for the topic. These pages should be read completely. Lectures are *not* an exact replication of the written content; on the contrary, the lectures are intended to keep you engaged and have a great deal more information than the slides alone. Come to class.
 
-- [**Assignments**](/assignment/) (<i class="fas fa-pencil-ruler"></i>): This page contains the instructions for assignments. **Assignments are always due before 11:59 PM (Eastern).**
+- [**Assignments**](/assignment/) (<i class="fas fa-pencil-ruler"></i>): This page contains the instructions for assignments. **Assignments are always due nefore the start of class.** 
 
 ---
 

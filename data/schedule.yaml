@@ -118,36 +118,6 @@ lessons:
     #example: "11-example"
     #assignment: "11-assignment"
 
-  - title: '<span class="fake-header-table">Altruism, Fairness, and Social Preferencess</span>'
-    header: True
-
-  - title: 'The Standard Model: Self Interest'
-    session: 16
-    date: ""
-    content: "14-content"
-    #example: "11-example"
-    #assignment: "11-assignment"
-
-  - title: 'Evidence That Contradicts the Self-Interest Model'
-    session: 16
-    date: ""
-    content: "14-content"
-    #example: "11-example"
-    #assignment: "11-assignment"
-
-  - title: 'Theories of Social Preferences'
-    session: 17
-    date: ""
-    content: "14-content"
-    # example: "NA"
-    # assignment: "NA"
-
-  - title: 'Do "Intentions" Matter?'
-    session: 18
-    date: ""
-    content: "14-content"
-    #example: "12-example"
-    # assignment: "10-assignment"
 
   - title: '<span class="fake-header-table">Errors in Statistical Reasoning</span>'
     header: True
@@ -157,7 +127,7 @@ lessons:
     date: ""
     content: "15-content"
     #example: "12-example"
-    # assignment: "10-assignment"
+    assignment: "06-assignment"
 
   - title: 'Evidence that Contradicts Bayesian Information Processing'
     session: 15
@@ -172,6 +142,16 @@ lessons:
     content: "17-content"
     #example: "12-example"
     # assignment: "10-assignment"
+  
+  - title: '<span class="fake-header-table">Poverty and Mental Health</span>'
+    header: True
+
+  - title: 'The Psychological Costs of Poverty'
+    session: 20
+    date: ""
+    content: "18-content"
+    #example: "12-example"
+    # assignment: "10-assignment"
 
   - title: '<i class="fas fa-star"></i> **Final Exam**'
-    date: "TBD"
+    date: "Thursday, April 25th at 3:00 PM"
