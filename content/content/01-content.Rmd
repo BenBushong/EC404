@@ -1,8 +1,8 @@
 ---
 title: "Choice under Uncertainty: The Standard Model"
-linktitle: "1a: Uncertainty -- The Standard Model"
-date: "2024-01-11"
-read_date: "2024-01-11"
+linktitle: "1a: Uncertainty: The Standard Model"
+date: "2024-01-17"
+read_date: "2024-01-17"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
@@ -13,36 +13,15 @@ type: docs
 output:
   blogdown::html_page:
     toc: false
-slides: "01-ExpectedUtility"
 
 ---
-## A Note on Old Materials
 
-The course website has some older notes posted. **Do not** use these. When in doubt, check the date on the top of the page to verify you're viewing current materials. 
-
-## Slides
-
-Please note: you may experience some performance issues when opening the PDF file with Preview; Adobe Acrobat does not have these problems.
-
-### Introduction to Choice under Uncertainty
-
-`r blogdown::shortcode("slide-buttons")`
-
-```{r show-slide-tabs, echo=FALSE, results="asis"}
-source(here::here("R/slide_tabs.R"))
-source(here::here("R/pdfize.R"))
-sections <- tibble::tribble(
-  ~name, ~slide, ~active,
-  "Top", "Cover", TRUE,
-  "Expected Value", "section4", FALSE,
-  "Expected Utility", "section6", FALSE,
-  "Applications", "section8", FALSE,
- )
-slide_tabs(sections, "/slides/01-ExpectedUtility.html")
-pdfize(here::here("static/slides/01-ExpectedUtility.html"))
+```{r echo=FALSE, results='asis'}
+slides <- "Lecture1a"  # Define the variable here so it's available below
 ```
 
+## Slides 
 
-:::fyi
-**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands; on some slides, this might give helpful hints!
-:::
+Click the link at right to download the slides: [Lecture 1a: The Standard Model  <i class="fas fa-file-download"></i>](slides/`r slides`.pdf).
+
+<iframe src="/slides/`r slides`.pdf" width="100%" height="600px"></iframe>
