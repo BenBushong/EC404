@@ -1,7 +1,7 @@
 ---
 title: "Problem Set 1: Leslie"
 linktitle: "PS1"
-publishDate: "2024-01-12"
+publishDate: "2025-01-14"
 output:
   blogdown::html_page:
     toc: true
@@ -17,7 +17,7 @@ editor_options:
 
 
 :::fyi
-**This assignment is due Tuesday, January 23rd in class. If you like, you may turn it in via D2L, but in-person is fine also.**
+**This assignment is due Tuesday, January 28th in class. If you like, you may turn it in via D2L, but in-person is fine also.**
 
 Click the icon to download the problem set: [<i class="fas fa-file-download"></i>](/ps/PS1.pdf).
 
