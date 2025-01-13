@@ -107,12 +107,12 @@ teaching_assistant:
 
 course:
   number: "EC404"
-  semester: "Spring Semester 2024"
+  semester: "Spring Semester 2025"
   days: "Tuesday and Thursday"
   time: "2:40pm - 4:00pm"
   dates: "January – April"
-  copyrightYear: "2024"
-  office_hours: = "Tues+Thurs 5:00pm - 6:00pm"
+  copyrightYear: "2025"
+  office_hours: = "Tues+Thurs 4:15PM - 5:30pm"
 
 university:
   name: Michigan State University
