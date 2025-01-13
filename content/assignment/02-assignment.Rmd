@@ -1,7 +1,7 @@
 ---
 title: "Problem Set 2: Martin"
 linktitle: "PS2"
-publishDate: "2024-01-23"
+publishDate: "2025-01-14"
 output:
   blogdown::html_page:
     toc: true
@@ -17,7 +17,7 @@ editor_options:
 
 
 :::fyi
-**This assignment is due Tuesday, February, 6 by class time.**
+**This assignment is due Tuesday, February 11th in class. If you like, you may turn it in via D2L, but in-person is fine also.**
 
 
 Click the icon to download the problem set: [<i class="fas fa-file-download"></i>](/ps/PS2.pdf).

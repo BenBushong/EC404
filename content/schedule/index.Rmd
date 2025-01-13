@@ -3,7 +3,7 @@ title: "Schedule"
 slug: schedule
 ---
 
-Below is a roadmap for the semester. Note that this will inevitably change from the first day you access this course but will be updated as required. 
+Below is a roadmap for the semester. Note that **this will inevitably change** from the first day you access this course but will be updated as required. 
 
 ### Overview
 

@@ -42,7 +42,7 @@ lessons:
     #assignment: "03-assignment"
 
   - title: '<i class="fas fa-star"></i> **EXAM 1**'
-    date: "08 February"
+    date: "18 February"
     #assignment: "project1"
 
   - title: '<span class="fake-header-table">Intertemporal Choice — Making Choices over Time</span>'
@@ -98,7 +98,7 @@ lessons:
     #assignment: "07-assignment"
 
   - title: '<i class="fas fa-star"></i> **EXAM 2**'
-    date: "26 March"
+    date: "TBA"
     #assignment: "project2"
 
   - title: '<span class="fake-header-table">Public Policy to Combat Errors</span>'
@@ -154,4 +154,4 @@ lessons:
     # assignment: "10-assignment"
 
   - title: '<i class="fas fa-star"></i> **Final Exam**'
-    date: "Thursday, April 25th at 3:00 PM"
+    date: "Thursday, May 1st at 3:00 PM"

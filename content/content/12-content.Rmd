@@ -1,8 +1,8 @@
 ---
 title: "Choice over Time: Utility from Anticipation"
 linktitle: "2f: Anticipatory Utility"
-date: "2023-04-28"
-read_date: "2024-03-14"
+date: "2025-04-28"
+read_date: "2025-03-14"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
@@ -13,8 +13,15 @@ type: docs
 output:
   blogdown::html_page:
     toc: false
-slides: "09-Evidence"
 
 ---
 
-Click this icon to download the slides: [<i class="fas fa-file-download"></i>](/ps/Lecture2f.pdf).
+```{r echo=FALSE, results='asis'}
+slides <- "Lecture2f"  # Define the variable here so it's available below
+```
+
+## Slides
+
+Click the link at right to download the slides: [Lecture 2f: Utility from Anticipation  <i class="fas fa-file-download"></i>](slides/`r slides`.pdf).
+
+<iframe src="/slides/`r slides`.pdf" width="100%" height="600px"></iframe>

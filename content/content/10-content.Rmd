@@ -1,8 +1,8 @@
 ---
 title: "Choice over Time: Present Bias"
 linktitle: "2d: Present Bias"
-date: "2024-03-05"
-read_date: "2024-03-05"
+date: "2025-03-06"
+read_date: "2025-03-06"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
@@ -13,9 +13,16 @@ type: docs
 output:
   blogdown::html_page:
     toc: false
-slides: "09-Evidence"
 
 ---
 
-Click this icon to download the fourth batch of slides (discussing present bias): [<i class="fas fa-file-download"></i>](/ps/Lecture2d.pdf).
- 
+
+```{r echo=FALSE, results='asis'}
+slides <- "Lecture2d"  # Define the variable here so it's available below
+```
+
+## Slides
+
+Click the link at right to download the slides: [Lecture 2d: Present Bias  <i class="fas fa-file-download"></i>](slides/`r slides`.pdf).
+
+<iframe src="/slides/`r slides`.pdf" width="100%" height="600px"></iframe>

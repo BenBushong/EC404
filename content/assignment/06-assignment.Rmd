@@ -1,7 +1,7 @@
 ---
 title: "Problem Set 6: (You Tell Me)"
 linktitle: "PS6"
-publishDate: "2024-04-02"
+publishDate: "2025-01-14"
 output:
   blogdown::html_page:
     toc: true
@@ -18,13 +18,6 @@ editor_options:
 This problem set, like the weekend, comes in two parts.
 
 :::fyi
-**The full assignment is due April 18th at 2:00 PM**
+**The full assignment is due SOMETIME BUT IT HASN'T BEEN ASSIGNED CHILL OUT BRO** 
 
-Click this icon to download the FIRST PART of the problem set: [<i class="fas fa-file-download"></i>](/ps/PS6a.pdf).
-
-Click this second icon to download the SECOND PART of the problem set: [<i class="fas fa-file-download"></i>](/ps/PS6b.pdf).
-
-
-
-You may turn in your answers in person and need not type them.
 :::

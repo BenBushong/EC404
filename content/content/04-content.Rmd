@@ -1,8 +1,8 @@
 ---
 title: "Choice under Uncertainty: Applications of Prospect Theory"
 linktitle: "1d: Applications of PT"
-date: "2024-01-25"
-read_date: "2024-01-25"
+date: "2025-01-25"
+read_date: "2025-01-25"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
@@ -13,31 +13,18 @@ type: docs
 output:
   blogdown::html_page:
     toc: false
-slides: "04-PTApplications"
 
 ---
 
-## Slides
-
-Note that the two days (and a little bit) of material have been condensed to a single set of slides.
-
-`r blogdown::shortcode("slide-buttons")`
-
-```{r show-slide-tabs, echo=FALSE, results="asis"}
-source(here::here("R/slide_tabs.R"))
-source(here::here("R/pdfize.R"))
-sections <- tibble::tribble(
-  ~name, ~slide, ~active,
-  "Top", "Cover", TRUE,
-  "Application 1", "app1", FALSE,
-  "End of Day 1", "app5", FALSE,
-  "The Endowment Effect", "app8", FALSE,
- )
-slide_tabs(sections, "/slides/04-PTApplications.html")
-pdfize(here::here("static/slides/04-PTApplications.html"))
+```{r echo=FALSE, results='asis'}
+slides <- "Lecture1d"  # Define the variable here so it's available below
 ```
 
 
-:::fyi
-**Fun fact**: If you type <kbd>?</kbd> (or <kbd>shift</kbd> + <kbd>/</kbd>) while going through the slides, you can see a list of special slide-specific commands; on some slides, this might give helpful hints!
-:::
+## Slides
+
+Note that the material is split across two slide decks. 
+
+Click the link at right to download the slides: [Lecture 1d: Applications of Prospect Theory  <i class="fas fa-file-download"></i>](slides/`r slides`.pdf).
+
+<iframe src="/slides/`r slides`.pdf" width="100%" height="600px"></iframe>
