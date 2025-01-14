@@ -14,11 +14,10 @@ date: "2022-01-11"
 
 ## In-Class Activities
 
-To encourage you to actively engage with the course content, I will assign short (one-paragraph) writings, in-class questions, or alternative assignments each week. These will count toward your participation grade. Accordingly, they will **only be available in class**. I will not repeat the assignments and some will actually require you to be physically in the class.
+To encourage you to actively engage with the course content, I will randomly assign in-class questions or surveys or alternative assignments. These will count toward your participation grade. Accordingly, they will **only be available in class**. I will not repeat the assignments and some will actually require you to be physically in the class.
 
 The TA will grade these mini-exercises using a very simple system:
 
-- ✔+: (*115% in gradebook*) Work shows phenomenal thought and engagement with the course content. We will not assign these often.
 - ✔: (*100% in gradebook*) Work is thoughtful, well-written, and shows engagement with the course content. This is the expected level of performance.
 - ✔−: (*50% in gradebook*) Work is hastily composed, too short, and/or only cursorily engages with the course content. This grade signals that you need to improve next time. We will hopefully not assign these often.
 
@@ -42,6 +41,6 @@ To meet the MSU Tier II Writing requirement, you will complete a paper near the 
 
 This paper is intended to be minimally intrusive. It will be graded using a check system as well:
 
-- ✔+: (*55 points (≈115%) in gradebook*) Project is phenomenally well-thought-out and uses advanced techniques. The project discusses some important story that is not readily obvious. I will not assign these often.
-- ✔: (*50 points (100%) in gradebook*) Project is fine, answers a question clearly, and discusses concepts from the course. This is the expected level of performance.
-- ✔−: (*25 points (50%) in gradebook*) Project is missing large components, is poorly written, does not answer a relevant question, and/or states falsehoods. This indicates that you need to improve next time. If you receive this grade, you may revise your paper.
+- ✔+: (*22 points (110%) in gradebook*) Paper is phenomenally well-thought-out and uses advanced techniques. The project discusses some important thing that is not readily obvious. I will not assign these often.
+- ✔: (*20 points (100%) in gradebook*) Paper is fine, answers a question clearly, and discusses concepts from the course. This is the expected level of performance.
+- ✔−: (*10 points (50%) in gradebook*) Paper is missing large components, is poorly written, does not answer a relevant question, and/or states falsehoods. This indicates that you need to improve next time. If you receive this grade, you may revise your paper.
