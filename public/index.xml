@@ -309,6 +309,23 @@
     </item>
     
     <item>
+      <title>Choice under Uncertainty: The Standard Model</title>
+      <link>https://ec404.netlify.app/content/01-content/</link>
+      <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/content/01-content/</guid>
+      <description>
+
+
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/Lecture1a.pdf&#34;&gt;Lecture 1a: The Standard Model &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe src=&#34;https://ec404.netlify.app/slides/Lecture1a.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Syllabus</title>
       <link>https://ec404.netlify.app/syllabus/</link>
       <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
@@ -682,23 +699,6 @@ Student McStudentFace&lt;/p&gt;
 &lt;h2&gt;Slides&lt;/h2&gt;
 &lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/Lecture1b.pdf&#34;&gt;Lecture 1b: Evidence Contradicting the Standard Model &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;iframe src=&#34;https://ec404.netlify.app/slides/Lecture1b.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Choice under Uncertainty: The Standard Model</title>
-      <link>https://ec404.netlify.app/content/01-content/</link>
-      <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/content/01-content/</guid>
-      <description>
-
-
-&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/Lecture1a.pdf&#34;&gt;Lecture 1a: The Standard Model &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe src=&#34;https://ec404.netlify.app/slides/Lecture1a.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
 </description>
