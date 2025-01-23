@@ -19,7 +19,7 @@ slides: "00-Introduction"
  
 ## Slides
 
-Click the link at right to download the slides: [Lecture 1: Introduction <i class="fas fa-file-download"></i>](slides/Lecture0.pdf).
+Click the link at right to download the slides: [Lecture 1: Introduction <i class="fas fa-file-download"></i>](/slides/Lecture0.pdf).
 
 ### A Note on Old Material
 

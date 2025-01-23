@@ -27,7 +27,7 @@ Problem sets are your main way of learning the material for this course. You oug
 
 ## Slides 
 
-Click the link at right to download the slides: [Lecture 1c: Prospect Theory  <i class="fas fa-file-download"></i>](slides/`r slides`.pdf).
+Click the link at right to download the slides: [Lecture 1c: Prospect Theory  <i class="fas fa-file-download"></i>](/slides/`r slides`.pdf).
 
 <iframe src="/slides/`r slides`.pdf" width="100%" height="600px"></iframe>
 

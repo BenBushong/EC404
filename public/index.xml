@@ -309,6 +309,24 @@
     </item>
     
     <item>
+      <title>Choice under Uncertainty: Evidence Contradicting the Standard Model</title>
+      <link>https://ec404.netlify.app/content/02-content/</link>
+      <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/content/02-content/</guid>
+      <description>
+
+
+&lt;p&gt;These slides discuss evidence that goes against the expected-utility model and heavily emphasizes the groundbreaking work of Amos Tversky and Daniel Kahneman. If you’d like to read more about them, I recommend the book &lt;code&gt;The Undoing Project&lt;/code&gt; by Michael Lewis. (It’s a little “fluffy” but whatever… not every book needs to be an academic tome.)&lt;/p&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;https://ec404.netlify.app/slides/Lecture1b.pdf&#34;&gt;Lecture 1b: Evidence Contradicting the Standard Model &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe src=&#34;https://ec404.netlify.app/slides/Lecture1b.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Choice under Uncertainty: The Standard Model</title>
       <link>https://ec404.netlify.app/content/01-content/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
@@ -318,7 +336,7 @@
 
 &lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/Lecture1a.pdf&#34;&gt;Lecture 1a: The Standard Model &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;https://ec404.netlify.app/slides/Lecture1a.pdf&#34;&gt;Lecture 1a: The Standard Model &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;iframe src=&#34;https://ec404.netlify.app/slides/Lecture1a.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
@@ -687,24 +705,6 @@ Student McStudentFace&lt;/p&gt;
     </item>
     
     <item>
-      <title>Choice under Uncertainty: Evidence Contradicting the Standard Model</title>
-      <link>https://ec404.netlify.app/content/02-content/</link>
-      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/content/02-content/</guid>
-      <description>
-
-
-&lt;p&gt;These slides discuss evidence that goes against the expected-utility model and heavily emphasizes the groundbreaking work of Amos Tversky and Daniel Kahneman. If you’d like to read more about them, I recommend the book &lt;code&gt;The Undoing Project&lt;/code&gt; by Michael Lewis. (It’s a little “fluffy” but whatever… not every book needs to be an academic tome.)&lt;/p&gt;
-&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/Lecture1b.pdf&#34;&gt;Lecture 1b: Evidence Contradicting the Standard Model &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe src=&#34;https://ec404.netlify.app/slides/Lecture1b.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Welcome Back</title>
       <link>https://ec404.netlify.app/content/00-content/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
@@ -714,7 +714,7 @@ Student McStudentFace&lt;/p&gt;
 
 &lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/Lecture0.pdf&#34;&gt;Lecture 1: Introduction &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;https://ec404.netlify.app/slides/Lecture0.pdf&#34;&gt;Lecture 1: Introduction &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;div id=&#34;a-note-on-old-material&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;A Note on Old Material&lt;/h3&gt;
 &lt;p&gt;Throughout the course, class slides will be posted on this course website. Many are posted already, but &lt;em&gt;do not rely on old versions&lt;/em&gt;. I cannot emphasize this enough.&lt;/p&gt;
@@ -739,7 +739,7 @@ Student McStudentFace&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/Lecture1c.pdf&#34;&gt;Lecture 1c: Prospect Theory &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;https://ec404.netlify.app/slides/Lecture1c.pdf&#34;&gt;Lecture 1c: Prospect Theory &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;iframe src=&#34;https://ec404.netlify.app/slides/Lecture1c.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;

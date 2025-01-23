@@ -1,8 +1,8 @@
 ---
 title: "Choice under Uncertainty: Evidence Contradicting the Standard Model"
 linktitle: "1b: Evidence"
-date: "2024-01-18"
-read_date: "2024-01-18"
+date: "2025-01-23"
+read_date: "2025-01-23"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
@@ -23,6 +23,6 @@ These slides discuss evidence that goes against the expected-utility model and h
 
 ## Slides
 
-Click the link at right to download the slides: [Lecture 1b: Evidence Contradicting the Standard Model  <i class="fas fa-file-download"></i>](slides/`r slides`.pdf).
+Click the link at right to download the slides: [Lecture 1b: Evidence Contradicting the Standard Model  <i class="fas fa-file-download"></i>](/slides/`r slides`.pdf).
 
 <iframe src="/slides/`r slides`.pdf" width="100%" height="600px"></iframe>

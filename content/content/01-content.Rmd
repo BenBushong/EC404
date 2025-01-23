@@ -20,8 +20,8 @@ output:
 slides <- "Lecture1a"  # Define the variable here so it's available below
 ```
 
-## Slides 
+## Slides
 
-Click the link at right to download the slides: [Lecture 1a: The Standard Model  <i class="fas fa-file-download"></i>](slides/`r slides`.pdf).
+Click the link at right to download the slides: [Lecture 1a: The Standard Model  <i class="fas fa-file-download"></i>](/slides/`r slides`.pdf).
 
 <iframe src="/slides/`r slides`.pdf" width="100%" height="600px"></iframe>
