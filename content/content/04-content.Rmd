@@ -1,8 +1,8 @@
 ---
 title: "Choice under Uncertainty: Applications of Prospect Theory"
 linktitle: "1d: Applications of PT"
-date: "2025-01-25"
-read_date: "2025-01-25"
+date: "2025-01-30"
+read_date: "2025-01-30"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
@@ -21,10 +21,10 @@ slides <- "Lecture1d"  # Define the variable here so it's available below
 ```
 
 
-## Slides
+## Slides 
 
-Note that the material is split across two slide decks. 
+Note that the material contained in these slides typically is presented in two lectures.
 
 Click the link at right to download the slides: [Lecture 1d: Applications of Prospect Theory  <i class="fas fa-file-download"></i>](slides/`r slides`.pdf).
 
-<iframe src="/slides/`r slides`.pdf" width="100%" height="600px"></iframe>
+<iframe src="slides/`r slides`.pdf" width="100%" height="600px"></iframe>
