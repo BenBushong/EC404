@@ -22,6 +22,6 @@ slides <- "Lecture2a"  # Define the variable here so it's available below
 
 ## Slides
 
-Click the link at right to download the slides: [Lecture 2a: Introduction to Choice over Time  <i class="fas fa-file-download"></i>](slides/`r slides`.pdf).
+Click the link at right to download the slides: [Lecture 2a: Introduction to Choice over Time  <i class="fas fa-file-download"></i>](/slides/`r slides`.pdf).
 
 <iframe src="/slides/`r slides`.pdf" width="100%" height="600px"></iframe>
