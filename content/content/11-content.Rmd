@@ -1,8 +1,8 @@
 ---
 title: "Choice over Time: Applications of Present Bias"
 linktitle: "2e: Applications of Present Bias"
-date: "2025-03-07"
-read_date: "2025-03-07"
+date: "2025-03-18"
+read_date: "2025-03-18"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
