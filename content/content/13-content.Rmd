@@ -1,8 +1,8 @@
 ---
 title: "Choice over Time: Projection Bias"
 linktitle: "2g: Projection Bias"
-date: "2025-03-19"
-read_date: "2025-03-19"
+date: "2025-03-27"
+read_date: "2025-03-27"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:

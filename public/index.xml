@@ -5,7 +5,7 @@
     <link>https://ec404.netlify.app/</link>
       <atom:link href="https://ec404.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <description>Course materials</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Mon, 28 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ec404.netlify.app/img/social-image.png</url>
       <title>Course materials</title>
@@ -122,23 +122,6 @@
     </item>
     
     <item>
-      <title>Choice over Time: Utility from Anticipation</title>
-      <link>https://ec404.netlify.app/content/12-content/</link>
-      <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/content/12-content/</guid>
-      <description>
-
-
-&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/Lecture2f.pdf&#34;&gt;Lecture 2f: Utility from Anticipation &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe src=&#34;https://ec404.netlify.app/slides/Lecture2f.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Learning under the Law of Small Numbers</title>
       <link>https://ec404.netlify.app/content/16-content/</link>
       <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
@@ -167,6 +150,23 @@
 &lt;h2&gt;Slides&lt;/h2&gt;
 &lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/Lecture3.pdf&#34;&gt;Lecture 3: Public Policy to Combat Errors &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;iframe src=&#34;https://ec404.netlify.app/slides/Lecture3.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Choice over Time: Utility from Anticipation</title>
+      <link>https://ec404.netlify.app/content/12-content/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/content/12-content/</guid>
+      <description>
+
+
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/Lecture2f.pdf&#34;&gt;Lecture 2f: Utility from Anticipation &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe src=&#34;https://ec404.netlify.app/slides/Lecture2f.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
 </description>

@@ -1,7 +1,7 @@
 ---
 title: "Problem Set 5: Eileen"
 linktitle: "PS5"
-publishDate: "2025-01-14"
+publishDate: "2025-03-27"
 output:
   blogdown::html_page:
     toc: true
@@ -17,5 +17,10 @@ editor_options:
 
 
 :::fyi
-**This assignment is NOT YET ASSIGNED**
+**This assignment is due Tuesday, April 8th in class.  Solutions will be posted before the due date; please do not consult them. If you like, you may turn it in via D2L, but in-person is fine also.**
+
+ 
+Click the icon to download the problem set: [<i class="fas fa-file-download"></i>](/ps/PS5.pdf).
+
+You may turn in your answers in person and need not type them.
 :::

@@ -1,8 +1,8 @@
 ---
 title: "Choice over Time: Utility from Anticipation"
 linktitle: "2f: Anticipatory Utility"
-date: "2025-04-28"
-read_date: "2025-03-14"
+date: "2025-03-25"
+read_date: "2025-03-25"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
