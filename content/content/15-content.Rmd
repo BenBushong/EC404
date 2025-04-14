@@ -1,6 +1,6 @@
 ---
 title: "Bayesian Information Processing"
-linktitle: "4a: Information and Learning"
+linktitle: "3a: Information and Learning"
 date: "2024-04-02"
 read_date: "2024-04-02"
 draft: false
@@ -17,7 +17,7 @@ output:
 ---
 
 ```{r echo=FALSE, results='asis'}
-slides <- "Lecture4a"  # Define the variable here so it's available below
+slides <- "Lecture3a"  # Define the variable here so it's available below
 ```
 
 ## Slides

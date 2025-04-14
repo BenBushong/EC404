@@ -13,6 +13,22 @@
     </image>
     
     <item>
+      <title>Problem Set 5: Eileen</title>
+      <link>https://ec404.netlify.app/assignment/05-assignment/</link>
+      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/assignment/05-assignment/</guid>
+      <description>
+
+
+&lt;div class=&#34;fyi&#34;&gt;
+&lt;p&gt;&lt;strong&gt;This assignment is due Tuesday, April 8th in class. Solutions will be posted before the due date; please do not consult them. If you like, you may turn it in via D2L, but in-person is fine also.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Click the icon to download the problem set: &lt;a href=&#34;https://ec404.netlify.app/ps/PS5.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You may turn in your answers in person and need not type them.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Problem Set 0: Not A Real Problem Set</title>
       <link>https://ec404.netlify.app/assignment/00-assignment/</link>
       <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
@@ -93,20 +109,6 @@
     </item>
     
     <item>
-      <title>Problem Set 5: Eileen</title>
-      <link>https://ec404.netlify.app/assignment/05-assignment/</link>
-      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/assignment/05-assignment/</guid>
-      <description>
-
-
-&lt;div class=&#34;fyi&#34;&gt;
-&lt;p&gt;&lt;strong&gt;This assignment is NOT YET ASSIGNED&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Problem Set 6: (You Tell Me)</title>
       <link>https://ec404.netlify.app/assignment/06-assignment/</link>
       <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
@@ -148,8 +150,25 @@
 
 &lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/Lecture3.pdf&#34;&gt;Lecture 3: Public Policy to Combat Errors &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe src=&#34;https://ec404.netlify.app/slides/Lecture3.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
+&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/LectureA1.pdf&#34;&gt;Lecture A1: Public Policy to Combat Errors &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe src=&#34;https://ec404.netlify.app/slides/LectureA1.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Choice over Time: Projection Bias</title>
+      <link>https://ec404.netlify.app/content/13-content/</link>
+      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/content/13-content/</guid>
+      <description>
+
+
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/Lecture2g.pdf&#34;&gt;Lecture 2g: Projection Bias &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe src=&#34;https://ec404.netlify.app/slides/Lecture2g.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
 </description>
@@ -167,23 +186,6 @@
 &lt;h2&gt;Slides&lt;/h2&gt;
 &lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/Lecture2f.pdf&#34;&gt;Lecture 2f: Utility from Anticipation &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;iframe src=&#34;https://ec404.netlify.app/slides/Lecture2f.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Choice over Time: Projection Bias</title>
-      <link>https://ec404.netlify.app/content/13-content/</link>
-      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/content/13-content/</guid>
-      <description>
-
-
-&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/Lecture2g.pdf&#34;&gt;Lecture 2g: Projection Bias &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe src=&#34;https://ec404.netlify.app/slides/Lecture2g.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
 </description>
@@ -288,8 +290,8 @@
 &lt;/div&gt;
 &lt;div id=&#34;slides-1&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/LectureA1.pdf&#34;&gt;Lecture A1: Limited Rationality &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe src=&#34;https://ec404.netlify.app/slides/LectureA1.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
+&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/LectureA2.pdf&#34;&gt;Lecture A1: Limited Rationality &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe src=&#34;https://ec404.netlify.app/slides/LectureA2.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
 </description>
@@ -723,8 +725,8 @@ Student McStudentFace&lt;/p&gt;
 
 &lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/Lecture4a.pdf&#34;&gt;Lecture 4a: Learning, Information, and Bayes’ Rule &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe src=&#34;https://ec404.netlify.app/slides/Lecture4a.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
+&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/Lecture3a.pdf&#34;&gt;Lecture 4a: Learning, Information, and Bayes’ Rule &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe src=&#34;https://ec404.netlify.app/slides/Lecture3a.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
 </description>

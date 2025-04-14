@@ -39,8 +39,25 @@
 
 &lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/Lecture3.pdf&#34;&gt;Lecture 3: Public Policy to Combat Errors &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe src=&#34;https://ec404.netlify.app/slides/Lecture3.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
+&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/LectureA1.pdf&#34;&gt;Lecture A1: Public Policy to Combat Errors &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe src=&#34;https://ec404.netlify.app/slides/LectureA1.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Choice over Time: Projection Bias</title>
+      <link>https://ec404.netlify.app/content/13-content/</link>
+      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ec404.netlify.app/content/13-content/</guid>
+      <description>
+
+
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/Lecture2g.pdf&#34;&gt;Lecture 2g: Projection Bias &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe src=&#34;https://ec404.netlify.app/slides/Lecture2g.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
 </description>
@@ -58,23 +75,6 @@
 &lt;h2&gt;Slides&lt;/h2&gt;
 &lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/Lecture2f.pdf&#34;&gt;Lecture 2f: Utility from Anticipation &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;iframe src=&#34;https://ec404.netlify.app/slides/Lecture2f.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Choice over Time: Projection Bias</title>
-      <link>https://ec404.netlify.app/content/13-content/</link>
-      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://ec404.netlify.app/content/13-content/</guid>
-      <description>
-
-
-&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/Lecture2g.pdf&#34;&gt;Lecture 2g: Projection Bias &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe src=&#34;https://ec404.netlify.app/slides/Lecture2g.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
 </description>
@@ -179,8 +179,8 @@
 &lt;/div&gt;
 &lt;div id=&#34;slides-1&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/LectureA1.pdf&#34;&gt;Lecture A1: Limited Rationality &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe src=&#34;https://ec404.netlify.app/slides/LectureA1.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
+&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/LectureA2.pdf&#34;&gt;Lecture A1: Limited Rationality &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe src=&#34;https://ec404.netlify.app/slides/LectureA2.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
 </description>
@@ -321,8 +321,8 @@
 
 &lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Slides&lt;/h2&gt;
-&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/Lecture4a.pdf&#34;&gt;Lecture 4a: Learning, Information, and Bayes’ Rule &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;iframe src=&#34;https://ec404.netlify.app/slides/Lecture4a.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
+&lt;p&gt;Click the link at right to download the slides: &lt;a href=&#34;slides/Lecture3a.pdf&#34;&gt;Lecture 4a: Learning, Information, and Bayes’ Rule &lt;i class=&#34;fas fa-file-download&#34;&gt;&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe src=&#34;https://ec404.netlify.app/slides/Lecture3a.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
 </description>

@@ -1,6 +1,6 @@
 ---
 title: "Additional Topics in Limited Rationality"
-linktitle: "A1: Limited Rationality"
+linktitle: "A2: Limited Rationality"
 date: "2025-02-17"
 read_date: "2025-02-17"
 draft: false
@@ -21,7 +21,7 @@ output:
 
 
 ```{r echo=FALSE, results='asis'}
-slides <- "LectureA1"  # Define the variable here so it's available below
+slides <- "LectureA2"  # Define the variable here so it's available below
 ```
 
 
