@@ -17,7 +17,9 @@ editor_options:
 
 This problem set, like the weekend, comes in two parts.
 
+Click the icon to download the first part: [<i class="fas fa-file-download"></i>](/ps/PS6a.pdf).
+
 :::fyi
-**The full assignment is due SOMETIME BUT IT HASN'T BEEN ASSIGNED CHILL OUT BRO** 
+**The full assignment is due May 1st at the final exam or online.** 
 
 :::
