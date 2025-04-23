@@ -1,8 +1,8 @@
 ---
 title: "Learning under the Law of Small Numbers"
 linktitle: "4b: An Alternative Model"
-date: "2025-04-04"
-read_date: "2025-04-04"
+date: "2025-04-15"
+read_date: "2025-04-15"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
@@ -17,7 +17,7 @@ output:
 ---
 
 ```{r echo=FALSE, results='asis'}
-slides <- "Lecture4b"  # Define the variable here so it's available below
+slides <- "Lecture3b"  # Define the variable here so it's available below
 ```
 
 ## Slides
