@@ -1,8 +1,8 @@
 ---
 title: "The Psychological Costs of Poverty"
-linktitle: "6: Poverty and Mental Health"
-date: "2024-04-16"
-read_date: "2024-04-16"
+linktitle: "5: Poverty and Mental Health"
+date: "2025-04-24"
+read_date: "2025-04-24"
 draft: false
 lastmod: "`r Sys.Date()`"
 menu:
@@ -18,7 +18,7 @@ slides: "09-Evidence"
 ---
 
 ```{r echo=FALSE, results='asis'}
-slides <- "Lecture6"  # Define the variable here so it's available below
+slides <- "Lecture5"  # Define the variable here so it's available below
 ```
 
 ## Slides
