@@ -107,10 +107,10 @@ teaching_assistant:
 
 course:
   number: "EC404"
-  semester: "Spring Semester 2025"
-  days: "Tuesday and Thursday"
-  time: "2:40pm - 4:00pm"
-  dates: "January – April"
+  semester: "Summer 2025"
+  days: "Variable"
+  time: "Variable"
+  dates: "June 2025"
   copyrightYear: "2025"
   office_hours: = "Tues+Thurs 4:15PM - 5:30pm"
 

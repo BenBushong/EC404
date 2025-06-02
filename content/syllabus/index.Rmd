@@ -19,7 +19,7 @@ library(pander)
 
 ### Office Hours
 
-My office hours are 4:15 - 5:30 on Tuesdays and Thursdays. My office is 25A Marshall-Adams Hall; it is in the lower level (not quite a true basement, but close). 
+Office hours for this course are by request and integrated into the course. 
 
 ## What Is This Course and Can / Should You Take It?
 
@@ -110,15 +110,16 @@ In the end, problem sets aren’t a big component of your grade. Their primary p
 
 ### Evaluations and Grades
 
-Your grade in this course will be based on attendance + participation, assignments, three exams, and a writing project. The general breakdown for grades will be 8% for attendance, 32% for assignments, 49% for exams, and 11% for a "paper". Details on the paper will be distributed midway through the course – it is designed not to deter anyone from taking this course who might otherwise be interested.
+Your grade in this course will be based on attendance + participation, assignments, three exams, and a writing project. The general breakdown for grades will be 10% for attendance, 30% for assignments, 50% for exams, and 10% for a "paper". Details on the paper will be distributed midway through the course – it is designed not to deter anyone from taking this course who might otherwise be interested.
 
-Each exam will have a variable grading weight.
 
-- Midterm 1:	5-17.5% 
-- Midterm 2:	5-17.5%
-- Final Exam:	14-39%
+<!-- Each exam will have a variable grading weight. -->
 
-To calculate your overall exam score, I will automatically choose the grading weights most advantageous to you. For example, if the final exam is your best score, then your grading weights will be 35% for the final exam and 5% for each midterm.  If the final exam is your worst score, then your grading weights will be 10% for the final exam and 17.5% for each prelim. This scheme will help mitigate the effects of one-time disasters, including poor performance early in the course (it happens).
+<!-- - Midterm 1:	5-17.5%  -->
+<!-- - Midterm 2:	5-17.5% -->
+<!-- - Final Exam:	14-39% -->
+
+<!-- To calculate your overall exam score, I will automatically choose the grading weights most advantageous to you. For example, if the final exam is your best score, then your grading weights will be 35% for the final exam and 5% for each midterm.  If the final exam is your worst score, then your grading weights will be 10% for the final exam and 17.5% for each prelim. This scheme will help mitigate the effects of one-time disasters, including poor performance early in the course (it happens). -->
 
 **I reserve the right to give higher grades**, but the above is guaranteed. Any adjustments will be done consistently, with course attendance and completion percentage (e.g., did you do all the assigned work?) serving as tiebreakers where needed.
 
@@ -131,9 +132,9 @@ More in-depth descriptions for all the assignments will be on the [assignments p
 ```{r assignments-grades, include=FALSE}
 assignments <- tribble(
   ~Points,  ~Assignment,
-  15      , "Class Participation",
-  10*6    , "Assignments",
-  90     , "Exams",
+  20      , "Class Participation",
+  20*3    , "Assignments",
+  100     , "Exams",
   20      , "Paper",
 ) %>%
   mutate(Percent = Points / sum(Points),

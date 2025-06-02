@@ -42,7 +42,7 @@ lessons:
     #assignment: "03-assignment"
 
   - title: '<i class="fas fa-star"></i> **EXAM 1**'
-    date: "18 February"
+    date: "First Weekend"
     #assignment: "project1"
 
   - title: '<span class="fake-header-table">Intertemporal Choice — Making Choices over Time</span>'
@@ -97,10 +97,6 @@ lessons:
     #example: "08-example"
     #assignment: "07-assignment"
 
-  - title: '<i class="fas fa-star"></i> **EXAM 2**'
-    date: "8 April"
-    #assignment: "project2"
-
   - title: '<span class="fake-header-table">Public Policy to Combat Errors</span>'
     header: True
 
@@ -118,6 +114,9 @@ lessons:
     #example: "11-example"
     #assignment: "11-assignment"
 
+  - title: '<i class="fas fa-star"></i> **EXAM 2**'
+    date: "Second Weekend"
+    #assignment: "project2"
 
   - title: '<span class="fake-header-table">Errors in Statistical Reasoning</span>'
     header: True
@@ -143,15 +142,5 @@ lessons:
     #example: "12-example"
     # assignment: "10-assignment"
   
-  - title: '<span class="fake-header-table">Poverty and Mental Health</span>'
-    header: True
-
-  - title: 'The Psychological Costs of Poverty'
-    session: 20
-    date: ""
-    content: "18-content"
-    #example: "12-example"
-    # assignment: "10-assignment"
-
   - title: '<i class="fas fa-star"></i> **Final Exam**'
-    date: "Thursday, May 1st at 3:00 PM"
+    date: "Thursday, June 19th"
