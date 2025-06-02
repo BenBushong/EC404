@@ -1,7 +1,7 @@
 ---
-title: "Problem Set 1: Leslie"
+title: "Problem Set 1: Snap"
 linktitle: "PS1"
-publishDate: "2025-01-14"
+publishDate: "2025-06-03"
 output:
   blogdown::html_page:
     toc: true
@@ -17,9 +17,9 @@ editor_options:
 
 
 :::fyi
-**This assignment is due Tuesday, January 28th in class. If you like, you may turn it in via D2L, but in-person is fine also.**
+**This assignment is due Friday by end of the day. If you like, you may turn it in via D2L, but in-person is fine also.**
 
 Click the icon to download the problem set: [<i class="fas fa-file-download"></i>](/ps/PS1.pdf).
 
-You need not type your solutions if you turn in via D2L; a (reasonably clear) photo is sufficient.
+You need not type your solutions.
 :::

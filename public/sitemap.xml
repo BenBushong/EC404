@@ -2,13 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ec404.netlify.app/assignment/05-assignment/</loc>
-    <lastmod>2025-03-27T00:00:00+00:00</lastmod>
+    <loc>https://ec404.netlify.app/assignment/01-assignment/</loc>
+    <lastmod>2025-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ec404.netlify.app/assignment/00-assignment/</loc>
-    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ec404.netlify.app/assignment/01-assignment/</loc>
     <lastmod>2025-01-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ec404.netlify.app/assignment/02-assignment/</loc>
@@ -17,22 +14,16 @@
     <loc>https://ec404.netlify.app/assignment/03-assignment/</loc>
     <lastmod>2025-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ec404.netlify.app/assignment/04-assignment/</loc>
-    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ec404.netlify.app/assignment/06-assignment/</loc>
-    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ec404.netlify.app/assignment/</loc>
     <lastmod>2022-01-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ec404.netlify.app/content/</loc>
     <lastmod>2022-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ec404.netlify.app/content/18-content/</loc>
-    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ec404.netlify.app/</loc>
+    <lastmod>2025-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ec404.netlify.app/content/18-content/</loc>
     <lastmod>2025-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ec404.netlify.app/content/17-content/</loc>
