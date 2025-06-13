@@ -19,7 +19,7 @@ editor_options:
 :::fyi
 **This assignment is due Friday by end of the day. If you like, you may turn it in via D2L, but in-person is fine also.**
 
-Click the icon to download the problem set: [<i class="fas fa-file-download"></i>](/ps/PS1.pdf).
+Click the icon to download the problem set: [<i class="fas fa-file-download"></i>](/ps/PS1and2.pdf).
 
 You need not type your solutions.
 :::
